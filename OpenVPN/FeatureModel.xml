@@ -1,0 +1,300 @@
+<vm name="OpenVPN">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>tcp</name>
+      <outputString>proto tcp</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>compression</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>none</name>
+      <outputString>compress none</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>compression</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>lzo</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>lzo</name>
+      <outputString>compress lzo</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>compression</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>none</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>cipher</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>AES_256_CBC</name>
+      <outputString>cipher AES-256-CBC</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>cipher</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>AES_128_CBC</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>AES_128_CBC</name>
+      <outputString>cipher AES-128-CBC</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>cipher</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>AES_256_CBC</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>TCP_NODEAL</name>
+      <outputString>socket-flags TCP_NODELAY</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>tcp</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>prng</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>prng_none</name>
+      <outputString>prng none</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>prng</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>prng_rsa_sha512</options>
+        <options>prng_sha512</options>
+        <options>prng_sha1</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>prng_rsa_sha512</name>
+      <outputString>prng RSA-SHA512</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>prng</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>prng_none</options>
+        <options>prng_sha512</options>
+        <options>prng_sha1</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>prng_sha512</name>
+      <outputString>prng SHA512</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>prng</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>prng_none</options>
+        <options>prng_rsa_sha512</options>
+        <options>prng_sha1</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>prng_sha1</name>
+      <outputString>prng SHA1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>prng</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>prng_none</options>
+        <options>prng_rsa_sha512</options>
+        <options>prng_sha512</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>auth</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>auth_none</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>auth</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>auth_sha1</options>
+        <options>auth_sha512</options>
+        <options>auth_rsa_sha512</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>auth_sha1</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>auth</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>auth_none</options>
+        <options>auth_sha512</options>
+        <options>auth_rsa_sha512</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>auth_sha512</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>auth</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>auth_none</options>
+        <options>auth_sha1</options>
+        <options>auth_rsa_sha512</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>auth_rsa_sha512</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>auth</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>auth_none</options>
+        <options>auth_sha1</options>
+        <options>auth_sha512</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>reneg_bytes</name>
+      <outputString>
+      </outputString>
+      <prefix>regeneg-bytes</prefix>
+      <postfix>MB</postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>10</minValue>
+      <maxValue>70</maxValue>
+      <stepFunction>reneg_bytes + 20</stepFunction>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>

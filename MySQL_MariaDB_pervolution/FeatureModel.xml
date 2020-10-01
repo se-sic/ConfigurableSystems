@@ -1,0 +1,138 @@
+<vm name="mysql-mariadb">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>delayedInnodbLogFlush</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>delayedInnodbLogWrite</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>delayedInnodbLogFlush</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>innodbFlushMethod</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>fsyncFlush</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>innodbFlushMethod</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>dsyncFlush</option>
+        <option>directFlush</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>dsyncFlush</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>innodbFlushMethod</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>fsyncFlush</option>
+        <option>directFlush</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>directFlush</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>innodbFlushMethod</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>fsyncFlush</option>
+        <option>dsyncFlush</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>binaryLog</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>innodbDoubleWrite</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>tempTableSize</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <values>256;4096;65536</values>
+    </configurationOption>
+    <configurationOption>
+      <name>innodbBufferPoolSize</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <values>8;64;512</values>
+    </configurationOption>
+    <configurationOption>
+      <name>innodbLogBufferSize</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <values>1;8;64</values>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>

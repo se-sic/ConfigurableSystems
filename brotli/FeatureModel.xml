@@ -1,0 +1,111 @@
+<vm name="brotli">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Mode</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Decompression</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Mode</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Compression</options>
+        <options>Test</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Compression</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Mode</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Decompression</options>
+        <options>Test</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Test</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Mode</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Decompression</options>
+        <options>Compression</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>WindowSize</name>
+      <outputString>-w</outputString>
+      <prefix>./brotli --force -o /local/${USER}/compressed.br -w </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>10</minValue>
+      <maxValue>24</maxValue>
+      <stepFunction>WindowSize + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>CompressionLevel</name>
+      <outputString>
+      </outputString>
+      <prefix>-q </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>11</maxValue>
+      <stepFunction>CompressionLevel + 1</stepFunction>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>

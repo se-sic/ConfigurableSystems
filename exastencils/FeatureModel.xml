@@ -1,0 +1,186 @@
+<vm name="FeatureModel">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>opt_useAddressPrecalc</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>opt_vectorize</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>simd_avoidUnaligned</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>opt_vectorize</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>data_alignFieldPointers</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>simd_avoidUnaligned</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>opt_unroll_interleave</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>opt_unroll</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>4</maxValue>
+      <stepFunction>opt_unroll + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>no_explorationId</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>1</maxValue>
+      <stepFunction>no_explorationId + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>explorationId</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>4</maxValue>
+      <stepFunction>explorationId + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>poly_tileSize_x</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>128</maxValue>
+      <values>0;8;10;16;20;32;64;128</values>
+    </configurationOption>
+    <configurationOption>
+      <name>poly_tileSize_y</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>128</maxValue>
+      <values>0;8;10;16;20;32;64;128</values>
+    </configurationOption>
+    <configurationOption>
+      <name>poly_tileSize_z</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>128</maxValue>
+      <values>0;8;10;16;20;32;64;128</values>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints>
+  </nonBooleanConstraints>
+  <mixedConstraints>
+    <constraint req="all" exprKind="neg"> opt_unroll * opt_unroll_interleave = 1 </constraint>
+    <constraint req="all" exprKind="neg"> no_explorationId + explorationId = 0 </constraint>
+    <constraint req="all"> no_explorationId * explorationId = 0 </constraint>
+    <constraint req="all"> no_explorationId * poly_tileSize_x = 0 </constraint>
+    <constraint req="all"> no_explorationId * poly_tileSize_y = 0 </constraint>
+    <constraint req="all"> no_explorationId * poly_tileSize_z = 0 </constraint>
+  </mixedConstraints>
+</vm>

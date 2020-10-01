@@ -1,0 +1,195 @@
+<vm name="7z_model">
+  <binaryOptions>
+    <configurationOption>
+      <name>filterOff</name>
+      <outputString>-mf=off</outputString>
+      <prefix></prefix>
+      <postfix></postfix>
+      <parent></parent>
+      <children>
+      </children>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>HeaderCompressionOff</name>
+      <outputString>-mhc=off</outputString>
+      <prefix></prefix>
+      <postfix></postfix>
+      <parent></parent>
+      <children>
+      </children>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>mtOff</name>
+      <outputString>-mmt=off</outputString>
+      <prefix></prefix>
+      <postfix></postfix>
+      <parent></parent>
+      <children>
+      </children>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>CompressionMethod</name>
+      <outputString>
+      </outputString>
+      <prefix></prefix>
+      <postfix></postfix>
+      <parent></parent>
+      <children>
+        <option>LZMA</option>
+        <option>LZMA2</option>
+        <option>PPMd</option>
+        <option>BZip2</option>
+        <option>Deflate</option>
+      </children>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>LZMA</name>
+      <outputString>-m0=LZMA</outputString>
+      <prefix></prefix>
+      <postfix></postfix>
+      <parent>CompressionMethod</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>LZMA2</options>
+        <options>PPMd</options>
+        <options>BZip2</options>
+        <options>Deflate</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>LZMA2</name>
+      <outputString>-m0=LZMA2</outputString>
+      <prefix></prefix>
+      <postfix></postfix>
+      <parent>CompressionMethod</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>LZMA</options>
+        <options>PPMd</options>
+        <options>BZip2</options>
+        <options>Deflate</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>PPMd</name>
+      <outputString>-m0=PPMd</outputString>
+      <prefix></prefix>
+      <postfix></postfix>
+      <parent>CompressionMethod</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>LZMA</options>
+        <options>LZMA2</options>
+        <options>BZip2</options>
+        <options>Deflate</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>BZip2</name>
+      <outputString>-m0=BZip2</outputString>
+      <prefix></prefix>
+      <postfix></postfix>
+      <parent>CompressionMethod</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>LZMA</options>
+        <options>LZMA2</options>
+        <options>PPMd</options>
+        <options>Deflate</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Deflate</name>
+      <outputString>-m0=Deflate</outputString>
+      <prefix></prefix>
+      <postfix></postfix>
+      <parent>CompressionMethod</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>LZMA</options>
+        <options>LZMA2</options>
+        <options>PPMd</options>
+        <options>BZip2</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>tmOff</name>
+      <outputString>-mtm=off</outputString>
+      <prefix></prefix>
+      <postfix></postfix>
+      <parent></parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>Files</name>
+      <outputString>
+      </outputString>
+      <prefix>-ms=</prefix>
+      <postfix></postfix>
+      <parent></parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>100</maxValue>
+      <stepFunction>Files + 10</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>BlockSize</name>
+      <outputString>
+      </outputString>
+      <prefix>-blocksize;</prefix>
+      <postfix>m</postfix>
+      <parent></parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>4096</maxValue>
+      <stepFunction>BlockSize * 2</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>x</name>
+      <outputString>
+      </outputString>
+      <prefix>-mx=</prefix>
+      <postfix></postfix>
+      <parent></parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>10</maxValue>
+      <stepFunction>x + 2</stepFunction>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+</vm>

@@ -1,0 +1,554 @@
+<vm name="javaGC">
+  <binaryOptions>
+    <configurationOption>
+      <name>BindGCTaskThreadsToCPUs</name>
+      <outputString>XX:?BindGCTaskThreadsToCPUs 1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>CollectGenFirst</name>
+      <outputString>XX:?CollectGen0First 1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>DisableExplicitGC</name>
+      <outputString>XX:?DisableExplicitGC 1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>UseAdaptiveSizePolicyWithSystemGC</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ResizeOldPLAB</name>
+      <outputString>XX:?ResizeOldPLAB 0</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ResizePLAB</name>
+      <outputString>XX:?ResizePLAB 0</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseAdaptiveGCBoundary</name>
+      <outputString>XX:?UseAdaptiveGCBoundary 1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseAdaptiveGenerationSizePolicyAtMajorCollection</name>
+      <outputString>XX:?UseAdaptiveGenerationSizePolicyAtMajorCollection 0</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions>
+        <options>UseAdaptiveSizePolicy</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseAdaptiveGenerationSizePolicyAtMinorCollection</name>
+      <outputString>XX:?UseAdaptiveGenerationSizePolicyAtMinorCollection 0</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions>
+        <options>UseAdaptiveSizePolicy</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseAdaptiveSizeDecayMajorGCCost</name>
+      <outputString>XX:?UseAdaptiveSizeDecayMajorGCCost 0</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseAdaptiveSizePolicy</name>
+      <outputString>XX:?UseAdaptiveSizePolicy 0</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseAdaptiveSizePolicyFootprintGoal</name>
+      <outputString>XX:?UseAdaptiveSizePolicyFootprintGoal 0</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseAdaptiveSizePolicyWithSystemGC</name>
+      <outputString>XX:?UseAdaptiveSizePolicyWithSystemGC 1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions>
+        <options>UseAdaptiveSizePolicy</options>
+      </impliedOptions>
+      <excludedOptions>
+        <options>DisableExplicitGC</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>AdaptiveSizeDecrementScaleFactor</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:AdaptiveSizeDecrementScaleFactor </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>32</maxValue>
+      <stepFunction>AdaptiveSizeDecrementScaleFactor + 1,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>AdaptiveSizeMajorGCDecayTimeScale</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:AdaptiveSizeMajorGCDecayTimeScale </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>5</minValue>
+      <maxValue>25</maxValue>
+      <stepFunction>AdaptiveSizeMajorGCDecayTimeScale + 1,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>AdaptiveSizePolicyCollectionCostMargin</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:AdaptiveSizePolicyCollectionCostMargin </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>25</minValue>
+      <maxValue>75</maxValue>
+      <stepFunction>AdaptiveSizePolicyCollectionCostMargin + 5,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>AdaptiveSizePolicyInitializingSteps</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:AdaptiveSizePolicyInitializingSteps </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>10</minValue>
+      <maxValue>90</maxValue>
+      <stepFunction>AdaptiveSizePolicyInitializingSteps + 5,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>AdaptiveSizePolicyWeight</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:AdaptiveSizePolicyWeight </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>5</minValue>
+      <maxValue>40</maxValue>
+      <stepFunction>AdaptiveSizePolicyWeight + 5,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>MaxTenuringThreshold</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:MaxTenuringThreshold </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>4</minValue>
+      <maxValue>30</maxValue>
+      <stepFunction>MaxTenuringThreshold + 1,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>MaxHeapFreeRatio</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:MaxHeapFreeRatio </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>50</minValue>
+      <maxValue>90</maxValue>
+      <stepFunction>MaxHeapFreeRatio + 5,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>MinHeapFreeRatio</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:MinHeapFreeRatio </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>10</minValue>
+      <maxValue>50</maxValue>
+      <stepFunction>MinHeapFreeRatio + 5,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>MinSurvivorRatio</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:MinSurvivorRatio </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>11</maxValue>
+      <stepFunction>MinSurvivorRatio + 1,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>NewRatio</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:NewRatio </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>32</maxValue>
+      <stepFunction>NewRatio * 2,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>OldPLABSize</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:OldPLABSize </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>256</minValue>
+      <maxValue>2048</maxValue>
+      <stepFunction>OldPLABSize * 2,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>PLABWeight</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:PLABWeight </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>50</minValue>
+      <maxValue>90</maxValue>
+      <stepFunction>PLABWeight + 5,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>SurvivorPadding</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:SurvivorPadding </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>11</maxValue>
+      <stepFunction>SurvivorPadding + 1,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>SurvivorRatio</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:SurvivorRatio </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>30</maxValue>
+      <stepFunction>SurvivorRatio + 1,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>TargetPLABWastePct</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:TargetPLABWastePct </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>20</maxValue>
+      <stepFunction>TargetPLABWastePct + 1,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>TargetSurvivorRatio</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:TargetSurvivorRatio </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>25</minValue>
+      <maxValue>75</maxValue>
+      <stepFunction>TargetSurvivorRatio + 5,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>TenuredGenerationSizeIncrement</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:TenuredGenerationSizeIncrement </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>10</minValue>
+      <maxValue>50</maxValue>
+      <stepFunction>TenuredGenerationSizeIncrement + 5,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>TenuredGenerationSizeSupplement</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:TenuredGenerationSizeSupplement </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>55</minValue>
+      <maxValue>90</maxValue>
+      <stepFunction>TenuredGenerationSizeSupplement + 5,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>TenuredGenerationSizeSupplementDecay</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:TenuredGenerationSizeSupplementDecay </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>2</minValue>
+      <maxValue>16</maxValue>
+      <stepFunction>TenuredGenerationSizeSupplementDecay + 1,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>YoungGenerationSizeIncrement</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:YoungGenerationSizeIncrement </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>10</minValue>
+      <maxValue>50</maxValue>
+      <stepFunction>YoungGenerationSizeIncrement + 5,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>YoungGenerationSizeSupplement</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:YoungGenerationSizeSupplement </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>55</minValue>
+      <maxValue>90</maxValue>
+      <stepFunction>YoungGenerationSizeSupplement + 5,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>YoungGenerationSizeSupplementDecay</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:YoungGenerationSizeSupplementDecay </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>2</minValue>
+      <maxValue>16</maxValue>
+      <stepFunction>YoungGenerationSizeSupplementDecay + 1,0</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>YoungPLABSize</name>
+      <outputString>
+      </outputString>
+      <prefix>XX:YoungPLABSize </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>512</minValue>
+      <maxValue>8192</maxValue>
+      <stepFunction>YoungPLABSize + 1,0</stepFunction>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+</vm>

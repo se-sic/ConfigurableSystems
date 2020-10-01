@@ -1,0 +1,1521 @@
+<vm name="Violet">
+  <binaryOptions>
+    <configurationOption>
+      <name>VioletDef</name>
+      <outputString>VioletDef</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>base</name>
+      <outputString>base</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MenuResources</name>
+      <outputString>MenuResources</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>GraphUtility</name>
+      <outputString>GraphUtility</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ExtensionFilter</name>
+      <outputString>ExtensionFilter</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>FileUtility</name>
+      <outputString>FileUtility</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>InternalFrame</name>
+      <outputString>InternalFrame</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Read</name>
+      <outputString>Read</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>FileMenu</name>
+      <outputString>FileMenu</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NewFile</name>
+      <outputString>NewFile</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions>
+        <options>ExtensionFilter</options>
+        <options>InternalFrame</options>
+        <options>Read</options>
+        <options>GraphUtility</options>
+        <options>MenuResources</options>
+        <options>FileMenu</options>
+        <options>FileUtility</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>File</name>
+      <outputString>File</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions>
+        <options>ExtensionFilter</options>
+        <options>InternalFrame</options>
+        <options>Read</options>
+        <options>GraphUtility</options>
+        <options>MenuResources</options>
+        <options>FileMenu</options>
+        <options>FileUtility</options>
+        <options>OpenFile | RecentFile | SaveAs | SaveFile | ExportImage | Print | Exit</options>
+        <options>RecentFile | OpenFile | SaveAs | SaveFile | ExportImage | Print | Exit</options>
+        <options>SaveAs | OpenFile | RecentFile | SaveFile | ExportImage | Print | Exit</options>
+        <options>SaveFile | OpenFile | RecentFile | SaveAs | ExportImage | Print | Exit</options>
+        <options>ExportImage | OpenFile | RecentFile | SaveAs | SaveFile | Print | Exit</options>
+        <options>Print | OpenFile | RecentFile | SaveAs | SaveFile | ExportImage | Exit</options>
+        <options>Exit | OpenFile | RecentFile | SaveAs | SaveFile | ExportImage | Print</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>OpenFile</name>
+      <outputString>OpenFile</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>File</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>RecentFile</name>
+      <outputString>RecentFile</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>File</parent>
+      <children />
+      <impliedOptions>
+        <options>OpenFile</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SaveAs</name>
+      <outputString>SaveAs</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>File</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SaveFile</name>
+      <outputString>SaveFile</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>File</parent>
+      <children />
+      <impliedOptions>
+        <options>SaveAs</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ExportImage</name>
+      <outputString>ExportImage</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>File</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Print</name>
+      <outputString>Print</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>File</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Exit</name>
+      <outputString>Exit</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>File</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>DiagramSupport</name>
+      <outputString>DiagramSupport</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseCaseD</name>
+      <outputString>UseCaseD</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseCaseDiagram</name>
+      <outputString>UseCaseDiagram</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions>
+        <options>DiagramSupport</options>
+        <options>UseCaseD</options>
+        <options>NewFile</options>
+        <options>UseCaseNoteEdge | UseCaseGeneralizationEdge | IncludeRelationshipEdge | ExtendRelationshipEdge | UseCaseAssociationEdge | UseCaseNoteNode | UseCaseNode | Actor</options>
+        <options>UseCaseGeneralizationEdge | UseCaseNoteEdge | IncludeRelationshipEdge | ExtendRelationshipEdge | UseCaseAssociationEdge | UseCaseNoteNode | UseCaseNode | Actor</options>
+        <options>IncludeRelationshipEdge | UseCaseNoteEdge | UseCaseGeneralizationEdge | ExtendRelationshipEdge | UseCaseAssociationEdge | UseCaseNoteNode | UseCaseNode | Actor</options>
+        <options>ExtendRelationshipEdge | UseCaseNoteEdge | UseCaseGeneralizationEdge | IncludeRelationshipEdge | UseCaseAssociationEdge | UseCaseNoteNode | UseCaseNode | Actor</options>
+        <options>UseCaseAssociationEdge | UseCaseNoteEdge | UseCaseGeneralizationEdge | IncludeRelationshipEdge | ExtendRelationshipEdge | UseCaseNoteNode | UseCaseNode | Actor</options>
+        <options>UseCaseNoteNode | UseCaseNoteEdge | UseCaseGeneralizationEdge | IncludeRelationshipEdge | ExtendRelationshipEdge | UseCaseAssociationEdge | UseCaseNode | Actor</options>
+        <options>UseCaseNode | UseCaseNoteEdge | UseCaseGeneralizationEdge | IncludeRelationshipEdge | ExtendRelationshipEdge | UseCaseAssociationEdge | UseCaseNoteNode | Actor</options>
+        <options>Actor | UseCaseNoteEdge | UseCaseGeneralizationEdge | IncludeRelationshipEdge | ExtendRelationshipEdge | UseCaseAssociationEdge | UseCaseNoteNode | UseCaseNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseCaseNoteEdge</name>
+      <outputString>UseCaseNoteEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>UseCaseDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>UseCaseNoteNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseCaseGeneralizationEdge</name>
+      <outputString>UseCaseGeneralizationEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>UseCaseDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>Actor</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>IncludeRelationshipEdge</name>
+      <outputString>IncludeRelationshipEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>UseCaseDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>Actor</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ExtendRelationshipEdge</name>
+      <outputString>ExtendRelationshipEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>UseCaseDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>Actor</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseCaseAssociationEdge</name>
+      <outputString>UseCaseAssociationEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>UseCaseDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>Actor</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseCaseNoteNode</name>
+      <outputString>UseCaseNoteNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>UseCaseDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>UseCaseNode</name>
+      <outputString>UseCaseNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>UseCaseDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Actor</name>
+      <outputString>Actor</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>UseCaseDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ObjectD</name>
+      <outputString>ObjectD</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ObjectDiagram</name>
+      <outputString>ObjectDiagram</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions>
+        <options>DiagramSupport</options>
+        <options>ObjectD</options>
+        <options>NewFile</options>
+        <options>ObjectNoteEdge | ObjectAssociationEdge | ObjectReferenceEdge | ObjectNoteNode | ObjectFieldNode | ObjectNode</options>
+        <options>ObjectAssociationEdge | ObjectNoteEdge | ObjectReferenceEdge | ObjectNoteNode | ObjectFieldNode | ObjectNode</options>
+        <options>ObjectReferenceEdge | ObjectNoteEdge | ObjectAssociationEdge | ObjectNoteNode | ObjectFieldNode | ObjectNode</options>
+        <options>ObjectNoteNode | ObjectNoteEdge | ObjectAssociationEdge | ObjectReferenceEdge | ObjectFieldNode | ObjectNode</options>
+        <options>ObjectFieldNode | ObjectNoteEdge | ObjectAssociationEdge | ObjectReferenceEdge | ObjectNoteNode | ObjectNode</options>
+        <options>ObjectNode | ObjectNoteEdge | ObjectAssociationEdge | ObjectReferenceEdge | ObjectNoteNode | ObjectFieldNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ObjectNoteEdge</name>
+      <outputString>ObjectNoteEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ObjectDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>ObjectNoteNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ObjectAssociationEdge</name>
+      <outputString>ObjectAssociationEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ObjectDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>ObjectNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ObjectReferenceEdge</name>
+      <outputString>ObjectReferenceEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ObjectDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>ObjectNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ObjectNoteNode</name>
+      <outputString>ObjectNoteNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ObjectDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ObjectFieldNode</name>
+      <outputString>ObjectFieldNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ObjectDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ObjectNode</name>
+      <outputString>ObjectNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ObjectDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>StateD</name>
+      <outputString>StateD</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>StateDiagram</name>
+      <outputString>StateDiagram</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions>
+        <options>DiagramSupport</options>
+        <options>StateD</options>
+        <options>NewFile</options>
+        <options>StateNoteEdge | StateTransitionEdge | StateNoteNode | FinalStateNode | InitialStateNode | StateNode</options>
+        <options>StateTransitionEdge | StateNoteEdge | StateNoteNode | FinalStateNode | InitialStateNode | StateNode</options>
+        <options>StateNoteNode | StateNoteEdge | StateTransitionEdge | FinalStateNode | InitialStateNode | StateNode</options>
+        <options>FinalStateNode | StateNoteEdge | StateTransitionEdge | StateNoteNode | InitialStateNode | StateNode</options>
+        <options>InitialStateNode | StateNoteEdge | StateTransitionEdge | StateNoteNode | FinalStateNode | StateNode</options>
+        <options>StateNode | StateNoteEdge | StateTransitionEdge | StateNoteNode | FinalStateNode | InitialStateNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>StateNoteEdge</name>
+      <outputString>StateNoteEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>StateDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>StateNoteNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>StateTransitionEdge</name>
+      <outputString>StateTransitionEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>StateDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>StateNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>StateNoteNode</name>
+      <outputString>StateNoteNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>StateDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>FinalStateNode</name>
+      <outputString>FinalStateNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>StateDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>InitialStateNode</name>
+      <outputString>InitialStateNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>StateDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>StateNode</name>
+      <outputString>StateNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>StateDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SequenceD</name>
+      <outputString>SequenceD</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SequenceDiagram</name>
+      <outputString>SequenceDiagram</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions>
+        <options>SequenceD</options>
+        <options>DiagramSupport</options>
+        <options>NewFile</options>
+        <options>SequenceNoteEdge | SequenceReturnEdge | SequenceCallEdge | SequenceNoteNode | SequenceCallNode | SequenceParameterNode</options>
+        <options>SequenceReturnEdge | SequenceNoteEdge | SequenceCallEdge | SequenceNoteNode | SequenceCallNode | SequenceParameterNode</options>
+        <options>SequenceCallEdge | SequenceNoteEdge | SequenceReturnEdge | SequenceNoteNode | SequenceCallNode | SequenceParameterNode</options>
+        <options>SequenceNoteNode | SequenceNoteEdge | SequenceReturnEdge | SequenceCallEdge | SequenceCallNode | SequenceParameterNode</options>
+        <options>SequenceCallNode | SequenceNoteEdge | SequenceReturnEdge | SequenceCallEdge | SequenceNoteNode | SequenceParameterNode</options>
+        <options>SequenceParameterNode | SequenceNoteEdge | SequenceReturnEdge | SequenceCallEdge | SequenceNoteNode | SequenceCallNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SequenceNoteEdge</name>
+      <outputString>SequenceNoteEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SequenceDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>SequenceNoteNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SequenceReturnEdge</name>
+      <outputString>SequenceReturnEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SequenceDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>SequenceCallNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SequenceCallEdge</name>
+      <outputString>SequenceCallEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SequenceDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>SequenceCallNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SequenceNoteNode</name>
+      <outputString>SequenceNoteNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SequenceDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SequenceCallNode</name>
+      <outputString>SequenceCallNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SequenceDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SequenceParameterNode</name>
+      <outputString>SequenceParameterNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SequenceDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClassD</name>
+      <outputString>ClassD</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClassDiagram</name>
+      <outputString>ClassDiagram</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions>
+        <options>DiagramSupport</options>
+        <options>NewFile</options>
+        <options>ClassD</options>
+        <options>ClassNoteEdge | ClassInterfaceEdge | ClassCompositionEdge | ClassAssociationEdge | ClassAggregationEdge | ClassInheritanceEdge | ClassDependencyEdge | ClassNoteNode | PackageNode | InterfaceNode | ClassNode</options>
+        <options>ClassInterfaceEdge | ClassNoteEdge | ClassCompositionEdge | ClassAssociationEdge | ClassAggregationEdge | ClassInheritanceEdge | ClassDependencyEdge | ClassNoteNode | PackageNode | InterfaceNode | ClassNode</options>
+        <options>ClassCompositionEdge | ClassNoteEdge | ClassInterfaceEdge | ClassAssociationEdge | ClassAggregationEdge | ClassInheritanceEdge | ClassDependencyEdge | ClassNoteNode | PackageNode | InterfaceNode | ClassNode</options>
+        <options>ClassAssociationEdge | ClassNoteEdge | ClassInterfaceEdge | ClassCompositionEdge | ClassAggregationEdge | ClassInheritanceEdge | ClassDependencyEdge | ClassNoteNode | PackageNode | InterfaceNode | ClassNode</options>
+        <options>ClassAggregationEdge | ClassNoteEdge | ClassInterfaceEdge | ClassCompositionEdge | ClassAssociationEdge | ClassInheritanceEdge | ClassDependencyEdge | ClassNoteNode | PackageNode | InterfaceNode | ClassNode</options>
+        <options>ClassInheritanceEdge | ClassNoteEdge | ClassInterfaceEdge | ClassCompositionEdge | ClassAssociationEdge | ClassAggregationEdge | ClassDependencyEdge | ClassNoteNode | PackageNode | InterfaceNode | ClassNode</options>
+        <options>ClassDependencyEdge | ClassNoteEdge | ClassInterfaceEdge | ClassCompositionEdge | ClassAssociationEdge | ClassAggregationEdge | ClassInheritanceEdge | ClassNoteNode | PackageNode | InterfaceNode | ClassNode</options>
+        <options>ClassNoteNode | ClassNoteEdge | ClassInterfaceEdge | ClassCompositionEdge | ClassAssociationEdge | ClassAggregationEdge | ClassInheritanceEdge | ClassDependencyEdge | PackageNode | InterfaceNode | ClassNode</options>
+        <options>PackageNode | ClassNoteEdge | ClassInterfaceEdge | ClassCompositionEdge | ClassAssociationEdge | ClassAggregationEdge | ClassInheritanceEdge | ClassDependencyEdge | ClassNoteNode | InterfaceNode | ClassNode</options>
+        <options>InterfaceNode | ClassNoteEdge | ClassInterfaceEdge | ClassCompositionEdge | ClassAssociationEdge | ClassAggregationEdge | ClassInheritanceEdge | ClassDependencyEdge | ClassNoteNode | PackageNode | ClassNode</options>
+        <options>ClassNode | ClassNoteEdge | ClassInterfaceEdge | ClassCompositionEdge | ClassAssociationEdge | ClassAggregationEdge | ClassInheritanceEdge | ClassDependencyEdge | ClassNoteNode | PackageNode | InterfaceNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClassNoteEdge</name>
+      <outputString>ClassNoteEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ClassDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>ClassNoteNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClassInterfaceEdge</name>
+      <outputString>ClassInterfaceEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ClassDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>ClassNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClassCompositionEdge</name>
+      <outputString>ClassCompositionEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ClassDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>ClassNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClassAssociationEdge</name>
+      <outputString>ClassAssociationEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ClassDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>ClassNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClassAggregationEdge</name>
+      <outputString>ClassAggregationEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ClassDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>ClassNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClassInheritanceEdge</name>
+      <outputString>ClassInheritanceEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ClassDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>ClassNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClassDependencyEdge</name>
+      <outputString>ClassDependencyEdge</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ClassDiagram</parent>
+      <children />
+      <impliedOptions>
+        <options>ClassNode</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClassNoteNode</name>
+      <outputString>ClassNoteNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ClassDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>PackageNode</name>
+      <outputString>PackageNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ClassDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>InterfaceNode</name>
+      <outputString>InterfaceNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ClassDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClassNode</name>
+      <outputString>ClassNode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ClassDiagram</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>EditMenu</name>
+      <outputString>EditMenu</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Edit</name>
+      <outputString>Edit</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions>
+        <options>ExtensionFilter</options>
+        <options>InternalFrame</options>
+        <options>Read</options>
+        <options>GraphUtility</options>
+        <options>MenuResources</options>
+        <options>EditMenu</options>
+        <options>FileUtility</options>
+        <options>SelectPrevious | SelectNext | DeleteItem | EditProperties</options>
+        <options>SelectNext | SelectPrevious | DeleteItem | EditProperties</options>
+        <options>DeleteItem | SelectPrevious | SelectNext | EditProperties</options>
+        <options>EditProperties | SelectPrevious | SelectNext | DeleteItem</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SelectPrevious</name>
+      <outputString>SelectPrevious</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Edit</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SelectNext</name>
+      <outputString>SelectNext</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Edit</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>DeleteItem</name>
+      <outputString>DeleteItem</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Edit</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>EditProperties</name>
+      <outputString>EditProperties</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Edit</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ViewMenu</name>
+      <outputString>ViewMenu</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>View</name>
+      <outputString>View</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions>
+        <options>ExtensionFilter</options>
+        <options>InternalFrame</options>
+        <options>ViewMenu</options>
+        <options>Read</options>
+        <options>GraphUtility</options>
+        <options>MenuResources</options>
+        <options>FileUtility</options>
+        <options>HideGrid | LargerGrid | SmallerGrid | ClipDrawingArea | GrowDrawingArea | ZoomIn | ZoomOut | LookAndFeel</options>
+        <options>LargerGrid | HideGrid | SmallerGrid | ClipDrawingArea | GrowDrawingArea | ZoomIn | ZoomOut | LookAndFeel</options>
+        <options>SmallerGrid | HideGrid | LargerGrid | ClipDrawingArea | GrowDrawingArea | ZoomIn | ZoomOut | LookAndFeel</options>
+        <options>ClipDrawingArea | HideGrid | LargerGrid | SmallerGrid | GrowDrawingArea | ZoomIn | ZoomOut | LookAndFeel</options>
+        <options>GrowDrawingArea | HideGrid | LargerGrid | SmallerGrid | ClipDrawingArea | ZoomIn | ZoomOut | LookAndFeel</options>
+        <options>ZoomIn | HideGrid | LargerGrid | SmallerGrid | ClipDrawingArea | GrowDrawingArea | ZoomOut | LookAndFeel</options>
+        <options>ZoomOut | HideGrid | LargerGrid | SmallerGrid | ClipDrawingArea | GrowDrawingArea | ZoomIn | LookAndFeel</options>
+        <options>LookAndFeel | HideGrid | LargerGrid | SmallerGrid | ClipDrawingArea | GrowDrawingArea | ZoomIn | ZoomOut</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>HideGrid</name>
+      <outputString>HideGrid</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>View</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>LargerGrid</name>
+      <outputString>LargerGrid</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>View</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SmallerGrid</name>
+      <outputString>SmallerGrid</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>View</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ClipDrawingArea</name>
+      <outputString>ClipDrawingArea</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>View</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>GrowDrawingArea</name>
+      <outputString>GrowDrawingArea</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>View</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ZoomIn</name>
+      <outputString>ZoomIn</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>View</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ZoomOut</name>
+      <outputString>ZoomOut</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>View</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>LookAndFeel</name>
+      <outputString>LookAndFeel</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>View</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>WindowMenu</name>
+      <outputString>WindowMenu</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Window</name>
+      <outputString>Window</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions>
+        <options>ExtensionFilter</options>
+        <options>InternalFrame</options>
+        <options>WindowMenu</options>
+        <options>Read</options>
+        <options>GraphUtility</options>
+        <options>MenuResources</options>
+        <options>FileUtility</options>
+        <options>NextWindow | PreviousWindow | MaximizeWindow | RestoreWindow | CloseWindow</options>
+        <options>PreviousWindow | NextWindow | MaximizeWindow | RestoreWindow | CloseWindow</options>
+        <options>MaximizeWindow | NextWindow | PreviousWindow | RestoreWindow | CloseWindow</options>
+        <options>RestoreWindow | NextWindow | PreviousWindow | MaximizeWindow | CloseWindow</options>
+        <options>CloseWindow | NextWindow | PreviousWindow | MaximizeWindow | RestoreWindow</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NextWindow</name>
+      <outputString>NextWindow</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Window</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>PreviousWindow</name>
+      <outputString>PreviousWindow</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Window</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MaximizeWindow</name>
+      <outputString>MaximizeWindow</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Window</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>RestoreWindow</name>
+      <outputString>RestoreWindow</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Window</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>CloseWindow</name>
+      <outputString>CloseWindow</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Window</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>HelpMenu</name>
+      <outputString>HelpMenu</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Help</name>
+      <outputString>Help</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions>
+        <options>ExtensionFilter</options>
+        <options>InternalFrame</options>
+        <options>HelpMenu</options>
+        <options>Read</options>
+        <options>GraphUtility</options>
+        <options>MenuResources</options>
+        <options>FileUtility</options>
+        <options>License | About</options>
+        <options>About | License</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>License</name>
+      <outputString>License</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Help</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>About</name>
+      <outputString>About</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Help</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Additional</name>
+      <outputString>Additional</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>VioletDef</parent>
+      <children />
+      <impliedOptions>
+        <options>ExtensionFilter</options>
+        <options>InternalFrame</options>
+        <options>Read</options>
+        <options>GraphUtility</options>
+        <options>MenuResources</options>
+        <options>FileUtility</options>
+        <options>Preferences | SetTitle | ImageFilter | VioletFilter | VersionChecker | CommandLine</options>
+        <options>SetTitle | Preferences | ImageFilter | VioletFilter | VersionChecker | CommandLine</options>
+        <options>ImageFilter | Preferences | SetTitle | VioletFilter | VersionChecker | CommandLine</options>
+        <options>VioletFilter | Preferences | SetTitle | ImageFilter | VersionChecker | CommandLine</options>
+        <options>VersionChecker | Preferences | SetTitle | ImageFilter | VioletFilter | CommandLine</options>
+        <options>CommandLine | Preferences | SetTitle | ImageFilter | VioletFilter | VersionChecker</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Preferences</name>
+      <outputString>Preferences</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Additional</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SetTitle</name>
+      <outputString>SetTitle</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Additional</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ImageFilter</name>
+      <outputString>ImageFilter</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Additional</parent>
+      <children />
+      <impliedOptions>
+        <options>ExtensionFilter</options>
+        <options>ExportImage</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>VioletFilter</name>
+      <outputString>VioletFilter</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Additional</parent>
+      <children />
+      <impliedOptions>
+        <options>ExtensionFilter</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>VersionChecker</name>
+      <outputString>VersionChecker</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Additional</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>CommandLine</name>
+      <outputString>CommandLine</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Additional</parent>
+      <children />
+      <impliedOptions>
+        <options>OpenFile</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions />
+  <booleanConstraints />
+  <nonBooleanConstraints />
+</vm>

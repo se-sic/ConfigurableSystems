@@ -1,0 +1,327 @@
+<vm name="Clasp">
+  <binaryOptions>
+    <configurationOption>
+      <name>transExt</name>
+      <outputString>transExt</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>transExtAll</name>
+      <outputString>transExtAll</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>transExt</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>transExtChoice</options>
+        <options>transExtWeight</options>
+        <options>transExtDynamic</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>transExtChoice</name>
+      <outputString>transExtChoice</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>transExt</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>transExtAll</options>
+        <options>transExtWeight</options>
+        <options>transExtDynamic</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>transExtWeight</name>
+      <outputString>transExtWeight</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>transExt</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>transExtAll</options>
+        <options>transExtChoice</options>
+        <options>transExtDynamic</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>transExtDynamic</name>
+      <outputString>transExtDynamic</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>transExt</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>transExtAll</options>
+        <options>transExtChoice</options>
+        <options>transExtWeight</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>eq</name>
+      <outputString>eq</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>eqFixpoint</name>
+      <outputString>eqFixpoint</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>eq</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>eq5</options>
+        <options>eq1</options>
+        <options>eq2</options>
+        <options>eq3</options>
+        <options>eq4</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>eq5</name>
+      <outputString>eq5</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>eq</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>eqFixpoint</options>
+        <options>eq1</options>
+        <options>eq2</options>
+        <options>eq3</options>
+        <options>eq4</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>eq1</name>
+      <outputString>eq1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>eq</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>eqFixpoint</options>
+        <options>eq5</options>
+        <options>eq2</options>
+        <options>eq3</options>
+        <options>eq4</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>eq2</name>
+      <outputString>eq2</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>eq</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>eqFixpoint</options>
+        <options>eq5</options>
+        <options>eq1</options>
+        <options>eq3</options>
+        <options>eq4</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>eq3</name>
+      <outputString>eq3</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>eq</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>eqFixpoint</options>
+        <options>eq5</options>
+        <options>eq1</options>
+        <options>eq2</options>
+        <options>eq4</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>eq4</name>
+      <outputString>eq4</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>eq</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>eqFixpoint</options>
+        <options>eq5</options>
+        <options>eq1</options>
+        <options>eq2</options>
+        <options>eq3</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>backprop</name>
+      <outputString>backprop</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>heuristic</name>
+      <outputString>heuristic</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>heuristicBerkmin</name>
+      <outputString>heuristicBerkmin</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>heuristic</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>heuristicVmtf</options>
+        <options>heuristicVsids</options>
+        <options>heuristicUnit</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>heuristicVmtf</name>
+      <outputString>heuristicVmtf</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>heuristic</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>heuristicBerkmin</options>
+        <options>heuristicVsids</options>
+        <options>heuristicUnit</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>heuristicVsids</name>
+      <outputString>heuristicVsids</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>heuristic</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>heuristicBerkmin</options>
+        <options>heuristicVmtf</options>
+        <options>heuristicUnit</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>heuristicUnit</name>
+      <outputString>heuristicUnit</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>heuristic</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>heuristicBerkmin</options>
+        <options>heuristicVmtf</options>
+        <options>heuristicVsids</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>satPreproYes</name>
+      <outputString>satPreproYes</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions />
+  <booleanConstraints />
+  <nonBooleanConstraints />
+</vm>

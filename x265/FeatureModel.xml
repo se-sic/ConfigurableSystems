@@ -1,0 +1,249 @@
+<vm name="x265">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>asm</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>wpp</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>rdoLevel</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>rdoBasic</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>rdoLevel</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>rdoSplits</option>
+        <option>rdoChroma</option>
+        <option>rdoPrediction</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>rdoSplits</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>rdoLevel</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>rdoBasic</option>
+        <option>rdoChroma</option>
+        <option>rdoPrediction</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>rdoChroma</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>rdoLevel</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>rdoBasic</option>
+        <option>rdoSplits</option>
+        <option>rdoPrediction</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>rdoPrediction</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>rdoLevel</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>rdoBasic</option>
+        <option>rdoSplits</option>
+        <option>rdoChroma</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>rect</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>amp</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>rect</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>bitdepth</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>8bit</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>bitdepth</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>10bit</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>10bit</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>bitdepth</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>8bit</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>me</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>meDia</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>me</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>meHex</option>
+        <option>meUmh</option>
+        <option>meStar</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>meHex</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>me</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>meDia</option>
+        <option>meUmh</option>
+        <option>meStar</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>meUmh</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>me</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>meDia</option>
+        <option>meHex</option>
+        <option>meStar</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>meStar</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>me</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <option>meDia</option>
+        <option>meHex</option>
+        <option>meUmh</option>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>frameThreads</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>8</maxValue>
+      <stepFunction>frameThreads * 2</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>ref</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <values>1;3;6</values>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints>
+    <constraint>!rdoBasic | !rect</constraint>
+  </booleanConstraints>
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>

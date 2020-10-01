@@ -1,0 +1,349 @@
+<vm name="VP9">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children>
+        <option>Quality</option>
+        <option>AutoAltRef</option>
+        <option>AdaptiveQuantizationMode</option>
+        <option>endUsage</option>
+        <option>lagInFrames</option>
+        <option>bitRate</option>
+        <option>Threads</option>
+        <option>cpuUsed</option>
+        <option>TileColumns</option>
+        <option>lossless</option>
+        <option>FrameBoost</option>
+      </children>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Quality</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children>
+        <option>good</option>
+        <option>realtime</option>
+      </children>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>good</name>
+      <outputString>--good</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Quality</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>realtime</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>realtime</name>
+      <outputString>--rt</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Quality</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>good</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>AutoAltRef</name>
+      <outputString>--auto-alt-ref=1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>AdaptiveQuantizationMode</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children>
+        <option>off</option>
+        <option>variance</option>
+        <option>complexity</option>
+        <option>cyclicRefresh</option>
+      </children>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>off</name>
+      <outputString>--aq-mode=0</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AdaptiveQuantizationMode</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>variance</options>
+        <options>complexity</options>
+        <options>cyclicRefresh</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>variance</name>
+      <outputString>--aq-mode=1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AdaptiveQuantizationMode</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>off</options>
+        <options>complexity</options>
+        <options>cyclicRefresh</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>complexity</name>
+      <outputString>--aq-mode=2</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AdaptiveQuantizationMode</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>off</options>
+        <options>variance</options>
+        <options>cyclicRefresh</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>cyclicRefresh</name>
+      <outputString>--aq-mode=3</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AdaptiveQuantizationMode</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>off</options>
+        <options>variance</options>
+        <options>complexity</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>endUsage</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children>
+        <option>variableBitrate</option>
+        <option>constantBitrate</option>
+        <option>constrainedQuality</option>
+      </children>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>variableBitrate</name>
+      <outputString>--end-usage=vbr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>endUsage</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>constantBitrate</options>
+        <options>constrainedQuality</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>constantBitrate</name>
+      <outputString>--end-usage=cbr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>endUsage</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>variableBitrate</options>
+        <options>constrainedQuality</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>constrainedQuality</name>
+      <outputString>--end-usage=cq</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>endUsage</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>variableBitrate</options>
+        <options>constantBitrate</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>lossless</name>
+      <outputString>--lossless=1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>FrameBoost</name>
+      <outputString>--frame-boost=1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>lagInFrames</name>
+      <outputString>
+      </outputString>
+      <prefix>--lag-in-frames=</prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>16</maxValue>
+      <stepFunction>lagInFrames + 8</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>bitRate</name>
+      <outputString>
+      </outputString>
+      <prefix>--target-bitrate=</prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>300</minValue>
+      <maxValue>1500</maxValue>
+      <stepFunction>bitRate + 300</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>Threads</name>
+      <outputString>
+      </outputString>
+      <prefix>--threads=</prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>2</minValue>
+      <maxValue>10</maxValue>
+      <stepFunction>Threads + 2</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>cpuUsed</name>
+      <outputString>
+      </outputString>
+      <prefix>--cpu-used=</prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>8</maxValue>
+      <stepFunction>cpuUsed + 2</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>TileColumns</name>
+      <outputString>
+      </outputString>
+      <prefix>--tile-columns=</prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>6</maxValue>
+      <stepFunction>TileColumns + 3</stepFunction>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+</vm>
