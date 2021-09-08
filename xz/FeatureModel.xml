@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<alt abstract="true" mandatory="true" name="XZ">
+			<graphics key="collapsed" value="false"/>
+			<and name="App">
+				<alt mandatory="true" name="Compr/Decompr">
+				<and name="Compr">
+					<alt mandatory="true" name="Filter">
+						<and name="LZMA">
+							<alt mandatory="true" name="LZMAFilter">
+								<feature name="LZMA1"/>
+								<feature name="LZMA2"/>
+							</alt>
+							<alt name="LZMAOpt">
+								<and name="Preset">
+									<feature mandatory="true" name="#0-9"/>
+								</and>
+								<or name="Manual">
+									<graphics key="collapsed" value="false"/>
+									<and name="dict">
+										<feature mandatory="true" name="#4-1536"/>
+									</and>
+									<and name="lc">
+										<feature mandatory="true" name="#0-4"/>
+									</and>
+									<and name="lp">
+										<feature mandatory="true" name="#0-4'"/>
+									</and>
+									<and name="pb">
+										<feature mandatory="true" name="#0-4''"/>
+									</and>
+									<alt name="mode">
+										<graphics key="collapsed" value="false"/>
+										<feature name="fast"/>
+										<feature name="normal"/>
+									</alt>
+									<and name="nice">
+										<feature mandatory="true" name="#2-273"/>
+									</and>
+									<alt name="mf">
+										<feature name="hc3"/>
+										<feature name="hc4"/>
+										<feature name="bt2"/>
+										<feature name="bt3"/>
+										<feature name="bt4"/>
+									</alt>
+									<and name="depth">
+										<feature mandatory="true" name="#0-..."/>
+									</and>
+								</or>
+							</alt>
+						</and>
+						<and name="BCJ">
+							<alt mandatory="true" name="BCJFilter">
+								<feature name="x86"/>
+								<feature name="PowerPC"/>
+								<feature name="IA64"/>
+								<feature name="ARM"/>
+								<feature name="ARM-Thumb"/>
+								<feature name="SPARC"/>
+							</alt>
+							<and name="BCJOpt">
+								<and mandatory="true" name="start">
+									<feature mandatory="true" name="#0-...'"/>
+								</and>
+							</and>
+						</and>
+						<and name="Delta">
+							<and name="dist">
+								<feature mandatory="true" name="#1-256"/>
+							</and>
+						</and>
+					</alt>
+					<and mandatory="true" name="Level">
+						<feature mandatory="true" name="#0-9'"/>
+					</and>
+					<alt mandatory="true" name="Threads">
+						<feature name="#1-..."/>
+						<feature name="#Cores"/>
+					</alt>
+					<alt mandatory="true" name="MaxMemCompr">
+						<and name="BytesCompr">
+							<feature mandatory="true" name="#1-MaxRAM"/>
+						</and>
+						<and name="PercentCompr">
+							<feature mandatory="true" name="#1-100"/>
+						</and>
+					</alt>
+					<alt name="Blocks">
+						<and name="Size">
+							<feature mandatory="true" name="#1-...'"/>
+						</and>
+						<feature name="List"/>
+					</alt>
+					<feature name="XtrmCPU"/>
+					<and name="FlushTO">
+						<feature mandatory="true" name="#1-2^32"/>
+					</and>
+				</and>
+				<alt name="Decompr">
+					<graphics key="collapsed" value="false"/>
+					<feature name="Info"/>
+					<and name="Decompression">
+						<alt mandatory="true" name="MaxMemDecompr">
+							<and name="BytesDecompr">
+								<feature mandatory="true" name="#1-MaxRAM'"/>
+							</and>
+							<and name="PercentDecompr">
+								<feature mandatory="true" name="#1-100'"/>
+							</and>
+						</alt>
+						<alt name="CheckIntegrity">
+							<feature name="crc32"/>
+							<feature name="crc64"/>
+							<feature name="sha256"/>
+						</alt>
+						<feature name="SingleStream"/>
+						<feature name="NoSparse"/>
+					</and>
+				</alt>
+			</alt>
+			<and mandatory="true" name="In/Out">
+			<graphics key="collapsed" value="false"/>
+			<alt mandatory="true" name="Input">
+				<feature name="Stdin"/>
+				<feature name="File"/>
+				<feature name="File0"/>
+			</alt>
+			<alt mandatory="true" name="Output">
+				<and name="KeepIn">
+					<feature name="Stdout"/>
+				</and>
+				<and name="OverwriteIn">
+					<feature name="ForceOverwrite"/>
+				</and>
+			</alt>
+			<alt mandatory="true" name="Format">
+				<feature name="auto"/>
+				<feature name="xz"/>
+				<feature name="lzma"/>
+				<feature name="raw"/>
+			</alt>
+			<feature name="Suffix"/>
+			<feature name="Robot"/>
+		</and>
+		<and name="Verbosity">
+			<feature name="VerbosityXL"/>
+		</and>
+		<and name="QuietWarn">
+			<feature name="QuietErr"/>
+		</and>
+		<feature name="NoAdjust"/>
+		<feature name="NoWarn"/>
+	</and>
+	<feature name="MemInfo"/>
+</alt>
+</struct>
+<constraints>
+<rule>
+	<imp>
+		<var>Stdout</var>
+		<var>Decompression</var>
+	</imp>
+</rule>
+</constraints>
+</featureModel>
