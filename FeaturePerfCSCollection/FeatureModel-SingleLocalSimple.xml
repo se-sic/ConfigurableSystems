@@ -3,6 +3,11 @@
 <vm name="SingleLocalSingle" root="root">
   <binaryOptions>
     <configurationOption>
+      <name>root</name>
+      <parent></parent>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
       <name>Slow</name>
       <parent>root</parent>
       <optional>True</optional>
