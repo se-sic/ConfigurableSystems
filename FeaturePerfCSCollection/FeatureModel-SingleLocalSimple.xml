@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vm SYSTEM "vm.dtd">
+<vm name="SingleLocalSingle" root="root">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <parent></parent>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Slow</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/SingleLocalSimple/SLSmain.cpp</path>
+          <start>
+            <line>7</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>7</line>
+            <column>11</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </binaryOptions>
+</vm>
+
