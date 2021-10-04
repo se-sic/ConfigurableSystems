@@ -119,218 +119,6 @@
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>level</name>
-      <outputString>level</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>level1</name>
-      <outputString>level1</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>level</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>level2</options>
-        <options>level3</options>
-        <options>level4</options>
-        <options>level5</options>
-        <options>level6</options>
-        <options>level7</options>
-        <options>level8</options>
-        <options>level9</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>level2</name>
-      <outputString>level2</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>level</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>level1</options>
-        <options>level3</options>
-        <options>level4</options>
-        <options>level5</options>
-        <options>level6</options>
-        <options>level7</options>
-        <options>level8</options>
-        <options>level9</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>level3</name>
-      <outputString>level3</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>level</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>level1</options>
-        <options>level2</options>
-        <options>level4</options>
-        <options>level5</options>
-        <options>level6</options>
-        <options>level7</options>
-        <options>level8</options>
-        <options>level9</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>level4</name>
-      <outputString>level4</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>level</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>level1</options>
-        <options>level2</options>
-        <options>level3</options>
-        <options>level5</options>
-        <options>level6</options>
-        <options>level7</options>
-        <options>level8</options>
-        <options>level9</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>level5</name>
-      <outputString>level5</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>level</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>level1</options>
-        <options>level2</options>
-        <options>level3</options>
-        <options>level4</options>
-        <options>level6</options>
-        <options>level7</options>
-        <options>level8</options>
-        <options>level9</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>level6</name>
-      <outputString>level6</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>level</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>level1</options>
-        <options>level2</options>
-        <options>level3</options>
-        <options>level4</options>
-        <options>level5</options>
-        <options>level7</options>
-        <options>level8</options>
-        <options>level9</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>level7</name>
-      <outputString>level7</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>level</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>level1</options>
-        <options>level2</options>
-        <options>level3</options>
-        <options>level4</options>
-        <options>level5</options>
-        <options>level6</options>
-        <options>level8</options>
-        <options>level9</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>level8</name>
-      <outputString>level8</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>level</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>level1</options>
-        <options>level2</options>
-        <options>level3</options>
-        <options>level4</options>
-        <options>level5</options>
-        <options>level6</options>
-        <options>level7</options>
-        <options>level9</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>level9</name>
-      <outputString>level9</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>level</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>level1</options>
-        <options>level2</options>
-        <options>level3</options>
-        <options>level4</options>
-        <options>level5</options>
-        <options>level6</options>
-        <options>level7</options>
-        <options>level8</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
       <name>unlimitedWindowSize</name>
       <outputString>unlimitedWindowSize</outputString>
       <prefix>
@@ -359,7 +147,38 @@
       <optional>True</optional>
     </configurationOption>
   </binaryOptions>
-  <numericOptions />
+  <numericOptions>
+    <configurationOption>
+      <name>compressionLevel</name>
+      <outputString>compressionLevel</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <minValue>1</minValue>
+      <maxValue>9</maxValue>
+      <stepFunction>compressionLevel + 1 </stepFunction>
+      <locations>
+        <sourceRange>
+          <path>main.c</path>
+          <start>
+            <line>436</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>436</line>
+            <column>31</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </numericOptions>
   <booleanConstraints />
   <nonBooleanConstraints />
 </vm>
