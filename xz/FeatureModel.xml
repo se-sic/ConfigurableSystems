@@ -1,175 +1,1907 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<featureModel>
-	<properties>
-		<graphics key="legendautolayout" value="true"/>
-		<graphics key="showshortnames" value="false"/>
-		<graphics key="layout" value="horizontal"/>
-		<graphics key="showcollapsedconstraints" value="true"/>
-		<graphics key="legendhidden" value="false"/>
-		<graphics key="layoutalgorithm" value="1"/>
-	</properties>
-	<struct>
-		<alt abstract="true" mandatory="true" name="XZ">
-			<graphics key="collapsed" value="false"/>
-			<and name="App">
-				<alt mandatory="true" name="Compr/Decompr">
-				<and name="Compr">
-					<alt mandatory="true" name="Filter">
-						<and name="LZMA">
-							<alt mandatory="true" name="LZMAFilter">
-								<feature name="LZMA1"/>
-								<feature name="LZMA2"/>
-							</alt>
-							<alt name="LZMAOpt">
-								<and name="Preset">
-									<feature mandatory="true" name="#0-9"/>
-								</and>
-								<or name="Manual">
-									<graphics key="collapsed" value="false"/>
-									<and name="dict">
-										<feature mandatory="true" name="#4-1536"/>
-									</and>
-									<and name="lc">
-										<feature mandatory="true" name="#0-4"/>
-									</and>
-									<and name="lp">
-										<feature mandatory="true" name="#0-4'"/>
-									</and>
-									<and name="pb">
-										<feature mandatory="true" name="#0-4''"/>
-									</and>
-									<alt name="mode">
-										<graphics key="collapsed" value="false"/>
-										<feature name="fast"/>
-										<feature name="normal"/>
-									</alt>
-									<and name="nice">
-										<feature mandatory="true" name="#2-273"/>
-									</and>
-									<alt name="mf">
-										<feature name="hc3"/>
-										<feature name="hc4"/>
-										<feature name="bt2"/>
-										<feature name="bt3"/>
-										<feature name="bt4"/>
-									</alt>
-									<and name="depth">
-										<feature mandatory="true" name="#0-..."/>
-									</and>
-								</or>
-							</alt>
-						</and>
-						<and name="BCJ">
-							<alt mandatory="true" name="BCJFilter">
-								<feature name="x86"/>
-								<feature name="PowerPC"/>
-								<feature name="IA64"/>
-								<feature name="ARM"/>
-								<feature name="ARM-Thumb"/>
-								<feature name="SPARC"/>
-							</alt>
-							<and name="BCJOpt">
-								<and mandatory="true" name="start">
-									<feature mandatory="true" name="#0-...'"/>
-								</and>
-							</and>
-						</and>
-						<and name="Delta">
-							<and name="dist">
-								<feature mandatory="true" name="#1-256"/>
-							</and>
-						</and>
-					</alt>
-					<and mandatory="true" name="Level">
-						<feature mandatory="true" name="#0-9'"/>
-					</and>
-					<alt mandatory="true" name="Threads">
-						<feature name="#1-..."/>
-						<feature name="#Cores"/>
-					</alt>
-					<alt mandatory="true" name="MaxMemCompr">
-						<and name="BytesCompr">
-							<feature mandatory="true" name="#1-MaxRAM"/>
-						</and>
-						<and name="PercentCompr">
-							<feature mandatory="true" name="#1-100"/>
-						</and>
-					</alt>
-					<alt name="Blocks">
-						<and name="Size">
-							<feature mandatory="true" name="#1-...'"/>
-						</and>
-						<feature name="List"/>
-					</alt>
-					<feature name="XtrmCPU"/>
-					<and name="FlushTO">
-						<feature mandatory="true" name="#1-2^32"/>
-					</and>
-				</and>
-				<alt name="Decompr">
-					<graphics key="collapsed" value="false"/>
-					<feature name="Info"/>
-					<and name="Decompression">
-						<alt mandatory="true" name="MaxMemDecompr">
-							<and name="BytesDecompr">
-								<feature mandatory="true" name="#1-MaxRAM'"/>
-							</and>
-							<and name="PercentDecompr">
-								<feature mandatory="true" name="#1-100'"/>
-							</and>
-						</alt>
-						<alt name="CheckIntegrity">
-							<feature name="crc32"/>
-							<feature name="crc64"/>
-							<feature name="sha256"/>
-						</alt>
-						<feature name="SingleStream"/>
-						<feature name="NoSparse"/>
-					</and>
-				</alt>
-			</alt>
-			<and mandatory="true" name="In/Out">
-			<graphics key="collapsed" value="false"/>
-			<alt mandatory="true" name="Input">
-				<feature name="Stdin"/>
-				<feature name="File"/>
-				<feature name="File0"/>
-			</alt>
-			<alt mandatory="true" name="Output">
-				<and name="KeepIn">
-					<feature name="Stdout"/>
-				</and>
-				<and name="OverwriteIn">
-					<feature name="ForceOverwrite"/>
-				</and>
-			</alt>
-			<alt mandatory="true" name="Format">
-				<feature name="auto"/>
-				<feature name="xz"/>
-				<feature name="lzma"/>
-				<feature name="raw"/>
-			</alt>
-			<feature name="Suffix"/>
-			<feature name="Robot"/>
-		</and>
-		<and name="Verbosity">
-			<feature name="VerbosityXL"/>
-		</and>
-		<and name="QuietWarn">
-			<feature name="QuietErr"/>
-		</and>
-		<feature name="NoAdjust"/>
-		<feature name="NoWarn"/>
-	</and>
-	<feature name="MemInfo"/>
-</alt>
-</struct>
-<constraints>
-<rule>
-	<imp>
-		<var>Stdout</var>
-		<var>Decompression</var>
-	</imp>
-</rule>
-</constraints>
-</featureModel>
+<vm name="fixed_SPLConqueror">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>App</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>xzFeatures</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>MemInfo</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Mode</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>App</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Compr</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Mode</parent>
+      <impliedOptions>
+        <options>MaxMemCompr</options>
+      </impliedOptions>
+      <excludedOptions>
+        <options>InfoTestDecompr</options>
+      </excludedOptions>
+      <optional>False</optional>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <start>
+            <line>24</line>
+            <column>21</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Filter</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Compr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>LZMA</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Filter</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>BCJ</options>
+        <options>Delta</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>LZMAFilter</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>LZMA</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>LZMA1</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>LZMAFilter</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>LZMA2</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>LZMA2</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>LZMAFilter</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>LZMA1</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>LZMAOpt</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>LZMA</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Preset</name>
+      <outputString>Preset</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>LZMAOpt</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Manual</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Manual</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>LZMAOpt</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Preset</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>dict</name>
+      <outputString>dict</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Manual</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>lc</name>
+      <outputString>lc</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Manual</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>lp</name>
+      <outputString>lp</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Manual</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>pb</name>
+      <outputString>pb</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Manual</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>mode</name>
+      <outputString>mode</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Manual</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>fast</name>
+      <outputString>fast</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>mode</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>normal</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>normal</name>
+      <outputString>normal</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>mode</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>fast</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>nice</name>
+      <outputString>nice</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Manual</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>mf</name>
+      <outputString>mf</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Manual</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>hc3</name>
+      <outputString>hc3</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>mf</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>hc4</options>
+        <options>bt2</options>
+        <options>bt3</options>
+        <options>bt4</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>hc4</name>
+      <outputString>hc4</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>mf</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>hc3</options>
+        <options>bt2</options>
+        <options>bt3</options>
+        <options>bt4</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>bt2</name>
+      <outputString>bt2</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>mf</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>hc3</options>
+        <options>hc4</options>
+        <options>bt3</options>
+        <options>bt4</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>bt3</name>
+      <outputString>bt3</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>mf</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>hc3</options>
+        <options>hc4</options>
+        <options>bt2</options>
+        <options>bt4</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>bt4</name>
+      <outputString>bt4</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>mf</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>hc3</options>
+        <options>hc4</options>
+        <options>bt2</options>
+        <options>bt3</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>depth</name>
+      <outputString>depth</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Manual</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>BCJ</name>
+      <outputString>BCJ</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Filter</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>LZMA</options>
+        <options>Delta</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>BCJFilter</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>BCJ</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>x86</name>
+      <outputString>x86</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>BCJFilter</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>PowerPC</options>
+        <options>IA64</options>
+        <options>ARM</options>
+        <options>ARMThumb</options>
+        <options>SPARC</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>PowerPC</name>
+      <outputString>PowerPC</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>BCJFilter</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>x86</options>
+        <options>IA64</options>
+        <options>ARM</options>
+        <options>ARMThumb</options>
+        <options>SPARC</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>IA64</name>
+      <outputString>IA64</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>BCJFilter</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>x86</options>
+        <options>PowerPC</options>
+        <options>ARM</options>
+        <options>ARMThumb</options>
+        <options>SPARC</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ARM</name>
+      <outputString>ARM</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>BCJFilter</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>x86</options>
+        <options>PowerPC</options>
+        <options>IA64</options>
+        <options>ARMThumb</options>
+        <options>SPARC</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ARMThumb</name>
+      <outputString>ARM-Thumb</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>BCJFilter</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>x86</options>
+        <options>PowerPC</options>
+        <options>IA64</options>
+        <options>ARM</options>
+        <options>SPARC</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SPARC</name>
+      <outputString>SPARC</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>BCJFilter</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>x86</options>
+        <options>PowerPC</options>
+        <options>IA64</options>
+        <options>ARM</options>
+        <options>ARMThumb</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>start</name>
+      <outputString>start</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>BCJ</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Delta</name>
+      <outputString>Delta</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Filter</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>LZMA</options>
+        <options>BCJ</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>dist</name>
+      <outputString>dist</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Delta</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Level</name>
+      <outputString>Level</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Compr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Threads</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Compr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Cores</name>
+      <outputString>#Cores</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Threads</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Number</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MaxMemCompr</name>
+      <outputString>MaxMemCompr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Memory</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>BytesCompr</name>
+      <outputString>BytesCompr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>MaxMemCompr</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>PercentCompr</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>PercentCompr</name>
+      <outputString>PercentCompr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>MaxMemCompr</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>BytesCompr</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Blocks</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Compr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Size</name>
+      <outputString>Size</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Blocks</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>List</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>List</name>
+      <outputString>List</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Blocks</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Size</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>XtrmCPU</name>
+      <outputString>XtrmCPU</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Compr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>FlushTO</name>
+      <outputString>FlushTO</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Compr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>InfoTestDecompr</name>
+      <outputString>Info/Test/Decompr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Mode</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Compr</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Info</name>
+      <outputString>Info</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>InfoTestDecompr</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>TestDecompr</options>
+      </excludedOptions>
+      <optional>False</optional>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <start>
+            <line>24</line>
+            <column>21</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>TestDecompr</name>
+      <outputString>Test/Decompression</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>InfoTestDecompr</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Info</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Test</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>TestDecompr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <start>
+            <line>24</line>
+            <column>21</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>crc32</name>
+      <outputString>crc32</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Test</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>crc64</options>
+        <options>sha256</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>crc64</name>
+      <outputString>crc64</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Test</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>crc32</options>
+        <options>sha256</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>sha256</name>
+      <outputString>sha256</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Test</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>crc32</options>
+        <options>crc64</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Decompr</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>TestDecompr</parent>
+      <impliedOptions>
+        <options>MaxMemDecompr</options>
+      </impliedOptions>
+      <excludedOptions />
+      <optional>True</optional>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <start>
+            <line>24</line>
+            <column>21</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>MaxMemDecompr</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Memory</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>BytesDecompr</name>
+      <outputString>BytesDecompr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>MaxMemDecompr</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>PercentDecompr</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>PercentDecompr</name>
+      <outputString>PercentDecompr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>MaxMemDecompr</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>BytesDecompr</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SingleStream</name>
+      <outputString>SingleStream</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Decompr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoSparse</name>
+      <outputString>NoSparse</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Decompr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>InOut</name>
+      <outputString>In/Out</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>App</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Input</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>InOut</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Stdin</name>
+      <outputString>Stdin</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Input</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>File</options>
+        <options>File0</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>File</name>
+      <outputString>File</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Input</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Stdin</options>
+        <options>File0</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>File0</name>
+      <outputString>File0</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Input</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Stdin</options>
+        <options>File</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Output</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>InOut</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>KeepIn</name>
+      <outputString>KeepIn</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Output</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>OverwriteIn</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Stdout</name>
+      <outputString>Stdout</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>KeepIn</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>OverwriteIn</name>
+      <outputString>OverwriteIn</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Output</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>KeepIn</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ForceOverwrite</name>
+      <outputString>ForceOverwrite</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>OverwriteIn</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Format</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>InOut</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>auto</name>
+      <outputString>auto</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Format</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>xz</options>
+        <options>lzma</options>
+        <options>raw</options>
+      </excludedOptions>
+      <optional>False</optional>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <start>
+            <line>25</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>25</line>
+            <column>27</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>xz</name>
+      <outputString>xz</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Format</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>auto</options>
+        <options>lzma</options>
+        <options>raw</options>
+      </excludedOptions>
+      <optional>False</optional>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <start>
+            <line>25</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>25</line>
+            <column>27</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>lzma</name>
+      <outputString>lzma</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Format</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>auto</options>
+        <options>xz</options>
+        <options>raw</options>
+      </excludedOptions>
+      <optional>False</optional>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <start>
+            <line>25</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>25</line>
+            <column>27</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>raw</name>
+      <outputString>raw</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Format</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>auto</options>
+        <options>xz</options>
+        <options>lzma</options>
+      </excludedOptions>
+      <optional>False</optional>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <start>
+            <line>25</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>25</line>
+            <column>27</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Suffix</name>
+      <outputString>Suffix</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>InOut</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Robot</name>
+      <outputString>Robot</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>InOut</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Verbosity</name>
+      <outputString>Verbosity</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>App</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>VerbosityXL</name>
+      <outputString>VerbosityXL</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Verbosity</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>QuietWarn</name>
+      <outputString>QuietWarn</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>App</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>QuietErr</name>
+      <outputString>QuietErr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>QuietWarn</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoAdjust</name>
+      <outputString>NoAdjust</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>App</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoWarn</name>
+      <outputString>NoWarn</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>App</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MemInfo</name>
+      <outputString>MemInfo</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>xzFeatures</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>App</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Number</name>
+      <outputString>Number</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Threads</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Cores</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>xzFeatures</name>
+      <outputString>xzFeatures</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>AuxiliaryFeatures</name>
+      <outputString>AuxiliaryFeatures</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoPreset</name>
+      <outputString>NoPreset</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoDict</name>
+      <outputString>NoDict</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoLc</name>
+      <outputString>NoLc</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoLp</name>
+      <outputString>NoLp</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoPb</name>
+      <outputString>NoPb</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoNice</name>
+      <outputString>NoNice</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoDepth</name>
+      <outputString>NoDepth</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoStart</name>
+      <outputString>NoStart</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoDist</name>
+      <outputString>NoDist</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoThreads</name>
+      <outputString>NoThreads</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoBytesCompr</name>
+      <outputString>NoBytesCompr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoPercentCompr</name>
+      <outputString>NoPercentCompr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoSize</name>
+      <outputString>NoSize</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoFlushTO</name>
+      <outputString>NoFlushTO</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoBytesDecompr</name>
+      <outputString>NoBytesDecompr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NoPercentDecompr</name>
+      <outputString>NoPercentDecompr</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>AuxiliaryFeatures</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Memory</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>App</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>dict_val</name>
+      <outputString>dict_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>dict</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>4</minValue>
+      <maxValue>1536</maxValue>
+      <stepFunction>dict_val + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>Preset_val</name>
+      <outputString>Preset_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Preset</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>9</maxValue>
+      <stepFunction>Preset_val + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>lc_val</name>
+      <outputString>lc_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>lc</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>4</maxValue>
+      <stepFunction>lc_val + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>lp_val</name>
+      <outputString>lp_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>lp</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>4</maxValue>
+      <stepFunction>lp_val + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>pb_val</name>
+      <outputString>pb_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>pb</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>4</maxValue>
+      <stepFunction>pb_val + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>nice_val</name>
+      <outputString>nice_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>nice</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>2</minValue>
+      <maxValue>273</maxValue>
+      <stepFunction>nice_val + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>depth_val</name>
+      <outputString>depth_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>depth</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>4294967295</maxValue>
+      <stepFunction>depth_val + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>start_val</name>
+      <outputString>start_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>start</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>4294967295</maxValue>
+      <stepFunction>start_val + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>dist_val</name>
+      <outputString>dist_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>dist</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>256</maxValue>
+      <stepFunction>dist_val + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>PercentCompr_val</name>
+      <outputString>PercentCompr_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>PercentCompr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>100</maxValue>
+      <stepFunction>PercentCompr_val + 1</stepFunction>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/hardware.c</path>
+          <start>
+            <line>21</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>21</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Threads_val</name>
+      <outputString>Threads_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Number</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>16384</maxValue>
+      <stepFunction>Threads_val + 1</stepFunction>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/hardware.c</path>
+          <start>
+            <line>18</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>18</line>
+            <column>27</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>BytesCompr_val</name>
+      <outputString>BytesCompr_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>BytesCompr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>1.84467440737096E+19</maxValue>
+      <stepFunction>BytesCompr_val + 1</stepFunction>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/hardware.c</path>
+          <start>
+            <line>21</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>21</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>FlushTO_val</name>
+      <outputString>FlushTO_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>FlushTO</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>1.84467440737096E+19</maxValue>
+      <stepFunction>FlushTO_val + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>BytesDecompr_val</name>
+      <outputString>BytesDecompr_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>BytesDecompr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>1.84467440737096E+19</maxValue>
+      <stepFunction>BytesDecompr_val + 1</stepFunction>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/hardware.c</path>
+          <start>
+            <line>24</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>PercentDecompr_val</name>
+      <outputString>PercentDecompr_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>PercentDecompr</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>100</maxValue>
+      <stepFunction>PercentDecompr_val + 1</stepFunction>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/hardware.c</path>
+          <start>
+            <line>24</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Size_val</name>
+      <outputString>Size_val</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Size</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>9.22337203685478E+18</maxValue>
+      <stepFunction>Size_val + 1</stepFunction>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints>
+    <constraint>!Stdout  |  TestDecompr</constraint>
+    <constraint>AuxiliaryFeatures =&gt; NoPreset | NoDict | NoLc | NoLp | NoPb | NoNice | NoDepth | NoStart | NoDist | NoThreads | NoBytesCompr | NoPercentCompr | NoSize | NoFlushTO | NoBytesDecompr | NoPercentDecompr</constraint>
+    <constraint>Preset | NoPreset</constraint>
+    <constraint>!Preset | !NoPreset</constraint>
+    <constraint>dict | NoDict</constraint>
+    <constraint>!dict | !NoDict</constraint>
+    <constraint>lc | NoLc</constraint>
+    <constraint>!lc | !NoLc</constraint>
+    <constraint>lp | NoLp</constraint>
+    <constraint>!lp | !NoLp</constraint>
+    <constraint>pb | NoPb</constraint>
+    <constraint>!pb | !NoPb</constraint>
+    <constraint>nice | NoNice</constraint>
+    <constraint>!nice | !NoNice</constraint>
+    <constraint>depth | NoDepth</constraint>
+    <constraint>!depth | !NoDepth</constraint>
+    <constraint>start | NoStart</constraint>
+    <constraint>!start | !NoStart</constraint>
+    <constraint>dist | NoDist</constraint>
+    <constraint>!dist | !NoDist</constraint>
+    <constraint>Number | NoThreads</constraint>
+    <constraint>!Number | !NoThreads</constraint>
+    <constraint>BytesCompr | NoBytesCompr</constraint>
+    <constraint>!BytesCompr | !NoBytesCompr</constraint>
+    <constraint>PercentCompr | NoPercentCompr</constraint>
+    <constraint>!PercentCompr | !NoPercentCompr</constraint>
+    <constraint>Size | NoSize</constraint>
+    <constraint>!Size | !NoSize</constraint>
+    <constraint>FlushTO | NoFlushTO</constraint>
+    <constraint>!FlushTO | !NoFlushTO</constraint>
+    <constraint>BytesDecompr | NoBytesDecompr</constraint>
+    <constraint>!BytesDecompr | !NoBytesDecompr</constraint>
+    <constraint>PercentDecompr | NoPercentDecompr</constraint>
+    <constraint>!PercentDecompr | !NoPercentDecompr</constraint>
+    <constraint>Blocks =&gt; xz</constraint>
+    <constraint>lzma =&gt; LZMA1</constraint>
+    <constraint>xz =&gt; !LZMA1</constraint>
+    <constraint>FlushTO =&gt; LZMA2 | Delta</constraint>
+    <constraint>Test =&gt; KeepIn</constraint>
+    <constraint>TestDecompr =&gt; Test | Decompr</constraint>
+    <constraint>Memory =&gt; MaxMemCompr | MaxMemDecompr</constraint>
+  </booleanConstraints>
+  <nonBooleanConstraints />
+  <mixedConstraints>
+    <constraint req="all" exprKind="pos"> NoPreset * Preset_val = 0</constraint>
+    <constraint req="all" exprKind="pos"> NoDict * dict_val = 4</constraint>
+    <constraint req="all" exprKind="pos"> NoLc * lc_val = 0</constraint>
+    <constraint req="all" exprKind="pos"> NoLp * lp_val = 0</constraint>
+    <constraint req="all" exprKind="pos"> NoPb * pb_val = 0</constraint>
+    <constraint req="all" exprKind="pos"> NoNice * nice_val = 2</constraint>
+    <constraint req="all" exprKind="pos"> NoDepth * depth_val = 0</constraint>
+    <constraint req="all" exprKind="pos"> NoStart * start_val = 0</constraint>
+    <constraint req="all" exprKind="pos"> NoDist * dist_val = 1</constraint>
+    <constraint req="all" exprKind="pos"> NoThreads * Threads_val = 1</constraint>
+    <constraint req="all" exprKind="pos"> NoBytesCompr * BytesCompr_val = 1</constraint>
+    <constraint req="all" exprKind="pos"> NoPercentCompr * PercentCompr_val = 1</constraint>
+    <constraint req="all" exprKind="pos"> NoSize * Size_val = 1</constraint>
+    <constraint req="all" exprKind="pos"> NoFlushTO * FlushTO_val = 1</constraint>
+    <constraint req="all" exprKind="pos"> NoBytesDecompr * BytesDecompr_val = 1</constraint>
+    <constraint req="all" exprKind="pos"> NoPercentDecompr * PercentDecompr_val = 1</constraint>
+  </mixedConstraints>
+</vm>
