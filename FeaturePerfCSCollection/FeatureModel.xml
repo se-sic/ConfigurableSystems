@@ -23,6 +23,17 @@
             <column>11</column>
           </end>
         </sourceRange>
+        <sourceRange category="necessary">
+          <path>src/SingleLocalMultipleRegions/SLMRmain.cpp</path>
+          <start>
+            <line>7</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>7</line>
+            <column>11</column>
+          </end>
+        </sourceRange>
       </locations>
     </configurationOption>
   </binaryOptions>
