@@ -41,6 +41,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <start>
+            <line>33</line>
+            <column>28</column>
+          </start>
+          <end>
+            <line>33</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Compr</name>
@@ -60,14 +73,14 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <path>xz-mirror/xz/src/xz/coder.h</path>
           <start>
-            <line>24</line>
-            <column>21</column>
+            <line>14</line>
+            <column>5</column>
           </start>
           <end>
-            <line>24</line>
-            <column>28</column>
+            <line>14</line>
+            <column>17</column>
           </end>
         </sourceRange>
       </locations>
@@ -235,8 +248,8 @@
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>mode</name>
-      <outputString>mode</outputString>
+      <name>LZMAmode</name>
+      <outputString>LZMAmode</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -253,7 +266,7 @@
       </prefix>
       <postfix>
       </postfix>
-      <parent>mode</parent>
+      <parent>LZMAmode</parent>
       <impliedOptions />
       <excludedOptions>
         <options>normal</options>
@@ -267,7 +280,7 @@
       </prefix>
       <postfix>
       </postfix>
-      <parent>mode</parent>
+      <parent>LZMAmode</parent>
       <impliedOptions />
       <excludedOptions>
         <options>fast</options>
@@ -619,7 +632,7 @@
       <parent>Memory</parent>
       <impliedOptions />
       <excludedOptions />
-      <optional>False</optional>
+      <optional>True</optional>
     </configurationOption>
     <configurationOption>
       <name>BytesCompr</name>
@@ -743,14 +756,14 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <path>xz-mirror/xz/src/xz/coder.h</path>
           <start>
-            <line>24</line>
-            <column>21</column>
+            <line>17</line>
+            <column>5</column>
           </start>
           <end>
-            <line>24</line>
-            <column>28</column>
+            <line>17</line>
+            <column>13</column>
           </end>
         </sourceRange>
       </locations>
@@ -783,14 +796,14 @@
       <optional>True</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <path>xz-mirror/xz/src/xz/coder.h</path>
           <start>
-            <line>24</line>
-            <column>21</column>
+            <line>16</line>
+            <column>5</column>
           </start>
           <end>
-            <line>24</line>
-            <column>28</column>
+            <line>16</line>
+            <column>13</column>
           </end>
         </sourceRange>
       </locations>
@@ -856,14 +869,14 @@
       <optional>True</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <path>xz-mirror/xz/src/xz/coder.h</path>
           <start>
-            <line>24</line>
-            <column>21</column>
+            <line>15</line>
+            <column>5</column>
           </start>
           <end>
-            <line>24</line>
-            <column>28</column>
+            <line>15</line>
+            <column>19</column>
           </end>
         </sourceRange>
       </locations>
@@ -879,7 +892,7 @@
       <parent>Memory</parent>
       <impliedOptions />
       <excludedOptions />
-      <optional>False</optional>
+      <optional>True</optional>
     </configurationOption>
     <configurationOption>
       <name>BytesDecompr</name>
@@ -1080,6 +1093,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+	  <locations>
+        <sourceRange>
+          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <start>
+            <line>38</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>38</line>
+            <column>34</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>auto</name>
@@ -1098,14 +1124,14 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <path>xz-mirror/xz/src/xz/coder.h</path>
           <start>
-            <line>25</line>
-            <column>18</column>
+            <line>23</line>
+            <column>5</column>
           </start>
           <end>
-            <line>25</line>
-            <column>27</column>
+            <line>23</line>
+            <column>15</column>
           </end>
         </sourceRange>
       </locations>
@@ -1127,14 +1153,14 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <path>xz-mirror/xz/src/xz/coder.h</path>
           <start>
-            <line>25</line>
-            <column>18</column>
+            <line>24</line>
+            <column>5</column>
           </start>
           <end>
-            <line>25</line>
-            <column>27</column>
+            <line>24</line>
+            <column>13</column>
           </end>
         </sourceRange>
       </locations>
@@ -1156,14 +1182,14 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <path>xz-mirror/xz/src/xz/coder.h</path>
           <start>
             <line>25</line>
-            <column>18</column>
+            <column>5</column>
           </start>
           <end>
             <line>25</line>
-            <column>27</column>
+            <column>15</column>
           </end>
         </sourceRange>
       </locations>
@@ -1185,14 +1211,14 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.c</path>
+          <path>xz-mirror/xz/src/xz/coder.h</path>
           <start>
-            <line>25</line>
-            <column>18</column>
+            <line>27</line>
+            <column>5</column>
           </start>
           <end>
-            <line>25</line>
-            <column>27</column>
+            <line>27</line>
+            <column>14</column>
           </end>
         </sourceRange>
       </locations>
@@ -1548,7 +1574,7 @@
       <parent>App</parent>
       <impliedOptions />
       <excludedOptions />
-      <optional>False</optional>
+      <optional>True</optional>
     </configurationOption>
   </binaryOptions>
   <numericOptions>
@@ -1743,7 +1769,7 @@
       <impliedOptions />
       <excludedOptions />
       <minValue>1</minValue>
-      <maxValue>1.84467440737096E+19</maxValue>
+      <maxValue>9223372036854775807</maxValue>
       <stepFunction>BytesCompr_val + 1</stepFunction>
 	  <locations>
         <sourceRange>
@@ -1770,7 +1796,7 @@
       <impliedOptions />
       <excludedOptions />
       <minValue>1</minValue>
-      <maxValue>1.84467440737096E+19</maxValue>
+      <maxValue>9223372036854775807</maxValue>
       <stepFunction>FlushTO_val + 1</stepFunction>
     </configurationOption>
     <configurationOption>
@@ -1784,7 +1810,7 @@
       <impliedOptions />
       <excludedOptions />
       <minValue>1</minValue>
-      <maxValue>1.84467440737096E+19</maxValue>
+      <maxValue>9223372036854775807</maxValue>
       <stepFunction>BytesDecompr_val + 1</stepFunction>
 	  <locations>
         <sourceRange>
@@ -1838,7 +1864,7 @@
       <impliedOptions />
       <excludedOptions />
       <minValue>1</minValue>
-      <maxValue>9.22337203685478E+18</maxValue>
+      <maxValue>9223372036854775807</maxValue>
       <stepFunction>Size_val + 1</stepFunction>
     </configurationOption>
   </numericOptions>
