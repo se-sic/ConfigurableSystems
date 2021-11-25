@@ -1,4 +1,4 @@
-<vm name="fixed_SPLConqueror">
+<vm name="xz">
   <binaryOptions>
     <configurationOption>
       <name>root</name>
@@ -43,7 +43,7 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <path>src/xz/coder.h</path>
           <start>
             <line>33</line>
             <column>28</column>
@@ -73,7 +73,7 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <path>src/xz/coder.h</path>
           <start>
             <line>14</line>
             <column>5</column>
@@ -756,7 +756,7 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <path>src/xz/coder.h</path>
           <start>
             <line>17</line>
             <column>5</column>
@@ -796,7 +796,7 @@
       <optional>True</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <path>src/xz/coder.h</path>
           <start>
             <line>16</line>
             <column>5</column>
@@ -869,7 +869,7 @@
       <optional>True</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <path>src/xz/coder.h</path>
           <start>
             <line>15</line>
             <column>5</column>
@@ -1095,7 +1095,7 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <path>src/xz/coder.h</path>
           <start>
             <line>38</line>
             <column>25</column>
@@ -1124,7 +1124,7 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <path>src/xz/coder.h</path>
           <start>
             <line>23</line>
             <column>5</column>
@@ -1153,7 +1153,7 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <path>src/xz/coder.h</path>
           <start>
             <line>24</line>
             <column>5</column>
@@ -1182,7 +1182,7 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <path>src/xz/coder.h</path>
           <start>
             <line>25</line>
             <column>5</column>
@@ -1211,7 +1211,7 @@
       <optional>False</optional>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/coder.h</path>
+          <path>src/xz/coder.h</path>
           <start>
             <line>27</line>
             <column>5</column>
@@ -1719,7 +1719,7 @@
       <stepFunction>PercentCompr_val + 1</stepFunction>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/hardware.c</path>
+          <path>src/xz/hardware.c</path>
           <start>
             <line>21</line>
             <column>17</column>
@@ -1746,7 +1746,7 @@
       <stepFunction>Threads_val + 1</stepFunction>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/hardware.c</path>
+          <path>src/xz/hardware.c</path>
           <start>
             <line>18</line>
             <column>17</column>
@@ -1773,7 +1773,7 @@
       <stepFunction>BytesCompr_val + 1</stepFunction>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/hardware.c</path>
+          <path>src/xz/hardware.c</path>
           <start>
             <line>21</line>
             <column>17</column>
@@ -1814,7 +1814,7 @@
       <stepFunction>BytesDecompr_val + 1</stepFunction>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/hardware.c</path>
+          <path>src/xz/hardware.c</path>
           <start>
             <line>24</line>
             <column>17</column>
@@ -1841,7 +1841,7 @@
       <stepFunction>PercentDecompr_val + 1</stepFunction>
 	  <locations>
         <sourceRange>
-          <path>xz-mirror/xz/src/xz/hardware.c</path>
+          <path>src/xz/hardware.c</path>
           <start>
             <line>24</line>
             <column>17</column>
