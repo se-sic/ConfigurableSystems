@@ -78,6 +78,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/opus_demo.c</path>
+          <start>
+            <line>243</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>243</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>NB</name>
@@ -145,6 +158,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/opus_demo.c</path>
+          <start>
+            <line>220</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>220</line>
+            <column>19</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>lowest</name>
