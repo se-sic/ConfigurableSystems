@@ -37,5 +37,61 @@
       </locations>
     </configurationOption>
   </binaryOptions>
+  <numericOptions>
+    <!-- <configurationOption>
+      <name>NumIterations</name>
+      <outputString>NumIterations</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>2147483647</maxValue>
+      <stepFunction>NumIterations + 1</stepFunction>
+	    <locations>
+        <sourceRange>
+          <path>src/SimpleLoopedFeature/SLFmain.cpp</path>
+          <start>
+            <line>8</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>8</line>
+            <column>20</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption> -->
+    <configurationOption>
+      <name>SleepFor</name>
+      <outputString>SleepFor</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>2147483647</maxValue>
+      <stepFunction>SleepFor + 1</stepFunction>
+	    <locations>
+        <sourceRange>
+          <path>src/SimpleLoopedFeature/SLFmain.cpp</path>
+          <start>
+            <line>15</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>15</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </numericOptions>
 </vm>
 
