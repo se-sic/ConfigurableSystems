@@ -38,8 +38,9 @@
     </configurationOption>
   </binaryOptions>
   <numericOptions>
-    <!-- <configurationOption>
-      <name>NumIterations</name>
+    <!--SimpleSleepLoop-->
+    <configurationOption>
+      <name>SSL_NumIterations</name>
       <outputString>NumIterations</outputString>
       <prefix>
       </prefix>
@@ -50,10 +51,10 @@
       <excludedOptions />
       <minValue>0</minValue>
       <maxValue>2147483647</maxValue>
-      <stepFunction>NumIterations + 1</stepFunction>
-	    <locations>
+      <stepFunction>SSL_NumIterations + 1</stepFunction>
+      <locations>
         <sourceRange>
-          <path>src/SimpleLoopedFeature/SLFmain.cpp</path>
+          <path>src/SimpleSleepLoop/SSLmain.cpp</path>
           <start>
             <line>8</line>
             <column>8</column>
@@ -64,10 +65,11 @@
           </end>
         </sourceRange>
       </locations>
-    </configurationOption> -->
+    </configurationOption>
+    <!--SimpleBusyLoop-->
     <configurationOption>
-      <name>SleepFor</name>
-      <outputString>SleepFor</outputString>
+      <name>SBL_NumIterations</name>
+      <outputString>NumIterations</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -77,21 +79,20 @@
       <excludedOptions />
       <minValue>0</minValue>
       <maxValue>2147483647</maxValue>
-      <stepFunction>SleepFor + 1</stepFunction>
-	    <locations>
+      <stepFunction>SBL_NumIterations + 1</stepFunction>
+      <locations>
         <sourceRange>
-          <path>src/SimpleLoopedFeature/SLFmain.cpp</path>
+          <path>src/SimpleBusyLoop/SBLmain.cpp</path>
           <start>
-            <line>15</line>
+            <line>10</line>
             <column>8</column>
           </start>
           <end>
-            <line>15</line>
-            <column>15</column>
+            <line>10</line>
+            <column>20</column>
           </end>
         </sourceRange>
       </locations>
     </configurationOption>
   </numericOptions>
 </vm>
-
