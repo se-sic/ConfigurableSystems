@@ -56,11 +56,11 @@
         <sourceRange>
           <path>src/SimpleSleepLoop/SSLmain.cpp</path>
           <start>
-            <line>8</line>
+            <line>7</line>
             <column>8</column>
           </start>
           <end>
-            <line>8</line>
+            <line>7</line>
             <column>20</column>
           </end>
         </sourceRange>
@@ -84,11 +84,11 @@
         <sourceRange>
           <path>src/SimpleBusyLoop/SBLmain.cpp</path>
           <start>
-            <line>10</line>
+            <line>9</line>
             <column>8</column>
           </start>
           <end>
-            <line>10</line>
+            <line>9</line>
             <column>20</column>
           </end>
         </sourceRange>
