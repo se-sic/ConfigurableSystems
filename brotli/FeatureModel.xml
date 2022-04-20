@@ -166,35 +166,6 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>Force-Overwrite</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>root</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-      <locations>
-        <sourceRange category="necessary">
-          <path>c/tools/brotli.c</path>
-          <start>
-            <line>95</line>
-            <column>15</column>
-          </start>
-          <end>
-            <line>95</line>
-            <column>29</column>
-          </end>
-          <memberOffset>
-                Context::force_overwrite
-          </memberOffset>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
       <name>Copy-Src-Attributes</name>
       <outputString>
       </outputString>
