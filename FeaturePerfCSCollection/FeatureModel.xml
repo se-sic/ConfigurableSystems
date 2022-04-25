@@ -45,11 +45,11 @@
         <sourceRange category="necessary">
           <path>src/MultipleRegionsTypedef/MRTmain.cpp</path>
           <start>
-            <line>6</line>
+            <line>8</line>
             <column>6</column>
           </start>
           <end>
-            <line>6</line>
+            <line>8</line>
             <column>10</column>
           </end>
         </sourceRange>
@@ -63,11 +63,11 @@
         <sourceRange category="necessary">
           <path>src/MultipleRegionsTypedef/MRTmain.cpp</path>
           <start>
-            <line>7</line>
+            <line>9</line>
             <column>6</column>
           </start>
           <end>
-            <line>7</line>
+            <line>9</line>
             <column>10</column>
           </end>
         </sourceRange>
