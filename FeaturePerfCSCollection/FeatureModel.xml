@@ -36,40 +36,46 @@
         </sourceRange>
       </locations>
     </configurationOption>
-    <!--MultipleRegionsTypedef-->
+    <!--UnnamedStruct-->
     <configurationOption>
-      <name>MRT_Slow1</name>
+      <name>US_slow1</name>
       <parent>root</parent>
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
-          <path>src/MultipleRegionsTypedef/MRTmain.cpp</path>
+          <path>src/UnnamedStruct/USmain.cpp</path>
           <start>
-            <line>8</line>
-            <column>6</column>
+            <line>5</line>
+            <column>8</column>
           </start>
           <end>
-            <line>8</line>
-            <column>10</column>
+            <line>5</line>
+            <column>12</column>
           </end>
+          <memberOffset>
+            ::slow1
+          </memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>MRT_Slow2</name>
+      <name>US_slow2</name>
       <parent>root</parent>
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
-          <path>src/MultipleRegionsTypedef/MRTmain.cpp</path>
+          <path>src/UnnamedStruct/USmain.cpp</path>
           <start>
-            <line>9</line>
-            <column>6</column>
+            <line>6</line>
+            <column>8</column>
           </start>
           <end>
-            <line>9</line>
-            <column>10</column>
+            <line>6</line>
+            <column>12</column>
           </end>
+          <memberOffset>
+            ::slow2
+          </memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
