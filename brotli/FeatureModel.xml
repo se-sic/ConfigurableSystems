@@ -54,7 +54,7 @@
             <column>24</column>
           </end>
           <memberOffset>
-                Context::decompress
+            ::decompress
           </memberOffset>
         </sourceRange>
       </locations>
@@ -102,7 +102,7 @@
             <column>28</column>
           </end>
           <memberOffset>
-                Context::test_integrity
+            ::test_integrity
           </memberOffset>
         </sourceRange>
       </locations>
@@ -131,7 +131,7 @@
             <column>29</column>
           </end>
           <memberOffset>
-                Context::force_overwrite
+            ::force_overwrite
           </memberOffset>
         </sourceRange>
       </locations>
@@ -189,7 +189,7 @@
             <column>23</column>
           </end>
           <memberOffset>
-                Context::copy_stat
+            ::copy_stat
           </memberOffset>
         </sourceRange>
       </locations>
@@ -218,7 +218,7 @@
             <column>25</column>
           </end>
           <memberOffset>
-                Context::output_path
+            ::output_path
           </memberOffset>
         </sourceRange>
       </locations>
@@ -247,7 +247,7 @@
             <column>20</column>
           </end>
           <memberOffset>
-                Context::suffix
+            ::suffix
           </memberOffset>
         </sourceRange>
       </locations>
@@ -278,7 +278,7 @@
             <column>11</column>
           </end>
           <memberOffset>
-                Context::lgwin
+            ::lgwin
           </memberOffset>
         </sourceRange>
       </locations>
@@ -308,7 +308,7 @@
             <column>13</column>
           </end>
           <memberOffset>
-                Context::quality
+            ::quality
           </memberOffset>
         </sourceRange>
       </locations>
