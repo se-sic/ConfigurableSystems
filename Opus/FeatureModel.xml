@@ -69,6 +69,12 @@
     </configurationOption>
     <configurationOption>
       <name>cvbr</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
       <parent>root</parent>
       <impliedOptions />
       <excludedOptions />
