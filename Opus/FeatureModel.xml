@@ -26,6 +26,20 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/opus_encoder.c</path>
+          <start>
+            <line>100</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>100</line>
+            <column>21</column>
+          </end>
+          <memberOffset>OpusEncoder::mode</memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>audio</name>
@@ -52,19 +66,41 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>silk/control.h</path>
+          <start>
+            <line>75</line>
+            <column>14</column>
+          </start>
+          <end>
+            <line>75</line>
+            <column>23</column>
+          </end>
+          <memberOffset>silk_EncControlStruct::useCBR</memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>cvbr</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
       <parent>root</parent>
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/opus_encoder.c</path>
+          <start>
+            <line>80</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>80</line>
+            <column>24</column>
+          </end>
+          <memberOffset>OpusEncoder::use_vbr</memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>bandwidth</name>
@@ -80,15 +116,16 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_demo.c</path>
+          <path>src/opus_encoder.c</path>
           <start>
-            <line>243</line>
-            <column>9</column>
+            <line>104</line>
+            <column>18</column>
           </start>
           <end>
-            <line>243</line>
-            <column>18</column>
+            <line>104</line>
+            <column>26</column>
           </end>
+          <memberOffset>OpusEncoder::bandwidth</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -160,15 +197,16 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_demo.c</path>
+          <path>src/opus_encoder.c</path>
           <start>
-            <line>220</line>
-            <column>9</column>
+            <line>79</line>
+            <column>18</column>
           </start>
           <end>
-            <line>220</line>
+            <line>79</line>
             <column>19</column>
           </end>
+          <memberOffset>OpusEncoder::Fs</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -232,6 +270,20 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>silk/control.h</path>
+          <start>
+            <line>93</line>
+            <column>14</column>
+          </start>
+          <end>
+            <line>93</line>
+            <column>19</column>
+          </end>
+          <memberOffset>silk_EncControlStruc::toMono</memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>MB</name>
@@ -285,6 +337,20 @@
       <minValue>1</minValue>
       <maxValue>2</maxValue>
       <stepFunction>channels + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <path>src/opus_encoder.c</path>
+          <start>
+            <line>71</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>71</line>
+            <column>25</column>
+          </end>
+          <memberOffset>OpusEncoder::channels</memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>samplingRate</name>
@@ -300,6 +366,20 @@
       <minValue>8000</minValue>
       <maxValue>24000</maxValue>
       <stepFunction>samplingRate + 8000</stepFunction>
+      <locations>
+        <sourceRange>
+          <path>silk/control.h</path>
+          <start>
+            <line>102</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>102</line>
+            <column>33</column>
+          </end>
+          <memberOffset>silk_EncControlStruct::internalSampleRate</memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>bitRate</name>
@@ -315,6 +395,20 @@
       <minValue>6000</minValue>
       <maxValue>216000</maxValue>
       <stepFunction>bitRate * 6</stepFunction>
+      <locations>
+        <sourceRange>
+          <path>src/opus_encoder.c</path>
+          <start>
+            <line>83</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>83</line>
+            <column>28</column>
+          </end>
+          <memberOffset>OpusEncoder::bitrate_bps</memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>complexity</name>
@@ -330,6 +424,20 @@
       <minValue>0</minValue>
       <maxValue>10</maxValue>
       <stepFunction>complexity + 5</stepFunction>
+      <locations>
+        <sourceRange>
+          <path>silk/control.h</path>
+          <start>
+            <line>83</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>83</line>
+            <column>28</column>
+          </end>
+          <memberOffset>silk_EncControlStruct::complexity</memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
   </numericOptions>
   <booleanConstraints />
