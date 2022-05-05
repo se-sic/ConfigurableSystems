@@ -66,20 +66,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
-      <locations>
-        <sourceRange>
-          <path>silk/control.h</path>
-          <start>
-            <line>75</line>
-            <column>14</column>
-          </start>
-          <end>
-            <line>75</line>
-            <column>23</column>
-          </end>
-          <memberOffset>silk_EncControlStruct::useCBR</memberOffset>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>cvbr</name>
@@ -270,20 +256,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
-      <locations>
-        <sourceRange>
-          <path>silk/control.h</path>
-          <start>
-            <line>93</line>
-            <column>14</column>
-          </start>
-          <end>
-            <line>93</line>
-            <column>19</column>
-          </end>
-          <memberOffset>silk_EncControlStruc::toMono</memberOffset>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>MB</name>
@@ -366,20 +338,6 @@
       <minValue>8000</minValue>
       <maxValue>24000</maxValue>
       <stepFunction>samplingRate + 8000</stepFunction>
-      <locations>
-        <sourceRange>
-          <path>silk/control.h</path>
-          <start>
-            <line>102</line>
-            <column>16</column>
-          </start>
-          <end>
-            <line>102</line>
-            <column>33</column>
-          </end>
-          <memberOffset>silk_EncControlStruct::internalSampleRate</memberOffset>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>bitRate</name>
@@ -424,20 +382,6 @@
       <minValue>0</minValue>
       <maxValue>10</maxValue>
       <stepFunction>complexity + 5</stepFunction>
-      <locations>
-        <sourceRange>
-          <path>silk/control.h</path>
-          <start>
-            <line>83</line>
-            <column>18</column>
-          </start>
-          <end>
-            <line>83</line>
-            <column>28</column>
-          </end>
-          <memberOffset>silk_EncControlStruct::complexity</memberOffset>
-        </sourceRange>
-      </locations>
     </configurationOption>
   </numericOptions>
   <booleanConstraints />
