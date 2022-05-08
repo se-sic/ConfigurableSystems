@@ -370,7 +370,7 @@
       <stepFunction>level + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
-          <path>bzip2.c</path>
+          <path>gzip.c</path>
           <start>
             <line>184</line>
             <column>12</column>
