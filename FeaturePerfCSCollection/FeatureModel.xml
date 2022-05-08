@@ -36,6 +36,8 @@
         </sourceRange>
       </locations>
     </configurationOption>
+  </binaryOptions>
+  <numericOptions>
     <!--SimpleSleepLoop-->
     <configurationOption>
       <name>SSL_NumIterations</name>
