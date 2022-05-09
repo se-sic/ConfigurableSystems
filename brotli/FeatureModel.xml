@@ -160,7 +160,7 @@
             <column>25</column>
           </end>
           <memberOffset>
-                Context::junk_source
+                ::junk_source
           </memberOffset>
         </sourceRange>
       </locations>

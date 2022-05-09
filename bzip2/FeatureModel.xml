@@ -92,7 +92,7 @@
         <sourceRange category="necessary">
           <path>bzip2.c</path>
           <start>
-            <line>16</line>
+            <line>167</line>
             <column>25</column>
           </start>
           <end>
