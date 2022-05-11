@@ -1104,19 +1104,6 @@
         <options>File0</options>
       </excludedOptions>
       <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <path>src/xz/args.h</path>
-          <start>
-            <line>34</line>
-            <column>13</column>
-          </start>
-          <end>
-            <line>34</line>
-            <column>22</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>File0</name>
