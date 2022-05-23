@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vm SYSTEM "vm.dtd">
+<vm name="LZ4" root="root">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <parent></parent>
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <!--CompressionLevel-->
+    <configurationOption>
+      <name>compressionLevel</name>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>12</maxValue>
+      <stepFunction>compressionLevel + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+	  <path>lz4frame.h</path>
+          <start>
+            <line>194</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>194</line>
+            <column>28</column>
+          </end>
+	  <memberOffset>
+            ::compressionLevel
+	  </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </numericOptions>
+</vm>
