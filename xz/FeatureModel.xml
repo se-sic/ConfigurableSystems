@@ -1,3 +1,4 @@
+<!--Locations are based on commit 4773608554d1b684a05ff9c1d879cf5c42266d33-->
 <vm name="xz">
   <binaryOptions>
     <configurationOption>
@@ -646,19 +647,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
-      <locations>
-        <sourceRange>
-          <path>src/xz/hardware.c</path>
-          <start>
-            <line>25</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>25</line>
-            <column>33</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>BytesCompr</name>
@@ -945,19 +933,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
-      <locations>
-        <sourceRange>
-          <path>src/xz/hardware.c</path>
-          <start>
-            <line>28</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>28</line>
-            <column>35</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>MaxMemMTDecompr</name>
@@ -1912,19 +1887,6 @@
       <minValue>1</minValue>
       <maxValue>100</maxValue>
       <stepFunction>PercentCompr_val + 1</stepFunction>
-      <locations>
-        <sourceRange>
-          <path>src/xz/hardware.c</path>
-          <start>
-            <line>21</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>21</line>
-            <column>33</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>Threads_val</name>
@@ -1970,11 +1932,11 @@
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
-            <line>21</line>
+            <line>25</line>
             <column>17</column>
           </start>
           <end>
-            <line>21</line>
+            <line>25</line>
             <column>33</column>
           </end>
         </sourceRange>
@@ -2011,11 +1973,11 @@
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
-            <line>24</line>
+            <line>28</line>
             <column>17</column>
           </start>
           <end>
-            <line>24</line>
+            <line>28</line>
             <column>35</column>
           </end>
         </sourceRange>
@@ -2034,19 +1996,6 @@
       <minValue>1</minValue>
       <maxValue>100</maxValue>
       <stepFunction>PercentDecompr_val + 1</stepFunction>
-      <locations>
-        <sourceRange>
-          <path>src/xz/hardware.c</path>
-          <start>
-            <line>24</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>24</line>
-            <column>35</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>Size_val</name>
