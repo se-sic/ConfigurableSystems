@@ -594,6 +594,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.c</path>
+          <start>
+            <line>46</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>46</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Threads</name>
