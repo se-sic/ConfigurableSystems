@@ -42,7 +42,7 @@
       <excludedOptions />
       <optional>False</optional>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/coder.h</path>
           <start>
             <line>33</line>
@@ -72,7 +72,7 @@
       </excludedOptions>
       <optional>False</optional>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/coder.h</path>
           <start>
             <line>14</line>
@@ -755,7 +755,7 @@
       </excludedOptions>
       <optional>False</optional>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/coder.h</path>
           <start>
             <line>17</line>
@@ -795,7 +795,7 @@
       <excludedOptions />
       <optional>True</optional>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/coder.h</path>
           <start>
             <line>16</line>
@@ -868,7 +868,7 @@
       <excludedOptions />
       <optional>True</optional>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/coder.h</path>
           <start>
             <line>15</line>
@@ -1094,7 +1094,7 @@
       <excludedOptions />
       <optional>False</optional>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/coder.h</path>
           <start>
             <line>38</line>
@@ -1123,7 +1123,7 @@
       </excludedOptions>
       <optional>False</optional>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/coder.h</path>
           <start>
             <line>23</line>
@@ -1152,7 +1152,7 @@
       </excludedOptions>
       <optional>False</optional>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/coder.h</path>
           <start>
             <line>24</line>
@@ -1181,7 +1181,7 @@
       </excludedOptions>
       <optional>False</optional>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/coder.h</path>
           <start>
             <line>25</line>
@@ -1210,7 +1210,7 @@
       </excludedOptions>
       <optional>False</optional>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/coder.h</path>
           <start>
             <line>27</line>
@@ -1718,7 +1718,7 @@
       <maxValue>100</maxValue>
       <stepFunction>PercentCompr_val + 1</stepFunction>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/hardware.c</path>
           <start>
             <line>21</line>
@@ -1745,7 +1745,7 @@
       <maxValue>16384</maxValue>
       <stepFunction>Threads_val + 1</stepFunction>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/hardware.c</path>
           <start>
             <line>18</line>
@@ -1772,7 +1772,7 @@
       <maxValue>9223372036854775807</maxValue>
       <stepFunction>BytesCompr_val + 1</stepFunction>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/hardware.c</path>
           <start>
             <line>21</line>
@@ -1813,7 +1813,7 @@
       <maxValue>9223372036854775807</maxValue>
       <stepFunction>BytesDecompr_val + 1</stepFunction>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/hardware.c</path>
           <start>
             <line>24</line>
@@ -1840,7 +1840,7 @@
       <maxValue>100</maxValue>
       <stepFunction>PercentDecompr_val + 1</stepFunction>
 	  <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/xz/hardware.c</path>
           <start>
             <line>24</line>
