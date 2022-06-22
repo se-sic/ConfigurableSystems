@@ -137,6 +137,24 @@
         </sourceRange>
       </locations>
     </configurationOption>
+    <configurationOption>
+      <name>Recurse</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/SingleRecursiveFeature/SRFmain.cpp</path>
+          <start>
+            <line>17</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>17</line>
+            <column>24</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
   </binaryOptions>
   <numericOptions>
     <!--SimpleSleepLoop-->
