@@ -27,7 +27,7 @@
       <excludedOptions />
       <optional>False</optional>
       <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
@@ -80,7 +80,7 @@
       <excludedOptions />
       <optional>True</optional>
       <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
@@ -107,7 +107,7 @@
       <excludedOptions />
       <optional>False</optional>
       <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
@@ -188,7 +188,7 @@
       <excludedOptions />
       <optional>False</optional>
       <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
@@ -316,7 +316,7 @@
       <maxValue>2</maxValue>
       <stepFunction>channels + 1</stepFunction>
       <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
@@ -360,7 +360,7 @@
       <maxValue>216000</maxValue>
       <stepFunction>bitRate * 6</stepFunction>
       <locations>
-        <sourceRange>
+        <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
