@@ -191,12 +191,12 @@
         <sourceRange>
           <path>src/opus_encoder.c</path>
           <start>
-            <line>79</line>
-            <column>18</column>
+            <line>519</line>
+            <column>17</column>
           </start>
           <end>
-            <line>79</line>
-            <column>20</column>
+            <line>519</line>
+            <column>19</column>
           </end>
           <memberOffset>OpusEncoder::Fs</memberOffset>
         </sourceRange>
