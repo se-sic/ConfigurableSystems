@@ -24,18 +24,18 @@
       <stepFunction>compressionLevel + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
-	  <path>lz4frame.h</path>
+	<path>lz4frame.h</path>
           <start>
-            <line>194</line>
+            <line>195</line>
             <column>12</column>
           </start>
           <end>
-            <line>194</line>
-            <column>28</column>
+            <line>195</line>
+            <column>20</column>
           </end>
-	  <memberOffset>
-            ::compressionLevel
-	  </memberOffset>
+          <memberOffset>
+            ::autoFlush
+          </memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
