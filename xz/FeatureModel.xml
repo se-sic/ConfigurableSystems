@@ -1721,11 +1721,11 @@
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
-            <line>21</line>
+            <line>25</line>
             <column>17</column>
           </start>
           <end>
-            <line>21</line>
+            <line>25</line>
             <column>33</column>
           </end>
         </sourceRange>
@@ -1775,11 +1775,11 @@
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
-            <line>21</line>
+            <line>25</line>
             <column>17</column>
           </start>
           <end>
-            <line>21</line>
+            <line>25</line>
             <column>33</column>
           </end>
         </sourceRange>
@@ -1816,11 +1816,11 @@
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
-            <line>24</line>
+            <line>28</line>
             <column>17</column>
           </start>
           <end>
-            <line>24</line>
+            <line>28</line>
             <column>35</column>
           </end>
         </sourceRange>
@@ -1843,11 +1843,11 @@
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
-            <line>24</line>
+            <line>28</line>
             <column>17</column>
           </start>
           <end>
-            <line>24</line>
+            <line>28</line>
             <column>35</column>
           </end>
         </sourceRange>
