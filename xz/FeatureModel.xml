@@ -1887,6 +1887,19 @@
       <minValue>1</minValue>
       <maxValue>100</maxValue>
       <stepFunction>PercentCompr_val + 1</stepFunction>
+	  <locations>
+        <sourceRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>25</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>25</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Threads_val</name>
@@ -1996,6 +2009,19 @@
       <minValue>1</minValue>
       <maxValue>100</maxValue>
       <stepFunction>PercentDecompr_val + 1</stepFunction>
+	  <locations>
+        <sourceRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>28</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>28</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Size_val</name>

@@ -34,6 +34,125 @@
             <column>11</column>
           </end>
         </sourceRange>
+        <sourceRange category="necessary">
+          <path>src/MultiSharedMultipleRegions/MSMRmain.cpp</path>
+          <start>
+            <line>9</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>9</line>
+            <column>11</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Header</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/MultiSharedMultipleRegions/FeatureHeader.h</path>
+          <start>
+            <line>6</line>
+            <column>20</column>
+          </start>
+          <end>
+            <line>6</line>
+            <column>32</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Extern</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/MultiSharedMultipleRegions/FeatureHeader.h</path>
+          <start>
+            <line>4</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>4</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Cpp</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/MultiSharedMultipleRegions/FeatureHeader.cpp</path>
+          <start>
+            <line>5</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>5</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Encryption</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/SimpleFeatureInteraction/SFImain.cpp</path>
+          <start>
+            <line>38</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>38</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Compression</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/SimpleFeatureInteraction/SFImain.cpp</path>
+          <start>
+            <line>39</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>39</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Recurse</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/SingleRecursiveFeature/SRFmain.cpp</path>
+          <start>
+            <line>17</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>17</line>
+            <column>24</column>
+          </end>
+        </sourceRange>
       </locations>
     </configurationOption>
   </binaryOptions>
