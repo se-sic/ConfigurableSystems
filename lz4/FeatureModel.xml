@@ -24,6 +24,63 @@
       <stepFunction>compressionLevel + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <path>lz4frame.h</path>
+          <start>
+            <line>194</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>194</line>
+            <column>27</column>
+          </end>
+          <memberOffset>
+            ::compressionLevel
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <!--Legacy Format-->
+    <configurationOption>
+      <name>legacyFormat</name>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>1</maxValue>
+      <stepFunction>legacyFormat + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>lz4cli.c</path>
+          <start>
+            <line>315</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>315</line>
+            <column>21</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <!--Autoflush-->
+    <configurationOption>
+      <name>autoflush</name>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>1</maxValue>
+      <stepFunction>autoflush + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
 	<path>lz4frame.h</path>
           <start>
             <line>195</line>
@@ -35,6 +92,216 @@
           </end>
           <memberOffset>
             ::autoFlush
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <!--Remove Source File-->
+    <configurationOption>
+      <name>removeSrcFile</name>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>1</maxValue>
+      <stepFunction>removeSrcFile + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>lz4io.c</path>
+          <start>
+            <line>127</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>127</line>
+            <column>21</column>
+          </end>
+          <memberOffset>
+            ::removeSrcFile
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <!--Block Checksum-->
+    <configurationOption>
+      <name>blockChecksumMode</name>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>1</maxValue>
+      <stepFunction>blockChecksumMode + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>lz4io.c</path>
+          <start>
+            <line>119</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>119</line>
+            <column>21</column>
+          </end>
+          <memberOffset>
+            ::blockChecksum
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <!--Block Independence-->
+    <configurationOption>
+      <name>blockIndependence</name>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>1</maxValue>
+      <stepFunction>blockIndependence + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>lz4io.c</path>
+          <start>
+            <line>121</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>121</line>
+            <column>25</column>
+          </end>
+          <memberOffset>
+            ::blockIndependence
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <!--Stream Checksum-->
+    <configurationOption>
+      <name>streamChecksum</name>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>1</maxValue>
+      <stepFunction>streamChecksum + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>lz4io.c</path>
+          <start>
+            <line>120</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>120</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::streamChecksum
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <!--Content Size-->
+    <configurationOption>
+      <name>contentSizeFlag</name>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>1</maxValue>
+      <stepFunction>contentSizeFlag + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>lz4io.c</path>
+          <start>
+            <line>123</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>123</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::contentSizeFlag
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <!--Sparse File Mode-->
+    <configurationOption>
+      <name>sparseFileSupport</name>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>2</maxValue>
+      <stepFunction>sparseFileSupport + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>lz4io.c</path>
+          <start>
+            <line>122</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>123</line>
+            <column>25</column>
+          </end>
+          <memberOffset>
+            ::sparseFileSupport
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <!--Favor Dec Speed-->
+    <configurationOption>
+      <name>favorDecSpeed</name>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>1</maxValue>
+      <stepFunction>favorDecSpeed + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>lz4io.c</path>
+          <start>
+            <line>125</line>
+            <column>14</column>
+          </start>
+          <end>
+            <line>125</line>
+            <column>26</column>
+          </end>
+          <memberOffset>
+            ::favorDecSpeed
           </memberOffset>
         </sourceRange>
       </locations>
