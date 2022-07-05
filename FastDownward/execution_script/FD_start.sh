@@ -54,7 +54,7 @@ em_has_option zhuGivanLM && params="${params}lm_zg("
     em_has_option landmarkCount && ! em_has_option resonableOrders && params="${params}reasonable_orders=false,"
     em_has_option onlyCausalLMs && params="${params}only_causal_landmarks=true,"
     em_has_option landmarkCount && ! em_has_option onlyCausalLMs && params="${params}only_causal_landmarks=false,"
-    em_has_option disjunctiveLMs && params="${params}disjunctive_landmarks=true," # this feature didn't work before results5 because of a typo in the feature model... remeasure?
+    em_has_option disjunctiveLMs && params="${params}disjunctive_landmarks=true,"
     em_has_option landmarkCount && ! em_has_option disjunctiveLMs && params="${params}disjunctive_landmarks=false,"
     em_has_option conjunctiveLMs && params="${params}conjunctive_landmarks=true,"
     em_has_option landmarkCount && ! em_has_option conjunctiveLMs && params="${params}conjunctive_landmarks=false,"
