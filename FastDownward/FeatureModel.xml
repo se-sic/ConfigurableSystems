@@ -1,0 +1,687 @@
+<vm name="FeatureModel_red">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>heuristics</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>mergeAndShrink</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>heuristics</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>blind</options>
+        <options>max</options>
+        <options>landmarkCut</options>
+        <options>landmarkCount</options>
+        <options>iPDB</options>
+        <options>canonicalPDB</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>blind</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>heuristics</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>mergeAndShrink</options>
+        <options>max</options>
+        <options>landmarkCut</options>
+        <options>landmarkCount</options>
+        <options>iPDB</options>
+        <options>canonicalPDB</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>max</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>heuristics</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>mergeAndShrink</options>
+        <options>blind</options>
+        <options>landmarkCut</options>
+        <options>landmarkCount</options>
+        <options>iPDB</options>
+        <options>canonicalPDB</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>iPDB</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>heuristics</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>mergeAndShrink</options>
+        <options>blind</options>
+        <options>max</options>
+        <options>landmarkCut</options>
+        <options>landmarkCount</options>
+        <options>canonicalPDB</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>noiPDB</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>canonicalPDB</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>heuristics</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>mergeAndShrink</options>
+        <options>blind</options>
+        <options>max</options>
+        <options>landmarkCut</options>
+        <options>landmarkCount</options>
+        <options>iPDB</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>labelReduction</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>mergeAndShrink</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>exactGeneralizedLR</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>labelReduction</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>shrinkStrat</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>mergeAndShrink</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>bisimulation</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>shrinkStrat</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>fPreserving</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>fPreserving</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>shrinkStrat</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>bisimulation</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>mergeStrat</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>mergeAndShrink</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>merge_precompute</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>mergeStrat</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>merge_tree</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>merge_precompute</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>linear</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>merge_tree</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>landmarkCut</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>heuristics</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>canonicalPDB</options>
+        <options>mergeAndShrink</options>
+        <options>blind</options>
+        <options>max</options>
+        <options>landmarkCount</options>
+        <options>iPDB</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>landmarkCount</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>heuristics</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>canonicalPDB</options>
+        <options>mergeAndShrink</options>
+        <options>blind</options>
+        <options>max</options>
+        <options>landmarkCut</options>
+        <options>iPDB</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>landmarkFactory</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>landmarkCount</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>landmarkFactoryArguments</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>landmarkCount</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>exhaustiveLM</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>landmarkFactory</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>hmLM</options>
+        <options>RHWLM</options>
+        <options>zhuGivanLM</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>hmLM</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>landmarkFactory</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>exhaustiveLM</options>
+        <options>RHWLM</options>
+        <options>zhuGivanLM</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>RHWLM</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>landmarkFactory</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>exhaustiveLM</options>
+        <options>hmLM</options>
+        <options>zhuGivanLM</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>zhuGivanLM</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>landmarkFactory</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>exhaustiveLM</options>
+        <options>hmLM</options>
+        <options>RHWLM</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>resonableOrders</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>landmarkFactoryArguments</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>onlyCausalLMs</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>landmarkFactoryArguments</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>disjunctiveLMs</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>landmarkFactoryArguments</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>conjunctiveLMs</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>landmarkFactoryArguments</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>noOrders</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>landmarkFactoryArguments</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>maxTime</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>iPDB</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>maxTimeDomPruning</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>iPDB</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>beforeShrinking</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>exactGeneralizedLR</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>beforeMerging</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>exactGeneralizedLR</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>method</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>exactGeneralizedLR</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>allSystems</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>method</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>twoSystems</options>
+        <options>allSystemsWithFixpoint</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>twoSystems</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>method</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>allSystems</options>
+        <options>allSystemsWithFixpoint</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>allSystemsWithFixpoint</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>method</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>allSystems</options>
+        <options>twoSystems</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>pdbMaxSize</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>iPDB</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>100000</minValue>
+      <maxValue>10000000</maxValue>
+      <values>100000;2000000;10000000</values>
+    </configurationOption>
+    <configurationOption>
+      <name>m</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>hmLM</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>2</minValue>
+      <maxValue>2</maxValue>
+      <stepFunction>m + 1</stepFunction>
+    </configurationOption>
+    <configurationOption>
+      <name>collectionMaxSize</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>iPDB</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>10000</minValue>
+      <maxValue>10000000</maxValue>
+      <values>10000;200000;10000000</values>
+    </configurationOption>
+    <configurationOption>
+      <name>numSamples</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>iPDB</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>100</minValue>
+      <maxValue>10000</maxValue>
+      <values>100;1000;10000</values>
+    </configurationOption>
+    <configurationOption>
+      <name>minImprovement</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>iPDB</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>15</maxValue>
+      <values>1;10;15</values>
+    </configurationOption>
+    <configurationOption>
+      <name>random</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>1337</maxValue>
+      <values>1;42;1337</values>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints>
+    <constraint>iPDB | noiPDB</constraint>
+    <constraint>!iPDB | !noiPDB</constraint>
+    <constraint>beforeShrinking | beforeMerging</constraint>
+  </booleanConstraints>
+  <nonBooleanConstraints />
+  <mixedConstraints>
+    <constraint req="all" exprKind="pos"> noiPDB * minImprovement = 1</constraint>
+    <constraint req="all" exprKind="pos"> noiPDB * numSamples = 100</constraint>
+    <constraint req="all" exprKind="pos"> noiPDB * collectionMaxSize = 10000</constraint>
+    <constraint req="all" exprKind="pos"> noiPDB * pdbMaxSize = 100000</constraint>
+    <constraint req="all" exprKind="pos"> bisimulation * random = 1</constraint>
+    <constraint req="all" exprKind="pos"> blind * random = 1</constraint>
+    <constraint req="all" exprKind="pos"> max * random = 1</constraint>
+    <constraint req="all" exprKind="pos"> canonicalPDB * random = 1</constraint>
+    <constraint req="all" exprKind="pos"> landmarkCount * random = 1</constraint>
+    <constraint req="all" exprKind="pos"> landmarkCut * random = 1</constraint>
+  </mixedConstraints>
+</vm>
