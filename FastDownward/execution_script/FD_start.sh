@@ -5,9 +5,6 @@
 # 1. performance
 # 2. energy
 # 3. size of the compressed file
-#OUTPUT_DIR="/scratch/$USER/FastDownward/results6/output_${SLURM_ARRAY_TASK_ID}"
-#mkdir -p $OUTPUT_DIR
-#OUTPUT_FILE="${OUTPUT_DIR}/output.log"
 
 
 #add params
@@ -19,8 +16,6 @@ Releases_merge_linear=("2016_01" "2016_07")
 params="astar("
 em_has_option blind && params="${params}blind()"
 
-#em_has_option max && [[ "$(em_option revisions)" = "2020_06" ]] && params="${params}max()"
-#em_has_option max && [[ "$(em_option revisions)" != "2020_06" ]] && params="${params}hmax()" 
 em_has_option max && params="${params}hmax()" 
 
 
@@ -126,49 +121,28 @@ command=(/usr/bin/time -o "${temp_dir}/${input_task_source}_times.txt" -f "%U %M
 command+=("${input}/${input_domain_source}" "${input}/${input_task_source}" --search "${params[@]}" )
 
 
-#echo ${command[@]} >> ~/output.log
 # STEP 1: SEARCH
 em_begin_step search
 # use the binary /usr/bin/time instead of the shell builtin time
-# "${command[@]}"  > /dev/null 2>&1
-
-# ${temp_dir}/output.log
 pushd .
 cd ${temp_dir}
-#echo "${command[@]}" >> $OUTPUT_FILE 2>&1
 "${command[@]}" > ${temp_dir}/output.log 2>&1
-#"${command[@]}" >> ${OUTPUT_DIR}/output.log 2>&1
-#"${command[@]}" >> /scratch/$USER/FastDownward/results_random_5/output.log 2>&1
-#"${command[@]}" >> /scratch/$USER/FastDownward/results_random_debug_all/${SLURM_JOB_NODELIST}_output.log 2>&1
-#"${command[@]}" >> /scratch/$USER/FastDownward/results_unsuc/${SLURM_ARRAY_TASK_ID}_output.log 2>&1
-#/usr/bin/time -o "${temp_dir}/${input_task_source}_times.txt" -f "%U %M" "sleep 2"
-#sleep 3
 popd
 em_end_step search
 
-#time_output=$(cat "${OUTPUT_DIR}/${input_task_source}_times.txt")
 time_output=$(cat "${temp_dir}/${input_task_source}_times.txt")
 # Convert it to an array for further use
 time_output=(${time_output})
 
 # Get the needed time
 time=${time_output[0]}
-#time="1"
 
 # Get the needed memory
 memory=${time_output[1]}
-#memory="10"
 
-##echo "Time: $time; Memory: $memory" >> $OUTPUT_FILE;
-##echo "python3 /scratch/$USER/FastDownward/read_log.py  ${OUTPUT_DIR}/output.log" >> $OUTPUT_FILE 2>&1;
-#(cat ${temp_dir}/output.log >> $OUTPUT_FILE)
-#internal_output=$(python3 /scratch/$USER/FastDownward/read_log.py  ${OUTPUT_DIR}/output.log)
 internal_output=$(python3 /scratch/$USER/FastDownward/read_log.py  ${temp_dir}/output.log)
-#internal_output=$(python3 /scratch/$USER/FastDownward/read_log.py /scratch/$USER/FastDownward/results_random_5/output.log)
-#internal_output=$(python3 /scratch/${USER}/FastDownward/read_log.py /scratch/${USER}/FastDownward/results_unsuc/${SLURM_ARRAY_TASK_ID}_output.log)
 IFS=";"
 read -a internal_arr <<< $internal_output
-##echo "Internal time: ${internal_arr[0]}; Internal memory: ${internal_arr[1]}" >> $OUTPUT_FILE;
 
 # Pass the values of the NFPs into the stat command
 
