@@ -51,7 +51,7 @@
           </start>
           <end>
             <line>1127</line>
-            <column>18</column>
+            <column>17</column>
           </end>
           <memberOffset>
             ::decompress
@@ -99,7 +99,7 @@
           </start>
           <end>
             <line>1127</line>
-            <column>18</column>
+            <column>17</column>
           </end>
           <memberOffset>
             ::test_integrity
@@ -128,7 +128,7 @@
           </start>
           <end>
             <line>1127</line>
-            <column>18</column>
+            <column>17</column>
           </end>
           <memberOffset>
             ::force_overwrite
@@ -157,7 +157,7 @@
           </start>
           <end>
             <line>1127</line>
-            <column>18</column>
+            <column>17</column>
           </end>
           <memberOffset>
                 ::junk_source
@@ -186,7 +186,7 @@
           </start>
           <end>
             <line>1127</line>
-            <column>18</column>
+            <column>17</column>
           </end>
           <memberOffset>
             ::copy_stat
@@ -215,7 +215,7 @@
           </start>
           <end>
             <line>1127</line>
-            <column>18</column>
+            <column>17</column>
           </end>
           <memberOffset>
             ::output_path
@@ -244,7 +244,7 @@
           </start>
           <end>
             <line>1127</line>
-            <column>18</column>
+            <column>17</column>
           </end>
           <memberOffset>
             ::suffix
@@ -275,7 +275,7 @@
           </start>
           <end>
             <line>1127</line>
-            <column>18</column>
+            <column>17</column>
           </end>
           <memberOffset>
             ::lgwin
@@ -305,7 +305,7 @@
           </start>
           <end>
             <line>1127</line>
-            <column>18</column>
+            <column>17</column>
           </end>
           <memberOffset>
             ::quality
