@@ -1,3 +1,4 @@
+<!--Locations are based on commit 4773608554d1b684a05ff9c1d879cf5c42266d33-->
 <vm name="xz">
   <binaryOptions>
     <configurationOption>
@@ -41,7 +42,7 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -71,7 +72,7 @@
         <options>InfoTestDecompr</options>
       </excludedOptions>
       <optional>False</optional>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -97,6 +98,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.c</path>
+          <start>
+            <line>36</line>
+            <column>20</column>
+          </start>
+          <end>
+            <line>36</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>LZMA</name>
@@ -594,19 +608,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <path>src/xz/coder.c</path>
-          <start>
-            <line>46</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>46</line>
-            <column>29</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>Threads</name>
@@ -701,6 +702,19 @@
         <options>List</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.h</path>
+          <start>
+            <line>49</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>49</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>List</name>
@@ -715,6 +729,19 @@
         <options>Size</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.h</path>
+          <start>
+            <line>53</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>53</line>
+            <column>31</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>XtrmCPU</name>
@@ -767,7 +794,7 @@
         <options>TestDecompr</options>
       </excludedOptions>
       <optional>False</optional>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -807,7 +834,7 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -880,7 +907,7 @@
       </impliedOptions>
       <excludedOptions />
       <optional>True</optional>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -906,6 +933,32 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MaxMemMTDecompr</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Memory</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>51</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>51</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>BytesDecompr</name>
@@ -946,6 +999,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.h</path>
+          <start>
+            <line>45</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>45</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>NoSparse</name>
@@ -1055,6 +1121,19 @@
         <options>OverwriteIn</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/args.h</path>
+          <start>
+            <line>36</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>36</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Stdout</name>
@@ -1067,6 +1146,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/args.h</path>
+          <start>
+            <line>34</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>34</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>OverwriteIn</name>
@@ -1093,6 +1185,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/args.h</path>
+          <start>
+            <line>35</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>35</line>
+            <column>21</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Format</name>
@@ -1106,7 +1211,7 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -1135,7 +1240,7 @@
         <options>raw</options>
       </excludedOptions>
       <optional>False</optional>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -1164,7 +1269,7 @@
         <options>raw</options>
       </excludedOptions>
       <optional>False</optional>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -1193,7 +1298,7 @@
         <options>raw</options>
       </excludedOptions>
       <optional>False</optional>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -1222,7 +1327,7 @@
         <options>lzma</options>
       </excludedOptions>
       <optional>False</optional>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -1247,6 +1352,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/suffix.c</path>
+          <start>
+            <line>25</line>
+            <column>14</column>
+          </start>
+          <end>
+            <line>25</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Robot</name>
@@ -1271,6 +1389,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/message.c</path>
+          <start>
+            <line>25</line>
+            <column>31</column>
+          </start>
+          <end>
+            <line>25</line>
+            <column>39</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>VerbosityXL</name>
@@ -1331,6 +1462,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/main.c</path>
+          <start>
+            <line>27</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>27</line>
+            <column>19</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>MemInfo</name>
@@ -1618,6 +1762,19 @@
       <minValue>0</minValue>
       <maxValue>9</maxValue>
       <stepFunction>Preset_val + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.c</path>
+          <start>
+            <line>46</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>46</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>lc_val</name>
@@ -1757,7 +1914,7 @@
       <minValue>1</minValue>
       <maxValue>16384</maxValue>
       <stepFunction>Threads_val + 1</stepFunction>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
@@ -1784,7 +1941,7 @@
       <minValue>1</minValue>
       <maxValue>9223372036854775807</maxValue>
       <stepFunction>BytesCompr_val + 1</stepFunction>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
@@ -1825,7 +1982,7 @@
       <minValue>1</minValue>
       <maxValue>9223372036854775807</maxValue>
       <stepFunction>BytesDecompr_val + 1</stepFunction>
-	  <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
