@@ -933,6 +933,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.h</path>
+          <start>
+            <line>45</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>45</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>NoSparse</name>
@@ -1042,6 +1055,19 @@
         <options>OverwriteIn</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/args.h</path>
+          <start>
+            <line>36</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>36</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Stdout</name>
@@ -1054,6 +1080,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/args.h</path>
+          <start>
+            <line>34</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>34</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>OverwriteIn</name>
@@ -1080,6 +1119,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/args.h</path>
+          <start>
+            <line>35</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>35</line>
+            <column>21</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Format</name>
@@ -1103,6 +1155,17 @@
           <end>
             <line>38</line>
             <column>34</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <path>src/xz/coder.c</path>
+          <start>
+            <line>530</line>
+            <column>26</column>
+          </start>
+          <end>
+            <line>530</line>
+            <column>36</column>
           </end>
         </sourceRange>
       </locations>
@@ -1234,6 +1297,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/suffix.c</path>
+          <start>
+            <line>25</line>
+            <column>14</column>
+          </start>
+          <end>
+            <line>25</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Robot</name>
@@ -1246,6 +1322,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/args.h</path>
+          <start>
+            <line>38</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>38</line>
+            <column>21</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Verbosity</name>
@@ -1257,43 +1346,170 @@
       <parent>App</parent>
       <impliedOptions />
       <excludedOptions />
-      <optional>True</optional>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/message.c</path>
+          <start>
+            <line>25</line>
+            <column>31</column>
+          </start>
+          <end>
+            <line>25</line>
+            <column>39</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
-      <name>VerbosityXL</name>
-      <outputString>VerbosityXL</outputString>
+      <name>Debug</name>
+      <outputString>Debug</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>Verbosity</parent>
       <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
+      <excludedOptions>
+        <options>Verbose</options>
+        <options>Warning</options>
+        <options>Error</options>
+        <options>Silent</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/message.h</path>
+          <start>
+            <line>19</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>19</line>
+            <column>11</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
-      <name>QuietWarn</name>
-      <outputString>QuietWarn</outputString>
+      <name>Verbose</name>
+      <outputString>Verbose</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>App</parent>
+      <parent>Verbosity</parent>
       <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
+      <excludedOptions>
+        <options>Debug</options>
+        <options>Warning</options>
+        <options>Error</options>
+        <options>Silent</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/message.h</path>
+          <start>
+            <line>18</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>18</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
-      <name>QuietErr</name>
-      <outputString>QuietErr</outputString>
+      <name>Warning</name>
+      <outputString>Warning</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>QuietWarn</parent>
+      <parent>Verbosity</parent>
       <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
+      <excludedOptions>
+        <options>Debug</options>
+        <options>Verbose</options>
+        <options>Error</options>
+        <options>Silent</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/message.h</path>
+          <start>
+            <line>17</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>17</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Error</name>
+      <outputString>Error</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Verbosity</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Debug</options>
+        <options>Verbose</options>
+        <options>Warning</options>
+        <options>Silent</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/message.h</path>
+          <start>
+            <line>16</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>16</line>
+            <column>11</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Silent</name>
+      <outputString>Silent</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Verbosity</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Debug</options>
+        <options>Verbose</options>
+        <options>Warning</options>
+        <options>Error</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/message.h</path>
+          <start>
+            <line>15</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>15</line>
+            <column>12</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>NoAdjust</name>
@@ -1306,6 +1522,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.h</path>
+          <start>
+            <line>42</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>42</line>
+            <column>27</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>NoWarn</name>
@@ -1795,9 +2024,22 @@
       <parent>FlushTO</parent>
       <impliedOptions />
       <excludedOptions />
-      <minValue>1</minValue>
+      <minValue>0</minValue>
       <maxValue>9223372036854775807</maxValue>
       <stepFunction>FlushTO_val + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <path>src/xz/mytime.h</path>
+          <start>
+            <line>21</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>21</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>BytesDecompr_val</name>
@@ -1863,7 +2105,7 @@
       <parent>Size</parent>
       <impliedOptions />
       <excludedOptions />
-      <minValue>1</minValue>
+      <minValue>0</minValue>
       <maxValue>9223372036854775807</maxValue>
       <stepFunction>Size_val + 1</stepFunction>
     </configurationOption>
@@ -1925,8 +2167,8 @@
     <constraint req="all" exprKind="pos"> NoThreads * Threads_val = 1</constraint>
     <constraint req="all" exprKind="pos"> NoBytesCompr * BytesCompr_val = 1</constraint>
     <constraint req="all" exprKind="pos"> NoPercentCompr * PercentCompr_val = 1</constraint>
-    <constraint req="all" exprKind="pos"> NoSize * Size_val = 1</constraint>
-    <constraint req="all" exprKind="pos"> NoFlushTO * FlushTO_val = 1</constraint>
+    <constraint req="none" exprKind="pos"> (!NoSize * Size_val != 0) | (NoSize * Size_val = 0)</constraint>
+    <constraint req="none" exprKind="pos"> (!NoFlushTO * FlushTO_val != 0) | (NoFlushTO * FlushTO_val = 0)</constraint>
     <constraint req="all" exprKind="pos"> NoBytesDecompr * BytesDecompr_val = 1</constraint>
     <constraint req="all" exprKind="pos"> NoPercentDecompr * PercentDecompr_val = 1</constraint>
   </mixedConstraints>
