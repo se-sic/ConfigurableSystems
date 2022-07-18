@@ -17,6 +17,7 @@
     <configurationOption>
       <name>mode</name>
       <outputString>
+      mode
       </outputString>
       <prefix>
       </prefix>
@@ -37,7 +38,7 @@
             <line>519</line>
             <column>19</column>
           </end>
-          <memberOffset>OpusEncoder::mode</memberOffset>
+          <memberOffset>::mode</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -57,6 +58,7 @@
     <configurationOption>
       <name>cbr</name>
       <outputString>
+      cbr
       </outputString>
       <prefix>
       </prefix>
@@ -70,6 +72,7 @@
     <configurationOption>
       <name>cvbr</name>
       <outputString>
+      cvbr
       </outputString>
       <prefix>
       </prefix>
@@ -90,13 +93,14 @@
             <line>519</line>
             <column>19</column>
           </end>
-          <memberOffset>OpusEncoder::use_vbr</memberOffset>
+          <memberOffset>::use_vbr</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
       <name>bandwidth</name>
       <outputString>
+      bandwidth
       </outputString>
       <prefix>
       </prefix>
@@ -117,7 +121,7 @@
             <line>519</line>
             <column>19</column>
           </end>
-          <memberOffset>OpusEncoder::bandwidth</memberOffset>
+          <memberOffset>::bandwidth</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -178,6 +182,7 @@
     <configurationOption>
       <name>frameSize</name>
       <outputString>
+      frameSize
       </outputString>
       <prefix>
       </prefix>
@@ -198,7 +203,7 @@
             <line>519</line>
             <column>19</column>
           </end>
-          <memberOffset>OpusEncoder::Fs</memberOffset>
+          <memberOffset>::Fs</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -304,6 +309,7 @@
     <configurationOption>
       <name>channels</name>
       <outputString>
+      channels
       </outputString>
       <prefix>
       </prefix>
@@ -326,7 +332,7 @@
             <line>519</line>
             <column>19</column>
           </end>
-          <memberOffset>OpusEncoder::channels</memberOffset>
+          <memberOffset>::channels</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -348,6 +354,7 @@
     <configurationOption>
       <name>bitRate</name>
       <outputString>
+      bitRate
       </outputString>
       <prefix>
       </prefix>
@@ -370,7 +377,7 @@
             <line>519</line>
             <column>19</column>
           </end>
-          <memberOffset>OpusEncoder::bitrate_bps</memberOffset>
+          <memberOffset>::bitrate_bps</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -388,20 +395,6 @@
       <minValue>0</minValue>
       <maxValue>10</maxValue>
       <stepFunction>complexity + 5</stepFunction>
-      <locations>
-        <sourceRange>
-          <path>src/opus_encoder.c</path>
-          <start>
-            <line>519</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>519</line>
-            <column>19</column>
-          </end>
-          <memberOffset>OpusEncoder::silk_mode::bitrate_bps</memberOffset>
-        </sourceRange>
-      </locations>
     </configurationOption>
   </numericOptions>
   <booleanConstraints />
