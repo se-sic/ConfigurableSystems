@@ -1,3 +1,4 @@
+<!--Locations are based on commit 4773608554d1b684a05ff9c1d879cf5c42266d33-->
 <vm name="xz">
   <binaryOptions>
     <configurationOption>
@@ -97,6 +98,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.c</path>
+          <start>
+            <line>36</line>
+            <column>20</column>
+          </start>
+          <end>
+            <line>36</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>LZMA</name>
@@ -688,6 +702,19 @@
         <options>List</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.h</path>
+          <start>
+            <line>49</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>49</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>List</name>
@@ -893,6 +920,32 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>MaxMemMTDecompr</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Memory</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>51</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>51</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>BytesDecompr</name>
@@ -1547,6 +1600,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/xz/main.c</path>
+          <start>
+            <line>27</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>27</line>
+            <column>19</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>MemInfo</name>
@@ -1834,6 +1900,19 @@
       <minValue>0</minValue>
       <maxValue>9</maxValue>
       <stepFunction>Preset_val + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.c</path>
+          <start>
+            <line>46</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>46</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>lc_val</name>
