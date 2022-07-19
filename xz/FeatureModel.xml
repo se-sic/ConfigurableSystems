@@ -42,7 +42,7 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -72,7 +72,7 @@
         <options>InfoTestDecompr</options>
       </excludedOptions>
       <optional>False</optional>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -781,7 +781,7 @@
         <options>TestDecompr</options>
       </excludedOptions>
       <optional>False</optional>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -821,7 +821,7 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -894,7 +894,7 @@
       </impliedOptions>
       <excludedOptions />
       <optional>True</optional>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -1198,7 +1198,7 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -1238,7 +1238,7 @@
         <options>raw</options>
       </excludedOptions>
       <optional>False</optional>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -1267,7 +1267,7 @@
         <options>raw</options>
       </excludedOptions>
       <optional>False</optional>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -1296,7 +1296,7 @@
         <options>raw</options>
       </excludedOptions>
       <optional>False</optional>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -1325,7 +1325,7 @@
         <options>lzma</options>
       </excludedOptions>
       <optional>False</optional>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/coder.h</path>
           <start>
@@ -2025,7 +2025,7 @@
       <minValue>1</minValue>
       <maxValue>100</maxValue>
       <stepFunction>PercentCompr_val + 1</stepFunction>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
@@ -2052,7 +2052,7 @@
       <minValue>1</minValue>
       <maxValue>16384</maxValue>
       <stepFunction>Threads_val + 1</stepFunction>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
@@ -2079,7 +2079,7 @@
       <minValue>1</minValue>
       <maxValue>9223372036854775807</maxValue>
       <stepFunction>BytesCompr_val + 1</stepFunction>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
@@ -2133,7 +2133,7 @@
       <minValue>1</minValue>
       <maxValue>9223372036854775807</maxValue>
       <stepFunction>BytesDecompr_val + 1</stepFunction>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
@@ -2160,7 +2160,7 @@
       <minValue>1</minValue>
       <maxValue>100</maxValue>
       <stepFunction>PercentDecompr_val + 1</stepFunction>
-    <locations>
+      <locations>
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
