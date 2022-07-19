@@ -1887,7 +1887,7 @@
       <minValue>1</minValue>
       <maxValue>100</maxValue>
       <stepFunction>PercentCompr_val + 1</stepFunction>
-	  <locations>
+    <locations>
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
@@ -2009,7 +2009,7 @@
       <minValue>1</minValue>
       <maxValue>100</maxValue>
       <stepFunction>PercentDecompr_val + 1</stepFunction>
-	  <locations>
+    <locations>
         <sourceRange>
           <path>src/xz/hardware.c</path>
           <start>
