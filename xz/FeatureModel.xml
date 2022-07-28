@@ -702,19 +702,6 @@
         <options>List</options>
       </excludedOptions>
       <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <path>src/xz/coder.h</path>
-          <start>
-            <line>49</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>49</line>
-            <column>30</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>List</name>
@@ -2187,6 +2174,19 @@
       <minValue>0</minValue>
       <maxValue>9223372036854775807</maxValue>
       <stepFunction>Size_val + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <path>src/xz/coder.h</path>
+          <start>
+            <line>49</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>49</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
   </numericOptions>
   <booleanConstraints>
@@ -2246,8 +2246,10 @@
     <constraint req="all" exprKind="pos"> NoThreads * Threads_val = 1</constraint>
     <constraint req="all" exprKind="pos"> NoBytesCompr * BytesCompr_val = 1</constraint>
     <constraint req="all" exprKind="pos"> NoPercentCompr * PercentCompr_val = 1</constraint>
-    <constraint req="none" exprKind="pos"> (!NoSize * Size_val != 0) | (NoSize * Size_val = 0)</constraint>
-    <constraint req="none" exprKind="pos"> (!NoFlushTO * FlushTO_val != 0) | (NoFlushTO * FlushTO_val = 0)</constraint>
+    <constraint req="all" exprKind="pos"> Size_val &gt;= Size </constraint>
+    <constraint req="all" exprKind="pos"> NoSize * Size_val = 0 </constraint>
+    <constraint req="all" exprKind="pos"> FlushTO_val &gt;= FlushTO </constraint>
+    <constraint req="all" exprKind="pos"> NoFlushTO * FlushTO_val = 0 </constraint>
     <constraint req="all" exprKind="pos"> NoBytesDecompr * BytesDecompr_val = 1</constraint>
     <constraint req="all" exprKind="pos"> NoPercentDecompr * PercentDecompr_val = 1</constraint>
   </mixedConstraints>
