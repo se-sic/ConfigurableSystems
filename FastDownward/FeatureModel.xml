@@ -586,8 +586,6 @@
       <parent>iPDB</parent>
       <impliedOptions />
       <excludedOptions />
-      <minValue>100000</minValue>
-      <maxValue>10000000</maxValue>
       <values>100000;2000000;10000000</values>
     </configurationOption>
     <configurationOption>
@@ -616,8 +614,6 @@
       <parent>iPDB</parent>
       <impliedOptions />
       <excludedOptions />
-      <minValue>10000</minValue>
-      <maxValue>10000000</maxValue>
       <values>10000;200000;10000000</values>
     </configurationOption>
     <configurationOption>
@@ -631,8 +627,6 @@
       <parent>iPDB</parent>
       <impliedOptions />
       <excludedOptions />
-      <minValue>100</minValue>
-      <maxValue>10000</maxValue>
       <values>100;1000;10000</values>
     </configurationOption>
     <configurationOption>
@@ -646,8 +640,6 @@
       <parent>iPDB</parent>
       <impliedOptions />
       <excludedOptions />
-      <minValue>1</minValue>
-      <maxValue>15</maxValue>
       <values>1;10;15</values>
     </configurationOption>
     <configurationOption>
@@ -661,8 +653,6 @@
       <parent>root</parent>
       <impliedOptions />
       <excludedOptions />
-      <minValue>1</minValue>
-      <maxValue>1337</maxValue>
       <values>1;42;1337</values>
     </configurationOption>
   </numericOptions>
