@@ -30,6 +30,7 @@
     <configurationOption>
       <name>mergeAndShrink</name>
       <outputString>
+        --evaluator h=merge_and_shrink
       </outputString>
       <prefix>
       </prefix>
@@ -50,6 +51,7 @@
     <configurationOption>
       <name>blind</name>
       <outputString>
+        --evaluator h=blind
       </outputString>
       <prefix>
       </prefix>
@@ -70,6 +72,7 @@
     <configurationOption>
       <name>max</name>
       <outputString>
+        --evaluator h=hmax
       </outputString>
       <prefix>
       </prefix>
@@ -90,6 +93,7 @@
     <configurationOption>
       <name>iPDB</name>
       <outputString>
+        --evaluator h=ipdb
       </outputString>
       <prefix>
       </prefix>
@@ -123,6 +127,7 @@
     <configurationOption>
       <name>canonicalPDB</name>
       <outputString>
+        --evaluator h=cpdbs
       </outputString>
       <prefix>
       </prefix>
@@ -264,6 +269,7 @@
     <configurationOption>
       <name>landmarkCut</name>
       <outputString>
+        --evaluator h=lmcut
       </outputString>
       <prefix>
       </prefix>
@@ -284,6 +290,7 @@
     <configurationOption>
       <name>landmarkCount</name>
       <outputString>
+        --evaluator h=lmcount
       </outputString>
       <prefix>
       </prefix>
@@ -407,6 +414,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory.h</path>
+          <start>
+            <line>72</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>72</line>
+            <column>32</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>onlyCausalLMs</name>
@@ -420,6 +440,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory.h</path>
+          <start>
+            <line>73</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>73</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>disjunctiveLMs</name>
@@ -433,6 +466,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory.h</path>
+          <start>
+            <line>74</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>74</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>conjunctiveLMs</name>
@@ -446,6 +492,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory.h</path>
+          <start>
+            <line>75</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>75</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>noOrders</name>
@@ -459,6 +518,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory.h</path>
+          <start>
+            <line>76</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>76</line>
+            <column>24</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>maxTime</name>
@@ -472,6 +544,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
+          <start>
+            <line>41</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>41</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>maxTimeDomPruning</name>
@@ -498,6 +583,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>28</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>28</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>beforeMerging</name>
@@ -511,6 +609,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>29</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>29</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>method</name>
@@ -587,6 +698,19 @@
       <impliedOptions />
       <excludedOptions />
       <values>100000;2000000;10000000</values>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
+          <start>
+            <line>35</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>35</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>m</name>
@@ -602,6 +726,19 @@
       <minValue>2</minValue>
       <maxValue>2</maxValue>
       <stepFunction>m + 1</stepFunction>
+      <locations> <!-- TODO: RECHECK -->
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory_h_m.h</path>
+          <start>
+            <line>92</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>92</line>
+            <column>16</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>collectionMaxSize</name>
@@ -615,6 +752,19 @@
       <impliedOptions />
       <excludedOptions />
       <values>10000;200000;10000000</values>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
+          <start>
+            <line>37</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>37</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>numSamples</name>
@@ -628,6 +778,19 @@
       <impliedOptions />
       <excludedOptions />
       <values>100;1000;10000</values>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
+          <start>
+            <line>38</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>38</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>minImprovement</name>
@@ -641,6 +804,19 @@
       <impliedOptions />
       <excludedOptions />
       <values>1;10;15</values>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
+          <start>
+            <line>40</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>40</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>random</name>
