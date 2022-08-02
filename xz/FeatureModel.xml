@@ -2191,7 +2191,7 @@
   </numericOptions>
   <booleanConstraints>
     <constraint>!Stdout  |  TestDecompr</constraint>
-    <constraint>AuxiliaryFeatures =&gt; NoPreset | NoDict | NoLc | NoLp | NoPb | NoNice | NoDepth | NoStart | NoDist | NoThreads | NoBytesCompr | NoPercentCompr | NoSize | NoFlushTO | NoBytesDecompr | NoPercentDecompr</constraint>
+    <constraint>!AuxiliaryFeatures | NoPreset | NoDict | NoLc | NoLp | NoPb | NoNice | NoDepth | NoStart | NoDist | NoThreads | NoBytesCompr | NoPercentCompr | NoSize | NoFlushTO | NoBytesDecompr | NoPercentDecompr</constraint>
     <constraint>Preset | NoPreset</constraint>
     <constraint>!Preset | !NoPreset</constraint>
     <constraint>dict | NoDict</constraint>
@@ -2224,13 +2224,13 @@
     <constraint>!BytesDecompr | !NoBytesDecompr</constraint>
     <constraint>PercentDecompr | NoPercentDecompr</constraint>
     <constraint>!PercentDecompr | !NoPercentDecompr</constraint>
-    <constraint>Blocks =&gt; xz</constraint>
-    <constraint>lzma =&gt; LZMA1</constraint>
-    <constraint>xz =&gt; !LZMA1</constraint>
-    <constraint>FlushTO =&gt; LZMA2 | Delta</constraint>
-    <constraint>Test =&gt; KeepIn</constraint>
-    <constraint>TestDecompr =&gt; Test | Decompr</constraint>
-    <constraint>Memory =&gt; MaxMemCompr | MaxMemDecompr</constraint>
+    <constraint>!Blocks | xz</constraint>
+    <constraint>!lzma | LZMA1</constraint>
+    <constraint>!xz | !LZMA1</constraint>
+    <constraint>!FlushTO | LZMA2 | Delta</constraint>
+    <constraint>!Test | KeepIn</constraint>
+    <constraint>!TestDecompr | Test | Decompr</constraint>
+    <constraint>!Memory | MaxMemCompr | MaxMemDecompr</constraint>
   </booleanConstraints>
   <nonBooleanConstraints />
   <mixedConstraints>
