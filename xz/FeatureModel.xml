@@ -598,18 +598,6 @@
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>Level</name>
-      <outputString>Level</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Compr</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
       <name>Threads</name>
       <outputString>
       </outputString>
@@ -1870,8 +1858,8 @@
       <parent>dict</parent>
       <impliedOptions />
       <excludedOptions />
-      <minValue>4</minValue>
-      <maxValue>1536</maxValue>
+      <minValue>4096</minValue>
+      <maxValue>1610612736</maxValue>
       <stepFunction>dict_val + 1</stepFunction>
     </configurationOption>
     <configurationOption>
