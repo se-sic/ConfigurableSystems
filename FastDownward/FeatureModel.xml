@@ -26,6 +26,7 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <!-- TODO: Class? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>mergeAndShrink</name>
@@ -46,6 +47,7 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <!-- TODO: Class? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>blind</name>
@@ -66,6 +68,7 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <!-- TODO: Class? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>max</name>
@@ -86,6 +89,7 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <!-- TODO: Class? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>iPDB</name>
@@ -106,6 +110,7 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <!-- TODO: Class? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>noiPDB</name>
@@ -139,6 +144,7 @@
         <options>iPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <!-- TODO: Class? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>labelReduction</name>
@@ -152,6 +158,20 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <!-- TODO: Stimmt so? (shared_ptr?) -->
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/merge_and_shrink_algorithm.h</path>
+          <start>
+            <line>29</line>
+            <column>37</column>
+          </start>
+          <end>
+            <line>29</line>
+            <column>51</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>exactGeneralizedLR</name>
@@ -165,6 +185,7 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <!-- TODO: Class? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>shrinkStrat</name>
@@ -178,6 +199,20 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <!-- TODO: Stimmt so? (shared_ptr?) -->
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/merge_and_shrink_algorithm.h</path>
+          <start>
+            <line>28</line>
+            <column>37</column>
+          </start>
+          <end>
+            <line>28</line>
+            <column>51</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>bisimulation</name>
@@ -193,6 +228,20 @@
         <options>fPreserving</options>
       </excludedOptions>
       <optional>False</optional>
+      <!-- TODO: Line, Column? -->
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/shrink_bisimulation.h</path>
+          <start>
+            <line></line>
+            <column></column>
+          </start>
+          <end>
+            <line></line>
+            <column></column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>fPreserving</name>
@@ -208,6 +257,20 @@
         <options>bisimulation</options>
       </excludedOptions>
       <optional>False</optional>
+      <!-- TODO: Line, Column? -->
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/shrink_fh.h</path>
+          <start>
+            <line></line>
+            <column></column>
+          </start>
+          <end>
+            <line></line>
+            <column></column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>mergeStrat</name>
@@ -221,6 +284,7 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <!-- TODO: Factory? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>merge_precompute</name>
@@ -234,6 +298,7 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <!-- TODO: Factory? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>merge_tree</name>
@@ -247,6 +312,31 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <!-- TODO: Richtig? Klappt so? (unique_ptr) -->
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/merge_strategy_factory_precomputed.cc</path>
+          <start>
+            <line>24</line>
+            <column>27</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/merge_strategy_precomputed.h</path>
+          <start>
+            <line>11</line>
+            <column>32</column>
+          </start>
+          <end>
+            <line>11</line>
+            <column>41</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>linear</name>
@@ -260,6 +350,7 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <!-- TODO: Factory? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>landmarkCut</name>
