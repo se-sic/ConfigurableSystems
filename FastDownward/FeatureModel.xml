@@ -737,12 +737,12 @@
         <sourceRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
-            <line>43</line>
-            <column>10</column>
+            <line>60</line>
+            <column>26</column>
           </start>
           <end>
-            <line>43</line>
-            <column>29</column>
+            <line>60</line>
+            <column>34</column>
           </end>
         </sourceRange>
       </locations>
