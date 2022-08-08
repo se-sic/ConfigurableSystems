@@ -1545,9 +1545,6 @@
     <constraint>PercentDecompr | NoPercentDecompr</constraint>
     <constraint>!PercentDecompr | !NoPercentDecompr</constraint>
     <constraint>!Blocks | xz</constraint>
-    <constraint>!lzma | LZMA1</constraint>
-    <constraint>!xz | !LZMA1</constraint>
-    <constraint>!FlushTO | LZMA2 | Delta</constraint>
     <constraint>!Test | KeepIn</constraint>
     <constraint>!TestDecompr | Test | Decompr</constraint>
     <constraint>!Memory | MaxMemCompr | MaxMemDecompr</constraint>
