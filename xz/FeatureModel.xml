@@ -1334,7 +1334,7 @@
           </end>
         </sourceRange>
       </locations>
-    <configurationOption>
+    </configurationOption>
     <configurationOption>
       <name>PercentCompr_val</name>
       <outputString>PercentCompr_val</outputString>
