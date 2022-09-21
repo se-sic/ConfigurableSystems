@@ -29,7 +29,7 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_demo.c</path>
+          <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
             <column>17</column>
@@ -84,7 +84,7 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_demo.c</path>
+          <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
             <column>17</column>
@@ -112,7 +112,7 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_demo.c</path>
+          <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
             <column>17</column>
@@ -194,7 +194,7 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_demo.c</path>
+          <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
             <column>17</column>
@@ -323,7 +323,7 @@
       <stepFunction>channels + 1</stepFunction>
       <locations>
         <sourceRange>
-          <path>src/opus_demo.c</path>
+          <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
             <column>17</column>
@@ -368,7 +368,7 @@
       <stepFunction>bitRate * 6</stepFunction>
       <locations>
         <sourceRange>
-          <path>src/opus_demo.c</path>
+          <path>src/opus_encoder.c</path>
           <start>
             <line>519</line>
             <column>17</column>
