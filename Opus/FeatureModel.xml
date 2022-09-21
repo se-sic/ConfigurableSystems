@@ -117,7 +117,7 @@
             <line>896</line>
             <column>20</column>
           </end>
-          <memberOffset>OpusEncoder::mode</memberOffset>
+          <memberOffset>OpusEncoder::use_vbr</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -157,7 +157,7 @@
             <line>896</line>
             <column>20</column>
           </end>
-          <memberOffset>OpusEncoder::mode</memberOffset>
+          <memberOffset>OpusEncoder::bandwidth</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -251,7 +251,7 @@
             <line>896</line>
             <column>20</column>
           </end>
-          <memberOffset>OpusEncoder::mode</memberOffset>
+          <memberOffset>OpusEncoder::Fs</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -392,7 +392,7 @@
             <line>896</line>
             <column>20</column>
           </end>
-          <memberOffset>OpusEncoder::mode</memberOffset>
+          <memberOffset>OpusEncoder::channels</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -449,7 +449,7 @@
             <line>896</line>
             <column>20</column>
           </end>
-          <memberOffset>OpusEncoder::mode</memberOffset>
+          <memberOffset>OpusEncoder::bitrate_bps</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
