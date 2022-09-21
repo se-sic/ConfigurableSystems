@@ -31,14 +31,14 @@
         <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
-            <column>17</column>
+            <line>528</line>
+            <column>15</column>
           </start>
           <end>
-            <line>519</line>
-            <column>18</column>
+            <line>528</line>
+            <column>21</column>
           </end>
-          <memberOffset>OpusEncoder::mode</memberOffset>
+          <memberOffset>::mode</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -86,14 +86,14 @@
         <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
-            <column>17</column>
+            <line>528</line>
+            <column>15</column>
           </start>
           <end>
-            <line>519</line>
-            <column>18</column>
+            <line>528</line>
+            <column>21</column>
           </end>
-          <memberOffset>OpusEncoder::use_vbr</memberOffset>
+          <memberOffset>::use_vbr</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -114,14 +114,14 @@
         <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
-            <column>17</column>
+            <line>528</line>
+            <column>15</column>
           </start>
           <end>
-            <line>519</line>
-            <column>18</column>
+            <line>528</line>
+            <column>21</column>
           </end>
-          <memberOffset>OpusEncoder::bandwidth</memberOffset>
+          <memberOffset>::bandwidth</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -196,14 +196,14 @@
         <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
-            <column>17</column>
+            <line>528</line>
+            <column>15</column>
           </start>
           <end>
-            <line>519</line>
-            <column>18</column>
+            <line>528</line>
+            <column>21</column>
           </end>
-          <memberOffset>OpusEncoder::Fs</memberOffset>
+          <memberOffset>::Fs</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -325,14 +325,14 @@
         <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
-            <column>17</column>
+            <line>528</line>
+            <column>15</column>
           </start>
           <end>
-            <line>519</line>
-            <column>18</column>
+            <line>528</line>
+            <column>21</column>
           </end>
-          <memberOffset>OpusEncoder::channels</memberOffset>
+          <memberOffset>::channels</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -364,20 +364,20 @@
       <impliedOptions />
       <excludedOptions />
       <minValue>6000</minValue>
-      <maxValue>186000</maxValue>
+      <maxValue>216000</maxValue>
       <stepFunction>bitRate * 6</stepFunction>
       <locations>
         <sourceRange category="necessary">
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
-            <column>17</column>
+            <line>528</line>
+            <column>15</column>
           </start>
           <end>
-            <line>519</line>
-            <column>18</column>
+            <line>528</line>
+            <column>21</column>
           </end>
-          <memberOffset>OpusEncoder::bitrate_bps</memberOffset>
+          <memberOffset>::bitrate_bps</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
