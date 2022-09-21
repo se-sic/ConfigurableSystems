@@ -28,7 +28,7 @@
       <excludedOptions />
       <optional>False</optional>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <path>src/opus_demo.c</path>
           <start>
             <line>519</line>
@@ -83,7 +83,7 @@
       <excludedOptions />
       <optional>True</optional>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <path>src/opus_demo.c</path>
           <start>
             <line>519</line>
@@ -111,7 +111,7 @@
       <excludedOptions />
       <optional>False</optional>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <path>src/opus_demo.c</path>
           <start>
             <line>519</line>
@@ -193,7 +193,7 @@
       <excludedOptions />
       <optional>False</optional>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <path>src/opus_demo.c</path>
           <start>
             <line>519</line>
@@ -322,7 +322,7 @@
       <maxValue>2</maxValue>
       <stepFunction>channels + 1</stepFunction>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <path>src/opus_demo.c</path>
           <start>
             <line>519</line>
@@ -367,7 +367,7 @@
       <maxValue>216000</maxValue>
       <stepFunction>bitRate * 6</stepFunction>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <path>src/opus_demo.c</path>
           <start>
             <line>519</line>
