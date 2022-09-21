@@ -31,12 +31,12 @@
         <sourceRange category="necessary">
           <path>src/opus_demo.c</path>
           <start>
-            <line>232</line>
-            <column>16</column>
+            <line>519</line>
+            <column>17</column>
           </start>
           <end>
-            <line>232</line>
-            <column>19</column>
+            <line>519</line>
+            <column>18</column>
           </end>
           <memberOffset>OpusEncoder::mode</memberOffset>
         </sourceRange>
@@ -86,12 +86,12 @@
         <sourceRange category="necessary">
           <path>src/opus_demo.c</path>
           <start>
-            <line>232</line>
-            <column>16</column>
+            <line>519</line>
+            <column>17</column>
           </start>
           <end>
-            <line>232</line>
-            <column>19</column>
+            <line>519</line>
+            <column>18</column>
           </end>
           <memberOffset>OpusEncoder::use_vbr</memberOffset>
         </sourceRange>
@@ -114,12 +114,12 @@
         <sourceRange category="necessary">
           <path>src/opus_demo.c</path>
           <start>
-            <line>232</line>
-            <column>16</column>
+            <line>519</line>
+            <column>17</column>
           </start>
           <end>
-            <line>232</line>
-            <column>19</column>
+            <line>519</line>
+            <column>18</column>
           </end>
           <memberOffset>OpusEncoder::bandwidth</memberOffset>
         </sourceRange>
@@ -196,12 +196,12 @@
         <sourceRange category="necessary">
           <path>src/opus_demo.c</path>
           <start>
-            <line>232</line>
-            <column>16</column>
+            <line>519</line>
+            <column>17</column>
           </start>
           <end>
-            <line>232</line>
-            <column>19</column>
+            <line>519</line>
+            <column>18</column>
           </end>
           <memberOffset>OpusEncoder::Fs</memberOffset>
         </sourceRange>
@@ -325,12 +325,12 @@
         <sourceRange category="necessary">
           <path>src/opus_demo.c</path>
           <start>
-            <line>232</line>
-            <column>16</column>
+            <line>519</line>
+            <column>17</column>
           </start>
           <end>
-            <line>232</line>
-            <column>19</column>
+            <line>519</line>
+            <column>18</column>
           </end>
           <memberOffset>OpusEncoder::channels</memberOffset>
         </sourceRange>
@@ -370,12 +370,12 @@
         <sourceRange category="necessary">
           <path>src/opus_demo.c</path>
           <start>
-            <line>232</line>
-            <column>16</column>
+            <line>519</line>
+            <column>17</column>
           </start>
           <end>
-            <line>232</line>
-            <column>19</column>
+            <line>519</line>
+            <column>18</column>
           </end>
           <memberOffset>OpusEncoder::bitrate_bps</memberOffset>
         </sourceRange>
