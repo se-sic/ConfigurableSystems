@@ -31,11 +31,11 @@
         <sourceRange>
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
+            <line>458</line>
             <column>17</column>
           </start>
           <end>
-            <line>519</line>
+            <line>458</line>
             <column>18</column>
           </end>
           <memberOffset>OpusEncoder::mode</memberOffset>
@@ -98,11 +98,11 @@
         <sourceRange>
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
+            <line>458</line>
             <column>17</column>
           </start>
           <end>
-            <line>519</line>
+            <line>458</line>
             <column>18</column>
           </end>
           <memberOffset>OpusEncoder::use_vbr</memberOffset>
@@ -138,11 +138,11 @@
         <sourceRange>
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
+            <line>458</line>
             <column>17</column>
           </start>
           <end>
-            <line>519</line>
+            <line>458</line>
             <column>18</column>
           </end>
           <memberOffset>OpusEncoder::bandwidth</memberOffset>
@@ -232,11 +232,11 @@
         <sourceRange>
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
+            <line>458</line>
             <column>17</column>
           </start>
           <end>
-            <line>519</line>
+            <line>458</line>
             <column>18</column>
           </end>
           <memberOffset>OpusEncoder::Fs</memberOffset>
@@ -373,11 +373,11 @@
         <sourceRange>
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
+            <line>458</line>
             <column>17</column>
           </start>
           <end>
-            <line>519</line>
+            <line>458</line>
             <column>18</column>
           </end>
           <memberOffset>OpusEncoder::channels</memberOffset>
@@ -430,11 +430,11 @@
         <sourceRange>
           <path>src/opus_encoder.c</path>
           <start>
-            <line>519</line>
+            <line>458</line>
             <column>17</column>
           </start>
           <end>
-            <line>519</line>
+            <line>458</line>
             <column>18</column>
           </end>
           <memberOffset>OpusEncoder::bitrate_bps</memberOffset>
