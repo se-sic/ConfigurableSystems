@@ -29,14 +29,14 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
-            <line>458</line>
-            <column>17</column>
+            <line>991</line>
+            <column>18</column>
           </start>
           <end>
-            <line>458</line>
-            <column>18</column>
+            <line>991</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::mode</memberOffset>
         </sourceRange>
@@ -96,18 +96,18 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
-            <line>458</line>
-            <column>17</column>
+            <line>991</line>
+            <column>18</column>
           </start>
           <end>
-            <line>458</line>
-            <column>18</column>
+            <line>991</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::use_vbr</memberOffset>
         </sourceRange>
-                <sourceRange>
+        <sourceRange>
           <path>tests/opus_encoder_regression.c</path>
           <start>
             <line>896</line>
@@ -136,14 +136,14 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
-            <line>458</line>
-            <column>17</column>
+            <line>991</line>
+            <column>18</column>
           </start>
           <end>
-            <line>458</line>
-            <column>18</column>
+            <line>991</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::bandwidth</memberOffset>
         </sourceRange>
@@ -230,14 +230,14 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
-            <line>458</line>
-            <column>17</column>
+            <line>991</line>
+            <column>18</column>
           </start>
           <end>
-            <line>458</line>
-            <column>18</column>
+            <line>991</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::Fs</memberOffset>
         </sourceRange>
@@ -371,14 +371,14 @@
       <stepFunction>channels + 1</stepFunction>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
-            <line>458</line>
-            <column>17</column>
+            <line>991</line>
+            <column>18</column>
           </start>
           <end>
-            <line>458</line>
-            <column>18</column>
+            <line>991</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::channels</memberOffset>
         </sourceRange>
@@ -428,14 +428,14 @@
       <stepFunction>bitRate * 6</stepFunction>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
-            <line>458</line>
-            <column>17</column>
+            <line>991</line>
+            <column>18</column>
           </start>
           <end>
-            <line>458</line>
-            <column>18</column>
+            <line>991</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::bitrate_bps</memberOffset>
         </sourceRange>
