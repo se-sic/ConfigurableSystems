@@ -41,7 +41,7 @@
           <memberOffset>OpusEncoder::mode</memberOffset>
         </sourceRange>
         <sourceRange>
-          <path>tests/opus_encoder_regression.c.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
             <line>896</line>
             <column>18</column>
@@ -108,7 +108,7 @@
           <memberOffset>OpusEncoder::use_vbr</memberOffset>
         </sourceRange>
                 <sourceRange>
-          <path>tests/opus_encoder_regression.c.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
             <line>896</line>
             <column>18</column>
@@ -148,7 +148,7 @@
           <memberOffset>OpusEncoder::bandwidth</memberOffset>
         </sourceRange>
         <sourceRange>
-          <path>tests/opus_encoder_regression.c.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
             <line>896</line>
             <column>18</column>
@@ -242,7 +242,7 @@
           <memberOffset>OpusEncoder::Fs</memberOffset>
         </sourceRange>
         <sourceRange>
-          <path>tests/opus_encoder_regression.c.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
             <line>896</line>
             <column>18</column>
@@ -383,7 +383,7 @@
           <memberOffset>OpusEncoder::channels</memberOffset>
         </sourceRange>
         <sourceRange>
-          <path>tests/opus_encoder_regression.c.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
             <line>896</line>
             <column>18</column>
@@ -440,7 +440,7 @@
           <memberOffset>OpusEncoder::bitrate_bps</memberOffset>
         </sourceRange>
         <sourceRange>
-          <path>tests/opus_encoder_regression.c.c</path>
+          <path>tests/opus_encoder_regression.c</path>
           <start>
             <line>896</line>
             <column>18</column>
