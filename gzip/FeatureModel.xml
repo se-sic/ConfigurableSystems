@@ -1,0 +1,390 @@
+<!--Locations are based on commit 23a870d14a49803c6d2579071886c1acf497c9d1-->
+<vm name="gzip">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>to_stdout</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>168</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>168</line>
+            <column>20</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>decompress</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>169</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>169</line>
+            <column>21</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>force</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>170</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>170</line>
+            <column>16</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>keep</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>171</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>171</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>no_name</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>172</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>172</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>no_time</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>173</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>173</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>recursive</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>174</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>174</line>
+            <column>20</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>list</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>175</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>175</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>verbose</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>176</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>176</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>quiet</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>177</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>177</line>
+            <column>16</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>z_suffix</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>191</line>
+            <column>20</column>
+          </start>
+          <end>
+            <line>191</line>
+            <column>27</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>test</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>179</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>179</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>do_lzw</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>178</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>178</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>maxbits</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>182</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>182</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>method</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>183</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>183</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>level</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>9</maxValue>
+      <stepFunction>level + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>gzip.c</path>
+          <start>
+            <line>184</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>184</line>
+            <column>16</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>
