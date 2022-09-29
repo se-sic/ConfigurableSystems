@@ -42,6 +42,22 @@
         <options>Test</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>c/tools/brotli.c</path>
+          <start>
+            <line>100</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>100</line>
+            <column>24</column>
+          </end>
+          <memberOffset>
+            ::decompress
+          </memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Compression</name>
@@ -74,6 +90,167 @@
         <options>Compression</options>
       </excludedOptions>
       <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>c/tools/brotli.c</path>
+          <start>
+            <line>99</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>99</line>
+            <column>28</column>
+          </end>
+          <memberOffset>
+            ::test_integrity
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Force-Overwrite</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>c/tools/brotli.c</path>
+          <start>
+            <line>95</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>95</line>
+            <column>29</column>
+          </end>
+          <memberOffset>
+            ::force_overwrite
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Junk-Sourcefile</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>c/tools/brotli.c</path>
+          <start>
+            <line>96</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>96</line>
+            <column>25</column>
+          </end>
+          <memberOffset>
+                ::junk_source
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Copy-Src-Attributes</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>c/tools/brotli.c</path>
+          <start>
+            <line>97</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>97</line>
+            <column>23</column>
+          </end>
+          <memberOffset>
+            ::copy_stat
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Output-File</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>c/tools/brotli.c</path>
+          <start>
+            <line>102</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>102</line>
+            <column>25</column>
+          </end>
+          <memberOffset>
+            ::output_path
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Suffix</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>c/tools/brotli.c</path>
+          <start>
+            <line>104</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>104</line>
+            <column>20</column>
+          </end>
+          <memberOffset>
+            ::suffix
+          </memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
   </binaryOptions>
   <numericOptions>
@@ -89,6 +266,22 @@
       <minValue>10</minValue>
       <maxValue>24</maxValue>
       <stepFunction>WindowSize + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>c/tools/brotli.c</path>
+          <start>
+            <line>93</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>93</line>
+            <column>11</column>
+          </end>
+          <memberOffset>
+            ::lgwin
+          </memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>CompressionLevel</name>
@@ -103,6 +296,22 @@
       <minValue>0</minValue>
       <maxValue>11</maxValue>
       <stepFunction>CompressionLevel + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>c/tools/brotli.c</path>
+          <start>
+            <line>92</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>92</line>
+            <column>13</column>
+          </end>
+          <memberOffset>
+            ::quality
+          </memberOffset>
+        </sourceRange>
+      </locations>
     </configurationOption>
   </numericOptions>
   <booleanConstraints />

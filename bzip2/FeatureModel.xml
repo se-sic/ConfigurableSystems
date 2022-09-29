@@ -1,0 +1,211 @@
+<vm name="bzip2">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>keepInputFiles</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>bzip2.c</path>
+          <start>
+            <line>167</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>167</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>forceOverwrite</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>bzip2.c</path>
+          <start>
+            <line>168</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>168</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>quiet</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>bzip2.c</path>
+          <start>
+            <line>168</line>
+            <column>56</column>
+          </start>
+          <end>
+            <line>168</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>smallMode</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>bzip2.c</path>
+          <start>
+            <line>167</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>167</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>opMode</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>3</maxValue>
+      <stepFunction>opMode + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>bzip2.c</path>
+          <start>
+            <line>182</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>182</line>
+            <column>14</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>srcMode</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>3</maxValue>
+      <stepFunction>srcMode + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>bzip2.c</path>
+          <start>
+            <line>183</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>183</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>verbosity</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>4</maxValue>
+      <stepFunction>verbosity + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>bzip2.c</path>
+          <start>
+            <line>166</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>166</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>blockSize100k</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>9</maxValue>
+      <stepFunction>blockSize100k + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>bzip2.c</path>
+          <start>
+            <line>169</line>
+            <column>42</column>
+          </start>
+          <end>
+            <line>169</line>
+            <column>54</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>
