@@ -254,6 +254,19 @@
         <options>heuristicUnit</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>clasp/heuristics.h</path>
+          <start>
+            <line>57</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>57</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>heuristicVmtf</name>
@@ -271,6 +284,19 @@
         <options>heuristicUnit</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>clasp/heuristics.h</path>
+          <start>
+            <line>167</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>167</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>heuristicVsids</name>
@@ -288,6 +314,19 @@
         <options>heuristicUnit</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>clasp/heuristics.h</path>
+          <start>
+            <line>256</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>256</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>heuristicUnit</name>
@@ -305,6 +344,19 @@
         <options>heuristicVsids</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>clasp/lookahead.h</path>
+          <start>
+            <line>137</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>137</line>
+            <column>19</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>satPreproYes</name>
