@@ -46,6 +46,19 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/merge_and_shrink_heuristic.h</path>
+          <start>
+            <line>16</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>16</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>blind</name>
@@ -66,6 +79,19 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/heuristics/blind_search_heuristic.h</path>
+          <start>
+            <line>7</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>7</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>max</name>
@@ -86,6 +112,19 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/heuristics/max_heuristic.h</path>
+          <start>
+            <line>17</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>17</line>
+            <column>21</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>iPDB</name>
@@ -106,6 +145,19 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pdb_heuristic.h</path>
+          <start>
+            <line>17</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>17</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>noiPDB</name>
@@ -139,6 +191,19 @@
         <options>iPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/canonical_pdbs.h</path>
+          <start>
+            <line>11</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>11</line>
+            <column>19</column>
+          </end>
+        </sourceRange>
+      </locations>    
     </configurationOption>
     <configurationOption>
       <name>labelReduction</name>
@@ -280,6 +345,19 @@
         <options>iPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/heuristics/lm_cut_heuristic.h</path>
+          <start>
+            <line>17</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>17</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>landmarkCount</name>
@@ -300,6 +378,19 @@
         <options>iPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_count_heuristic.h</path>
+          <start>
+            <line>18</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>18</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>landmarkFactory</name>
