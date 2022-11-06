@@ -741,17 +741,6 @@
             <column>34</column>
           </end>
         </sourceRange>
-        <sourceRange>
-          <path>src/xz/coder.c</path>
-          <start>
-            <line>530</line>
-            <column>26</column>
-          </start>
-          <end>
-            <line>530</line>
-            <column>36</column>
-          </end>
-        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>

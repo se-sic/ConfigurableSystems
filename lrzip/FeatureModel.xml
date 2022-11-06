@@ -1,3 +1,4 @@
+<!--Locations are based on commit 469074b4a59d26566d388680a1154c522d9395c7-->
 <vm name="lrzip">
   <binaryOptions>
     <configurationOption>
@@ -146,6 +147,120 @@
       <excludedOptions />
       <optional>True</optional>
     </configurationOption>
+    <configurationOption>
+      <name>recursive</name>
+      <outputString>recursive</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>main.c</path>
+          <start>
+            <line>310</line>
+            <column>42</column>
+          </start>
+          <end>
+            <line>310</line>
+            <column>48</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>suffix</name>
+      <outputString>suffix</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>outname</options>
+      </excludedOptions>
+      <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>lrzip_private.h</path>
+          <start>
+            <line>413</line>
+            <column>11</column>
+          </start>
+          <end>
+            <line>413</line>
+            <column>16</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>outname</name>
+      <outputString>outname</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>outdir</options>
+      </excludedOptions>
+      <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>lrzip_private.h</path>
+          <start>
+            <line>396</line>
+            <column>11</column>
+          </start>
+          <end>
+            <line>496</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>outdir</name>
+      <outputString>outdir</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>outname</options>
+      </excludedOptions>
+      <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>lrzip_private.h</path>
+          <start>
+            <line>399</line>
+            <column>11</column>
+          </start>
+          <end>
+            <line>499</line>
+            <column>16</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
   </binaryOptions>
   <numericOptions>
     <configurationOption>
@@ -165,14 +280,101 @@
       <stepFunction>compressionLevel + 1 </stepFunction>
       <locations>
         <sourceRange>
-          <path>main.c</path>
+          <path>lrzip_private.h</path>
           <start>
-            <line>436</line>
-            <column>15</column>
+            <line>414</line>
+            <column>11</column>
           </start>
           <end>
-            <line>436</line>
-            <column>31</column>
+            <line>414</line>
+            <column>27</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>maxRAM</name>
+      <outputString>maxRAM</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>87960930222</maxValue>
+      <stepFunction>maxRAM + 1 </stepFunction>
+      <locations>
+        <sourceRange>
+          <path>lrzip_private.h</path>
+          <start>
+            <line>421</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>421</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>threads</name>
+      <outputString>threads</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>32767</maxValue>
+      <stepFunction>threads + 1 </stepFunction>
+      <locations>
+        <sourceRange>
+          <path>lrzip_private.h</path>
+          <start>
+            <line>424</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>424</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>windowSize</name>
+      <outputString>windowSize</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>9223372036854775807</maxValue>
+      <stepFunction>windowSize + 1 </stepFunction>
+      <locations>
+        <sourceRange>
+          <path>lrzip_private.h</path>
+          <start>
+            <line>419</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>419</line>
+            <column>14</column>
           </end>
         </sourceRange>
       </locations>

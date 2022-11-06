@@ -1,0 +1,524 @@
+<!--Locations are based on commit 72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256-->
+<vm name="ECT">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>strip</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::strip
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>progressive</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::Progressive
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>recurse</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::Recurse
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>png_active</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::PNG_ACTIVE
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>jpeg_active</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::JPEG_ACTIVE
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>gzip</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::Gzip
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>zip</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::Zip
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>quiet</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::SavingsCounter
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>strict</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::Strict
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>reuse</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::Reuse
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>keep</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::keep
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>allfilters</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::Allfilters
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>allfilters_b</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::Allfiltersbrute
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>allfilters_c</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::Allfilterscheap
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>mode</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>9</maxValue>
+      <stepFunction>mode + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::Mode
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>pal_sort</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>120</maxValue>
+      <stepFunction>pal_sort + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::palette_sort
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>autorotate</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>2</maxValue>
+      <stepFunction>autorotate + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::Autorotate
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>mt_deflate</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>65535</maxValue>
+      <stepFunction>mt_deflate + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::DeflateMultithreading
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>mt_file</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>65535</maxValue>
+      <stepFunction>mt_file + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/main.cpp</path>
+          <start>
+            <line>531</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>531</line>
+            <column>22</column>
+          </end>
+          <memberOffset>
+            ::FileMultithreading
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>

@@ -1,0 +1,500 @@
+<!--Locations are based on commit 429fe880d331b49a5be08b4d8dc762cbada6d4ca-->
+<vm name="lepton">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>zlib0</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>498</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>498</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>unjailed</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/vp8/util/memory.hh</path>
+          <start>
+            <line>11</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>11</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>singlethread</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>485</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>485</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>progressive</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>488</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>488</line>
+            <column>24</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>force_progressive</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>progressive</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>487</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>487</line>
+            <column>24</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>unkillable</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>495</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>495</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>action</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>532</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>532</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>compress</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>action</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>forkserve</options>
+        <options>socketserve</options>
+        <options>info</options>
+        <options>lepcat</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>forkserve</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>action</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>compress</options>
+        <options>socketserve</options>
+        <options>info</options>
+        <options>lepcat</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>socketserve</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>action</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>compress</options>
+        <options>forkserve</options>
+        <options>info</options>
+        <options>lepcat</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <name>uds_socket</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>socketserve</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>484</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>484</line>
+            <column>30</column>
+          </end>
+          <memberOffset>
+            ::listen_uds
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <name>uds_name</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>uds_socket</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>484</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>484</line>
+            <column>30</column>
+          </end>
+          <memberOffset>
+            ::uds
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <name>tcp_socket</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>socketserve</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>484</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>484</line>
+            <column>30</column>
+          </end>
+          <memberOffset>
+            ::listen_tcp
+          </memberOffset>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>info</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>action</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>compress</options>
+        <options>forkserve</options>
+        <options>socketserve</options>
+        <options>lepcat</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>lepcat</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>action</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>compress</options>
+        <options>forkserve</options>
+        <options>socketserve</options>
+        <options>info</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ignore_warnings</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>528</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>528</line>
+            <column>14</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>validate</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>111</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>111</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>permissive</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>106</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>106</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>verbosity</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>2</maxValue>
+      <stepFunction>verbosity + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>526</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>526</line>
+            <column>14</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>timebound</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>18446744073709551615</maxValue>
+      <stepFunction>timebound + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>496</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>496</line>
+            <column>24</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>inject_syscall</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>2</maxValue>
+      <stepFunction>inject_syscall + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>497</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>497</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>start_byte</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>10485759999999998951424</maxValue>
+      <stepFunction>start_byte + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/lepton/jpgcoder.cc</path>
+          <start>
+            <line>364</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>364</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>
