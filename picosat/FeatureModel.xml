@@ -1,4 +1,4 @@
-<!-- Locations based on picosat-960 -->
+<!-- Locations based on picosat-965 and picosat-951 -->
 <vm name="PicoSAT">
   <binaryOptions>
     <configurationOption>
@@ -27,6 +27,7 @@
       <excludedOptions />
       <optional>True</optional>
       <locations>
+      	<!-- picosat-965 -->
         <sourceRange>
           <path>app.c</path>
           <start>
@@ -38,15 +39,16 @@
             <column>18</column>
           </end>
         </sourceRange>
+        <!-- picosat-951 -->
         <sourceRange>
-          <path>picosat.c</path>
+          <path>app.c</path>
           <start>
-            <line>527</line>
-            <column>7</column>
+            <line>19</line>
+            <column>12</column>
           </start>
           <end>
-            <line>527</line>
-            <column>15</column>
+            <line>19</line>
+            <column>18</column>
           </end>
         </sourceRange>
       </locations>
@@ -63,6 +65,7 @@
       <excludedOptions />
       <optional>True</optional>
       <locations>
+      	<!-- picosat-965 -->
         <sourceRange>
           <path>app.c</path>
           <start>
@@ -71,6 +74,18 @@
           </start>
           <end>
             <line>521</line>
+            <column>56</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange>
+          <path>app.c</path>
+          <start>
+            <line>395</line>
+            <column>52</column>
+          </start>
+          <end>
+            <line>395</line>
             <column>56</column>
           </end>
         </sourceRange>
@@ -88,6 +103,7 @@
       <excludedOptions />
       <optional>True</optional>
       <locations>
+      	<!-- picosat-965 -->
         <sourceRange>
           <path>app.c</path>
           <start>
@@ -96,6 +112,18 @@
           </start>
           <end>
             <line>521</line>
+            <column>49</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange>
+          <path>app.c</path>
+          <start>
+            <line>395</line>
+            <column>23</column>
+          </start>
+          <end>
+            <line>395</line>
             <column>49</column>
           </end>
         </sourceRange>
@@ -113,6 +141,7 @@
       <excludedOptions />
       <optional>True</optional>
       <locations>
+      	<!-- picosat-965 -->
         <sourceRange>
           <path>app.c</path>
           <start>
@@ -121,6 +150,18 @@
           </start>
           <end>
             <line>522</line>
+            <column>32</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange>
+          <path>app.c</path>
+          <start>
+            <line>396</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>396</line>
             <column>32</column>
           </end>
         </sourceRange>
@@ -138,6 +179,7 @@
       <excludedOptions />
       <optional>True</optional>
       <locations>
+      	<!-- picosat-965 -->
         <sourceRange>
           <path>app.c</path>
           <start>
@@ -146,6 +188,18 @@
           </start>
           <end>
             <line>522</line>
+            <column>72</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange>
+          <path>app.c</path>
+          <start>
+            <line>396</line>
+            <column>59</column>
+          </start>
+          <end>
+            <line>396</line>
             <column>72</column>
           </end>
         </sourceRange>
@@ -167,6 +221,7 @@
       <maxValue>1</maxValue>
       <stepFunction>defaultphase + 1</stepFunction>
       <locations>
+      	<!-- picosat-965 -->
         <sourceRange>
           <path>app.c</path>
           <start>
@@ -175,6 +230,18 @@
           </start>
           <end>
             <line>523</line>
+            <column>43</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange>
+          <path>app.c</path>
+          <start>
+            <line>397</line>
+            <column>32</column>
+          </start>
+          <end>
+            <line>397</line>
             <column>43</column>
           </end>
         </sourceRange>
