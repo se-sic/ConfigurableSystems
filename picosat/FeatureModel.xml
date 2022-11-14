@@ -168,7 +168,7 @@
       <stepFunction>defaultphase + 1</stepFunction>
       <locations>
         <sourceRange>
-          <path>picosat.c</path>
+          <path>app.c</path>
           <start>
             <line>523</line>
             <column>32</column>
