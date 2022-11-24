@@ -30,8 +30,7 @@
     </configurationOption>
     <configurationOption>
       <name>All</name>
-      <outputString>
-      </outputString>
+      <outputString>--all</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -71,8 +70,7 @@
     </configurationOption>
     <configurationOption>
       <name>Partial</name>
-      <outputString>
-      </outputString>
+      <outputString>--partial</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -226,7 +224,7 @@
     </configurationOption>
     <configurationOption>
       <name>CompactTrace</name>
-      <outputString>-t</outputString>
+      <outputString>-t compactTraceFileName</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -264,7 +262,7 @@
     </configurationOption>
     <configurationOption>
       <name>ExtendedTrace</name>
-      <outputString>-T</outputString>
+      <outputString>-T extendedTraceFileName</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -302,7 +300,7 @@
     </configurationOption>
     <configurationOption>
       <name>ReverseUnitPropagationProof</name>
-      <outputString>-r</outputString>
+      <outputString>-r rupFileName</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -340,7 +338,7 @@
     </configurationOption>
     <configurationOption>
       <name>ClausalCoreFile</name>
-      <outputString>-c</outputString>
+      <outputString>-c coreFileName</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -378,7 +376,7 @@
     </configurationOption>
     <configurationOption>
       <name>FileListingCoreVariables</name>
-      <outputString>-V</outputString>
+      <outputString>-V varFileName</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -416,7 +414,7 @@
     </configurationOption>
     <configurationOption>
       <name>PrintToFile</name>
-      <outputString>-o</outputString>
+      <outputString>-o outputFileName</outputString>
       <prefix>
       </prefix>
       <postfix>
