@@ -2,7 +2,7 @@
   <binaryOptions>
     <configurationOption>
       <name>transExt</name>
-      <outputString>transExt</outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -16,7 +16,7 @@
     </configurationOption>
     <configurationOption>
       <name>transExtAll</name>
-      <outputString>transExtAll</outputString>
+      <outputString>--trans-ext=all</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -33,7 +33,7 @@
     </configurationOption>
     <configurationOption>
       <name>transExtChoice</name>
-      <outputString>transExtChoice</outputString>
+      <outputString>--trans-ext=choice</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -50,7 +50,7 @@
     </configurationOption>
     <configurationOption>
       <name>transExtWeight</name>
-      <outputString>transExtWeight</outputString>
+      <outputString>--trans-ext=weight</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -67,7 +67,7 @@
     </configurationOption>
     <configurationOption>
       <name>transExtDynamic</name>
-      <outputString>transExtDynamic</outputString>
+      <outputString>--trans-ext=dynamic</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -84,7 +84,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq</name>
-      <outputString>eq</outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -98,7 +98,7 @@
     </configurationOption>
     <configurationOption>
       <name>eqFixpoint</name>
-      <outputString>eqFixpoint</outputString>
+      <outputString>--eq=-1</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -117,7 +117,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq5</name>
-      <outputString>eq5</outputString>
+      <outputString>--eq=5</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -136,7 +136,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq1</name>
-      <outputString>eq1</outputString>
+      <outputString>--eq=1</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -155,7 +155,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq2</name>
-      <outputString>eq2</outputString>
+      <outputString>--eq=2</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -174,7 +174,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq3</name>
-      <outputString>eq3</outputString>
+      <outputString>--eq=3</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -193,7 +193,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq4</name>
-      <outputString>eq4</outputString>
+      <outputString>--eq=4</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -212,7 +212,7 @@
     </configurationOption>
     <configurationOption>
       <name>backprop</name>
-      <outputString>backprop</outputString>
+      <outputString>--backprop</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -226,7 +226,7 @@
     </configurationOption>
     <configurationOption>
       <name>heuristic</name>
-      <outputString>heuristic</outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -240,7 +240,7 @@
     </configurationOption>
     <configurationOption>
       <name>heuristicBerkmin</name>
-      <outputString>heuristicBerkmin</outputString>
+      <outputString>--heuristic=Berkmin</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -270,7 +270,7 @@
     </configurationOption>
     <configurationOption>
       <name>heuristicVmtf</name>
-      <outputString>heuristicVmtf</outputString>
+      <outputString>--heuristic=Vmtf</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -300,7 +300,7 @@
     </configurationOption>
     <configurationOption>
       <name>heuristicVsids</name>
-      <outputString>heuristicVsids</outputString>
+      <outputString>--heuristic=Vsids</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -330,7 +330,7 @@
     </configurationOption>
     <configurationOption>
       <name>heuristicUnit</name>
-      <outputString>heuristicUnit</outputString>
+      <outputString>--heuristic=Unit</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -387,8 +387,7 @@
     </configurationOption>
     <configurationOption>
       <name>enumModeBt</name>
-      <outputString>
-      </outputString>
+      <outputString>--enum-mode=bt</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -416,8 +415,7 @@
     </configurationOption>
     <configurationOption>
       <name>enumModeRecord</name>
-      <outputString>
-      </outputString>
+      <outputString>--enum-mode=record</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -445,8 +443,7 @@
     </configurationOption>
     <configurationOption>
       <name>enumModeCautious</name>
-      <outputString>
-      </outputString>
+      <outputString>--enum-mode=cautious</outputString>
       <prefix>
       </prefix>
       <postfix>
