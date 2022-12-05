@@ -155,5 +155,59 @@
         </sourceRange>
       </locations>
     </configurationOption>
+    <configurationOption>
+      <name>FeatureA</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/FeatureCallingFeature/FeatureCallingFeature.cpp</path>
+          <start>
+            <line>35</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>35</line>
+            <column>8</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+        <configurationOption>
+      <name>FeatureB</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/FeatureCallingFeature/FeatureCallingFeature.cpp</path>
+          <start>
+            <line>36</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>36</line>
+            <column>8</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+        <configurationOption>
+      <name>FeatureC</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/FeatureCallingFeature/FeatureCallingFeature.cpp</path>
+          <start>
+            <line>37</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>37</line>
+            <column>8</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
   </binaryOptions>
 </vm>
