@@ -168,12 +168,12 @@
           </start>
           <end>
             <line>35</line>
-            <column>8</column>
+            <column>9</column>
           </end>
         </sourceRange>
       </locations>
     </configurationOption>
-        <configurationOption>
+    <configurationOption>
       <name>FeatureB</name>
       <parent>root</parent>
       <optional>True</optional>
@@ -186,12 +186,12 @@
           </start>
           <end>
             <line>36</line>
-            <column>8</column>
+            <column>9</column>
           </end>
         </sourceRange>
       </locations>
     </configurationOption>
-        <configurationOption>
+    <configurationOption>
       <name>FeatureC</name>
       <parent>root</parent>
       <optional>True</optional>
@@ -204,7 +204,7 @@
           </start>
           <end>
             <line>37</line>
-            <column>8</column>
+            <column>9</column>
           </end>
         </sourceRange>
       </locations>
