@@ -168,7 +168,18 @@
           </start>
           <end>
             <line>35</line>
-            <column>9</column>
+            <column>8</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <path>src/CollinearFeature/CollinearFeature.cpp</path>
+          <start>
+            <line>8</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>8</line>
+            <column>8</column>
           </end>
         </sourceRange>
       </locations>
@@ -186,7 +197,18 @@
           </start>
           <end>
             <line>36</line>
-            <column>9</column>
+            <column>8</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <path>src/CollinearFeature/CollinearFeature.cpp</path>
+          <start>
+            <line>9</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>9</line>
+            <column>8</column>
           </end>
         </sourceRange>
       </locations>
@@ -204,7 +226,36 @@
           </start>
           <end>
             <line>37</line>
-            <column>9</column>
+            <column>8</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <path>src/CollinearFeature/CollinearFeature.cpp</path>
+          <start>
+            <line>10</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>10</line>
+            <column>8</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+      <configurationOption>
+      <name>FeatureD</name>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/CollinearFeature/CollinearFeature.cpp</path>
+          <start>
+            <line>11</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>11</line>
+            <column>8</column>
           </end>
         </sourceRange>
       </locations>
