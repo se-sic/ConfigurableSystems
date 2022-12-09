@@ -2,7 +2,7 @@
   <binaryOptions>
     <configurationOption>
       <name>transExt</name>
-      <outputString>transExt</outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -16,7 +16,7 @@
     </configurationOption>
     <configurationOption>
       <name>transExtAll</name>
-      <outputString>transExtAll</outputString>
+      <outputString>--trans-ext=all</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -33,7 +33,7 @@
     </configurationOption>
     <configurationOption>
       <name>transExtChoice</name>
-      <outputString>transExtChoice</outputString>
+      <outputString>--trans-ext=choice</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -50,7 +50,7 @@
     </configurationOption>
     <configurationOption>
       <name>transExtWeight</name>
-      <outputString>transExtWeight</outputString>
+      <outputString>--trans-ext=weight</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -67,7 +67,7 @@
     </configurationOption>
     <configurationOption>
       <name>transExtDynamic</name>
-      <outputString>transExtDynamic</outputString>
+      <outputString>--trans-ext=dynamic</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -84,7 +84,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq</name>
-      <outputString>eq</outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -98,7 +98,7 @@
     </configurationOption>
     <configurationOption>
       <name>eqFixpoint</name>
-      <outputString>eqFixpoint</outputString>
+      <outputString>--eq=-1</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -117,7 +117,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq5</name>
-      <outputString>eq5</outputString>
+      <outputString>--eq=5</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -136,7 +136,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq1</name>
-      <outputString>eq1</outputString>
+      <outputString>--eq=1</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -155,7 +155,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq2</name>
-      <outputString>eq2</outputString>
+      <outputString>--eq=2</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -174,7 +174,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq3</name>
-      <outputString>eq3</outputString>
+      <outputString>--eq=3</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -193,7 +193,7 @@
     </configurationOption>
     <configurationOption>
       <name>eq4</name>
-      <outputString>eq4</outputString>
+      <outputString>--eq=4</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -212,7 +212,7 @@
     </configurationOption>
     <configurationOption>
       <name>backprop</name>
-      <outputString>backprop</outputString>
+      <outputString>--backprop</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -226,7 +226,7 @@
     </configurationOption>
     <configurationOption>
       <name>heuristic</name>
-      <outputString>heuristic</outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -240,7 +240,7 @@
     </configurationOption>
     <configurationOption>
       <name>heuristicBerkmin</name>
-      <outputString>heuristicBerkmin</outputString>
+      <outputString>--heuristic=Berkmin</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -254,10 +254,23 @@
         <options>heuristicUnit</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>clasp/heuristics.h</path>
+          <start>
+            <line>57</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>57</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>heuristicVmtf</name>
-      <outputString>heuristicVmtf</outputString>
+      <outputString>--heuristic=Vmtf</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -271,10 +284,23 @@
         <options>heuristicUnit</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>clasp/heuristics.h</path>
+          <start>
+            <line>167</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>167</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>heuristicVsids</name>
-      <outputString>heuristicVsids</outputString>
+      <outputString>--heuristic=Vsids</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -288,10 +314,23 @@
         <options>heuristicUnit</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>clasp/heuristics.h</path>
+          <start>
+            <line>256</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>256</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>heuristicUnit</name>
-      <outputString>heuristicUnit</outputString>
+      <outputString>--heuristic=Unit</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -305,6 +344,19 @@
         <options>heuristicVsids</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>clasp/lookahead.h</path>
+          <start>
+            <line>137</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>137</line>
+            <column>19</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>satPreproYes</name>
@@ -319,6 +371,103 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>enumMode</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>feature</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>enumModeBt</name>
+      <outputString>--enum-mode=bt</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>enumMode</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>enumModeRecord</options>
+        <options>enumModeCautious</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>clasp/enumerator.h</path>
+          <start>
+            <line>80</line>
+            <column>36</column>
+          </start>
+          <end>
+            <line>80</line>
+            <column>42</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>enumModeRecord</name>
+      <outputString>--enum-mode=record</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>enumMode</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>enumModeBt</options>
+        <options>enumModeCautious</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>clasp/enumerator.h</path>
+          <start>
+            <line>80</line>
+            <column>50</column>
+          </start>
+          <end>
+            <line>80</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>enumModeCautious</name>
+      <outputString>--enum-mode=cautious</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>enumMode</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>enumModeBt</options>
+        <options>enumModeRecord</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>clasp/enumerator.h</path>
+          <start>
+            <line>80</line>
+            <column>128</column>
+          </start>
+          <end>
+            <line>80</line>
+            <column>140</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
   </binaryOptions>
   <numericOptions />
