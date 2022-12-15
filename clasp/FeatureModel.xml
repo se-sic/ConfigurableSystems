@@ -1,7 +1,7 @@
 <vm name="Clasp">
   <binaryOptions>
     <configurationOption>
-      <name>transExt</name>
+      <name>root</name>
       <outputString></outputString>
       <prefix>
       </prefix>
@@ -9,26 +9,157 @@
       </postfix>
       <parent>
       </parent>
-      <children />
       <impliedOptions />
       <excludedOptions />
-      <optional>True</optional>
+      <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>transExtAll</name>
-      <outputString>--trans-ext=all</outputString>
+      <name>default_config</name>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>transExt</parent>
-      <children />
+      <parent>root</parent>
       <impliedOptions />
       <excludedOptions>
-        <options>transExtChoice</options>
-        <options>transExtWeight</options>
-        <options>transExtDynamic</options>
+        <options>feature</options>
       </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>tweety</name>
+      <outputString>--config=tweety</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>default_config</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>trendy</options>
+        <options>frumpy</options>
+        <options>crafty</options>
+        <options>jumpy</options>
+        <options>handy</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>trendy</name>
+      <outputString>--config=trendy</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>default_config</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>tweety</options>
+        <options>frumpy</options>
+        <options>crafty</options>
+        <options>jumpy</options>
+        <options>handy</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>frumpy</name>
+      <outputString>--config=frumpy</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>default_config</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>tweety</options>
+        <options>trendy</options>
+        <options>crafty</options>
+        <options>jumpy</options>
+        <options>handy</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>crafty</name>
+      <outputString>--config=crafty</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>default_config</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>tweety</options>
+        <options>trendy</options>
+        <options>frumpy</options>
+        <options>jumpy</options>
+        <options>handy</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>jumpy</name>
+      <outputString>--config=jumpy</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>default_config</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>tweety</options>
+        <options>trendy</options>
+        <options>frumpy</options>
+        <options>crafty</options>
+        <options>handy</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>handy</name>
+      <outputString>--config=handy</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>default_config</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>tweety</options>
+        <options>trendy</options>
+        <options>frumpy</options>
+        <options>crafty</options>
+        <options>jumpy</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>feature</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>default_config</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>transExt</name>
+      <outputString></outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>feature</parent>
+      <impliedOptions />
+      <excludedOptions />
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
@@ -39,12 +170,11 @@
       <postfix>
       </postfix>
       <parent>transExt</parent>
-      <children />
       <impliedOptions />
       <excludedOptions>
-        <options>transExtAll</options>
         <options>transExtWeight</options>
-        <options>transExtDynamic</options>
+        <options>transExtCard</options>
+        <options>transExtScc</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -56,29 +186,43 @@
       <postfix>
       </postfix>
       <parent>transExt</parent>
-      <children />
       <impliedOptions />
       <excludedOptions>
-        <options>transExtAll</options>
         <options>transExtChoice</options>
-        <options>transExtDynamic</options>
+        <options>transExtCard</options>
+        <options>transExtScc</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>transExtDynamic</name>
-      <outputString>--trans-ext=dynamic</outputString>
+      <name>transExtCard</name>
+      <outputString>--trans-ext=card</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>transExt</parent>
-      <children />
       <impliedOptions />
       <excludedOptions>
-        <options>transExtAll</options>
         <options>transExtChoice</options>
         <options>transExtWeight</options>
+        <options>transExtScc</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>transExtScc</name>
+      <outputString>--trans-ext=scc</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>transExt</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>transExtChoice</options>
+        <options>transExtWeight</options>
+        <options>transExtCard</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -89,12 +233,10 @@
       </prefix>
       <postfix>
       </postfix>
-      <parent>
-      </parent>
-      <children />
+      <parent>feature</parent>
       <impliedOptions />
       <excludedOptions />
-      <optional>True</optional>
+      <optional>False</optional>
     </configurationOption>
     <configurationOption>
       <name>eqFixpoint</name>
@@ -217,26 +359,23 @@
       </prefix>
       <postfix>
       </postfix>
-      <parent>
-      </parent>
-      <children />
+      <parent>feature</parent>
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
     </configurationOption>
     <configurationOption>
       <name>heuristic</name>
-      <outputString></outputString>
+      <outputString>
+      </outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>
-      </parent>
-      <children />
+      <parent>feature</parent>
       <impliedOptions />
       <excludedOptions />
-      <optional>True</optional>
+      <optional>False</optional>
     </configurationOption>
     <configurationOption>
       <name>heuristicBerkmin</name>
@@ -246,12 +385,10 @@
       <postfix>
       </postfix>
       <parent>heuristic</parent>
-      <children />
       <impliedOptions />
       <excludedOptions>
         <options>heuristicVmtf</options>
         <options>heuristicVsids</options>
-        <options>heuristicUnit</options>
       </excludedOptions>
       <optional>False</optional>
       <locations>
@@ -276,12 +413,10 @@
       <postfix>
       </postfix>
       <parent>heuristic</parent>
-      <children />
       <impliedOptions />
       <excludedOptions>
         <options>heuristicBerkmin</options>
         <options>heuristicVsids</options>
-        <options>heuristicUnit</options>
       </excludedOptions>
       <optional>False</optional>
       <locations>
@@ -306,12 +441,10 @@
       <postfix>
       </postfix>
       <parent>heuristic</parent>
-      <children />
       <impliedOptions />
       <excludedOptions>
         <options>heuristicBerkmin</options>
         <options>heuristicVmtf</options>
-        <options>heuristicUnit</options>
       </excludedOptions>
       <optional>False</optional>
       <locations>
@@ -329,53 +462,8 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>heuristicUnit</name>
-      <outputString>--heuristic=Unit</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>heuristic</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>heuristicBerkmin</options>
-        <options>heuristicVmtf</options>
-        <options>heuristicVsids</options>
-      </excludedOptions>
-      <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <path>clasp/lookahead.h</path>
-          <start>
-            <line>137</line>
-            <column>7</column>
-          </start>
-          <end>
-            <line>137</line>
-            <column>19</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>satPreproYes</name>
-      <outputString>satPreproYes</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
       <name>enumMode</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -469,8 +557,49 @@
         </sourceRange>
       </locations>
     </configurationOption>
+    <configurationOption>
+      <name>optMode</name>
+      <outputString></outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>feature</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>optModeOpt</name>
+      <outputString>--opt-mode=opt</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>optMode</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>optModeOptN</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>optModeOptN</name>
+      <outputString>--opt-mode=optN</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>optMode</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>optModeOpt</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
   </binaryOptions>
   <numericOptions />
   <booleanConstraints />
   <nonBooleanConstraints />
+  <mixedConstraints />
 </vm>
