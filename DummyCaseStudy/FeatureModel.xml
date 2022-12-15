@@ -10,6 +10,7 @@
     <configurationOption>
       <name>Encryption</name>
       <parent>root</parent>
+      <outputString>--enc</outputString>
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
@@ -28,6 +29,7 @@
     <configurationOption>
       <name>Compression</name>
       <parent>root</parent>
+      <outputString>--compress</outputString>
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
