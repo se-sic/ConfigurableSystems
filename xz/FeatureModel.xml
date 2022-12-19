@@ -1,4 +1,3 @@
-<!--Locations are based on commit 4773608554d1b684a05ff9c1d879cf5c42266d33-->
 <vm name="xz">
   <binaryOptions>
     <configurationOption>
@@ -44,6 +43,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>33</line>
@@ -74,6 +76,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>14</line>
@@ -100,6 +105,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.c</path>
           <start>
             <line>36</line>
@@ -168,6 +176,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>22</line>
@@ -314,6 +325,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>17</line>
@@ -354,6 +368,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>16</line>
@@ -427,6 +444,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>15</line>
@@ -466,6 +486,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>51</line>
@@ -519,6 +542,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>45</line>
@@ -641,6 +667,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/args.h</path>
           <start>
             <line>36</line>
@@ -666,6 +695,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/args.h</path>
           <start>
             <line>34</line>
@@ -705,6 +737,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/args.h</path>
           <start>
             <line>35</line>
@@ -731,6 +766,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>38</line>
@@ -760,6 +798,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>23</line>
@@ -789,6 +830,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>24</line>
@@ -818,6 +862,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>25</line>
@@ -847,6 +894,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>27</line>
@@ -872,6 +922,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/suffix.c</path>
           <start>
             <line>25</line>
@@ -897,6 +950,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/args.h</path>
           <start>
             <line>38</line>
@@ -922,6 +978,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/message.c</path>
           <start>
             <line>25</line>
@@ -952,6 +1011,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/message.h</path>
           <start>
             <line>19</line>
@@ -982,6 +1044,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/message.h</path>
           <start>
             <line>18</line>
@@ -1012,6 +1077,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/message.h</path>
           <start>
             <line>17</line>
@@ -1042,6 +1110,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/message.h</path>
           <start>
             <line>16</line>
@@ -1072,6 +1143,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/message.h</path>
           <start>
             <line>15</line>
@@ -1097,6 +1171,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>42</line>
@@ -1122,6 +1199,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/main.c</path>
           <start>
             <line>27</line>
@@ -1312,6 +1392,9 @@
       <stepFunction>Preset_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.c</path>
           <start>
             <line>46</line>
@@ -1339,6 +1422,9 @@
       <stepFunction>PercentCompr_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>25</line>
@@ -1366,6 +1452,9 @@
       <stepFunction>Threads_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>18</line>
@@ -1393,6 +1482,9 @@
       <stepFunction>BytesCompr_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>25</line>
@@ -1420,6 +1512,9 @@
       <stepFunction>FlushTO_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/mytime.h</path>
           <start>
             <line>21</line>
@@ -1447,6 +1542,9 @@
       <stepFunction>BytesDecompr_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>28</line>
@@ -1474,6 +1572,9 @@
       <stepFunction>PercentDecompr_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>28</line>
@@ -1501,6 +1602,9 @@
       <stepFunction>Size_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>49</line>

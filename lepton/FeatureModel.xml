@@ -1,4 +1,3 @@
-<!--Locations are based on commit 429fe880d331b49a5be08b4d8dc762cbada6d4ca-->
 <vm name="lepton">
   <binaryOptions>
     <configurationOption>
@@ -22,6 +21,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>498</line>
@@ -45,6 +47,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/vp8/util/memory.hh</path>
           <start>
             <line>11</line>
@@ -68,6 +73,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>485</line>
@@ -91,6 +99,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>488</line>
@@ -114,6 +125,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>487</line>
@@ -137,6 +151,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>495</line>
@@ -160,6 +177,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>532</line>
@@ -227,6 +247,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>484</line>
@@ -252,6 +275,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>484</line>
@@ -277,6 +303,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>484</line>
@@ -333,6 +362,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>528</line>
@@ -356,6 +388,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>111</line>
@@ -379,6 +414,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>106</line>
@@ -406,6 +444,9 @@
       <stepFunction>verbosity + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>526</line>
@@ -431,6 +472,9 @@
       <stepFunction>timebound + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>496</line>
@@ -456,6 +500,9 @@
       <stepFunction>inject_syscall + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>497</line>
@@ -481,6 +528,9 @@
       <stepFunction>start_byte + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>429fe880d331b49a5be08b4d8dc762cbada6d4ca</introduced>
+          </revisionRange>
           <path>src/lepton/jpgcoder.cc</path>
           <start>
             <line>364</line>

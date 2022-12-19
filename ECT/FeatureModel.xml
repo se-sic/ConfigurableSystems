@@ -1,4 +1,3 @@
-<!--Locations are based on commit 72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256-->
 <vm name="ECT">
   <binaryOptions>
     <configurationOption>
@@ -22,6 +21,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -48,6 +50,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -74,6 +79,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -100,6 +108,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -126,6 +137,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -152,6 +166,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -178,6 +195,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -204,6 +224,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -230,6 +253,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -256,6 +282,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -282,6 +311,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -308,6 +340,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -334,6 +369,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -360,6 +398,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -390,6 +431,9 @@
       <stepFunction>mode + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -418,6 +462,9 @@
       <stepFunction>pal_sort + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -446,6 +493,9 @@
       <stepFunction>autorotate + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -474,6 +524,9 @@
       <stepFunction>mt_deflate + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
@@ -502,6 +555,9 @@
       <stepFunction>mt_file + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>72df9c8f9cd02ade3d8ea077addb8e7f8d5e4256</introduced>
+          </revisionRange>
           <path>src/main.cpp</path>
           <start>
             <line>531</line>
