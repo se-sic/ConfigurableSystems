@@ -237,7 +237,8 @@
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
-    <name>uds_socket</name>
+    <configurationOption>
+      <name>uds_socket</name>
       <outputString />
       <prefix />
       <postfix />
@@ -265,7 +266,8 @@
         </sourceRange>
       </locations>
     </configurationOption>
-    <name>uds_name</name>
+    <configurationOption>
+      <name>uds_name</name>
       <outputString />
       <prefix />
       <postfix />
@@ -293,7 +295,8 @@
         </sourceRange>
       </locations>
     </configurationOption>
-    <name>tcp_socket</name>
+    <configurationOption>
+      <name>tcp_socket</name>
       <outputString />
       <prefix />
       <postfix />
