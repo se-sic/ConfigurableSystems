@@ -1,0 +1,595 @@
+<vm name="PicoSAT">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Solutions</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>All</name>
+      <outputString>--all</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Solutions</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Partial</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+      	<!-- picosat-965 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>523</line>
+            <column>46</column>
+          </start>
+          <end>
+            <line>523</line>
+            <column>51</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>397</line>
+            <column>46</column>
+          </start>
+          <end>
+            <line>397</line>
+            <column>51</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Partial</name>
+      <outputString>--partial</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Solutions</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>All</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+      	<!-- picosat-965 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>523</line>
+            <column>54</column>
+          </start>
+          <end>
+            <line>523</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>397</line>
+            <column>54</column>
+          </start>
+          <end>
+            <line>397</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Verbose</name>
+      <outputString>-v</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+      	<!-- picosat-965 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>24</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>19</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>19</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>IgnoreInvalidHeader</name>
+      <outputString>-f</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+      	<!-- picosat-965 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>521</line>
+            <column>52</column>
+          </start>
+          <end>
+            <line>521</line>
+            <column>56</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>395</line>
+            <column>52</column>
+          </start>
+          <end>
+            <line>395</line>
+            <column>56</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>NoPrintAssignment</name>
+      <outputString>-n</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+      	<!-- picosat-965 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>521</line>
+            <column>23</column>
+          </start>
+          <end>
+            <line>521</line>
+            <column>49</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>395</line>
+            <column>23</column>
+          </start>
+          <end>
+            <line>395</line>
+            <column>49</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>CompactTrace</name>
+      <outputString>-t compactTraceFileName</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+      	<!-- picosat-965 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>522</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>522</line>
+            <column>32</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>396</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>396</line>
+            <column>32</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>ExtendedTrace</name>
+      <outputString>-T extendedTraceFileName</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+      	<!-- picosat-965 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>522</line>
+            <column>36</column>
+          </start>
+          <end>
+            <line>522</line>
+            <column>54</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>396</line>
+            <column>36</column>
+          </start>
+          <end>
+            <line>396</line>
+            <column>54</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>ReverseUnitPropagationProof</name>
+      <outputString>-r rupFileName</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+      	<!-- picosat-965 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>522</line>
+            <column>59</column>
+          </start>
+          <end>
+            <line>522</line>
+            <column>72</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>396</line>
+            <column>59</column>
+          </start>
+          <end>
+            <line>396</line>
+            <column>72</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>ClausalCoreFile</name>
+      <outputString>-c coreFileName</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+      	<!-- picosat-965 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>524</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>522</line>
+            <column>32</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>398</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>398</line>
+            <column>32</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>FileListingCoreVariables</name>
+      <outputString>-V varFileName</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+      	<!-- picosat-965 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>524</line>
+            <column>37</column>
+          </start>
+          <end>
+            <line>524</line>
+            <column>54</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>398</line>
+            <column>37</column>
+          </start>
+          <end>
+            <line>398</line>
+            <column>54</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>PrintToFile</name>
+      <outputString>-o outputFileName</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+      	<!-- picosat-965 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>525</line>
+            <column>28</column>
+          </start>
+          <end>
+            <line>525</line>
+            <column>38</column>
+          </end>
+        </sourceRange>
+        <!-- picosat-951 -->
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start>
+            <line>399</line>
+            <column>28</column>
+          </start>
+          <end>
+            <line>399</line>
+            <column>38</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+        <name>Defaultphase_val</name>
+        <outputString>-i</outputString>
+        <prefix>
+        </prefix>
+        <postfix>
+        </postfix>
+        <parent>root</parent>
+        <impliedOptions />
+        <excludedOptions />
+        <minValue>0</minValue>
+        <maxValue>1</maxValue>
+        <stepFunction>Defaultphase_val + 1</stepFunction>
+        <locations>
+          <!-- picosat-965 -->
+          <sourceRange category="necessary">
+            <revisionRange>
+              <introduced>33c685e82213228726364980814f0183e435de78</introduced>
+            </revisionRange>
+            <path>app.c</path>
+            <start>
+              <line>523</line>
+              <column>32</column>
+            </start>
+            <end>
+              <line>523</line>
+              <column>43</column>
+            </end>
+          </sourceRange>
+          <!-- picosat-951 -->
+          <sourceRange category="necessary">
+            <revisionRange>
+              <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
+              <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
+            </revisionRange>
+            <path>app.c</path>
+            <start>
+              <line>397</line>
+              <column>32</column>
+            </start>
+            <end>
+              <line>397</line>
+              <column>43</column>
+            </end>
+          </sourceRange>
+        </locations>
+    </configurationOption>
+    <configurationOption>
+        <name>RandomSeed_val</name>
+        <outputString>-s</outputString>
+        <prefix>
+        </prefix>
+        <postfix>
+        </postfix>
+        <parent>root</parent>
+        <impliedOptions />
+        <excludedOptions />
+        <values>1;42;1337</values>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>
+
