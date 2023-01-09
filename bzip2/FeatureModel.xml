@@ -1,4 +1,3 @@
-<!--Locations are based on commit 1ea1ac188ad4b9cb662e3f8314673c63df95a589-->
 <vm name="bzip2">
   <binaryOptions>
     <configurationOption>
@@ -22,6 +21,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+          </revisionRange>
           <path>bzip2.c</path>
           <start>
             <line>167</line>
@@ -45,6 +47,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+          </revisionRange>
           <path>bzip2.c</path>
           <start>
             <line>168</line>
@@ -68,6 +73,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+          </revisionRange>
           <path>bzip2.c</path>
           <start>
             <line>168</line>
@@ -91,6 +99,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+          </revisionRange>
           <path>bzip2.c</path>
           <start>
             <line>167</line>
@@ -118,6 +129,9 @@
       <stepFunction>opMode + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+          </revisionRange>
           <path>bzip2.c</path>
           <start>
             <line>182</line>
@@ -143,6 +157,9 @@
       <stepFunction>srcMode + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+          </revisionRange>
           <path>bzip2.c</path>
           <start>
             <line>183</line>
@@ -168,6 +185,9 @@
       <stepFunction>verbosity + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+          </revisionRange>
           <path>bzip2.c</path>
           <start>
             <line>166</line>
@@ -193,6 +213,9 @@
       <stepFunction>blockSize100k + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+          </revisionRange>
           <path>bzip2.c</path>
           <start>
             <line>169</line>
