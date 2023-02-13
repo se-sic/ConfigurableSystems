@@ -26,7 +26,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <!-- TODO: Class? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>mergeAndShrink</name>
@@ -218,7 +217,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <!-- TODO: Stimmt so? (shared_ptr?) -->
       <locations>
         <sourceRange>
           <path>src/search/merge_and_shrink/merge_and_shrink_algorithm.h</path>
@@ -245,7 +243,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <!-- TODO: Class? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>shrinkStrat</name>
@@ -259,7 +256,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <!-- TODO: Stimmt so? (shared_ptr?) -->
       <locations>
         <sourceRange>
           <path>src/search/merge_and_shrink/merge_and_shrink_algorithm.h</path>
@@ -288,17 +284,16 @@
         <options>fPreserving</options>
       </excludedOptions>
       <optional>False</optional>
-      <!-- TODO: Line, Column? -->
       <locations>
         <sourceRange>
           <path>src/search/merge_and_shrink/shrink_bisimulation.h</path>
           <start>
-            <line></line>
-            <column></column>
+            <line>18</line>
+            <column>7</column>
           </start>
           <end>
-            <line></line>
-            <column></column>
+            <line>18</line>
+            <column>24</column>
           </end>
         </sourceRange>
       </locations>
@@ -317,17 +312,16 @@
         <options>bisimulation</options>
       </excludedOptions>
       <optional>False</optional>
-      <!-- TODO: Line, Column? -->
       <locations>
         <sourceRange>
           <path>src/search/merge_and_shrink/shrink_fh.h</path>
           <start>
-            <line></line>
-            <column></column>
+            <line>24</line>
+            <column>7</column>
           </start>
           <end>
-            <line></line>
-            <column></column>
+            <line>24</line>
+            <column>14</column>
           </end>
         </sourceRange>
       </locations>
@@ -344,7 +338,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <!-- TODO: Factory? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>merge_precompute</name>
@@ -358,7 +351,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <!-- TODO: Factory? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>merge_tree</name>
@@ -372,28 +364,16 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <!-- TODO: Richtig? Klappt so? (unique_ptr) -->
       <locations>
-        <sourceRange>
-          <path>src/search/merge_and_shrink/merge_strategy_factory_precomputed.cc</path>
-          <start>
-            <line>24</line>
-            <column>27</column>
-          </start>
-          <end>
-            <line>24</line>
-            <column>36</column>
-          </end>
-        </sourceRange>
         <sourceRange>
           <path>src/search/merge_and_shrink/merge_strategy_precomputed.h</path>
           <start>
-            <line>11</line>
-            <column>32</column>
+            <line>9</line>
+            <column>7</column>
           </start>
           <end>
-            <line>11</line>
-            <column>41</column>
+            <line>9</line>
+            <column>15</column>
           </end>
         </sourceRange>
       </locations>
@@ -410,7 +390,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <!-- TODO: Factory? Wie umsetzen? -->
     </configurationOption>
     <configurationOption>
       <name>landmarkCut</name>
@@ -740,15 +719,15 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <locations> <!-- TODO: Gehört eher zu canonicalPDB? -->
+      <locations>
         <sourceRange>
           <path>src/search/pdbs/canonical_pdbs_heuristic.cc</path>
           <start>
-            <line>38</line>
+            <line>39</line>
             <column>12</column>
           </start>
           <end>
-            <line>38</line>
+            <line>39</line>
             <column>37</column>
           </end>
         </sourceRange>
@@ -770,11 +749,11 @@
         <sourceRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
-            <line>28</line>
+            <line>59</line>
             <column>10</column>
           </start>
           <end>
-            <line>28</line>
+            <line>59</line>
             <column>28</column>
           </end>
         </sourceRange>
@@ -796,11 +775,11 @@
         <sourceRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
-            <line>29</line>
+            <line>60</line>
             <column>10</column>
           </start>
           <end>
-            <line>29</line>
+            <line>60</line>
             <column>26</column>
           </end>
         </sourceRange>
@@ -818,16 +797,15 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <!-- TODO: Stimmt so? (https://github.com/se-sic/VaRA/issues/918) -->
       <locations>
         <sourceRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
-            <line>60</line>
+            <line>61</line>
             <column>26</column>
           </start>
           <end>
-            <line>60</line>
+            <line>61</line>
             <column>34</column>
           </end>
         </sourceRange>
@@ -848,17 +826,16 @@
         <options>allSystemsWithFixpoint</options>
       </excludedOptions>
       <optional>False</optional>
-      <!-- TODO: Stimmt so? (https://github.com/se-sic/VaRA/issues/918) -->
       <locations>
         <sourceRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
-            <line>45</line>
-            <column>9</column>
+            <line>40</line>
+            <column>5</column>
           </start>
           <end>
-            <line>45</line>
-            <column>30</column>
+            <line>40</line>
+            <column>26</column>
           </end>
         </sourceRange>
       </locations>
@@ -878,17 +855,16 @@
         <options>allSystemsWithFixpoint</options>
       </excludedOptions>
       <optional>False</optional>
-      <!-- TODO: Stimmt so? (https://github.com/se-sic/VaRA/issues/918) -->
       <locations>
         <sourceRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
-            <line>44</line>
-            <column>9</column>
+            <line>39</line>
+            <column>5</column>
           </start>
           <end>
-            <line>44</line>
-            <column>30</column>
+            <line>39</line>
+            <column>26</column>
           </end>
         </sourceRange>
       </locations>
@@ -908,17 +884,16 @@
         <options>twoSystems</options>
       </excludedOptions>
       <optional>False</optional>
-      <!-- TODO: Stimmt so? (https://github.com/se-sic/VaRA/issues/918) -->
       <locations>
         <sourceRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
-            <line>46</line>
-            <column>9</column>
+            <line>41</line>
+            <column>5</column>
           </start>
           <end>
-            <line>46</line>
-            <column>44</column>
+            <line>41</line>
+            <column>40</column>
           </end>
         </sourceRange>
       </locations>
@@ -965,7 +940,7 @@
       <minValue>2</minValue>
       <maxValue>2</maxValue>
       <stepFunction>m + 1</stepFunction>
-      <locations> <!-- TODO: RECHECK -->
+      <locations>
         <sourceRange>
           <path>src/search/landmarks/landmark_factory_h_m.h</path>
           <start>
@@ -1079,28 +1054,6 @@
           <end>
             <line>22</line>
             <column>12</column>
-          </end>
-        </sourceRange>
-        <sourceRange>
-          <path>src/search/merge_and_shrink/merge_scoring_function_single_random.h</path>
-          <start>
-            <line>19</line>
-            <column>9</column>
-          </start>
-          <end>
-            <line>19</line>
-            <column>19</column>
-          </end>
-        </sourceRange>
-        <sourceRange>
-          <path>src/search/merge_and_shrink/merge_scoring_function_total_order.h</path>
-          <start>
-            <line>32</line>
-            <column>9</column>
-          </start>
-          <end>
-            <line>32</line>
-            <column>19</column>
           </end>
         </sourceRange>
       </locations>
