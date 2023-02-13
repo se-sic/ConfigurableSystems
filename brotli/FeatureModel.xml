@@ -44,6 +44,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>9801a2c5d6c67c467ffad676ac301379bb877fc3</introduced>
+          </revisionRange>
           <path>c/tools/brotli.c</path>
           <start>
             <line>100</line>
@@ -92,6 +95,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>9801a2c5d6c67c467ffad676ac301379bb877fc3</introduced>
+          </revisionRange>
           <path>c/tools/brotli.c</path>
           <start>
             <line>99</line>
@@ -121,6 +127,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>9801a2c5d6c67c467ffad676ac301379bb877fc3</introduced>
+          </revisionRange>
           <path>c/tools/brotli.c</path>
           <start>
             <line>95</line>
@@ -150,6 +159,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>9801a2c5d6c67c467ffad676ac301379bb877fc3</introduced>
+          </revisionRange>
           <path>c/tools/brotli.c</path>
           <start>
             <line>96</line>
@@ -179,6 +191,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>9801a2c5d6c67c467ffad676ac301379bb877fc3</introduced>
+          </revisionRange>
           <path>c/tools/brotli.c</path>
           <start>
             <line>97</line>
@@ -208,6 +223,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>9801a2c5d6c67c467ffad676ac301379bb877fc3</introduced>
+          </revisionRange>
           <path>c/tools/brotli.c</path>
           <start>
             <line>102</line>
@@ -237,6 +255,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>9801a2c5d6c67c467ffad676ac301379bb877fc3</introduced>
+          </revisionRange>
           <path>c/tools/brotli.c</path>
           <start>
             <line>104</line>
@@ -268,6 +289,9 @@
       <stepFunction>WindowSize + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>9801a2c5d6c67c467ffad676ac301379bb877fc3</introduced>
+          </revisionRange>
           <path>c/tools/brotli.c</path>
           <start>
             <line>93</line>
@@ -298,6 +322,9 @@
       <stepFunction>CompressionLevel + 1</stepFunction>
       <locations>
         <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>9801a2c5d6c67c467ffad676ac301379bb877fc3</introduced>
+          </revisionRange>
           <path>c/tools/brotli.c</path>
           <start>
             <line>92</line>

@@ -1,4 +1,3 @@
-<!--Locations are based on commit 4773608554d1b684a05ff9c1d879cf5c42266d33-->
 <vm name="xz">
   <binaryOptions>
     <configurationOption>
@@ -44,6 +43,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>33</line>
@@ -74,6 +76,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>14</line>
@@ -100,6 +105,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.c</path>
           <start>
             <line>36</line>
@@ -113,9 +121,8 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>LZMA</name>
-      <outputString>
-      </outputString>
+      <name>CustomFilter</name>
+      <outputString>CustomFilter</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -123,65 +130,8 @@
       <parent>Filter</parent>
       <impliedOptions />
       <excludedOptions>
-        <options>BCJ</options>
-        <options>Delta</options>
+        <options>Preset</options>
       </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>LZMAFilter</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>LZMA</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>LZMA1</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>LZMAFilter</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>LZMA2</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>LZMA2</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>LZMAFilter</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>LZMA1</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>LZMAOpt</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>LZMA</parent>
-      <impliedOptions />
-      <excludedOptions />
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
@@ -191,422 +141,11 @@
       </prefix>
       <postfix>
       </postfix>
-      <parent>LZMAOpt</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>Manual</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>Manual</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>LZMAOpt</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>Preset</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>dict</name>
-      <outputString>dict</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Manual</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>lc</name>
-      <outputString>lc</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Manual</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>lp</name>
-      <outputString>lp</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Manual</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>pb</name>
-      <outputString>pb</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Manual</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>LZMAmode</name>
-      <outputString>LZMAmode</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Manual</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>fast</name>
-      <outputString>fast</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>LZMAmode</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>normal</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>normal</name>
-      <outputString>normal</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>LZMAmode</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>fast</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>nice</name>
-      <outputString>nice</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Manual</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>mf</name>
-      <outputString>mf</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Manual</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>hc3</name>
-      <outputString>hc3</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>mf</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>hc4</options>
-        <options>bt2</options>
-        <options>bt3</options>
-        <options>bt4</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>hc4</name>
-      <outputString>hc4</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>mf</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>hc3</options>
-        <options>bt2</options>
-        <options>bt3</options>
-        <options>bt4</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>bt2</name>
-      <outputString>bt2</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>mf</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>hc3</options>
-        <options>hc4</options>
-        <options>bt3</options>
-        <options>bt4</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>bt3</name>
-      <outputString>bt3</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>mf</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>hc3</options>
-        <options>hc4</options>
-        <options>bt2</options>
-        <options>bt4</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>bt4</name>
-      <outputString>bt4</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>mf</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>hc3</options>
-        <options>hc4</options>
-        <options>bt2</options>
-        <options>bt3</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>depth</name>
-      <outputString>depth</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Manual</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>BCJ</name>
-      <outputString>BCJ</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
       <parent>Filter</parent>
       <impliedOptions />
       <excludedOptions>
-        <options>LZMA</options>
-        <options>Delta</options>
+        <options>CustomFilter</options>
       </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>BCJFilter</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>BCJ</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>x86</name>
-      <outputString>x86</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>BCJFilter</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>PowerPC</options>
-        <options>IA64</options>
-        <options>ARM</options>
-        <options>ARMThumb</options>
-        <options>SPARC</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>PowerPC</name>
-      <outputString>PowerPC</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>BCJFilter</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>x86</options>
-        <options>IA64</options>
-        <options>ARM</options>
-        <options>ARMThumb</options>
-        <options>SPARC</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>IA64</name>
-      <outputString>IA64</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>BCJFilter</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>x86</options>
-        <options>PowerPC</options>
-        <options>ARM</options>
-        <options>ARMThumb</options>
-        <options>SPARC</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>ARM</name>
-      <outputString>ARM</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>BCJFilter</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>x86</options>
-        <options>PowerPC</options>
-        <options>IA64</options>
-        <options>ARMThumb</options>
-        <options>SPARC</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>ARMThumb</name>
-      <outputString>ARM-Thumb</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>BCJFilter</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>x86</options>
-        <options>PowerPC</options>
-        <options>IA64</options>
-        <options>ARM</options>
-        <options>SPARC</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>SPARC</name>
-      <outputString>SPARC</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>BCJFilter</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>x86</options>
-        <options>PowerPC</options>
-        <options>IA64</options>
-        <options>ARM</options>
-        <options>ARMThumb</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>start</name>
-      <outputString>start</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>BCJ</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>Delta</name>
-      <outputString>Delta</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Filter</parent>
-      <impliedOptions />
-      <excludedOptions>
-        <options>LZMA</options>
-        <options>BCJ</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>dist</name>
-      <outputString>dist</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Delta</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>Level</name>
-      <outputString>Level</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Compr</parent>
-      <impliedOptions />
-      <excludedOptions />
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
@@ -635,6 +174,22 @@
         <options>Number</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>22</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>22</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>MaxMemCompr</name>
@@ -702,19 +257,6 @@
         <options>List</options>
       </excludedOptions>
       <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <path>src/xz/coder.h</path>
-          <start>
-            <line>49</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>49</line>
-            <column>30</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>List</name>
@@ -729,19 +271,6 @@
         <options>Size</options>
       </excludedOptions>
       <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <path>src/xz/coder.h</path>
-          <start>
-            <line>53</line>
-            <column>18</column>
-          </start>
-          <end>
-            <line>53</line>
-            <column>31</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>XtrmCPU</name>
@@ -750,7 +279,7 @@
       </prefix>
       <postfix>
       </postfix>
-      <parent>Compr</parent>
+      <parent>Preset</parent>
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
@@ -796,6 +325,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>17</line>
@@ -836,6 +368,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>16</line>
@@ -909,6 +444,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>15</line>
@@ -948,6 +486,24 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+            <removed>4773608554d1b684a05ff9c1d879cf5c42266d33</removed>
+          </revisionRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>24</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>51</line>
@@ -1001,6 +557,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>45</line>
@@ -1123,6 +682,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/args.h</path>
           <start>
             <line>36</line>
@@ -1148,6 +710,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/args.h</path>
           <start>
             <line>34</line>
@@ -1187,6 +752,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/args.h</path>
           <start>
             <line>35</line>
@@ -1213,6 +781,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>38</line>
@@ -1242,6 +813,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>23</line>
@@ -1271,6 +845,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>24</line>
@@ -1300,6 +877,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>25</line>
@@ -1329,6 +909,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.h</path>
           <start>
             <line>27</line>
@@ -1354,6 +937,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/suffix.c</path>
           <start>
             <line>25</line>
@@ -1377,6 +963,22 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
+          <path>src/xz/args.h</path>
+          <start>
+            <line>38</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>38</line>
+            <column>21</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>Verbosity</name>
@@ -1388,9 +990,12 @@
       <parent>App</parent>
       <impliedOptions />
       <excludedOptions />
-      <optional>True</optional>
+      <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/message.c</path>
           <start>
             <line>25</line>
@@ -1404,40 +1009,169 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>VerbosityXL</name>
-      <outputString>VerbosityXL</outputString>
+      <name>Debug</name>
+      <outputString>Debug</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>Verbosity</parent>
       <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
+      <excludedOptions>
+        <options>Verbose</options>
+        <options>Warning</options>
+        <options>Error</options>
+        <options>Silent</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
+          <path>src/xz/message.h</path>
+          <start>
+            <line>19</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>19</line>
+            <column>11</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
-      <name>QuietWarn</name>
-      <outputString>QuietWarn</outputString>
+      <name>Verbose</name>
+      <outputString>Verbose</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>App</parent>
+      <parent>Verbosity</parent>
       <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
+      <excludedOptions>
+        <options>Debug</options>
+        <options>Warning</options>
+        <options>Error</options>
+        <options>Silent</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
+          <path>src/xz/message.h</path>
+          <start>
+            <line>18</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>18</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
-      <name>QuietErr</name>
-      <outputString>QuietErr</outputString>
+      <name>Warning</name>
+      <outputString>Warning</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>QuietWarn</parent>
+      <parent>Verbosity</parent>
       <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
+      <excludedOptions>
+        <options>Debug</options>
+        <options>Verbose</options>
+        <options>Error</options>
+        <options>Silent</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
+          <path>src/xz/message.h</path>
+          <start>
+            <line>17</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>17</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Error</name>
+      <outputString>Error</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Verbosity</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Debug</options>
+        <options>Verbose</options>
+        <options>Warning</options>
+        <options>Silent</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
+          <path>src/xz/message.h</path>
+          <start>
+            <line>16</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>16</line>
+            <column>11</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>Silent</name>
+      <outputString>Silent</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Verbosity</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Debug</options>
+        <options>Verbose</options>
+        <options>Warning</options>
+        <options>Error</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
+          <path>src/xz/message.h</path>
+          <start>
+            <line>15</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>15</line>
+            <column>12</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>NoAdjust</name>
@@ -1450,6 +1184,22 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
+          <path>src/xz/coder.h</path>
+          <start>
+            <line>42</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>42</line>
+            <column>27</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>NoWarn</name>
@@ -1464,6 +1214,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/main.c</path>
           <start>
             <line>27</line>
@@ -1531,102 +1284,6 @@
     <configurationOption>
       <name>NoPreset</name>
       <outputString>NoPreset</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>AuxiliaryFeatures</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>NoDict</name>
-      <outputString>NoDict</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>AuxiliaryFeatures</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>NoLc</name>
-      <outputString>NoLc</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>AuxiliaryFeatures</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>NoLp</name>
-      <outputString>NoLp</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>AuxiliaryFeatures</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>NoPb</name>
-      <outputString>NoPb</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>AuxiliaryFeatures</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>NoNice</name>
-      <outputString>NoNice</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>AuxiliaryFeatures</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>NoDepth</name>
-      <outputString>NoDepth</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>AuxiliaryFeatures</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>NoStart</name>
-      <outputString>NoStart</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>AuxiliaryFeatures</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>NoDist</name>
-      <outputString>NoDist</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -1736,20 +1393,6 @@
   </binaryOptions>
   <numericOptions>
     <configurationOption>
-      <name>dict_val</name>
-      <outputString>dict_val</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>dict</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>4</minValue>
-      <maxValue>1536</maxValue>
-      <stepFunction>dict_val + 1</stepFunction>
-    </configurationOption>
-    <configurationOption>
       <name>Preset_val</name>
       <outputString>Preset_val</outputString>
       <prefix>
@@ -1764,6 +1407,9 @@
       <stepFunction>Preset_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/coder.c</path>
           <start>
             <line>46</line>
@@ -1775,104 +1421,6 @@
           </end>
         </sourceRange>
       </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>lc_val</name>
-      <outputString>lc_val</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>lc</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>0</minValue>
-      <maxValue>4</maxValue>
-      <stepFunction>lc_val + 1</stepFunction>
-    </configurationOption>
-    <configurationOption>
-      <name>lp_val</name>
-      <outputString>lp_val</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>lp</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>0</minValue>
-      <maxValue>4</maxValue>
-      <stepFunction>lp_val + 1</stepFunction>
-    </configurationOption>
-    <configurationOption>
-      <name>pb_val</name>
-      <outputString>pb_val</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>pb</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>0</minValue>
-      <maxValue>4</maxValue>
-      <stepFunction>pb_val + 1</stepFunction>
-    </configurationOption>
-    <configurationOption>
-      <name>nice_val</name>
-      <outputString>nice_val</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>nice</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>2</minValue>
-      <maxValue>273</maxValue>
-      <stepFunction>nice_val + 1</stepFunction>
-    </configurationOption>
-    <configurationOption>
-      <name>depth_val</name>
-      <outputString>depth_val</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>depth</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>1</minValue>
-      <maxValue>4294967295</maxValue>
-      <stepFunction>depth_val + 1</stepFunction>
-    </configurationOption>
-    <configurationOption>
-      <name>start_val</name>
-      <outputString>start_val</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>start</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>0</minValue>
-      <maxValue>4294967295</maxValue>
-      <stepFunction>start_val + 1</stepFunction>
-    </configurationOption>
-    <configurationOption>
-      <name>dist_val</name>
-      <outputString>dist_val</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>dist</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>1</minValue>
-      <maxValue>256</maxValue>
-      <stepFunction>dist_val + 1</stepFunction>
     </configurationOption>
     <configurationOption>
       <name>PercentCompr_val</name>
@@ -1887,8 +1435,26 @@
       <minValue>1</minValue>
       <maxValue>100</maxValue>
       <stepFunction>PercentCompr_val + 1</stepFunction>
-    <locations>
+      <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+            <removed>4773608554d1b684a05ff9c1d879cf5c42266d33</removed>
+          </revisionRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>21</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>21</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>25</line>
@@ -1916,6 +1482,9 @@
       <stepFunction>Threads_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>18</line>
@@ -1943,6 +1512,24 @@
       <stepFunction>BytesCompr_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+            <removed>4773608554d1b684a05ff9c1d879cf5c42266d33</removed>
+          </revisionRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>21</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>21</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>25</line>
@@ -1965,9 +1552,25 @@
       <parent>FlushTO</parent>
       <impliedOptions />
       <excludedOptions />
-      <minValue>1</minValue>
+      <minValue>0</minValue>
       <maxValue>9223372036854775807</maxValue>
       <stepFunction>FlushTO_val + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
+          <path>src/xz/mytime.h</path>
+          <start>
+            <line>21</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>21</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>BytesDecompr_val</name>
@@ -1984,6 +1587,24 @@
       <stepFunction>BytesDecompr_val + 1</stepFunction>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+            <removed>4773608554d1b684a05ff9c1d879cf5c42266d33</removed>
+          </revisionRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>24</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>28</line>
@@ -2009,8 +1630,26 @@
       <minValue>1</minValue>
       <maxValue>100</maxValue>
       <stepFunction>PercentDecompr_val + 1</stepFunction>
-    <locations>
+      <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+            <removed>4773608554d1b684a05ff9c1d879cf5c42266d33</removed>
+          </revisionRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>24</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4773608554d1b684a05ff9c1d879cf5c42266d33</introduced>
+          </revisionRange>
           <path>src/xz/hardware.c</path>
           <start>
             <line>28</line>
@@ -2033,32 +1672,32 @@
       <parent>Size</parent>
       <impliedOptions />
       <excludedOptions />
-      <minValue>1</minValue>
+      <minValue>0</minValue>
       <maxValue>9223372036854775807</maxValue>
       <stepFunction>Size_val + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3d566cd519017eee1a400e7961ff14058dfaf33c</introduced>
+          </revisionRange>
+          <path>src/xz/coder.h</path>
+          <start>
+            <line>49</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>49</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
   </numericOptions>
   <booleanConstraints>
     <constraint>!Stdout  |  TestDecompr</constraint>
-    <constraint>!AuxiliaryFeatures | NoPreset | NoDict | NoLc | NoLp | NoPb | NoNice | NoDepth | NoStart | NoDist | NoThreads | NoBytesCompr | NoPercentCompr | NoSize | NoFlushTO | NoBytesDecompr | NoPercentDecompr</constraint>
+    <constraint>!AuxiliaryFeatures | NoPreset | NoThreads | NoBytesCompr | NoPercentCompr | NoSize | NoFlushTO | NoBytesDecompr | NoPercentDecompr</constraint>
     <constraint>Preset | NoPreset</constraint>
     <constraint>!Preset | !NoPreset</constraint>
-    <constraint>dict | NoDict</constraint>
-    <constraint>!dict | !NoDict</constraint>
-    <constraint>lc | NoLc</constraint>
-    <constraint>!lc | !NoLc</constraint>
-    <constraint>lp | NoLp</constraint>
-    <constraint>!lp | !NoLp</constraint>
-    <constraint>pb | NoPb</constraint>
-    <constraint>!pb | !NoPb</constraint>
-    <constraint>nice | NoNice</constraint>
-    <constraint>!nice | !NoNice</constraint>
-    <constraint>depth | NoDepth</constraint>
-    <constraint>!depth | !NoDepth</constraint>
-    <constraint>start | NoStart</constraint>
-    <constraint>!start | !NoStart</constraint>
-    <constraint>dist | NoDist</constraint>
-    <constraint>!dist | !NoDist</constraint>
     <constraint>Number | NoThreads</constraint>
     <constraint>!Number | !NoThreads</constraint>
     <constraint>BytesCompr | NoBytesCompr</constraint>
@@ -2074,9 +1713,6 @@
     <constraint>PercentDecompr | NoPercentDecompr</constraint>
     <constraint>!PercentDecompr | !NoPercentDecompr</constraint>
     <constraint>!Blocks | xz</constraint>
-    <constraint>!lzma | LZMA1</constraint>
-    <constraint>!xz | !LZMA1</constraint>
-    <constraint>!FlushTO | LZMA2 | Delta</constraint>
     <constraint>!Test | KeepIn</constraint>
     <constraint>!TestDecompr | Test | Decompr</constraint>
     <constraint>!Memory | MaxMemCompr | MaxMemDecompr</constraint>
@@ -2084,19 +1720,13 @@
   <nonBooleanConstraints />
   <mixedConstraints>
     <constraint req="all" exprKind="pos"> NoPreset * Preset_val = 0</constraint>
-    <constraint req="all" exprKind="pos"> NoDict * dict_val = 4</constraint>
-    <constraint req="all" exprKind="pos"> NoLc * lc_val = 0</constraint>
-    <constraint req="all" exprKind="pos"> NoLp * lp_val = 0</constraint>
-    <constraint req="all" exprKind="pos"> NoPb * pb_val = 0</constraint>
-    <constraint req="all" exprKind="pos"> NoNice * nice_val = 2</constraint>
-    <constraint req="all" exprKind="pos"> NoDepth * depth_val = 0</constraint>
-    <constraint req="all" exprKind="pos"> NoStart * start_val = 0</constraint>
-    <constraint req="all" exprKind="pos"> NoDist * dist_val = 1</constraint>
     <constraint req="all" exprKind="pos"> NoThreads * Threads_val = 1</constraint>
     <constraint req="all" exprKind="pos"> NoBytesCompr * BytesCompr_val = 1</constraint>
     <constraint req="all" exprKind="pos"> NoPercentCompr * PercentCompr_val = 1</constraint>
-    <constraint req="all" exprKind="pos"> NoSize * Size_val = 1</constraint>
-    <constraint req="all" exprKind="pos"> NoFlushTO * FlushTO_val = 1</constraint>
+    <constraint req="all" exprKind="pos"> Size_val &gt;= Size </constraint>
+    <constraint req="all" exprKind="pos"> NoSize * Size_val = 0 </constraint>
+    <constraint req="all" exprKind="pos"> FlushTO_val &gt;= FlushTO </constraint>
+    <constraint req="all" exprKind="pos"> NoFlushTO * FlushTO_val = 0 </constraint>
     <constraint req="all" exprKind="pos"> NoBytesDecompr * BytesDecompr_val = 1</constraint>
     <constraint req="all" exprKind="pos"> NoPercentDecompr * PercentDecompr_val = 1</constraint>
   </mixedConstraints>
