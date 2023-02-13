@@ -286,6 +286,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
           <path>src/search/merge_and_shrink/shrink_bisimulation.h</path>
           <start>
             <line>18</line>
@@ -293,6 +296,21 @@
           </start>
           <end>
             <line>18</line>
+            <column>24</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/shrink_bisimulation.h</path>
+          <start>
+            <line>13</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>13</line>
             <column>24</column>
           </end>
         </sourceRange>
@@ -721,6 +739,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
           <path>src/search/pdbs/canonical_pdbs_heuristic.cc</path>
           <start>
             <line>39</line>
@@ -728,6 +749,21 @@
           </start>
           <end>
             <line>39</line>
+            <column>37</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/pdbs/canonical_pdbs_heuristic.cc</path>
+          <start>
+            <line>38</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>38</line>
             <column>37</column>
           </end>
         </sourceRange>
@@ -747,6 +783,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
             <line>59</line>
@@ -754,6 +793,21 @@
           </start>
           <end>
             <line>59</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>28</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>28</line>
             <column>28</column>
           </end>
         </sourceRange>
@@ -773,6 +827,9 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
             <line>60</line>
@@ -780,6 +837,21 @@
           </start>
           <end>
             <line>60</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>29</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>29</line>
             <column>26</column>
           </end>
         </sourceRange>
@@ -799,6 +871,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
             <line>61</line>
@@ -806,6 +881,21 @@
           </start>
           <end>
             <line>61</line>
+            <column>34</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>60</line>
+            <column>26</column>
+          </start>
+          <end>
+            <line>60</line>
             <column>34</column>
           </end>
         </sourceRange>
@@ -828,6 +918,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
             <line>40</line>
@@ -836,6 +929,21 @@
           <end>
             <line>40</line>
             <column>26</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>45</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>45</line>
+            <column>30</column>
           </end>
         </sourceRange>
       </locations>
@@ -857,6 +965,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
             <line>39</line>
@@ -865,6 +976,21 @@
           <end>
             <line>39</line>
             <column>26</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>44</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>44</line>
+            <column>30</column>
           </end>
         </sourceRange>
       </locations>
@@ -886,6 +1012,9 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
           <path>src/search/merge_and_shrink/label_reduction.h</path>
           <start>
             <line>41</line>
@@ -894,6 +1023,21 @@
           <end>
             <line>41</line>
             <column>40</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>46</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>46</line>
+            <column>44</column>
           </end>
         </sourceRange>
       </locations>
