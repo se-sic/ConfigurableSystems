@@ -46,6 +46,19 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/merge_and_shrink_heuristic.h</path>
+          <start>
+            <line>16</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>16</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>blind</name>
@@ -66,6 +79,19 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/heuristics/blind_search_heuristic.h</path>
+          <start>
+            <line>7</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>7</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>max</name>
@@ -86,6 +112,19 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/heuristics/max_heuristic.h</path>
+          <start>
+            <line>17</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>17</line>
+            <column>21</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>iPDB</name>
@@ -106,6 +145,19 @@
         <options>canonicalPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pdb_heuristic.h</path>
+          <start>
+            <line>17</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>17</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>noiPDB</name>
@@ -139,6 +191,19 @@
         <options>iPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/canonical_pdbs.h</path>
+          <start>
+            <line>11</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>11</line>
+            <column>19</column>
+          </end>
+        </sourceRange>
+      </locations>    
     </configurationOption>
     <configurationOption>
       <name>labelReduction</name>
@@ -152,6 +217,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/merge_and_shrink_algorithm.h</path>
+          <start>
+            <line>29</line>
+            <column>37</column>
+          </start>
+          <end>
+            <line>29</line>
+            <column>51</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>exactGeneralizedLR</name>
@@ -178,6 +256,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/merge_and_shrink_algorithm.h</path>
+          <start>
+            <line>28</line>
+            <column>37</column>
+          </start>
+          <end>
+            <line>28</line>
+            <column>51</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>bisimulation</name>
@@ -193,6 +284,37 @@
         <options>fPreserving</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/shrink_bisimulation.h</path>
+          <start>
+            <line>18</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>18</line>
+            <column>24</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/shrink_bisimulation.h</path>
+          <start>
+            <line>13</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>13</line>
+            <column>24</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>fPreserving</name>
@@ -208,6 +330,19 @@
         <options>bisimulation</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/shrink_fh.h</path>
+          <start>
+            <line>24</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>14</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>mergeStrat</name>
@@ -247,6 +382,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/merge_and_shrink/merge_strategy_precomputed.h</path>
+          <start>
+            <line>9</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>9</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>linear</name>
@@ -280,6 +428,19 @@
         <options>iPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/heuristics/lm_cut_heuristic.h</path>
+          <start>
+            <line>17</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>17</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>landmarkCount</name>
@@ -300,6 +461,19 @@
         <options>iPDB</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_count_heuristic.h</path>
+          <start>
+            <line>18</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>18</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>landmarkFactory</name>
@@ -407,6 +581,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory.h</path>
+          <start>
+            <line>72</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>72</line>
+            <column>32</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>onlyCausalLMs</name>
@@ -420,6 +607,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory.h</path>
+          <start>
+            <line>73</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>73</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>disjunctiveLMs</name>
@@ -433,6 +633,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory.h</path>
+          <start>
+            <line>74</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>74</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>conjunctiveLMs</name>
@@ -446,6 +659,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory.h</path>
+          <start>
+            <line>75</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>75</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>noOrders</name>
@@ -459,6 +685,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory.h</path>
+          <start>
+            <line>76</line>
+            <column>16</column>
+          </start>
+          <end>
+            <line>76</line>
+            <column>24</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>maxTime</name>
@@ -472,6 +711,19 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
+          <start>
+            <line>41</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>41</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>maxTimeDomPruning</name>
@@ -485,6 +737,37 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
+          <path>src/search/pdbs/canonical_pdbs_heuristic.cc</path>
+          <start>
+            <line>39</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>39</line>
+            <column>37</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/pdbs/canonical_pdbs_heuristic.cc</path>
+          <start>
+            <line>38</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>38</line>
+            <column>37</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>beforeShrinking</name>
@@ -498,6 +781,37 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>59</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>59</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>28</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>28</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>beforeMerging</name>
@@ -511,6 +825,37 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>60</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>60</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>29</line>
+            <column>10</column>
+          </start>
+          <end>
+            <line>29</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>method</name>
@@ -524,6 +869,37 @@
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>61</line>
+            <column>26</column>
+          </start>
+          <end>
+            <line>61</line>
+            <column>34</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>60</line>
+            <column>26</column>
+          </start>
+          <end>
+            <line>60</line>
+            <column>34</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>allSystems</name>
@@ -540,6 +916,37 @@
         <options>allSystemsWithFixpoint</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>40</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>40</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>45</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>45</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>twoSystems</name>
@@ -556,6 +963,37 @@
         <options>allSystemsWithFixpoint</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>39</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>39</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>44</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>44</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>allSystemsWithFixpoint</name>
@@ -572,6 +1010,37 @@
         <options>twoSystems</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>41</line>
+            <column>5</column>
+          </start>
+          <end>
+            <line>41</line>
+            <column>40</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
+            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
+          </revisionRange>
+          <path>src/search/merge_and_shrink/label_reduction.h</path>
+          <start>
+            <line>46</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>46</line>
+            <column>44</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
   </binaryOptions>
   <numericOptions>
@@ -587,6 +1056,19 @@
       <impliedOptions />
       <excludedOptions />
       <values>100000;2000000;10000000</values>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
+          <start>
+            <line>35</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>35</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>m</name>
@@ -602,6 +1084,19 @@
       <minValue>2</minValue>
       <maxValue>2</maxValue>
       <stepFunction>m + 1</stepFunction>
+      <locations>
+        <sourceRange>
+          <path>src/search/landmarks/landmark_factory_h_m.h</path>
+          <start>
+            <line>92</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>92</line>
+            <column>16</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>collectionMaxSize</name>
@@ -615,6 +1110,19 @@
       <impliedOptions />
       <excludedOptions />
       <values>10000;200000;10000000</values>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
+          <start>
+            <line>37</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>37</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>numSamples</name>
@@ -628,6 +1136,19 @@
       <impliedOptions />
       <excludedOptions />
       <values>100;1000;10000</values>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
+          <start>
+            <line>38</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>38</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>minImprovement</name>
@@ -641,6 +1162,19 @@
       <impliedOptions />
       <excludedOptions />
       <values>1;10;15</values>
+      <locations>
+        <sourceRange>
+          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
+          <start>
+            <line>40</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>40</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>random</name>
@@ -654,6 +1188,19 @@
       <impliedOptions />
       <excludedOptions />
       <values>1;42;1337</values>
+      <locations>
+        <sourceRange>
+          <path>src/search/utils/rng_options.cc</path>
+          <start>
+            <line>22</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>22</line>
+            <column>12</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
   </numericOptions>
   <booleanConstraints>
