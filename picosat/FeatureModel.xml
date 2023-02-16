@@ -132,39 +132,6 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
-      <locations>
-      	<!-- picosat-965 -->
-        <sourceRange category="necessary">
-          <revisionRange>
-            <introduced>33c685e82213228726364980814f0183e435de78</introduced>
-          </revisionRange>
-          <path>app.c</path>
-          <start>
-            <line>24</line>
-            <column>12</column>
-          </start>
-          <end>
-            <line>24</line>
-            <column>18</column>
-          </end>
-        </sourceRange>
-        <!-- picosat-951 -->
-        <sourceRange category="necessary">
-          <revisionRange>
-            <introduced>5adb977fd9095cde5a51ffd25821c53f50e7eb38</introduced>
-            <removed>1f7d3325021c5f8296e5dfc3b057bd6c5c3a6c8e</removed>
-          </revisionRange>
-          <path>app.c</path>
-          <start>
-            <line>19</line>
-            <column>12</column>
-          </start>
-          <end>
-            <line>19</line>
-            <column>18</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>IgnoreInvalidHeader</name>
