@@ -1,0 +1,85 @@
+c 1 iosCreateImagesetFolders
+c 2 bmp
+c 3 scale90
+c 4 gif
+c 5 android
+c 6 scale
+c 7 ios
+c 8 androidMipmapInsteadOfDrawable
+c 9 scale10
+c 10 platform
+c 11 scaleIsHeightDp
+c 12 low_compression
+c 13 multi_threaded
+c 14 web
+c 15 jpeg
+c 16 floor
+c 17 win
+c 18 antiAliasing
+c 19 skipUpscaling
+c 20 androidIncludeLdpiTvdpi
+c 21 Root
+c 22 png
+c 23 threads
+c 24 ceil
+c 25 roundingMode
+c 26 round
+c 27 outCompression
+c 28 high_compression
+c 29 single_threaded
+p cnf 29 55
+21 0
+5 -8 0
+5 -20 0
+6 -9 0
+6 -3 0
+9 3 -6 0
+-9 -3 0
+7 -1 0
+10 -5 0
+10 -7 0
+10 -17 0
+10 -14 0
+5 7 17 14 -10 0
+-5 -7 0
+-5 -17 0
+-5 -14 0
+-7 -17 0
+-7 -14 0
+-17 -14 0
+15 -12 0
+15 -28 0
+12 28 -15 0
+-12 -28 0
+21 -10 0
+21 -25 0
+21 -27 0
+21 -18 0
+21 -11 0
+21 -19 0
+21 -23 0
+21 -6 0
+10 -21 0
+25 -21 0
+6 -21 0
+23 -29 0
+23 -13 0
+29 13 -23 0
+25 -16 0
+25 -26 0
+25 -24 0
+16 26 24 -25 0
+-16 -26 0
+-16 -24 0
+-26 -24 0
+27 -22 0
+27 -15 0
+27 -4 0
+27 -2 0
+22 15 4 2 -27 0
+-22 -15 0
+-22 -4 0
+-22 -2 0
+-15 -4 0
+-15 -2 0
+-4 -2 0

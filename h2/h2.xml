@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="vertical"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="4"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="h2">
+			<feature name="OPTIMIZE_IN_SELECT"/>
+			<feature name="OPTIMIZE_INSERT_FROM_SELECT"/>
+			<feature name="OPTIMIZE_TWO_EQUALS"/>
+			<feature name="OPTIMIZE_IN_LIST"/>
+			<feature name="OPTIMIZE_EVALUATABLE_SUBQUERIES"/>
+			<feature name="RECOMPILE_ALWAYS"/>
+			<feature name="COMPRESS"/>
+			<feature name="IGNORE_CATALOGS"/>
+			<feature name="OPTIMIZE_OR"/>
+			<feature name="REUSE_SPACE"/>
+			<feature name="DROP_RESTRICT"/>
+			<feature name="DEFRAG_ALWAYS"/>
+			<feature name="OPTIMIZE_DISTINCT"/>
+			<alt abstract="true" mandatory="true" name="StorageEngine">
+				<feature name="MV_STORE"/>
+				<and name="PAGE_STORE">
+					<feature name="PAGE_STORE_INTERNAL_COUNT"/>
+					<feature name="PAGE_STORE_TRIM"/>
+				</and>
+			</alt>
+		</and>
+	</struct>
+</featureModel>

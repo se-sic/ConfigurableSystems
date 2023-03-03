@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="vertical"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="4"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="Root">
+			<alt mandatory="true" name="blocksize">
+				<feature name="blocksize_1KB"/>
+				<feature name="blocksize_1MB"/>
+				<feature name="blocksize_1GB"/>
+			</alt>
+			<alt mandatory="true" name="entropy">
+				<feature name="Huffman"/>
+				<feature name="ANS0"/>
+				<feature name="ANS1"/>
+				<feature name="Range"/>
+				<feature name="FPAQ"/>
+				<feature name="TPAQ"/>
+				<feature name="TPAQX"/>
+				<feature name="CM"/>
+			</alt>
+			<or mandatory="true" name="transform">
+				<feature name="BWT"/>
+				<feature name="BWTS"/>
+				<feature name="LZ"/>
+				<feature name="LZP"/>
+				<feature name="ROLZ"/>
+				<feature name="ROLZX"/>
+				<feature name="RLT"/>
+				<feature name="ZRLT"/>
+				<feature name="MTFT"/>
+				<feature name="RANK"/>
+				<feature name="SRT"/>
+				<feature name="TEXT"/>
+				<feature name="X86"/>
+			</or>
+			<feature name="checksum"/>
+			<feature name="skip"/>
+			<alt mandatory="true" name="jobs">
+				<feature name="jobs_1"/>
+				<feature name="jobs_32"/>
+				<feature name="jobs_64"/>
+			</alt>
+		</and>
+	</struct>
+</featureModel>

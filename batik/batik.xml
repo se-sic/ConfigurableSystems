@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="Root">
+			<alt mandatory="true" name="mime-type">
+				<feature name="png"/>
+				<alt name="jpg">
+					<feature name="low_quality"/>
+					<feature name="high_quality"/>
+				</alt>
+				<feature name="tiff"/>
+				<feature name="pdf"/>
+			</alt>
+			<alt mandatory="true" name="indexed">
+				<feature name="indexed_1"/>
+				<feature name="indexed_2"/>
+				<feature name="indexed_4"/>
+				<feature name="indexed_8"/>
+			</alt>
+			<alt mandatory="true" name="dpi">
+				<feature name="dpi50"/>
+				<feature name="dpi100"/>
+				<feature name="dpi200"/>
+				<feature name="dpi400"/>
+			</alt>
+			<feature name="validate"/>
+			<feature name="onload"/>
+			<feature name="anyScriptOrigin"/>
+			<alt mandatory="true" name="format">
+				<feature name="sd_resolution"/>
+				<feature name="full_hd_resolution"/>
+				<feature name="4k_resolution"/>
+			</alt>
+		</and>
+	</struct>
+</featureModel>
