@@ -17,6 +17,7 @@
     <configurationOption>
       <name>mode</name>
       <outputString>
+      mode
       </outputString>
       <prefix>
       </prefix>
@@ -28,14 +29,14 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>src/opus_demo.c</path>
           <start>
-            <line>100</line>
+            <line>216</line>
             <column>18</column>
           </start>
           <end>
-            <line>100</line>
-            <column>21</column>
+            <line>216</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::mode</memberOffset>
         </sourceRange>
@@ -57,6 +58,7 @@
     <configurationOption>
       <name>cbr</name>
       <outputString>
+      cbr
       </outputString>
       <prefix>
       </prefix>
@@ -70,6 +72,7 @@
     <configurationOption>
       <name>cvbr</name>
       <outputString>
+      cvbr
       </outputString>
       <prefix>
       </prefix>
@@ -81,14 +84,14 @@
       <optional>True</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>src/opus_demo.c</path>
           <start>
-            <line>80</line>
+            <line>216</line>
             <column>18</column>
           </start>
           <end>
-            <line>80</line>
-            <column>24</column>
+            <line>216</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::use_vbr</memberOffset>
         </sourceRange>
@@ -97,6 +100,7 @@
     <configurationOption>
       <name>bandwidth</name>
       <outputString>
+      bandwidth
       </outputString>
       <prefix>
       </prefix>
@@ -108,14 +112,14 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>src/opus_demo.c</path>
           <start>
-            <line>104</line>
+            <line>216</line>
             <column>18</column>
           </start>
           <end>
-            <line>104</line>
-            <column>26</column>
+            <line>216</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::bandwidth</memberOffset>
         </sourceRange>
@@ -178,6 +182,7 @@
     <configurationOption>
       <name>frameSize</name>
       <outputString>
+      frameSize
       </outputString>
       <prefix>
       </prefix>
@@ -189,14 +194,14 @@
       <optional>False</optional>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>src/opus_demo.c</path>
           <start>
-            <line>79</line>
+            <line>216</line>
             <column>18</column>
           </start>
           <end>
-            <line>79</line>
-            <column>19</column>
+            <line>216</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::Fs</memberOffset>
         </sourceRange>
@@ -304,6 +309,7 @@
     <configurationOption>
       <name>channels</name>
       <outputString>
+      channels
       </outputString>
       <prefix>
       </prefix>
@@ -317,14 +323,14 @@
       <stepFunction>channels + 1</stepFunction>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>src/opus_demo.c</path>
           <start>
-            <line>71</line>
+            <line>216</line>
             <column>18</column>
           </start>
           <end>
-            <line>71</line>
-            <column>25</column>
+            <line>216</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::channels</memberOffset>
         </sourceRange>
@@ -348,6 +354,7 @@
     <configurationOption>
       <name>bitRate</name>
       <outputString>
+      bitRate
       </outputString>
       <prefix>
       </prefix>
@@ -361,14 +368,14 @@
       <stepFunction>bitRate * 6</stepFunction>
       <locations>
         <sourceRange>
-          <path>src/opus_encoder.c</path>
+          <path>src/opus_demo.c</path>
           <start>
-            <line>83</line>
+            <line>216</line>
             <column>18</column>
           </start>
           <end>
-            <line>83</line>
-            <column>28</column>
+            <line>216</line>
+            <column>20</column>
           </end>
           <memberOffset>OpusEncoder::bitrate_bps</memberOffset>
         </sourceRange>
