@@ -1,0 +1,90 @@
+name: Configurable Systems Pages
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    continue-on-error: false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Checkout VaRA-Feature
+        uses: actions/checkout@v3
+        with:
+          repository: se-sic/vara-feature
+          path: .external/vara-feature
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Checkout ConfigurableSystems
+        uses: actions/checkout@v3
+        with:
+          repository: se-sic/ConfigurableSystems
+          path: .external/ConfigurableSystems
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Install General Dependencies
+        shell: bash
+        run: |
+          sudo apt-key adv --fetch-keys  https://apt.kitware.com/keys/kitware-archive-latest.asc
+          sudo apt-add-repository -y 'deb https://apt.kitware.com/ubuntu/ focal main'
+          sudo apt-key adv --fetch-keys https://apt.llvm.org/llvm-snapshot.gpg.key
+          sudo add-apt-repository -y 'deb https://apt.llvm.org/focal/ llvm-toolchain-focal-14 main'
+          sudo apt-get update
+          sudo apt-get -y install --no-install-recommends cmake libstdc++6 libxml2-dev python3-dev graphviz clang-14 llvm-14-dev
+
+      - name: Build VaRA-Feature
+        shell: bash
+        run: |
+          mkdir .external/vara-feature/build
+          cd .external/vara-feature/build
+          cmake .. \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DLLVM_REQUESTED_VERSION=14.0 \
+            -DCMAKE_CXX_COMPILER=clang++-14 \
+            -DVARA_FEATURE_SANITIZE=False \
+            -DVARA_FEATURE_BUILD_PYTHON_BINDINGS=True \
+            -DPYTHON_EXECUTABLE=$(which python3)
+          cmake --build . -- -j
+
+      - name: Install Python Dependencies
+        shell: bash
+        run: |
+          pip3 install --upgrade pip
+          pip3 install --upgrade wheel
+          pip3 install --upgrade Pillow plumbum 
+
+      - name: Render Feature Models
+        shell: bash
+        run: |
+          python3 .scripts/pages.py
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          retention-days: 7
+          path: .github/pages/
+
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

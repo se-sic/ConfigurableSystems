@@ -1,0 +1,58 @@
+* {
+    background-attachment: scroll !important;
+    font-family: monospace, monospace;
+    hyphens: auto;
+    font-size: 14px;
+    text-align: left;
+}
+
+.preview img {
+    max-width: 512px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+table {
+    table-layout: auto;
+    width: 100%;
+    padding: 16px;
+    border-collapse: collapse;
+}
+
+table .item.default {
+}
+
+table .item.hidden {
+    display: none;
+}
+
+th {
+    border-bottom: solid 3px black;
+}
+
+tr {
+    border: none;
+    height: 100px !important;
+}
+
+td {
+    padding: 10px;
+    border-top: solid 1px black;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.links {
+    display: grid;
+    grid-template-columns:  repeat(auto-fill, 50px);
+}
+
+.link {
+    border: solid 1px red;
+}
+
+.link a {
+    text-decoration: none;
+}

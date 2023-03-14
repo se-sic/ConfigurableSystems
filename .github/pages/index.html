@@ -1,0 +1,131 @@
+<!-- Created 2023-03-01 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Configurable Systems</title>
+    <link rel="icon" type="image/x-icon" href="https://www.se.cs.uni-saarland.de/images/se-icon.png">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        const search = new URLSearchParams(window.location.search);
+        const domain = search.has('domain') ? search.get('domain') : 'https://se-sic.github.io/ConfigurableSystems';
+
+        function render() {
+            fetch(`${domain}/index.json`)
+                .then(response => response.json())
+                .then(index => render_index(index))
+                .catch(console.error);
+        }
+    </script>
+</head>
+
+<body>
+<div id="content">
+    <div id="index">
+        <form>
+            <label for="filter">
+            </label>
+            <input id="filter" type="text" class="input" placeholder="filter..."/>
+            <script>
+                document.getElementById('filter').addEventListener('input', (event) => {
+                    const input = event.target.value.trim().toLowerCase();
+                    document.getElementById('table').querySelectorAll('.item').forEach(item => {
+                        const data = item.querySelector('.data');
+                        if (!input || data.textContent.toLowerCase().includes(input)) {
+                            item.className = 'item default';
+                            data.innerHTML = data.textContent.replace(new RegExp(input, 'gi'), (match) => {
+                                return `<mark>${match}</mark>`;
+                            });
+                        } else {
+                            item.className = 'item hidden';
+                            data.innerHTML = data.textContent;
+                        }
+                    });
+                });
+            </script>
+            <button id="clear" type="button">
+                x
+            </button>
+            <script>
+                document.getElementById('clear').addEventListener('click', (_) => {
+                    document.getElementById('filter').value = '';
+                    document.getElementById('table').querySelectorAll('.item').forEach(item => {
+                        item.className = 'item default';
+                        const data = item.querySelector('.data');
+                        data.innerHTML = data.textContent;
+                    });
+                });
+            </script>
+        </form>
+        <table>
+            <colgroup>
+                <col style="width:30%">
+                <col style="width:40%">
+                <col style="width:30%">
+            </colgroup>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Files</th>
+                <th>Preview</th>
+            </tr>
+            </thead>
+            <tbody id="table">
+            </tbody>
+        </table>
+        <script type="text/javascript">
+            function render_index(index) {
+                Object.values(index).forEach(feature_model => {
+                    const tr = document.createElement('tr');
+                    tr.className = 'item default';
+                    {
+                        const td = document.createElement('td');
+                        td.innerHTML = `
+                            <div class="data">
+                                ${feature_model['name']}
+                            </div>`;
+                        tr.append(td);
+                    }
+                    {
+                        const links = document.createElement('div');
+                        links.className = 'links';
+                        feature_model['files'].forEach(file => {
+                            const link = document.createElement('div');
+                            link.innerHTML = `
+                                <a href="${domain}/${file['source']}" target="_blank" rel="noopener noreferrer">
+                                    ${file['format']}
+                                </a>`;
+                            links.append(link);
+                        });
+                        const td = document.createElement('td');
+                        td.appendChild(links);
+                        tr.append(td);
+                    }
+                    {
+                        const td = document.createElement('td');
+                        const img = document.createElement('img');
+                        img.alt = feature_model['name'];
+                        img.title = feature_model['name'];
+                        img.src = `${domain}/${feature_model['preview']['thumbnail']}`;
+                        const preview = document.createElement('div');
+                        preview.className = 'preview';
+                        preview.appendChild(img);
+                        td.innerHTML = `
+                            <a href="${domain}/${feature_model['preview']['source']}" target="_blank" rel="noopener noreferrer">
+                                ${preview.outerHTML}
+                            </a>`;
+                        tr.append(td);
+                    }
+                    document.getElementById('table').appendChild(tr);
+                });
+            }
+        </script>
+    </div>
+</div>
+</body>
+
+<script type="text/javascript">
+    render();
+</script>
+
+</html>
