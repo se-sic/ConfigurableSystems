@@ -20,7 +20,7 @@ jobs:
       - name: Checkout VaRA-Feature
         uses: actions/checkout@v3
         with:
-          repository: se-sic/vara-feature
+          repository: se-sic/vara-features
           path: .external/vara-feature
           fetch-depth: 0
           submodules: recursive
@@ -55,6 +55,7 @@ jobs:
           pip3 install --upgrade pip
           pip3 install --upgrade wheel
           pip3 install --upgrade Pillow plumbum 
+          pip3 install --upgrade .external/vara-feature
 
       - name: Render Feature Models
         shell: bash

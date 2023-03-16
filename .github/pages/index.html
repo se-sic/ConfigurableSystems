@@ -60,17 +60,17 @@
         <table>
             <colgroup>
                 <col style="width:25%">
+                <col style="width:15%">
+                <col style="width:35%">
                 <col style="width:20%">
-                <col style="width:20%">
-                <col style="width:30%">
                 <col style="width:5%">
             </colgroup>
             <thead>
             <tr>
                 <th>Name</th>
                 <th>Metadata</th>
-                <th>Files</th>
                 <th>Preview</th>
+                <th>Files</th>
                 <th>Links</th>
             </tr>
             </thead>
@@ -101,6 +101,19 @@
                         tr.append(td);
                     }
                     {
+                        const td = document.createElement('td');
+                        const preview = document.createElement('img');
+                        preview.className = 'preview';
+                        preview.alt = feature_model['name'];
+                        preview.title = feature_model['name'];
+                        preview.src = `${domain}/${feature_model['preview']['thumbnail']}`;
+                        td.innerHTML = `
+                            <a href="${domain}/${feature_model['preview']['source']}" target="_blank" rel="noopener noreferrer">
+                                ${preview.outerHTML}
+                            </a>`;
+                        tr.append(td);
+                    }
+                    {
                         const links = document.createElement('div');
                         links.className = 'links';
                         feature_model['files'].forEach(file => {
@@ -114,19 +127,6 @@
                         });
                         const td = document.createElement('td');
                         td.appendChild(links);
-                        tr.append(td);
-                    }
-                    {
-                        const td = document.createElement('td');
-                        const preview = document.createElement('img');
-                        preview.className = 'preview';
-                        preview.alt = feature_model['name'];
-                        preview.title = feature_model['name'];
-                        preview.src = `${domain}/${feature_model['preview']['thumbnail']}`;
-                        td.innerHTML = `
-                            <a href="${domain}/${feature_model['preview']['source']}" target="_blank" rel="noopener noreferrer">
-                                ${preview.outerHTML}
-                            </a>`;
                         tr.append(td);
                     }
                     {
