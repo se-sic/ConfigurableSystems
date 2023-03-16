@@ -20,7 +20,7 @@ jobs:
       - name: Checkout VaRA-Feature
         uses: actions/checkout@v3
         with:
-          repository: se-sic/vara-features
+          repository: se-sic/vara-feature
           path: .external/vara-feature
           fetch-depth: 0
           submodules: recursive
