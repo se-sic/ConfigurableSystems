@@ -30,7 +30,7 @@
                 document.getElementById('filter').addEventListener('input', (event) => {
                     const input = event.target.value.trim().toLowerCase();
                     document.getElementById('table').querySelectorAll('.item').forEach(item => {
-                        const data = item.querySelector('.data');
+                        const data = item.querySelector('.data.name');
                         if (!input || data.textContent.toLowerCase().includes(input)) {
                             item.className = 'item default';
                             data.innerHTML = data.textContent.replace(new RegExp(input, 'gi'), (match) => {
@@ -51,7 +51,7 @@
                     document.getElementById('filter').value = '';
                     document.getElementById('table').querySelectorAll('.item').forEach(item => {
                         item.className = 'item default';
-                        const data = item.querySelector('.data');
+                        const data = item.querySelector('.data.name');
                         data.innerHTML = data.textContent;
                     });
                 });
@@ -59,15 +59,19 @@
         </form>
         <table>
             <colgroup>
+                <col style="width:25%">
+                <col style="width:20%">
+                <col style="width:20%">
                 <col style="width:30%">
-                <col style="width:40%">
-                <col style="width:30%">
+                <col style="width:5%">
             </colgroup>
             <thead>
             <tr>
                 <th>Name</th>
+                <th>Metadata</th>
                 <th>Files</th>
                 <th>Preview</th>
+                <th>Links</th>
             </tr>
             </thead>
             <tbody id="table">
@@ -81,8 +85,18 @@
                     {
                         const td = document.createElement('td');
                         td.innerHTML = `
-                            <div class="data">
+                            <div class="data name">
                                 ${feature_model['name']}
+                            </div>`;
+                        tr.append(td);
+                    }
+                    {
+                        const td = document.createElement('td');
+                        td.innerHTML = `
+                            <div class="data metadata">
+                                <span>Features: ${feature_model['metadata']['features']}</span>
+                                <span>Constraints: ${feature_model['metadata']['constraints']}</span>
+                                <span>Depth: ${feature_model['metadata']['depth']}</span>
                             </div>`;
                         tr.append(td);
                     }
@@ -91,6 +105,7 @@
                         links.className = 'links';
                         feature_model['files'].forEach(file => {
                             const link = document.createElement('div');
+                            link.className = 'link';
                             link.innerHTML = `
                                 <a href="${domain}/${file['source']}" target="_blank" rel="noopener noreferrer">
                                     ${file['format']}
@@ -103,16 +118,27 @@
                     }
                     {
                         const td = document.createElement('td');
-                        const img = document.createElement('img');
-                        img.alt = feature_model['name'];
-                        img.title = feature_model['name'];
-                        img.src = `${domain}/${feature_model['preview']['thumbnail']}`;
-                        const preview = document.createElement('div');
+                        const preview = document.createElement('img');
                         preview.className = 'preview';
-                        preview.appendChild(img);
+                        preview.alt = feature_model['name'];
+                        preview.title = feature_model['name'];
+                        preview.src = `${domain}/${feature_model['preview']['thumbnail']}`;
                         td.innerHTML = `
                             <a href="${domain}/${feature_model['preview']['source']}" target="_blank" rel="noopener noreferrer">
                                 ${preview.outerHTML}
+                            </a>`;
+                        tr.append(td);
+                    }
+                    {
+                        const td = document.createElement('td');
+                        const github = document.createElement('img');
+                        github.className = 'github';
+                        github.alt = 'github';
+                        github.title = 'Edit on GitHub';
+                        github.src = 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png';
+                        td.innerHTML = `
+                            <a href="https://github.com/se-sic/ConfigurableSystems/edit/master/${feature_model['name']}/FeatureModel.xml" target="_blank" rel="noopener noreferrer">
+                                ${github.outerHTML}
                             </a>`;
                         tr.append(td);
                     }

@@ -2,15 +2,9 @@
     background-attachment: scroll !important;
     font-family: monospace, monospace;
     hyphens: auto;
+    color: black;
     font-size: 14px;
     text-align: left;
-}
-
-.preview img {
-    max-width: 512px;
-    max-height: 100px;
-    width: auto;
-    height: auto;
 }
 
 table {
@@ -44,15 +38,47 @@ td {
     vertical-align: middle;
 }
 
+.data.name, .data.name mark {
+    font-size: 16px;
+}
+
+.data.metadata {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.data.metadata span {
+    font-size: 10px;
+}
+
 .links {
     display: grid;
     grid-template-columns:  repeat(auto-fill, 50px);
 }
 
 .link {
-    border: solid 1px red;
+    padding: 4px;
 }
 
 .link a {
+    outline: solid 2px black;
+    outline-offset: 3px;
     text-decoration: none;
+}
+
+.preview {
+    max-width: 512px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    outline: solid 1px black;
+    outline-offset: 2px;
+    cursor: zoom-in;
+}
+
+.github {
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
 }

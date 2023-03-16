@@ -22,9 +22,6 @@ FILES.mkdir(exist_ok=True)
 IMAGES = ROOT / 'images'
 IMAGES.mkdir(exist_ok=True)
 
-THUMBNAILS = ROOT / 'thumbnails'
-THUMBNAILS.mkdir(exist_ok=True)
-
 INDEX = ROOT / 'index.json'
 
 SOURCE = CWD
@@ -38,8 +35,8 @@ def sanitize(root: Path, path: Path) -> str:
 def main() -> None:
     index: tp.Dict[str, tp.Dict[str, tp.Any]] = {}
     for feature_model in {
-            path for path in SOURCE.iterdir() if path.is_dir() and
-            path.name not in EXCLUDE and not path.name.startswith('.')
+        path for path in SOURCE.iterdir() if path.is_dir() and
+                                             path.name not in EXCLUDE and not path.name.startswith('.')
     }:
         try:
             if feature_model.is_dir():
@@ -60,7 +57,7 @@ def main() -> None:
                 svg = local["dot"]['-Tsvg', '-o', vector_path]
                 (viewer | svg)()
 
-                thumbnail_path = Path(THUMBNAILS, feature_model.name + '.webp')
+                thumbnail_path = Path(IMAGES, feature_model.name + '-scaled.webp')
                 image = Image.open(image_path)
                 image.thumbnail((512, 512), resample=Image.BICUBIC)
                 with open(thumbnail_path, 'wb+') as file:
@@ -68,6 +65,11 @@ def main() -> None:
 
                 index[feature_model.name] = {
                     'name': feature_model.name,
+                    'metadata': {
+                        'features': 0,
+                        'constraints': 0,
+                        'depth': 0
+                    },
                     'files': [{
                         'format': 'xml',
                         'source': sanitize(ROOT, file_path)
@@ -83,7 +85,7 @@ def main() -> None:
                         'thumbnail': sanitize(ROOT, thumbnail_path)
                     }
                 }
-        except ProcessExecutionError as error:
+        except ProcessExecutionError:
             logging.error(feature_model.name)
             continue
 

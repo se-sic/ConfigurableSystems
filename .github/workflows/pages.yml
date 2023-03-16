@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     continue-on-error: false
     steps:
       - name: Checkout
@@ -22,14 +22,6 @@ jobs:
         with:
           repository: se-sic/vara-feature
           path: .external/vara-feature
-          fetch-depth: 0
-          submodules: recursive
-
-      - name: Checkout ConfigurableSystems
-        uses: actions/checkout@v3
-        with:
-          repository: se-sic/ConfigurableSystems
-          path: .external/ConfigurableSystems
           fetch-depth: 0
           submodules: recursive
 
