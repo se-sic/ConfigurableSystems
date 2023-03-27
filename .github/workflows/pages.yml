@@ -2,7 +2,7 @@ name: Configurable Systems Pages
 
 on:
   push:
-    branches: [ master, FixFlib ]
+    branches: [ master ]
 
 jobs:
   build:
