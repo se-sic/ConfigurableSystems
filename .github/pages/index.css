@@ -31,7 +31,7 @@ tr {
 }
 
 td {
-    height: 104px;
+    height: 110px;
     padding: 10px;
     border-top: solid 1px black;
     overflow: hidden;
@@ -40,7 +40,7 @@ td {
 }
 
 .data.name, .data.name mark {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .data.metadata {
@@ -49,7 +49,7 @@ td {
 }
 
 .data.metadata span {
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .links {
