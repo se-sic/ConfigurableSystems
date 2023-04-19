@@ -74,9 +74,16 @@ def main() -> None:
                 index[feature_model.name] = {
                     'name': feature_model.name,
                     'metadata': {
-                        'features': fm.size(),
-                        'constraints': 0,
-                        'depth': 0
+                        'features':
+                            fm.size(),
+                        'depth':
+                            0,
+                        'booleanConstraints':
+                            len(list(fm.booleanConstraints)),
+                        'nonBooleanConstraints':
+                            len(list(fm.nonBooleanConstraints)),
+                        'mixedConstraints':
+                            len(list(fm.mixedConstraints))
                     },
                     'files': [{
                         'format': 'xml',

@@ -32,7 +32,7 @@
                     document.getElementById('table').querySelectorAll('.item').forEach(item => {
                         const data = item.querySelector('.data.name');
                         if (!input || data.textContent.toLowerCase().includes(input)) {
-                            item.className = 'item default';
+                            item.className = 'item';
                             data.innerHTML = data.textContent.replace(new RegExp(input, 'gi'), (match) => {
                                 return `<mark>${match}</mark>`;
                             });
@@ -50,7 +50,7 @@
                 document.getElementById('clear').addEventListener('click', (_) => {
                     document.getElementById('filter').value = '';
                     document.getElementById('table').querySelectorAll('.item').forEach(item => {
-                        item.className = 'item default';
+                        item.className = 'item';
                         const data = item.querySelector('.data.name');
                         data.innerHTML = data.textContent;
                     });
@@ -81,7 +81,7 @@
             function render_index(index) {
                 Object.values(index).forEach(feature_model => {
                     const tr = document.createElement('tr');
-                    tr.className = 'item default';
+                    tr.className = 'item';
                     {
                         const td = document.createElement('td');
                         td.innerHTML = `
@@ -92,9 +92,20 @@
                     }
                     {
                         const td = document.createElement('td');
+                        const depth = feature_model['metadata']['depth'];
+                        const booleanConstraints = feature_model['metadata']['booleanConstraints'];
+                        const nonBooleanConstraints = feature_model['metadata']['nonBooleanConstraints'];
+                        const mixedConstraints = feature_model['metadata']['mixedConstraints'];
                         td.innerHTML = `
                             <div class="data metadata">
                                 <span>Features: ${feature_model['metadata']['features']}</span>
+                                ${depth > 0 ? '<span>' : '<span hidden>'}Depth: ${depth}</span>
+                                ${booleanConstraints >
+                                  0 ? '<span>' : '<span hidden>'}Boolean Constraints: ${booleanConstraints}</span>
+                                ${nonBooleanConstraints >
+                                  0 ? '<span>' : '<span hidden>'}Non-Boolean Constraints: ${nonBooleanConstraints}</span>
+                                ${mixedConstraints >
+                                  0 ? '<span>' : '<span hidden>'}Mixed Constraints: ${mixedConstraints}</span>
                             </div>`;
                         tr.append(td);
                     }

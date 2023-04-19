@@ -14,9 +14,6 @@ table {
     border-collapse: collapse;
 }
 
-table .item.default {
-}
-
 table .item.hidden {
     display: none;
 }
