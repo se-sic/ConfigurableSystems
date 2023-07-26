@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="Root">
+			<alt abstract="true" mandatory="true" name="platform">
+				<graphics key="collapsed" value="false"/>
+				<and name="android">
+					<graphics key="collapsed" value="false"/>
+					<feature name="androidMipmapInsteadOfDrawable"/>
+					<feature name="androidIncludeLdpiTvdpi"/>
+				</and>
+				<and name="ios">
+					<feature name="iosCreateImagesetFolders"/>
+				</and>
+				<feature name="win"/>
+				<feature name="web"/>
+			</alt>
+			<alt abstract="true" mandatory="true" name="roundingMode">
+				<feature name="floor"/>
+				<feature name="round"/>
+				<feature name="ceil"/>
+			</alt>
+			<alt abstract="true" name="outCompression">
+				<feature name="png"/>
+				<alt name="jpeg">
+					<feature name="low_compression"/>
+					<feature name="high_compression"/>
+				</alt>
+				<feature name="gif"/>
+				<feature name="bmp"/>
+			</alt>
+			<feature name="antiAliasing"/>
+			<feature name="scaleIsHeightDp"/>
+			<feature name="skipUpscaling"/>
+			<or abstract="true" name="threads">
+				<feature name="single_threaded"/>
+				<feature name="multi_threaded"/>
+			</or>
+			<alt abstract="true" mandatory="true" name="scale">
+				<feature name="scale10"/>
+				<feature name="scale90"/>
+			</alt>
+		</and>
+	</struct>
+</featureModel>

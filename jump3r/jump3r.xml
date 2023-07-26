@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="vertical"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="4"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="Root">
+			<feature name="CRC"/>
+			<feature name="SwapBytes"/>
+			<feature name="Downmix"/>
+			<feature name="NoRes"/>
+			<and abstract="true" name="Lowpass">
+				<graphics key="collapsed" value="false"/>
+				<alt abstract="true" mandatory="true" name="LowpassValue">
+					<feature name="Lowpass_5000"/>
+					<feature name="Lowpass_10000"/>
+					<feature name="Lowpass_20000"/>
+				</alt>
+				<alt abstract="true" mandatory="true" name="LowpassWidth">
+					<feature name="LowpassWidth_1000"/>
+					<feature name="LowpassWidth_2000"/>
+				</alt>
+			</and>
+			<and abstract="true" name="Highpass">
+				<alt abstract="true" mandatory="true" name="HighpassValue">
+					<feature name="Highpass_20000"/>
+					<feature name="Highpass_25000"/>
+					<feature name="Lowpass_30000"/>
+				</alt>
+				<alt abstract="true" mandatory="true" name="HighpassWidth">
+					<feature name="HighpassWidth_1000"/>
+					<feature name="HighpassWidth_2000"/>
+				</alt>
+			</and>
+			<alt abstract="true" mandatory="true" name="Mode">
+				<feature name="Mono"/>
+				<feature name="Stereo"/>
+				<feature name="JointStereo"/>
+				<feature name="MidSideStereo"/>
+				<feature name="DualChannels"/>
+			</alt>
+			<alt abstract="true" mandatory="true" name="Bitrate">
+				<and abstract="true" name="CBR">
+					<alt abstract="true" mandatory="true" name="CBRRange">
+						<feature name="CBR_8"/>
+						<feature name="CBR_160"/>
+						<feature name="CBR_320"/>
+					</alt>
+					<feature name="Freeformat"/>
+				</and>
+				<alt abstract="true" name="VBR">
+					<alt abstract="true" name="ABR">
+						<feature name="ABR_8"/>
+						<feature name="ABR_160"/>
+						<feature name="ABR_320"/>
+					</alt>
+					<alt abstract="true" name="VBRRange">
+						<feature name="VBRRange_low"/>
+						<feature name="VBRRange_wide"/>
+						<feature name="VBRRange_high"/>
+					</alt>
+				</alt>
+			</alt>
+			<alt abstract="true" mandatory="true" name="Resampling">
+				<feature name="Resampling_8"/>
+				<feature name="Resampling_22"/>
+				<feature name="Resampling_44"/>
+				<feature name="Resampling_48"/>
+			</alt>
+			<alt abstract="true" mandatory="true" name="ReplayGain">
+				<feature name="NoReplayGain"/>
+				<feature name="ReplayGainFast"/>
+				<feature name="ReplayGainAccurate"/>
+			</alt>
+		</and>
+	</struct>
+</featureModel>
