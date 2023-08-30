@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE vm
 SYSTEM "vm.dtd">
-<vm name="dune-VaRA" root="root">
+<vm name="DunePerfRegression" root="root">
   <binaryOptions>
     <configurationOption>
       <name>root</name>
