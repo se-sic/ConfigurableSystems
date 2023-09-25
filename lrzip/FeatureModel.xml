@@ -171,11 +171,11 @@
           <path>main.c</path>
           <start>
             <line>310</line>
-            <column>10</column>
+            <column>7</column>
           </start>
           <end>
             <line>310</line>
-            <column>15</column>
+            <column>12</column>
           </end>
         </sourceRange>
       </locations>
@@ -203,11 +203,11 @@
           <path>main.c</path>
           <start>
             <line>310</line>
-            <column>26</column>
+            <column>23</column>
           </start>
           <end>
             <line>310</line>
-            <column>31</column>
+            <column>28</column>
           </end>
         </sourceRange>
       </locations>
@@ -261,11 +261,11 @@
           <path>main.c</path>
           <start>
             <line>310</line>
-            <column>42</column>
+            <column>39</column>
           </start>
           <end>
             <line>310</line>
-            <column>48</column>
+            <column>45</column>
           </end>
         </sourceRange>
       </locations>
@@ -360,7 +360,7 @@
             <column>11</column>
           </start>
           <end>
-            <line>499</line>
+            <line>399</line>
             <column>16</column>
           </end>
         </sourceRange>
