@@ -1,0 +1,1578 @@
+<vm name="BoomerAMG">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>root</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>A_drop_tol</name>
+      <outputString>A_drop_tol</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>230</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>230</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>A_drop_type</name>
+      <outputString>A_drop_type</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>231</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>231</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>coarsen_cut_factor</name>
+      <outputString>coarsen_cut_factor</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>232</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>232</line>
+            <column>37</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>strong_threshold</name>
+      <outputString>strong_threshold</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>233</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>233</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>strong_thresholdR</name>
+      <outputString>strong_thresholdR</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>234</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>234</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>filter_thresholdR</name>
+      <outputString>filter_thresholdR</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>235</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>235</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>trunc_factor</name>
+      <outputString>trunc_factor</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>236</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>236</line>
+            <column>31</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>jacobi_trunc_threshold</name>
+      <outputString>jacobi_trunc_threshold</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>237</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>237</line>
+            <column>41</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>S_commpkg_switch</name>
+      <outputString>S_commpkg_switch</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>238</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>238</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>CR_rate</name>
+      <outputString>CR_rate</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>239</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>239</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>CR_strong_th</name>
+      <outputString>CR_strong_th</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>240</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>240</line>
+            <column>31</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>CR_use_CG</name>
+      <outputString>CR_use_CG</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>241</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>241</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>P_max_elmts</name>
+      <outputString>P_max_elmts</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>242</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>242</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>cycle_type</name>
+      <outputString>cycle_type</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>243</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>243</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>fcycle</name>
+      <outputString>fcycle</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>244</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>244</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>coarsen_type</name>
+      <outputString>coarsen_type</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>245</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>245</line>
+            <column>31</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>measure_type</name>
+      <outputString>measure_type</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>246</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>246</line>
+            <column>31</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>num_sweeps</name>
+      <outputString>num_sweeps</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>247</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>247</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>IS_type</name>
+      <outputString>IS_type</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>248</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>248</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>num_CR_relax_steps</name>
+      <outputString>num_CR_relax_steps</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>249</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>249</line>
+            <column>37</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>relax_type</name>
+      <outputString>relax_type</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>250</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>250</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>add_relax_type</name>
+      <outputString>add_relax_type</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>251</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>251</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>relax_coarse</name>
+      <outputString>relax_coarse</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>252</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>252</line>
+            <column>31</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>relax_up</name>
+      <outputString>relax_up</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>253</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>253</line>
+            <column>27</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>relax_down</name>
+      <outputString>relax_down</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>254</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>254</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>relax_order</name>
+      <outputString>relax_order</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>255</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>255</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>level_w</name>
+      <outputString>level_w</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>256</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>256</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>level_ow</name>
+      <outputString>level_ow</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>257</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>257</line>
+            <column>27</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>smooth_type</name>
+      <outputString>smooth_type</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>260</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>260</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>smooth_num_levels</name>
+      <outputString>smooth_num_levels</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>261</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>261</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>smooth_num_sweeps</name>
+      <outputString>smooth_num_sweeps</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>262</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>262</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>coarse_threshold</name>
+      <outputString>coarse_threshold</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>263</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>263</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>min_coarse_size</name>
+      <outputString>min_coarse_size</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>264</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>264</line>
+            <column>34</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>seq_threshold</name>
+      <outputString>seq_threshold</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>266</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>266</line>
+            <column>32</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>redundant</name>
+      <outputString>redundant</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>267</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>267</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>additive</name>
+      <outputString>additive</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>269</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>269</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>mult_add</name>
+      <outputString>mult_add</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>270</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>270</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>simple</name>
+      <outputString>simple</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>271</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>271</line>
+            <column>23</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>add_last_lvl</name>
+      <outputString>add_last_lvl</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>272</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>272</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>add_P_max_elmts</name>
+      <outputString>add_P_max_elmts</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>273</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>273</line>
+            <column>32</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>add_trunc_factor</name>
+      <outputString>add_trunc_factor</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>274</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>274</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>rap2</name>
+      <outputString>rap2</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>275</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>275</line>
+            <column>21</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>mod_rap2</name>
+      <outputString>mod_rap2</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>276</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>276</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>keepTranspose</name>
+      <outputString>keepTranspose</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>277</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>277</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>relax_wt</name>
+      <outputString>relax_wt</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>281</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>281</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>add_relax_wt</name>
+      <outputString>add_relax_wt</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>282</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>282</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>relax_wt_level</name>
+      <outputString>relax_wt_level</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>283</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>283</line>
+            <column>31</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>outer_wt</name>
+      <outputString>outer_wt</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>284</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>284</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>outer_wt_level</name>
+      <outputString>outer_wt_level</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>285</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>285</line>
+            <column>31</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>tol</name>
+      <outputString>tol</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>286</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>286</line>
+            <column>20</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>pc_tol</name>
+      <outputString>pc_tol</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>286</line>
+            <column>30</column>
+          </start>
+          <end>
+            <line>286</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>atol</name>
+      <outputString>atol</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>287</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>287</line>
+            <column>21</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>max_row_sum</name>
+      <outputString>max_row_sum</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>288</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>288</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>converge_type</name>
+      <outputString>converge_type</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>289</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>289</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>precon_cycles</name>
+      <outputString>precon_cycles</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>290</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>290</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>cheby_order</name>
+      <outputString>cheby_order</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>292</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>292</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>cheby_eig_est</name>
+      <outputString>cheby_eig_est</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>293</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>293</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>cheby_variant</name>
+      <outputString>cheby_variant</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>294</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>294</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>cheby_scale</name>
+      <outputString>cheby_scale</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>295</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>295</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>cheby_fraction</name>
+      <outputString>cheby_fraction</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>src/test/ij.c</path>
+          <start>
+            <line>296</line>
+            <column>15</column>
+          </start>
+          <end>
+            <line>296</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </binaryOptions>
+</vm>
