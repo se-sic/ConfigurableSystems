@@ -49,6 +49,7 @@ def main() -> None:
                 if not Path(model_path).exists():
                     logging.warning("Could not find feature model "
                                     f"for {feature_model_path}")
+                    continue
 
                 try:
                     fm = vf.feature_model.loadFeatureModel(str(model_path))
