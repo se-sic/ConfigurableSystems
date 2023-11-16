@@ -36,54 +36,60 @@ def sanitize(root: Path, path: Path) -> str:
 
 def main() -> None:
     index: tp.Dict[str, tp.Dict[str, tp.Any]] = {}
-    for feature_model in {
-            path for path in SOURCE.iterdir() if path.is_dir() and
-            path.name not in EXCLUDE and not path.name.startswith('.')
+    for feature_model_path in {
+            path
+            for path in SOURCE.iterdir() if path.is_dir()
+            and path.name not in EXCLUDE and not path.name.startswith('.')
     }:
         try:
-            if feature_model.is_dir():
-                local.cwd.chdir(feature_model)
+            if feature_model_path.is_dir():
+                local.cwd.chdir(feature_model_path)
 
-                model_path = feature_model / 'FeatureModel.xml'
+                model_path = feature_model_path / 'FeatureModel.xml'
+                if not Path(model_path).exists():
+                    logging.warning("Could not find feature model "
+                                    f"for {feature_model_path}")
+
                 try:
                     fm = vf.feature_model.loadFeatureModel(str(model_path))
                 except RuntimeError:
-                    logging.error(feature_model.name)
+                    logging.error(feature_model_path.name)
                     continue
 
-                file_path = Path(FILES, feature_model.name + '.xml')
+                file_path = Path(FILES, feature_model_path.name + '.xml')
                 shutil.copy(model_path, file_path)
 
                 viewer = local[str(VIEWER)]['-viewer', 'cat', model_path]
 
-                image_path = Path(IMAGES, feature_model.name + '.png')
+                image_path = Path(IMAGES, feature_model_path.name + '.png')
                 png = local["dot"]['-Tpng', '-o', image_path]
                 (viewer | png)()
 
-                vector_path = Path(IMAGES, feature_model.name + '.svg')
+                vector_path = Path(IMAGES, feature_model_path.name + '.svg')
                 svg = local["dot"]['-Tsvg', '-o', vector_path]
                 (viewer | svg)()
 
                 thumbnail_path = Path(IMAGES,
-                                      feature_model.name + '-scaled.webp')
+                                      feature_model_path.name + '-scaled.webp')
                 image = Image.open(image_path)
                 image.thumbnail((512, 512), resample=Image.BICUBIC)
                 with open(thumbnail_path, 'wb+') as file:
                     image.save(file.name, format='WebP')
 
-                index[feature_model.name] = {
-                    'name': feature_model.name,
+                index[feature_model_path.name] = {
+                    'name':
+                    feature_model_path.name,
                     'metadata': {
                         'features':
-                            fm.size(),
+                        fm.size(),
                         'depth':
-                            0,
+                        0,
                         'booleanConstraints':
-                            len(list(fm.booleanConstraints)),
+                        len(list(fm.booleanConstraints)),
                         'nonBooleanConstraints':
-                            len(list(fm.nonBooleanConstraints)),
+                        len(list(fm.nonBooleanConstraints)),
                         'mixedConstraints':
-                            len(list(fm.mixedConstraints))
+                        len(list(fm.mixedConstraints))
                     },
                     'files': [{
                         'format': 'xml',
@@ -101,7 +107,7 @@ def main() -> None:
                     }
                 }
         except ProcessExecutionError:
-            logging.error(feature_model.name)
+            logging.error(feature_model_path.name)
             continue
 
     with open(INDEX, mode='w', encoding='UTF-8') as file:
