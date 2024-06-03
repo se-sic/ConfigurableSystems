@@ -144,11 +144,12 @@
       </locations>
     </configurationOption>
     <!-- Operation modifiers -->
+    <!--TODO: single-stream, suffix, files, files0 -->
     <configurationOption>
       <name>keep</name>
       <outputString>-k</outputString>
       <parent>root</parent>
-      <optional>False</optional>
+      <optional>True</optional>
       <locations>
         <sourceRange>
           <revisionRange>
@@ -232,7 +233,9 @@
         </sourceRange>
       </locations>
     </configurationOption>
+
     <!-- Basic file format and compression options -->
+    <!--TODO: format, check, ignore-check, no-adjust -->
     <configurationOption>
       <name>extreme</name>
       <outputString>-e</outputString>
@@ -255,9 +258,78 @@
         </sourceRange>
       </locations>
     </configurationOption>
+
     <!-- Other options -->
+    <!--TODO: robot, info-memory, help, long-help, version -->
+    <configurationOption>
+      <name>quiet</name>
+      <outputString>-q</outputString>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
+          </revisionRange>
+          <path>src/xz/message.c</path>
+          <start>
+            <line>26</line>
+            <column>31</column>
+          </start>
+          <end>
+            <line>26</line>
+            <column>39</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>verbose</name>
+      <outputString>-v</outputString>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
+          </revisionRange>
+          <path>src/xz/message.c</path>
+          <start>
+            <line>26</line>
+            <column>31</column>
+          </start>
+          <end>
+            <line>26</line>
+            <column>39</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>no-warn</name>
+      <outputString>-Q</outputString>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>29a7b250e685852f2f97615493ec49acaf528623</introduced>
+          </revisionRange>
+          <path>src/xz/main.c</path>
+          <start>
+            <line>27</line>
+            <column>13</column>
+          </start>
+          <end>
+            <line>27</line>
+            <column>19</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
   </binaryOptions>
   <numericOptions>
+    <!--TODO: block-size, block-list, flush-timeout, memlimit-mt-decompress, threads -->
     <configurationOption>
       <name>level</name>
       <outputString>-</outputString>
@@ -283,11 +355,59 @@
         </sourceRange>
       </locations>
     </configurationOption>
+    <configurationOption>
+      <name>memlimit_compress</name>
+      <outputString>--memlimit-compress=</outputString>
+      <parent>compress</parent>
+      <optional>True</optional>
+      <minValue>1024</minValue>
+      <maxValue>1073741824</maxValue>
+      <stepFunction>memlimit_compress * 2</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>d327743bb547a53364e5951a16e5f1663fe4b9ff</introduced>
+          </revisionRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>29</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>29</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>memlimit_decompress</name>
+      <outputString>--memlimit-decompress=</outputString>
+      <parent>compress</parent>
+      <optional>True</optional>
+      <minValue>1024</minValue>
+      <maxValue>1073741824</maxValue>
+      <stepFunction>memlimit_decompress * 2</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>d327743bb547a53364e5951a16e5f1663fe4b9ff</introduced>
+          </revisionRange>
+          <path>src/xz/hardware.c</path>
+          <start>
+            <line>32</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>32</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
   </numericOptions>
   <booleanConstraints>
     <constraint>force => (compress | decompress)</constraint>
     <constraint>stdout => (compress | decompress)</constraint>
-    <constraint>stdout => keep</constraint>
-    <constraint>nosparse => decompress</constraint>
   </booleanConstraints>
 </vm>

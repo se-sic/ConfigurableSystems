@@ -18,22 +18,6 @@
         <options>list</options>
       </children>
       <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
-          </revisionRange>
-          <path>src/xz/coder.h</path>
-          <start>
-            <line>48</line>
-            <column>28</column>
-          </start>
-          <end>
-            <line>48</line>
-            <column>35</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
     <configurationOption>
       <name>compress</name>
@@ -48,17 +32,20 @@
       <locations>
         <sourceRange>
           <revisionRange>
+            <introduced>c15c42abb3c8c6e77c778ef06c97a4a10b8b5d00</introduced>
+            <removed>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</removed>
+          </revisionRange>
+          <path>src/xz/coder.h</path>
+          <start><line>14</line><column>2</column></start>
+          <end><line>14</line><column>14</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
             <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
           </revisionRange>
           <path>src/xz/coder.h</path>
-          <start>
-            <line>15</line>
-            <column>2</column>
-          </start>
-          <end>
-            <line>15</line>
-            <column>14</column>
-          </end>
+          <start><line>15</line><column>2</column></start>
+          <end><line>15</line><column>14</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -75,17 +62,20 @@
       <locations>
         <sourceRange>
           <revisionRange>
+            <introduced>c15c42abb3c8c6e77c778ef06c97a4a10b8b5d00</introduced>
+            <removed>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</removed>
+          </revisionRange>
+          <path>src/xz/coder.h</path>
+          <start><line>15</line><column>2</column></start>
+          <end><line>15</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
             <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
           </revisionRange>
           <path>src/xz/coder.h</path>
-          <start>
-            <line>16</line>
-            <column>2</column>
-          </start>
-          <end>
-            <line>16</line>
-            <column>16</column>
-          </end>
+          <start><line>16</line><column>2</column></start>
+          <end><line>16</line><column>16</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -102,17 +92,20 @@
       <locations>
         <sourceRange>
           <revisionRange>
+            <introduced>c15c42abb3c8c6e77c778ef06c97a4a10b8b5d00</introduced>
+            <removed>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</removed>
+          </revisionRange>
+          <path>src/xz/coder.h</path>
+          <start><line>16</line><column>2</column></start>
+          <end><line>16</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
             <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
           </revisionRange>
           <path>src/xz/coder.h</path>
-          <start>
-            <line>17</line>
-            <column>2</column>
-          </start>
-          <end>
-            <line>17</line>
-            <column>10</column>
-          </end>
+          <start><line>17</line><column>2</column></start>
+          <end><line>17</line><column>10</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -129,41 +122,46 @@
       <locations>
         <sourceRange>
           <revisionRange>
+            <introduced>c15c42abb3c8c6e77c778ef06c97a4a10b8b5d00</introduced>
+            <removed>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</removed>
+          </revisionRange>
+          <path>src/xz/coder.h</path>
+          <start><line>17</line><column>2</column></start>
+          <end><line>17</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
             <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
           </revisionRange>
           <path>src/xz/coder.h</path>
-          <start>
-            <line>18</line>
-            <column>2</column>
-          </start>
-          <end>
-            <line>18</line>
-            <column>10</column>
-          </end>
+          <start><line>18</line><column>2</column></start>
+          <end><line>18</line><column>10</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
     <!-- Operation modifiers -->
-    <!--TODO: single-stream, suffix, files, files0 -->
     <configurationOption>
       <name>keep</name>
       <outputString>-k</outputString>
       <parent>root</parent>
-      <optional>True</optional>
+      <optional>False</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c15c42abb3c8c6e77c778ef06c97a4a10b8b5d00</introduced>
+            <removed>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</removed>
+          </revisionRange>
+          <path>src/xz/args.c</path>
+          <start><line>23</line><column>6</column></start>
+          <end><line>23</line><column>22</column></end>
+        </sourceRange>
         <sourceRange>
           <revisionRange>
             <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
           </revisionRange>
           <path>src/xz/args.c</path>
-          <start>
-            <line>24</line>
-            <column>6</column>
-          </start>
-          <end>
-            <line>24</line>
-            <column>22</column>
-          </end>
+          <start><line>24</line><column>6</column></start>
+          <end><line>24</line><column>22</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -175,17 +173,20 @@
       <locations>
         <sourceRange>
           <revisionRange>
+            <introduced>c15c42abb3c8c6e77c778ef06c97a4a10b8b5d00</introduced>
+            <removed>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</removed>
+          </revisionRange>
+          <path>src/xz/args.c</path>
+          <start><line>22</line><column>6</column></start>
+          <end><line>22</line><column>14</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
             <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
           </revisionRange>
           <path>src/xz/args.c</path>
-          <start>
-            <line>23</line>
-            <column>6</column>
-          </start>
-          <end>
-            <line>23</line>
-            <column>14</column>
-          </end>
+          <start><line>23</line><column>6</column></start>
+          <end><line>23</line><column>14</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -197,17 +198,20 @@
       <locations>
         <sourceRange>
           <revisionRange>
+            <introduced>c15c42abb3c8c6e77c778ef06c97a4a10b8b5d00</introduced>
+            <removed>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</removed>
+          </revisionRange>
+          <path>src/xz/args.c</path>
+          <start><line>21</line><column>6</column></start>
+          <end><line>21</line><column>15</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
             <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
           </revisionRange>
           <path>src/xz/args.c</path>
-          <start>
-            <line>22</line>
-            <column>6</column>
-          </start>
-          <end>
-            <line>22</line>
-            <column>15</column>
-          </end>
+          <start><line>22</line><column>6</column></start>
+          <end><line>22</line><column>15</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -219,117 +223,178 @@
       <locations>
         <sourceRange>
           <revisionRange>
-            <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
+            <introduced>c15c42abb3c8c6e77c778ef06c97a4a10b8b5d00</introduced>
+            <removed>3541bc79d0cfabc0ad155c99bfdad1289f17fec3</removed>
           </revisionRange>
-          <path>src/xz/args.c</path>
-          <start>
-            <line>22</line>
-            <column>6</column>
-          </start>
-          <end>
-            <line>22</line>
-            <column>15</column>
-          </end>
+          <path>src/xz/file_io.c</path>
+          <start><line>41</line><column>13</column></start>
+          <end><line>41</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3541bc79d0cfabc0ad155c99bfdad1289f17fec3</introduced>
+            <removed>dee6ad3d5915422bc30a6821efeacaeb8ca8ef00</removed>
+          </revisionRange>
+          <path>src/xz/file_io.c</path>
+          <start><line>42</line><column>13</column></start>
+          <end><line>42</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dee6ad3d5915422bc30a6821efeacaeb8ca8ef00</introduced>
+            <removed>1238381143a9a7ce84839c2582ccd56ff750a440</removed>
+          </revisionRange>
+          <path>src/xz/file_io.c</path>
+          <start><line>49</line><column>13</column></start>
+          <end><line>49</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1238381143a9a7ce84839c2582ccd56ff750a440</introduced>
+            <removed>1b0ac0c53c761263e91e34195cb21dfdcfeac0bd</removed>
+          </revisionRange>
+          <path>src/xz/file_io.c</path>
+          <start><line>57</line><column>13</column></start>
+          <end><line>57</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1b0ac0c53c761263e91e34195cb21dfdcfeac0bd</introduced>
+            <removed>446e4318fa79788e09299d5953b5dd428953d14b</removed>
+          </revisionRange>
+          <path>src/xz/file_io.c</path>
+          <start><line>65</line><column>13</column></start>
+          <end><line>65</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>446e4318fa79788e09299d5953b5dd428953d14b</introduced>
+          </revisionRange>
+          <path>src/xz/file_io.c</path>
+          <start><line>67</line><column>13</column></start>
+          <end><line>67</line><column>22</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
-
     <!-- Basic file format and compression options -->
-    <!--TODO: format, check, ignore-check, no-adjust -->
     <configurationOption>
       <name>extreme</name>
       <outputString>-e</outputString>
       <parent>compress</parent>
       <optional>True</optional>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>4c0d43f0f861893dbc065adf03286880ecc754e5</introduced>
+            <introduced>c15c42abb3c8c6e77c778ef06c97a4a10b8b5d00</introduced>
+            <removed>b3ff7ba044eaeab3e424d7b51fe914daf681b1a3</removed>
           </revisionRange>
           <path>src/xz/coder.c</path>
-          <start>
-            <line>68</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>68</line>
-            <column>29</column>
-          </end>
+          <start><line>52</line><column>13</column></start>
+          <end><line>52</line><column>26</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>b3ff7ba044eaeab3e424d7b51fe914daf681b1a3</introduced>
+            <removed>57597d42ca1740ad506437be168d800a50f1a0ad</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>48</line><column>13</column></start>
+          <end><line>48</line><column>26</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>57597d42ca1740ad506437be168d800a50f1a0ad</introduced>
+            <removed>923b22483bd9356f3219b2b784d96f455f4dc499</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>49</line><column>13</column></start>
+          <end><line>49</line><column>26</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>923b22483bd9356f3219b2b784d96f455f4dc499</introduced>
+            <removed>88ccf47205d7f3aa314d358c72ef214f10f68b43</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>50</line><column>13</column></start>
+          <end><line>50</line><column>26</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>88ccf47205d7f3aa314d358c72ef214f10f68b43</introduced>
+            <removed>2fcda89939c903106c429e109083d43d894049e0</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>51</line><column>13</column></start>
+          <end><line>51</line><column>26</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>2fcda89939c903106c429e109083d43d894049e0</introduced>
+            <removed>d6af7f347077b22403133239592e478931307759</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>46</line><column>17</column></start>
+          <end><line>46</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>d6af7f347077b22403133239592e478931307759</introduced>
+            <removed>5f0c5a04388f8334962c70bc37a8c2ff8f605e0a</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>58</line><column>17</column></start>
+          <end><line>58</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>5f0c5a04388f8334962c70bc37a8c2ff8f605e0a</introduced>
+            <removed>183819bfd9efac8c184d9bf123325719b7eee30f</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>64</line><column>17</column></start>
+          <end><line>64</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>183819bfd9efac8c184d9bf123325719b7eee30f</introduced>
+            <removed>8b9913a13daca2550d02dfdcdc9be15f55ca4d13</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>71</line><column>17</column></start>
+          <end><line>71</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8b9913a13daca2550d02dfdcdc9be15f55ca4d13</introduced>
+            <removed>f907705eb1f6c5edaafc9668a34c51a989932f1d</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>74</line><column>17</column></start>
+          <end><line>74</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f907705eb1f6c5edaafc9668a34c51a989932f1d</introduced>
+            <removed>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>67</line><column>17</column></start>
+          <end><line>67</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>68</line><column>17</column></start>
+          <end><line>68</line><column>29</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
-
     <!-- Other options -->
-    <!--TODO: robot, info-memory, help, long-help, version -->
-    <configurationOption>
-      <name>quiet</name>
-      <outputString>-q</outputString>
-      <parent>root</parent>
-      <optional>True</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
-          </revisionRange>
-          <path>src/xz/message.c</path>
-          <start>
-            <line>26</line>
-            <column>31</column>
-          </start>
-          <end>
-            <line>26</line>
-            <column>39</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>verbose</name>
-      <outputString>-v</outputString>
-      <parent>root</parent>
-      <optional>True</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
-          </revisionRange>
-          <path>src/xz/message.c</path>
-          <start>
-            <line>26</line>
-            <column>31</column>
-          </start>
-          <end>
-            <line>26</line>
-            <column>39</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>no-warn</name>
-      <outputString>-Q</outputString>
-      <parent>root</parent>
-      <optional>True</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>29a7b250e685852f2f97615493ec49acaf528623</introduced>
-          </revisionRange>
-          <path>src/xz/main.c</path>
-          <start>
-            <line>27</line>
-            <column>13</column>
-          </start>
-          <end>
-            <line>27</line>
-            <column>19</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
   </binaryOptions>
   <numericOptions>
-    <!--TODO: block-size, block-list, flush-timeout, memlimit-mt-decompress, threads -->
     <configurationOption>
       <name>level</name>
       <outputString>-</outputString>
@@ -339,69 +404,103 @@
       <maxValue>9</maxValue>
       <stepFunction>level + 1</stepFunction>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>4c0d43f0f861893dbc065adf03286880ecc754e5</introduced>
+            <introduced>c15c42abb3c8c6e77c778ef06c97a4a10b8b5d00</introduced>
+            <removed>57597d42ca1740ad506437be168d800a50f1a0ad</removed>
           </revisionRange>
           <path>src/xz/coder.c</path>
-          <start>
-            <line>68</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>68</line>
-            <column>29</column>
-          </end>
+          <start><line>43</line><column>15</column></start>
+          <end><line>43</line><column>27</column></end>
         </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>memlimit_compress</name>
-      <outputString>--memlimit-compress=</outputString>
-      <parent>compress</parent>
-      <optional>True</optional>
-      <minValue>1024</minValue>
-      <maxValue>1073741824</maxValue>
-      <stepFunction>memlimit_compress * 2</stepFunction>
-      <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>d327743bb547a53364e5951a16e5f1663fe4b9ff</introduced>
+            <introduced>57597d42ca1740ad506437be168d800a50f1a0ad</introduced>
+            <removed>923b22483bd9356f3219b2b784d96f455f4dc499</removed>
           </revisionRange>
-          <path>src/xz/hardware.c</path>
-          <start>
-            <line>29</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>29</line>
-            <column>33</column>
-          </end>
+          <path>src/xz/coder.c</path>
+          <start><line>44</line><column>15</column></start>
+          <end><line>44</line><column>27</column></end>
         </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>memlimit_decompress</name>
-      <outputString>--memlimit-decompress=</outputString>
-      <parent>compress</parent>
-      <optional>True</optional>
-      <minValue>1024</minValue>
-      <maxValue>1073741824</maxValue>
-      <stepFunction>memlimit_decompress * 2</stepFunction>
-      <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>d327743bb547a53364e5951a16e5f1663fe4b9ff</introduced>
+            <introduced>923b22483bd9356f3219b2b784d96f455f4dc499</introduced>
+            <removed>9edd6ee895fbe71d245a173f48e511f154a99875</removed>
           </revisionRange>
-          <path>src/xz/hardware.c</path>
-          <start>
-            <line>32</line>
-            <column>17</column>
-          </start>
-          <end>
-            <line>32</line>
-            <column>35</column>
-          </end>
+          <path>src/xz/coder.c</path>
+          <start><line>45</line><column>15</column></start>
+          <end><line>45</line><column>27</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9edd6ee895fbe71d245a173f48e511f154a99875</introduced>
+            <removed>88ccf47205d7f3aa314d358c72ef214f10f68b43</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>45</line><column>17</column></start>
+          <end><line>45</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>88ccf47205d7f3aa314d358c72ef214f10f68b43</introduced>
+            <removed>d6af7f347077b22403133239592e478931307759</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>46</line><column>17</column></start>
+          <end><line>46</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>d6af7f347077b22403133239592e478931307759</introduced>
+            <removed>5f0c5a04388f8334962c70bc37a8c2ff8f605e0a</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>58</line><column>17</column></start>
+          <end><line>58</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>5f0c5a04388f8334962c70bc37a8c2ff8f605e0a</introduced>
+            <removed>183819bfd9efac8c184d9bf123325719b7eee30f</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>64</line><column>17</column></start>
+          <end><line>64</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>183819bfd9efac8c184d9bf123325719b7eee30f</introduced>
+            <removed>8b9913a13daca2550d02dfdcdc9be15f55ca4d13</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>71</line><column>17</column></start>
+          <end><line>71</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8b9913a13daca2550d02dfdcdc9be15f55ca4d13</introduced>
+            <removed>f907705eb1f6c5edaafc9668a34c51a989932f1d</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>74</line><column>17</column></start>
+          <end><line>74</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f907705eb1f6c5edaafc9668a34c51a989932f1d</introduced>
+            <removed>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</removed>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>67</line><column>17</column></start>
+          <end><line>67</line><column>29</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>abc1d5601b7e419ebc28a1ab4b268613b52e6f98</introduced>
+          </revisionRange>
+          <path>src/xz/coder.c</path>
+          <start><line>68</line><column>17</column></start>
+          <end><line>68</line><column>29</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -409,5 +508,8 @@
   <booleanConstraints>
     <constraint>force => (compress | decompress)</constraint>
     <constraint>stdout => (compress | decompress)</constraint>
+    <constraint>stdout => keep</constraint>
+    <constraint>nosparse => decompress</constraint>
   </booleanConstraints>
 </vm>
+
