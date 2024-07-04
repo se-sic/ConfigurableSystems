@@ -16,21 +16,9 @@
       <optional>True</optional>
     </configurationOption>
     <configurationOption>
-      <name>AllSAT</name>
-      <outputString>--all</outputString>
-      <parent>Solutions</parent>
-      <excludedOptions>
-        <options>Partial</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
       <name>Partial</name>
       <outputString>--partial</outputString>
       <parent>Solutions</parent>
-      <excludedOptions>
-        <options>AllSAT</options>
-      </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
