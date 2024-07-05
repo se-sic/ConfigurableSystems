@@ -70,7 +70,7 @@
     </configurationOption>
     <configurationOption>
       <name>MD5</name>
-      <outputString>-md md5</outputString>
+      <outputString>-md=md5</outputString>
       <parent>digest</parent>
       <excludedOptions>
         <options>SHA-256</options>
@@ -81,7 +81,7 @@
     </configurationOption>
     <configurationOption>
       <name>SHA-256</name>
-      <outputString>-md sha-256</outputString>
+      <outputString>-md=sha-256</outputString>
       <parent>digest</parent>
       <excludedOptions>
         <options>MD5</options>
