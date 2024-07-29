@@ -21,6 +21,85 @@
       </excludedOptions>
       <optional>False</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>112</line><column>17</column></start>
+          <end><line>112</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>121</line><column>17</column></start>
+          <end><line>121</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>123</line><column>17</column></start>
+          <end><line>123</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>298</line><column>8</column></start>
+          <end><line>298</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</introduced>
+            <removed>3fc2b7d6b8f961144905330dfd4689f5bd515199</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>290</line><column>8</column></start>
+          <end><line>290</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3fc2b7d6b8f961144905330dfd4689f5bd515199</introduced>
+            <removed>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>291</line><column>8</column></start>
+          <end><line>291</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</introduced>
+            <removed>3859a027259b5b571eaf5e8cf4c0704611950c2c</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>288</line><column>8</column></start>
+          <end><line>288</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3859a027259b5b571eaf5e8cf4c0704611950c2c</introduced>
+            <removed>536649082212e7c643ab8d7bab89f620fbcd37f0</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>297</line><column>8</column></start>
+          <end><line>297</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>536649082212e7c643ab8d7bab89f620fbcd37f0</introduced>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>298</line><column>8</column></start>
+          <end><line>298</line><column>20</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -34,6 +113,85 @@
       </excludedOptions>
       <optional>False</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>112</line><column>17</column></start>
+          <end><line>112</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>121</line><column>17</column></start>
+          <end><line>121</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>123</line><column>17</column></start>
+          <end><line>123</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>298</line><column>8</column></start>
+          <end><line>298</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</introduced>
+            <removed>3fc2b7d6b8f961144905330dfd4689f5bd515199</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>290</line><column>8</column></start>
+          <end><line>290</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3fc2b7d6b8f961144905330dfd4689f5bd515199</introduced>
+            <removed>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>291</line><column>8</column></start>
+          <end><line>291</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</introduced>
+            <removed>3859a027259b5b571eaf5e8cf4c0704611950c2c</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>288</line><column>8</column></start>
+          <end><line>288</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3859a027259b5b571eaf5e8cf4c0704611950c2c</introduced>
+            <removed>536649082212e7c643ab8d7bab89f620fbcd37f0</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>297</line><column>8</column></start>
+          <end><line>297</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>536649082212e7c643ab8d7bab89f620fbcd37f0</introduced>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>298</line><column>8</column></start>
+          <end><line>298</line><column>20</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -47,6 +205,85 @@
       </excludedOptions>
       <optional>False</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>112</line><column>17</column></start>
+          <end><line>112</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>121</line><column>17</column></start>
+          <end><line>121</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>123</line><column>17</column></start>
+          <end><line>123</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>298</line><column>8</column></start>
+          <end><line>298</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</introduced>
+            <removed>3fc2b7d6b8f961144905330dfd4689f5bd515199</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>290</line><column>8</column></start>
+          <end><line>290</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3fc2b7d6b8f961144905330dfd4689f5bd515199</introduced>
+            <removed>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>291</line><column>8</column></start>
+          <end><line>291</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</introduced>
+            <removed>3859a027259b5b571eaf5e8cf4c0704611950c2c</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>288</line><column>8</column></start>
+          <end><line>288</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3859a027259b5b571eaf5e8cf4c0704611950c2c</introduced>
+            <removed>536649082212e7c643ab8d7bab89f620fbcd37f0</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>297</line><column>8</column></start>
+          <end><line>297</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>536649082212e7c643ab8d7bab89f620fbcd37f0</introduced>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>298</line><column>8</column></start>
+          <end><line>298</line><column>20</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -60,6 +297,85 @@
       </excludedOptions>
       <optional>False</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>112</line><column>17</column></start>
+          <end><line>112</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>121</line><column>17</column></start>
+          <end><line>121</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>123</line><column>17</column></start>
+          <end><line>123</line><column>22</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>298</line><column>8</column></start>
+          <end><line>298</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</introduced>
+            <removed>3fc2b7d6b8f961144905330dfd4689f5bd515199</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>290</line><column>8</column></start>
+          <end><line>290</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3fc2b7d6b8f961144905330dfd4689f5bd515199</introduced>
+            <removed>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>291</line><column>8</column></start>
+          <end><line>291</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</introduced>
+            <removed>3859a027259b5b571eaf5e8cf4c0704611950c2c</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>288</line><column>8</column></start>
+          <end><line>288</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3859a027259b5b571eaf5e8cf4c0704611950c2c</introduced>
+            <removed>536649082212e7c643ab8d7bab89f620fbcd37f0</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>297</line><column>8</column></start>
+          <end><line>297</line><column>20</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>536649082212e7c643ab8d7bab89f620fbcd37f0</introduced>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>298</line><column>8</column></start>
+          <end><line>298</line><column>20</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
 <!-- Message digest -->
@@ -77,6 +393,76 @@
       </excludedOptions>
       <optional>False</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>113</line><column>13</column></start>
+          <end><line>113</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>122</line><column>13</column></start>
+          <end><line>122</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>124</line><column>13</column></start>
+          <end><line>124</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>246</line><column>8</column></start>
+          <end><line>246</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</introduced>
+            <removed>3fc2b7d6b8f961144905330dfd4689f5bd515199</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>247</line><column>8</column></start>
+          <end><line>247</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3fc2b7d6b8f961144905330dfd4689f5bd515199</introduced>
+            <removed>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>248</line><column>8</column></start>
+          <end><line>248</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</introduced>
+            <removed>3859a027259b5b571eaf5e8cf4c0704611950c2c</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>246</line><column>8</column></start>
+          <end><line>246</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3859a027259b5b571eaf5e8cf4c0704611950c2c</introduced>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>255</line><column>8</column></start>
+          <end><line>255</line><column>16</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -88,6 +474,76 @@
       </excludedOptions>
       <optional>False</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>113</line><column>13</column></start>
+          <end><line>113</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>122</line><column>13</column></start>
+          <end><line>122</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>124</line><column>13</column></start>
+          <end><line>124</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>246</line><column>8</column></start>
+          <end><line>246</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>5246183e7a9f9fb1819d50ab40e2fecc68235e0d</introduced>
+            <removed>3fc2b7d6b8f961144905330dfd4689f5bd515199</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>247</line><column>8</column></start>
+          <end><line>247</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3fc2b7d6b8f961144905330dfd4689f5bd515199</introduced>
+            <removed>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>248</line><column>8</column></start>
+          <end><line>248</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>6be83ac172aac93b49ae0b847fd5ac9de6ab3ff5</introduced>
+            <removed>3859a027259b5b571eaf5e8cf4c0704611950c2c</removed>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>246</line><column>8</column></start>
+          <end><line>246</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>3859a027259b5b571eaf5e8cf4c0704611950c2c</introduced>
+          </revisionRange>
+          <path>include/crypto/evp.h</path>
+          <start><line>255</line><column>8</column></start>
+          <end><line>255</line><column>16</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
 <!-- Other Options -->
@@ -97,6 +553,32 @@
       <parent>root</parent>
       <optional>True</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>123</line><column>9</column></start>
+          <end><line>123</line><column>14</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>132</line><column>9</column></start>
+          <end><line>132</line><column>14</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>134</line><column>9</column></start>
+          <end><line>134</line><column>14</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -105,6 +587,32 @@
       <parent>base64</parent>
       <optional>True</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>121</line><column>48</column></start>
+          <end><line>121</line><column>52</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>130</line><column>48</column></start>
+          <end><line>130</line><column>52</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>132</line><column>48</column></start>
+          <end><line>132</line><column>52</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -113,6 +621,32 @@
       <parent>root</parent>
       <optional>True</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>127</line><column>9</column></start>
+          <end><line>127</line><column>14</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>136</line><column>9</column></start>
+          <end><line>136</line><column>14</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>139</line><column>9</column></start>
+          <end><line>139</line><column>14</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -124,6 +658,32 @@
       </excludedOptions>
       <optional>True</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>122</line><column>18</column></start>
+          <end><line>122</line><column>25</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>131</line><column>18</column></start>
+          <end><line>131</line><column>25</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>133</line><column>18</column></start>
+          <end><line>133</line><column>25</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -135,6 +695,32 @@
       </excludedOptions>
       <optional>True</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>122</line><column>18</column></start>
+          <end><line>122</line><column>25</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>131</line><column>18</column></start>
+          <end><line>131</line><column>25</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>133</line><column>18</column></start>
+          <end><line>133</line><column>25</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -143,6 +729,41 @@
       <parent>root</parent>
       <optional>True</optional>
       <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>8e706c8ae5d6abf69b1b0aa0c4ab3517607522d0</introduced>
+            <removed>7850cc8307b9105f37dde864d5c8c881c522b28a</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>132</line><column>9</column></start>
+          <end><line>132</line><column>15</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>7850cc8307b9105f37dde864d5c8c881c522b28a</introduced>
+            <removed>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>134</line><column>9</column></start>
+          <end><line>134</line><column>15</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>dc43f080c5d60ef76df4087c1cf53a4bbaad93bd</introduced>
+            <removed>e3994583a1e4bde9a589c379520d216bc0a0c515</removed>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>143</line><column>9</column></start>
+          <end><line>143</line><column>15</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>e3994583a1e4bde9a589c379520d216bc0a0c515</introduced>
+          </revisionRange>
+          <path>apps/enc.c</path>
+          <start><line>146</line><column>9</column></start>
+          <end><line>146</line><column>15</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
   </binaryOptions>
