@@ -48,22 +48,24 @@
       <outputString>--partial</outputString>
       <parent>Solutions</parent>
       <optional>False</optional>
-      <sourceRange>
-        <revisionRange>
-          <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
-        </revisionRange>
-        <path>picosat.c</path>
-        <start><line>560</line><column>7</column></start>
-        <end><line>560</line><column>13</column></end>
-      </sourceRange>
-      <sourceRange>
-        <revisionRange>
-          <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
-        </revisionRange>
-        <path>picosat.c</path>
-        <start><line>7011</line><column>1</column></start>
-        <end><line>7011</line><column>10</column></end>
-      </sourceRange>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>560</line><column>7</column></start>
+          <end><line>560</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>7011</line><column>1</column></start>
+          <end><line>7011</line><column>10</column></end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>CompactTrace</name>
