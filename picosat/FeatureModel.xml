@@ -12,29 +12,29 @@
       <locations>
         <sourceRange>
           <revisionRange>
-            <introduced>fd7c31462f2a631d752549590145d1d47c315d24</introduced>
-            <removed>e4c225844193186faa958cb4168953520a5ef2e6</removed>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>5156</line><column>1</column></start>
-          <end><line>5156</line><column>8</column></end>
+          <start><line>5165</line><column>1</column></start>
+          <end><line>5165</line><column>8</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>e4c225844193186faa958cb4168953520a5ef2e6</introduced>
-            <removed>63a74c25dfadc447b7eea07773ef40f589ca1ed5</removed>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>4990</line><column>1</column></start>
-          <end><line>4990</line><column>8</column></end>
+          <start><line>4999</line><column>1</column></start>
+          <end><line>4999</line><column>8</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>5025</line><column>1</column></start>
-          <end><line>5025</line><column>8</column></end>
+          <start><line>5035</line><column>1</column></start>
+          <end><line>5035</line><column>8</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -51,19 +51,135 @@
       <locations>
         <sourceRange>
           <revisionRange>
-            <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>560</line><column>7</column></start>
-          <end><line>560</line><column>13</column></end>
+          <start><line>8446</line><column>1</column></start>
+          <end><line>8446</line><column>21</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>7011</line><column>1</column></start>
-          <end><line>7011</line><column>10</column></end>
+          <start><line>8535</line><column>1</column></start>
+          <end><line>8535</line><column>21</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>8568</line><column>1</column></start>
+          <end><line>8568</line><column>21</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>8425</line><column>1</column></start>
+          <end><line>8425</line><column>21</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>8482</line><column>1</column></start>
+          <end><line>8482</line><column>21</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6953</line><column>1</column></start>
+          <end><line>6953</line><column>6</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>7065</line><column>1</column></start>
+          <end><line>7065</line><column>6</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>7098</line><column>1</column></start>
+          <end><line>7098</line><column>6</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6956</line><column>1</column></start>
+          <end><line>6956</line><column>6</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6998</line><column>1</column></start>
+          <end><line>6998</line><column>6</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6978</line><column>1</column></start>
+          <end><line>6978</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>7090</line><column>1</column></start>
+          <end><line>7090</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>7121</line><column>1</column></start>
+          <end><line>7121</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6979</line><column>1</column></start>
+          <end><line>6979</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>7021</line><column>1</column></start>
+          <end><line>7021</line><column>10</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -75,155 +191,654 @@
       <locations>
         <sourceRange>
           <revisionRange>
-            <introduced>e54ade2eec2d677cbee928f96b41ececf0f10ce5</introduced>
-            <removed>bf15ea128a9442a2d9dc9a3f61bcf77b0af59231</removed>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>317</line><column>12</column></start>
-          <end><line>317</line><column>16</column></end>
+          <start><line>4468</line><column>1</column></start>
+          <end><line>4468</line><column>13</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>bf15ea128a9442a2d9dc9a3f61bcf77b0af59231</introduced>
-            <removed>dca1304a42afae5c8807641a1ea9a90b1665a29a</removed>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>322</line><column>12</column></start>
-          <end><line>322</line><column>16</column></end>
+          <start><line>4830</line><column>1</column></start>
+          <end><line>4830</line><column>27</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>dca1304a42afae5c8807641a1ea9a90b1665a29a</introduced>
-            <removed>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</removed>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>492</line><column>12</column></start>
-          <end><line>492</line><column>16</column></end>
+          <start><line>6496</line><column>1</column></start>
+          <end><line>6496</line><column>27</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</introduced>
-            <removed>1509fd94db6bebdda44662eb42e315332b6595c8</removed>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>502</line><column>12</column></start>
-          <end><line>502</line><column>16</column></end>
+          <start><line>6734</line><column>1</column></start>
+          <end><line>6734</line><column>27</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>1509fd94db6bebdda44662eb42e315332b6595c8</introduced>
-            <removed>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</removed>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>511</line><column>12</column></start>
-          <end><line>511</line><column>16</column></end>
+          <start><line>7196</line><column>1</column></start>
+          <end><line>7196</line><column>27</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</introduced>
-            <removed>6d344377e10afeecd51615f65d42fa7509aaa57b</removed>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>534</line><column>12</column></start>
-          <end><line>534</line><column>16</column></end>
+          <start><line>7871</line><column>1</column></start>
+          <end><line>7871</line><column>27</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>6d344377e10afeecd51615f65d42fa7509aaa57b</introduced>
-            <removed>63a74c25dfadc447b7eea07773ef40f589ca1ed5</removed>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>541</line><column>7</column></start>
-          <end><line>541</line><column>11</column></end>
+          <start><line>7987</line><column>1</column></start>
+          <end><line>7987</line><column>27</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>562</line><column>7</column></start>
-          <end><line>562</line><column>11</column></end>
+          <start><line>8020</line><column>1</column></start>
+          <end><line>8020</line><column>27</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>e54ade2eec2d677cbee928f96b41ececf0f10ce5</introduced>
-            <removed>bf15ea128a9442a2d9dc9a3f61bcf77b0af59231</removed>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>1449</line><column>1</column></start>
-          <end><line>1449</line><column>9</column></end>
+          <start><line>7881</line><column>1</column></start>
+          <end><line>7881</line><column>27</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>bf15ea128a9442a2d9dc9a3f61bcf77b0af59231</introduced>
-            <removed>dca1304a42afae5c8807641a1ea9a90b1665a29a</removed>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>1493</line><column>1</column></start>
-          <end><line>1493</line><column>9</column></end>
+          <start><line>7926</line><column>1</column></start>
+          <end><line>7926</line><column>27</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>dca1304a42afae5c8807641a1ea9a90b1665a29a</introduced>
-            <removed>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</removed>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2099</line><column>1</column></start>
-          <end><line>2099</line><column>9</column></end>
+          <start><line>4251</line><column>1</column></start>
+          <end><line>4251</line><column>9</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</introduced>
-            <removed>1509fd94db6bebdda44662eb42e315332b6595c8</removed>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2164</line><column>1</column></start>
-          <end><line>2164</line><column>9</column></end>
+          <start><line>5838</line><column>1</column></start>
+          <end><line>5838</line><column>9</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>1509fd94db6bebdda44662eb42e315332b6595c8</introduced>
-            <removed>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</removed>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2192</line><column>1</column></start>
-          <end><line>2192</line><column>9</column></end>
+          <start><line>5957</line><column>1</column></start>
+          <end><line>5957</line><column>9</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</introduced>
-            <removed>6d344377e10afeecd51615f65d42fa7509aaa57b</removed>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2227</line><column>1</column></start>
-          <end><line>2227</line><column>9</column></end>
+          <start><line>6155</line><column>1</column></start>
+          <end><line>6155</line><column>9</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>6d344377e10afeecd51615f65d42fa7509aaa57b</introduced>
-            <removed>e4c225844193186faa958cb4168953520a5ef2e6</removed>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2278</line><column>1</column></start>
-          <end><line>2278</line><column>9</column></end>
+          <start><line>6203</line><column>1</column></start>
+          <end><line>6203</line><column>9</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>e4c225844193186faa958cb4168953520a5ef2e6</introduced>
-            <removed>63a74c25dfadc447b7eea07773ef40f589ca1ed5</removed>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2106</line><column>1</column></start>
-          <end><line>2106</line><column>9</column></end>
+          <start><line>6302</line><column>1</column></start>
+          <end><line>6302</line><column>9</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2135</line><column>1</column></start>
-          <end><line>2135</line><column>9</column></end>
+          <start><line>6306</line><column>1</column></start>
+          <end><line>6306</line><column>9</column></end>
         </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6141</line><column>1</column></start>
+          <end><line>6141</line><column>9</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6182</line><column>1</column></start>
+          <end><line>6182</line><column>9</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4067</line><column>1</column></start>
+          <end><line>4067</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4279</line><column>1</column></start>
+          <end><line>4279</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5866</line><column>1</column></start>
+          <end><line>5866</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5985</line><column>1</column></start>
+          <end><line>5985</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6183</line><column>1</column></start>
+          <end><line>6183</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6231</line><column>1</column></start>
+          <end><line>6231</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6330</line><column>1</column></start>
+          <end><line>6330</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6334</line><column>1</column></start>
+          <end><line>6334</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6169</line><column>1</column></start>
+          <end><line>6169</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6210</line><column>1</column></start>
+          <end><line>6210</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4117</line><column>1</column></start>
+          <end><line>4117</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4355</line><column>1</column></start>
+          <end><line>4355</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5942</line><column>1</column></start>
+          <end><line>5942</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6061</line><column>1</column></start>
+          <end><line>6061</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6259</line><column>1</column></start>
+          <end><line>6259</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6304</line><column>1</column></start>
+          <end><line>6304</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6403</line><column>1</column></start>
+          <end><line>6403</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6407</line><column>1</column></start>
+          <end><line>6407</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6242</line><column>1</column></start>
+          <end><line>6242</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6283</line><column>1</column></start>
+          <end><line>6283</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>176</line><column>1</column></start>
+          <end><line>176</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>204</line><column>1</column></start>
+          <end><line>204</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>254</line><column>1</column></start>
+          <end><line>254</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>312</line><column>1</column></start>
+          <end><line>312</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>321</line><column>1</column></start>
+          <end><line>321</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>325</line><column>1</column></start>
+          <end><line>325</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4526</line><column>1</column></start>
+          <end><line>4526</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6119</line><column>1</column></start>
+          <end><line>6119</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6276</line><column>1</column></start>
+          <end><line>6276</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6475</line><column>1</column></start>
+          <end><line>6475</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6551</line><column>1</column></start>
+          <end><line>6551</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6652</line><column>1</column></start>
+          <end><line>6652</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6656</line><column>1</column></start>
+          <end><line>6656</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6491</line><column>1</column></start>
+          <end><line>6491</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6532</line><column>1</column></start>
+          <end><line>6532</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4234</line><column>1</column></start>
+          <end><line>4234</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5821</line><column>1</column></start>
+          <end><line>5821</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5940</line><column>1</column></start>
+          <end><line>5940</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6138</line><column>1</column></start>
+          <end><line>6138</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6189</line><column>1</column></start>
+          <end><line>6189</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6288</line><column>1</column></start>
+          <end><line>6288</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6292</line><column>1</column></start>
+          <end><line>6292</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6127</line><column>1</column></start>
+          <end><line>6127</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6168</line><column>1</column></start>
+          <end><line>6168</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4101</line><column>1</column></start>
+          <end><line>4101</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4257</line><column>1</column></start>
+          <end><line>4257</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5844</line><column>1</column></start>
+          <end><line>5844</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5963</line><column>1</column></start>
+          <end><line>5963</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6161</line><column>1</column></start>
+          <end><line>6161</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6209</line><column>1</column></start>
+          <end><line>6209</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6308</line><column>1</column></start>
+          <end><line>6308</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6312</line><column>1</column></start>
+          <end><line>6312</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6147</line><column>1</column></start>
+          <end><line>6147</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6188</line><column>1</column></start>
+          <end><line>6188</line><column>12</column></end>
+        </sourceRange>
+
       </locations>
     </configurationOption>
     <configurationOption>
@@ -234,136 +849,643 @@
       <locations>
         <sourceRange>
           <revisionRange>
-            <introduced>bf15ea128a9442a2d9dc9a3f61bcf77b0af59231</introduced>
-            <removed>dca1304a42afae5c8807641a1ea9a90b1665a29a</removed>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>322</line><column>12</column></start>
-          <end><line>322</line><column>16</column></end>
+          <start><line>4837</line><column>1</column></start>
+          <end><line>4837</line><column>28</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>dca1304a42afae5c8807641a1ea9a90b1665a29a</introduced>
-            <removed>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</removed>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>492</line><column>12</column></start>
-          <end><line>492</line><column>16</column></end>
+          <start><line>6503</line><column>1</column></start>
+          <end><line>6503</line><column>28</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</introduced>
-            <removed>1509fd94db6bebdda44662eb42e315332b6595c8</removed>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>502</line><column>12</column></start>
-          <end><line>502</line><column>16</column></end>
+          <start><line>6741</line><column>1</column></start>
+          <end><line>6741</line><column>28</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>1509fd94db6bebdda44662eb42e315332b6595c8</introduced>
-            <removed>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</removed>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>511</line><column>12</column></start>
-          <end><line>511</line><column>16</column></end>
+          <start><line>7203</line><column>1</column></start>
+          <end><line>7203</line><column>28</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</introduced>
-            <removed>6d344377e10afeecd51615f65d42fa7509aaa57b</removed>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>534</line><column>12</column></start>
-          <end><line>534</line><column>16</column></end>
+          <start><line>7878</line><column>1</column></start>
+          <end><line>7878</line><column>28</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>6d344377e10afeecd51615f65d42fa7509aaa57b</introduced>
-            <removed>63a74c25dfadc447b7eea07773ef40f589ca1ed5</removed>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>541</line><column>7</column></start>
-          <end><line>541</line><column>11</column></end>
+          <start><line>7994</line><column>1</column></start>
+          <end><line>7994</line><column>28</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>562</line><column>7</column></start>
-          <end><line>562</line><column>11</column></end>
+          <start><line>8027</line><column>1</column></start>
+          <end><line>8027</line><column>28</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>bf15ea128a9442a2d9dc9a3f61bcf77b0af59231</introduced>
-            <removed>dca1304a42afae5c8807641a1ea9a90b1665a29a</removed>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>1493</line><column>1</column></start>
-          <end><line>1493</line><column>9</column></end>
+          <start><line>7888</line><column>1</column></start>
+          <end><line>7888</line><column>28</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>dca1304a42afae5c8807641a1ea9a90b1665a29a</introduced>
-            <removed>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</removed>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2099</line><column>1</column></start>
-          <end><line>2099</line><column>9</column></end>
+          <start><line>7933</line><column>1</column></start>
+          <end><line>7933</line><column>28</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</introduced>
-            <removed>1509fd94db6bebdda44662eb42e315332b6595c8</removed>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2164</line><column>1</column></start>
-          <end><line>2164</line><column>9</column></end>
+          <start><line>4251</line><column>1</column></start>
+          <end><line>4251</line><column>9</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>1509fd94db6bebdda44662eb42e315332b6595c8</introduced>
-            <removed>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</removed>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2192</line><column>1</column></start>
-          <end><line>2192</line><column>9</column></end>
+          <start><line>5838</line><column>1</column></start>
+          <end><line>5838</line><column>9</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</introduced>
-            <removed>6d344377e10afeecd51615f65d42fa7509aaa57b</removed>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2227</line><column>1</column></start>
-          <end><line>2227</line><column>9</column></end>
+          <start><line>5957</line><column>1</column></start>
+          <end><line>5957</line><column>9</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>6d344377e10afeecd51615f65d42fa7509aaa57b</introduced>
-            <removed>e4c225844193186faa958cb4168953520a5ef2e6</removed>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2278</line><column>1</column></start>
-          <end><line>2278</line><column>9</column></end>
+          <start><line>6155</line><column>1</column></start>
+          <end><line>6155</line><column>9</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>e4c225844193186faa958cb4168953520a5ef2e6</introduced>
-            <removed>63a74c25dfadc447b7eea07773ef40f589ca1ed5</removed>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2106</line><column>1</column></start>
-          <end><line>2106</line><column>9</column></end>
+          <start><line>6203</line><column>1</column></start>
+          <end><line>6203</line><column>9</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2135</line><column>1</column></start>
-          <end><line>2135</line><column>9</column></end>
+          <start><line>6302</line><column>1</column></start>
+          <end><line>6302</line><column>9</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6306</line><column>1</column></start>
+          <end><line>6306</line><column>9</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6141</line><column>1</column></start>
+          <end><line>6141</line><column>9</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6182</line><column>1</column></start>
+          <end><line>6182</line><column>9</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4067</line><column>1</column></start>
+          <end><line>4067</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4279</line><column>1</column></start>
+          <end><line>4279</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5866</line><column>1</column></start>
+          <end><line>5866</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5985</line><column>1</column></start>
+          <end><line>5985</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6183</line><column>1</column></start>
+          <end><line>6183</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6231</line><column>1</column></start>
+          <end><line>6231</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6330</line><column>1</column></start>
+          <end><line>6330</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6334</line><column>1</column></start>
+          <end><line>6334</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6169</line><column>1</column></start>
+          <end><line>6169</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6210</line><column>1</column></start>
+          <end><line>6210</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4117</line><column>1</column></start>
+          <end><line>4117</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4355</line><column>1</column></start>
+          <end><line>4355</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5942</line><column>1</column></start>
+          <end><line>5942</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6061</line><column>1</column></start>
+          <end><line>6061</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6259</line><column>1</column></start>
+          <end><line>6259</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6304</line><column>1</column></start>
+          <end><line>6304</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6403</line><column>1</column></start>
+          <end><line>6403</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6407</line><column>1</column></start>
+          <end><line>6407</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6242</line><column>1</column></start>
+          <end><line>6242</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6283</line><column>1</column></start>
+          <end><line>6283</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>176</line><column>1</column></start>
+          <end><line>176</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>204</line><column>1</column></start>
+          <end><line>204</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>254</line><column>1</column></start>
+          <end><line>254</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>312</line><column>1</column></start>
+          <end><line>312</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>321</line><column>1</column></start>
+          <end><line>321</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>325</line><column>1</column></start>
+          <end><line>325</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4526</line><column>1</column></start>
+          <end><line>4526</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6119</line><column>1</column></start>
+          <end><line>6119</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6276</line><column>1</column></start>
+          <end><line>6276</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6475</line><column>1</column></start>
+          <end><line>6475</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6551</line><column>1</column></start>
+          <end><line>6551</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6652</line><column>1</column></start>
+          <end><line>6652</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6656</line><column>1</column></start>
+          <end><line>6656</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6491</line><column>1</column></start>
+          <end><line>6491</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6532</line><column>1</column></start>
+          <end><line>6532</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4234</line><column>1</column></start>
+          <end><line>4234</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5821</line><column>1</column></start>
+          <end><line>5821</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5940</line><column>1</column></start>
+          <end><line>5940</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6138</line><column>1</column></start>
+          <end><line>6138</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6189</line><column>1</column></start>
+          <end><line>6189</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6288</line><column>1</column></start>
+          <end><line>6288</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6292</line><column>1</column></start>
+          <end><line>6292</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6127</line><column>1</column></start>
+          <end><line>6127</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6168</line><column>1</column></start>
+          <end><line>6168</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4101</line><column>1</column></start>
+          <end><line>4101</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4257</line><column>1</column></start>
+          <end><line>4257</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5844</line><column>1</column></start>
+          <end><line>5844</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5963</line><column>1</column></start>
+          <end><line>5963</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6161</line><column>1</column></start>
+          <end><line>6161</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6209</line><column>1</column></start>
+          <end><line>6209</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6308</line><column>1</column></start>
+          <end><line>6308</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6312</line><column>1</column></start>
+          <end><line>6312</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6147</line><column>1</column></start>
+          <end><line>6147</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6188</line><column>1</column></start>
+          <end><line>6188</line><column>12</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -375,136 +1497,554 @@
       <locations>
         <sourceRange>
           <revisionRange>
-            <introduced>bf15ea128a9442a2d9dc9a3f61bcf77b0af59231</introduced>
-            <removed>dca1304a42afae5c8807641a1ea9a90b1665a29a</removed>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>322</line><column>12</column></start>
-          <end><line>322</line><column>16</column></end>
+          <start><line>4844</line><column>1</column></start>
+          <end><line>4844</line><column>23</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>dca1304a42afae5c8807641a1ea9a90b1665a29a</introduced>
-            <removed>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</removed>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>492</line><column>12</column></start>
-          <end><line>492</line><column>16</column></end>
+          <start><line>6510</line><column>1</column></start>
+          <end><line>6510</line><column>23</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</introduced>
-            <removed>1509fd94db6bebdda44662eb42e315332b6595c8</removed>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>502</line><column>12</column></start>
-          <end><line>502</line><column>16</column></end>
+          <start><line>6748</line><column>1</column></start>
+          <end><line>6748</line><column>23</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>1509fd94db6bebdda44662eb42e315332b6595c8</introduced>
-            <removed>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</removed>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>511</line><column>12</column></start>
-          <end><line>511</line><column>16</column></end>
+          <start><line>7210</line><column>1</column></start>
+          <end><line>7210</line><column>23</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</introduced>
-            <removed>6d344377e10afeecd51615f65d42fa7509aaa57b</removed>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>534</line><column>12</column></start>
-          <end><line>534</line><column>16</column></end>
+          <start><line>7885</line><column>1</column></start>
+          <end><line>7885</line><column>23</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>6d344377e10afeecd51615f65d42fa7509aaa57b</introduced>
-            <removed>63a74c25dfadc447b7eea07773ef40f589ca1ed5</removed>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>541</line><column>7</column></start>
-          <end><line>541</line><column>11</column></end>
+          <start><line>8001</line><column>1</column></start>
+          <end><line>8001</line><column>23</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>562</line><column>7</column></start>
-          <end><line>562</line><column>11</column></end>
+          <start><line>8034</line><column>1</column></start>
+          <end><line>8034</line><column>23</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>bf15ea128a9442a2d9dc9a3f61bcf77b0af59231</introduced>
-            <removed>dca1304a42afae5c8807641a1ea9a90b1665a29a</removed>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>1493</line><column>1</column></start>
-          <end><line>1493</line><column>9</column></end>
+          <start><line>7895</line><column>1</column></start>
+          <end><line>7895</line><column>23</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>dca1304a42afae5c8807641a1ea9a90b1665a29a</introduced>
-            <removed>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</removed>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2099</line><column>1</column></start>
-          <end><line>2099</line><column>9</column></end>
+          <start><line>7940</line><column>1</column></start>
+          <end><line>7940</line><column>23</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>32efd8a0bd077c6dd04c64b02c81ef6ebd279692</introduced>
-            <removed>1509fd94db6bebdda44662eb42e315332b6595c8</removed>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2164</line><column>1</column></start>
-          <end><line>2164</line><column>9</column></end>
+          <start><line>1588</line><column>1</column></start>
+          <end><line>1588</line><column>16</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>1509fd94db6bebdda44662eb42e315332b6595c8</introduced>
-            <removed>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</removed>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2192</line><column>1</column></start>
-          <end><line>2192</line><column>9</column></end>
+          <start><line>2213</line><column>1</column></start>
+          <end><line>2213</line><column>16</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>cd2f267cd6f77bf8b804a8a7cc5401c5dcb10ac3</introduced>
-            <removed>6d344377e10afeecd51615f65d42fa7509aaa57b</removed>
-          </revisionRange>
-          <path>picosat.c</path>
-          <start><line>2227</line><column>1</column></start>
-          <end><line>2227</line><column>9</column></end>
-        </sourceRange>
-        <sourceRange>
-          <revisionRange>
-            <introduced>6d344377e10afeecd51615f65d42fa7509aaa57b</introduced>
-            <removed>e4c225844193186faa958cb4168953520a5ef2e6</removed>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
           </revisionRange>
           <path>picosat.c</path>
           <start><line>2278</line><column>1</column></start>
-          <end><line>2278</line><column>9</column></end>
+          <end><line>2278</line><column>16</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>e4c225844193186faa958cb4168953520a5ef2e6</introduced>
-            <removed>63a74c25dfadc447b7eea07773ef40f589ca1ed5</removed>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2106</line><column>1</column></start>
-          <end><line>2106</line><column>9</column></end>
+          <start><line>2314</line><column>1</column></start>
+          <end><line>2314</line><column>16</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
-            <introduced>63a74c25dfadc447b7eea07773ef40f589ca1ed5</introduced>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
           </revisionRange>
           <path>picosat.c</path>
-          <start><line>2135</line><column>1</column></start>
-          <end><line>2135</line><column>9</column></end>
+          <start><line>2351</line><column>1</column></start>
+          <end><line>2351</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>2402</line><column>1</column></start>
+          <end><line>2402</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>2403</line><column>1</column></start>
+          <end><line>2403</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>2231</line><column>1</column></start>
+          <end><line>2231</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>2261</line><column>1</column></start>
+          <end><line>2261</line><column>16</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4117</line><column>1</column></start>
+          <end><line>4117</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4355</line><column>1</column></start>
+          <end><line>4355</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5942</line><column>1</column></start>
+          <end><line>5942</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6061</line><column>1</column></start>
+          <end><line>6061</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6259</line><column>1</column></start>
+          <end><line>6259</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6304</line><column>1</column></start>
+          <end><line>6304</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6403</line><column>1</column></start>
+          <end><line>6403</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6407</line><column>1</column></start>
+          <end><line>6407</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6242</line><column>1</column></start>
+          <end><line>6242</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6283</line><column>1</column></start>
+          <end><line>6283</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>176</line><column>1</column></start>
+          <end><line>176</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>204</line><column>1</column></start>
+          <end><line>204</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>254</line><column>1</column></start>
+          <end><line>254</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>312</line><column>1</column></start>
+          <end><line>312</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>321</line><column>1</column></start>
+          <end><line>321</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>app.c</path>
+          <start><line>325</line><column>1</column></start>
+          <end><line>325</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4526</line><column>1</column></start>
+          <end><line>4526</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6119</line><column>1</column></start>
+          <end><line>6119</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6276</line><column>1</column></start>
+          <end><line>6276</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6475</line><column>1</column></start>
+          <end><line>6475</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6551</line><column>1</column></start>
+          <end><line>6551</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6652</line><column>1</column></start>
+          <end><line>6652</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6656</line><column>1</column></start>
+          <end><line>6656</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6491</line><column>1</column></start>
+          <end><line>6491</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6532</line><column>1</column></start>
+          <end><line>6532</line><column>31</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4234</line><column>1</column></start>
+          <end><line>4234</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5821</line><column>1</column></start>
+          <end><line>5821</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5940</line><column>1</column></start>
+          <end><line>5940</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6138</line><column>1</column></start>
+          <end><line>6138</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6189</line><column>1</column></start>
+          <end><line>6189</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6288</line><column>1</column></start>
+          <end><line>6288</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6292</line><column>1</column></start>
+          <end><line>6292</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6127</line><column>1</column></start>
+          <end><line>6127</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6168</line><column>1</column></start>
+          <end><line>6168</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1fc66915bedfc16aa90827f3e211eeb777890e46</introduced>
+            <removed>069444d807feb49fe7bb39fb85ba77b855cc3f28</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4101</line><column>1</column></start>
+          <end><line>4101</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>069444d807feb49fe7bb39fb85ba77b855cc3f28</introduced>
+            <removed>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>4257</line><column>1</column></start>
+          <end><line>4257</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>ddd8c9d281225a8b7bac9b8cdc0ade4d2e44294b</introduced>
+            <removed>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5844</line><column>1</column></start>
+          <end><line>5844</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c393de3702aa3a4dbe5c5d4571b7fb942d99dcfc</introduced>
+            <removed>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>5963</line><column>1</column></start>
+          <end><line>5963</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>9841fb1f5d665cf813d4156ed2d682a0ae4e216a</introduced>
+            <removed>c35ee4c944806eb283d02ca853d1fae67b147aab</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6161</line><column>1</column></start>
+          <end><line>6161</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>c35ee4c944806eb283d02ca853d1fae67b147aab</introduced>
+            <removed>f5f9228b11766f2a93dbb428cf905e18220bbcba</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6209</line><column>1</column></start>
+          <end><line>6209</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f5f9228b11766f2a93dbb428cf905e18220bbcba</introduced>
+            <removed>4500bfb6c945cff7d5b73e78618b02ac36a1af78</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6308</line><column>1</column></start>
+          <end><line>6308</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4500bfb6c945cff7d5b73e78618b02ac36a1af78</introduced>
+            <removed>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6312</line><column>1</column></start>
+          <end><line>6312</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>020058fdc617b4f0a8ac5cdb70fbf356d766baf5</introduced>
+            <removed>cc872137c2837adcb662456f02ee0b210e744f14</removed>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6147</line><column>1</column></start>
+          <end><line>6147</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>cc872137c2837adcb662456f02ee0b210e744f14</introduced>
+          </revisionRange>
+          <path>picosat.c</path>
+          <start><line>6188</line><column>1</column></start>
+          <end><line>6188</line><column>12</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
