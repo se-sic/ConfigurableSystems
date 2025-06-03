@@ -25,6 +25,7 @@ SYSTEM "vm.dtd">
           <path>src/sort.c</path>
           <start><line>208</line><column>15</column></start>
           <end><line>208</line><column>23</column></end>
+          <memberOffset>keyfield::translate</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -41,6 +42,7 @@ SYSTEM "vm.dtd">
           <path>src/sort.c</path>
           <start><line>220</line><column>8</column></start>
           <end><line>220</line><column>14</column></end>
+          <memberOffset>keyfield::reverse</memberOffset>
         </sourceRange>
         <sourceRange>
           <revisionRange>
@@ -69,6 +71,7 @@ SYSTEM "vm.dtd">
           <path>src/sort.c</path>
           <start><line>211</line><column>8</column></start>
           <end><line>211</line><column>14</column></end>
+          <memberOffset>keyfield::numeric</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -89,6 +92,7 @@ SYSTEM "vm.dtd">
           <path>src/sort.c</path>
           <start><line>214</line><column>8</column></start>
           <end><line>214</line><column>13</column></end>
+          <memberOffset>keyfield::random</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -109,6 +113,7 @@ SYSTEM "vm.dtd">
           <path>src/sort.c</path>
           <start><line>221</line><column>8</column></start>
           <end><line>221</line><column>14</column></end>
+          <memberOffset>keyfield::version</memberOffset>
         </sourceRange>
       </locations>
     </configurationOption>
