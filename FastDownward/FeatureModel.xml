@@ -29,8 +29,7 @@
     </configurationOption>
     <configurationOption>
       <name>mergeAndShrink</name>
-      <outputString>
-      </outputString>
+      <outputString>mergeAndShrink</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -62,8 +61,7 @@
     </configurationOption>
     <configurationOption>
       <name>blind</name>
-      <outputString>
-      </outputString>
+      <outputString>blind</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -95,8 +93,7 @@
     </configurationOption>
     <configurationOption>
       <name>max</name>
-      <outputString>
-      </outputString>
+      <outputString>hMax</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -128,8 +125,7 @@
     </configurationOption>
     <configurationOption>
       <name>iPDB</name>
-      <outputString>
-      </outputString>
+      <outputString>iPDB</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -161,8 +157,7 @@
     </configurationOption>
     <configurationOption>
       <name>noiPDB</name>
-      <outputString>
-      </outputString>
+      <outputString>noiPDB</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -174,8 +169,7 @@
     </configurationOption>
     <configurationOption>
       <name>canonicalPDB</name>
-      <outputString>
-      </outputString>
+      <outputString>canonicalPDB</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -207,8 +201,7 @@
     </configurationOption>
     <configurationOption>
       <name>labelReduction</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -233,8 +226,7 @@
     </configurationOption>
     <configurationOption>
       <name>exactGeneralizedLR</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -246,8 +238,7 @@
     </configurationOption>
     <configurationOption>
       <name>shrinkStrat</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -272,8 +263,7 @@
     </configurationOption>
     <configurationOption>
       <name>bisimulation</name>
-      <outputString>
-      </outputString>
+      <outputString>bisimulation</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -318,8 +308,7 @@
     </configurationOption>
     <configurationOption>
       <name>fPreserving</name>
-      <outputString>
-      </outputString>
+      <outputString>fPreserving</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -346,8 +335,7 @@
     </configurationOption>
     <configurationOption>
       <name>mergeStrat</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -411,8 +399,7 @@
     </configurationOption>
     <configurationOption>
       <name>landmarkCut</name>
-      <outputString>
-      </outputString>
+      <outputString>lmCut</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -444,8 +431,7 @@
     </configurationOption>
     <configurationOption>
       <name>landmarkCount</name>
-      <outputString>
-      </outputString>
+      <outputString>lmCount</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -503,8 +489,7 @@
     </configurationOption>
     <configurationOption>
       <name>exhaustiveLM</name>
-      <outputString>
-      </outputString>
+      <outputString>exhaustiveLM</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -520,8 +505,7 @@
     </configurationOption>
     <configurationOption>
       <name>hmLM</name>
-      <outputString>
-      </outputString>
+      <outputString>hmLM</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -537,8 +521,7 @@
     </configurationOption>
     <configurationOption>
       <name>RHWLM</name>
-      <outputString>
-      </outputString>
+      <outputString>RHWLM</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -554,8 +537,7 @@
     </configurationOption>
     <configurationOption>
       <name>zhuGivanLM</name>
-      <outputString>
-      </outputString>
+      <outputString>zhuGivanLM</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -571,8 +553,7 @@
     </configurationOption>
     <configurationOption>
       <name>resonableOrders</name>
-      <outputString>
-      </outputString>
+      <outputString>reasonableOrders</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -597,8 +578,7 @@
     </configurationOption>
     <configurationOption>
       <name>onlyCausalLMs</name>
-      <outputString>
-      </outputString>
+      <outputString>onlyCausalLMs</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -623,8 +603,7 @@
     </configurationOption>
     <configurationOption>
       <name>disjunctiveLMs</name>
-      <outputString>
-      </outputString>
+      <outputString>disjunctiveLMs</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -649,8 +628,7 @@
     </configurationOption>
     <configurationOption>
       <name>conjunctiveLMs</name>
-      <outputString>
-      </outputString>
+      <outputString>conjunctiveLMs</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -675,8 +653,7 @@
     </configurationOption>
     <configurationOption>
       <name>noOrders</name>
-      <outputString>
-      </outputString>
+      <outputString>noOrders</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -771,8 +748,7 @@
     </configurationOption>
     <configurationOption>
       <name>beforeShrinking</name>
-      <outputString>
-      </outputString>
+      <outputString>beforeShrinking</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -815,8 +791,7 @@
     </configurationOption>
     <configurationOption>
       <name>beforeMerging</name>
-      <outputString>
-      </outputString>
+      <outputString>beforeMerging</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -903,8 +878,7 @@
     </configurationOption>
     <configurationOption>
       <name>allSystems</name>
-      <outputString>
-      </outputString>
+      <outputString>allSystems</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -950,8 +924,7 @@
     </configurationOption>
     <configurationOption>
       <name>twoSystems</name>
-      <outputString>
-      </outputString>
+      <outputString>twoSystems</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -997,8 +970,7 @@
     </configurationOption>
     <configurationOption>
       <name>allSystemsWithFixpoint</name>
-      <outputString>
-      </outputString>
+      <outputString>allSystemsFP</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -1046,8 +1018,7 @@
   <numericOptions>
     <configurationOption>
       <name>pdbMaxSize</name>
-      <outputString>
-      </outputString>
+      <outputString>pdbMaxSize=</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -1100,8 +1071,7 @@
     </configurationOption>
     <configurationOption>
       <name>collectionMaxSize</name>
-      <outputString>
-      </outputString>
+      <outputString>collectionMaxSize=</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -1126,8 +1096,7 @@
     </configurationOption>
     <configurationOption>
       <name>numSamples</name>
-      <outputString>
-      </outputString>
+      <outputString>numSamples=</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -1152,8 +1121,7 @@
     </configurationOption>
     <configurationOption>
       <name>minImprovement</name>
-      <outputString>
-      </outputString>
+      <outputString>minImprovement=</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -1178,8 +1146,7 @@
     </configurationOption>
     <configurationOption>
       <name>random</name>
-      <outputString>
-      </outputString>
+      <outputString>random=</outputString>
       <prefix>
       </prefix>
       <postfix>
