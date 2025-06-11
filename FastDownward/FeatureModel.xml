@@ -540,7 +540,7 @@
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>resonableOrders</name>
+      <name>reasonableOrders</name>
       <outputString>reasonableOrders</outputString>
       <prefix>
       </prefix>
