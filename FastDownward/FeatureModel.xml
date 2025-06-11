@@ -156,18 +156,6 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>noiPDB</name>
-      <outputString>noiPDB</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>root</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
       <name>canonicalPDB</name>
       <outputString>canonicalPDB</outputString>
       <prefix>
@@ -1171,16 +1159,13 @@
     </configurationOption>
   </numericOptions>
   <booleanConstraints>
-    <constraint>iPDB | noiPDB</constraint>
-    <constraint>!iPDB | !noiPDB</constraint>
-    <constraint>beforeShrinking | beforeMerging</constraint>
+	  <constraint> beforeShrinking | beforeMerging </constraint>
+	  <constraint> onlyCausalLMs => ( exhaustiveLM | RHWLM) </constraint>
+	  <constraint> disjunctiveLMs => ( RHWLM ) </constraint>
+	  <constraint> conjunctiveLMs => ( hmLM ) </constraint>
   </booleanConstraints>
   <nonBooleanConstraints />
   <mixedConstraints>
-    <constraint req="all" exprKind="pos"> noiPDB * minImprovement = 1</constraint>
-    <constraint req="all" exprKind="pos"> noiPDB * numSamples = 100</constraint>
-    <constraint req="all" exprKind="pos"> noiPDB * collectionMaxSize = 10000</constraint>
-    <constraint req="all" exprKind="pos"> noiPDB * pdbMaxSize = 100000</constraint>
     <constraint req="all" exprKind="pos"> bisimulation * random = 1</constraint>
     <constraint req="all" exprKind="pos"> blind * random = 1</constraint>
     <constraint req="all" exprKind="pos"> max * random = 1</constraint>
