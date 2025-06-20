@@ -14,7 +14,7 @@ SYSTEM "vm.dtd">
     </configurationOption>
     <configurationOption>
       <name>ignore-case</name>
-      <outputString>-i</outputString>
+      <outputString>-f</outputString>
       <parent>root</parent>
       <optional>True</optional>
       <locations>
