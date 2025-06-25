@@ -23,7 +23,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>62</line><column>13</column></start>
-          <end><line>62</line><column>29/column></end>
+          <end><line>62</line><column>29</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -31,6 +31,9 @@
       <name>repeated</name>
       <outputString>--repeated</outputString>
       <parent>root</parent>
+      <excludedOptions>
+        <options>group</options>
+      </excludedOptions>
       <optional>True</optional>
       <locations>
         <sourceRange>
@@ -39,7 +42,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>67</line><column>13</column></start>
-          <end><line>67</line><column>25/column></end>
+          <end><line>67</line><column>25</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -47,6 +50,9 @@
       <name>unique</name>
       <outputString>--unique</outputString>
       <parent>root</parent>
+      <excludedOptions>
+        <options>group</options>
+      </excludedOptions>
       <optional>True</optional>
       <locations>
         <sourceRange>
@@ -55,7 +61,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>68</line><column>13</column></start>
-          <end><line>68</line><column>33/column></end>
+          <end><line>68</line><column>33</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -71,7 +77,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>72</line><column>13</column></start>
-          <end><line>72</line><column>23/column></end>
+          <end><line>72</line><column>23</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -91,7 +97,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>67</line><column>13</column></start>
-          <end><line>67</line><column>25/column></end>
+          <end><line>67</line><column>25</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
@@ -99,7 +105,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>69</line><column>13</column></start>
-          <end><line>69</line><column>33/column></end>
+          <end><line>69</line><column>33</column></end>
         </sourceRange>
         <sourceRange>
           <revisionRange>
@@ -107,7 +113,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>97</line><column>28</column></start>
-          <end><line>97</line><column>41/column></end>
+          <end><line>97</line><column>41</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -127,7 +133,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>77</line><column>3</column></start>
-          <end><line>77</line><column>9/column></end>
+          <end><line>77</line><column>9</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -147,7 +153,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>80</line><column>3</column></start>
-          <end><line>80</line><column>12/column></end>
+          <end><line>80</line><column>12</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -167,7 +173,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>83</line><column>3</column></start>
-          <end><line>83</line><column>13/column></end>
+          <end><line>83</line><column>13</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -179,6 +185,7 @@
         <options>count</options>
         <options>repeated</options>
         <options>all_repeated</options>
+        <options>unique</options>
       </excludedOptions>
       <optional>True</optional>
       <locations>
@@ -188,7 +195,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>127</line><column>29</column></start>
-          <end><line>127</line><column>36/column></end>
+          <end><line>127</line><column>36</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -209,7 +216,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>111</line><column>3</column></start>
-          <end><line>111</line><column>13/column></end>
+          <end><line>111</line><column>13</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -230,7 +237,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>105</line><column>3</column></start>
-          <end><line>105</line><column>12/column></end>
+          <end><line>105</line><column>12</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -251,7 +258,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>108</line><column>3</column></start>
-          <end><line>108</line><column>11/column></end>
+          <end><line>108</line><column>11</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -272,7 +279,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>114</line><column>3</column></start>
-          <end><line>114</line><column>9/column></end>
+          <end><line>114</line><column>9</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -291,7 +298,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>58</line><column>14</column></start>
-          <end><line>58</line><column>24/column></end>
+          <end><line>58</line><column>24</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -308,7 +315,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>55</line><column>14</column></start>
-          <end><line>55</line><column>23/column></end>
+          <end><line>55</line><column>23</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -325,7 +332,7 @@
           </revisionRange>
           <path>src/uniq.c</path>
           <start><line>52</line><column>14</column></start>
-          <end><line>52</line><column>24/column></end>
+          <end><line>52</line><column>24</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
