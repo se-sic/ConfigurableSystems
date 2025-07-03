@@ -16,9 +16,7 @@
     </configurationOption>
     <configurationOption>
       <name>mode</name>
-      <outputString>
-      mode
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -44,8 +42,7 @@
     </configurationOption>
     <configurationOption>
       <name>audio</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -57,9 +54,7 @@
     </configurationOption>
     <configurationOption>
       <name>cbr</name>
-      <outputString>
-      cbr
-      </outputString>
+      <outputString>-cbr</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -71,9 +66,7 @@
     </configurationOption>
     <configurationOption>
       <name>cvbr</name>
-      <outputString>
-      cvbr
-      </outputString>
+      <outputString>-cvbr</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -99,9 +92,7 @@
     </configurationOption>
     <configurationOption>
       <name>bandwidth</name>
-      <outputString>
-      bandwidth
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -127,10 +118,8 @@
     </configurationOption>
     <configurationOption>
       <name>NB</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
+      <outputString>-bandwidth NB</outputString>
+      <prefix></prefix>
       <postfix>
       </postfix>
       <parent>bandwidth</parent>
@@ -145,10 +134,8 @@
     </configurationOption>
     <configurationOption>
       <name>WB</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
+      <outputString>-bandwidth WB</outputString>
+      <prefix></prefix>
       <postfix>
       </postfix>
       <parent>bandwidth</parent>
@@ -163,10 +150,8 @@
     </configurationOption>
     <configurationOption>
       <name>FB</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
+      <outputString>-bandwidth FB</outputString>
+      <prefix></prefix>
       <postfix>
       </postfix>
       <parent>bandwidth</parent>
@@ -181,9 +166,7 @@
     </configurationOption>
     <configurationOption>
       <name>frameSize</name>
-      <outputString>
-      frameSize
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -209,10 +192,8 @@
     </configurationOption>
     <configurationOption>
       <name>lowest</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
+      <outputString>-framesize 2.5</outputString>
+      <prefix></prefix>
       <postfix>
       </postfix>
       <parent>frameSize</parent>
@@ -241,10 +222,8 @@
     </configurationOption>
     <configurationOption>
       <name>highest</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
+      <outputString>-framesize 120</outputString>
+      <prefix></prefix>
       <postfix>
       </postfix>
       <parent>frameSize</parent>
@@ -257,8 +236,7 @@
     </configurationOption>
     <configurationOption>
       <name>forcemono</name>
-      <outputString>
-      </outputString>
+      <outputString>-forcemono</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -270,10 +248,8 @@
     </configurationOption>
     <configurationOption>
       <name>MB</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
+      <outputString>-bandwidth MB</outputString>
+      <prefix></prefix>
       <postfix>
       </postfix>
       <parent>bandwidth</parent>
@@ -288,10 +264,8 @@
     </configurationOption>
     <configurationOption>
       <name>SWB</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
+      <outputString>-bandwidth SWB</outputString>
+      <prefix></prefix>
       <postfix>
       </postfix>
       <parent>bandwidth</parent>
@@ -308,9 +282,7 @@
   <numericOptions>
     <configurationOption>
       <name>channels</name>
-      <outputString>
-      channels
-      </outputString>
+      <outputString> </outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -338,8 +310,7 @@
     </configurationOption>
     <configurationOption>
       <name>samplingRate</name>
-      <outputString>
-      </outputString>
+      <outputString>samplingRate </outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -353,9 +324,7 @@
     </configurationOption>
     <configurationOption>
       <name>bitRate</name>
-      <outputString>
-      bitRate
-      </outputString>
+      <outputString>bitRate </outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -383,10 +352,8 @@
     </configurationOption>
     <configurationOption>
       <name>complexity</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
+      <outputString></outputString>
+      <prefix>-complexity </prefix>
       <postfix>
       </postfix>
       <parent>root</parent>
