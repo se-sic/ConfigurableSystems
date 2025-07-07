@@ -1,28 +1,260 @@
-<vm name="bzip2">
+<vm name="FeatureModel">
   <binaryOptions>
     <configurationOption>
       <name>root</name>
-      <outputString />
-      <prefix />
-      <postfix />
-      <parent />
-      <impliedOptions />
-      <excludedOptions />
+      <children>
+        <options>forceOverwrite</options>
+        <options>keepInputFiles</options>
+        <options>level</options>
+        <options>opMode</options>
+        <options>quiet</options>
+        <options>smallMode</options>
+        <options>stdout</options>
+        <options>verbosity</options>
+      </children>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>keepInputFiles</name>
-      <outputString />
-      <prefix />
-      <postfix />
+      <name>forceOverwrite</name>
+      <outputString>-f</outputString>
       <parent>root</parent>
-      <impliedOptions />
-      <excludedOptions />
       <optional>True</optional>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+            <introduced>977101ad5f833f5c0a574bfeea408e5301a6b052</introduced>
+            <removed>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>257</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>257</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</introduced>
+            <removed>795b859eee96c700e8f3c3fe68e6a9a39d95797c</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>280</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>280</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>795b859eee96c700e8f3c3fe68e6a9a39d95797c</introduced>
+            <removed>099d844292f60f9d58914da29e5773204dc55e7a</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>291</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>291</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>099d844292f60f9d58914da29e5773204dc55e7a</introduced>
+            <removed>f10a33538e9bab6deb61779b3d8aae168824ef48</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>277</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>277</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f10a33538e9bab6deb61779b3d8aae168824ef48</introduced>
+            <removed>15255b553e7c095fb7a26d4dc5819a11352ebba1</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>185</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>185</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>15255b553e7c095fb7a26d4dc5819a11352ebba1</introduced>
+            <removed>4c0d43f0f861893dbc065adf03286880ecc754e5</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>161</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>161</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4c0d43f0f861893dbc065adf03286880ecc754e5</introduced>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>168</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>168</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>keepInputFiles</name>
+      <outputString>-k</outputString>
+      <parent>root</parent>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>33d134030248633ffa7d60c0a35a783c46da034b</introduced>
+            <removed>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>330</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>330</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</introduced>
+            <removed>977101ad5f833f5c0a574bfeea408e5301a6b052</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>336</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>336</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>977101ad5f833f5c0a574bfeea408e5301a6b052</introduced>
+            <removed>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>256</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>256</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</introduced>
+            <removed>795b859eee96c700e8f3c3fe68e6a9a39d95797c</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>279</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>279</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>795b859eee96c700e8f3c3fe68e6a9a39d95797c</introduced>
+            <removed>099d844292f60f9d58914da29e5773204dc55e7a</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>290</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>290</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>099d844292f60f9d58914da29e5773204dc55e7a</introduced>
+            <removed>f10a33538e9bab6deb61779b3d8aae168824ef48</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>276</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>276</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f10a33538e9bab6deb61779b3d8aae168824ef48</introduced>
+            <removed>15255b553e7c095fb7a26d4dc5819a11352ebba1</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>184</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>184</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>15255b553e7c095fb7a26d4dc5819a11352ebba1</introduced>
+            <removed>4c0d43f0f861893dbc065adf03286880ecc754e5</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>160</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>160</line>
+            <column>22</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4c0d43f0f861893dbc065adf03286880ecc754e5</introduced>
           </revisionRange>
           <path>bzip2.c</path>
           <start>
@@ -37,44 +269,448 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>forceOverwrite</name>
-      <outputString />
-      <prefix />
-      <postfix />
+      <name>opMode</name>
       <parent>root</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
+      <children>
+        <options>compress</options>
+        <options>decompress</options>
+      </children>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>compress</name>
+      <outputString>-z</outputString>
+      <parent>opMode</parent>
+      <excludedOptions>
+        <options>decompress</options>
+      </excludedOptions>
+      <optional>False</optional>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+            <introduced>33d134030248633ffa7d60c0a35a783c46da034b</introduced>
+            <removed>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</removed>
           </revisionRange>
           <path>bzip2.c</path>
           <start>
-            <line>168</line>
-            <column>9</column>
+            <line>3341</line>
+            <column>6</column>
           </start>
           <end>
-            <line>168</line>
-            <column>22</column>
+            <line>3341</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</introduced>
+            <removed>977101ad5f833f5c0a574bfeea408e5301a6b052</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>3347</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>3347</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>977101ad5f833f5c0a574bfeea408e5301a6b052</introduced>
+            <removed>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>847</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>847</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</introduced>
+            <removed>795b859eee96c700e8f3c3fe68e6a9a39d95797c</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>900</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>900</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>795b859eee96c700e8f3c3fe68e6a9a39d95797c</introduced>
+            <removed>099d844292f60f9d58914da29e5773204dc55e7a</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1199</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1199</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>099d844292f60f9d58914da29e5773204dc55e7a</introduced>
+            <removed>4d540bfc95a4b0eefc1d1f388ec33534aaeb3a2f</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1202</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1202</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4d540bfc95a4b0eefc1d1f388ec33534aaeb3a2f</introduced>
+            <removed>f10a33538e9bab6deb61779b3d8aae168824ef48</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1206</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1206</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f10a33538e9bab6deb61779b3d8aae168824ef48</introduced>
+            <removed>15255b553e7c095fb7a26d4dc5819a11352ebba1</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1133</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1133</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>15255b553e7c095fb7a26d4dc5819a11352ebba1</introduced>
+            <removed>56c83990866ffbde228869e98fca7f26566c85bd</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1109</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1109</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>56c83990866ffbde228869e98fca7f26566c85bd</introduced>
+            <removed>4c0d43f0f861893dbc065adf03286880ecc754e5</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1117</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1117</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4c0d43f0f861893dbc065adf03286880ecc754e5</introduced>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1124</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1124</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>decompress</name>
+      <outputString>-d</outputString>
+      <parent>opMode</parent>
+      <excludedOptions>
+        <options>compress</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange>
+          <revisionRange>
+            <introduced>33d134030248633ffa7d60c0a35a783c46da034b</introduced>
+            <removed>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>3462</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>3462</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</introduced>
+            <removed>977101ad5f833f5c0a574bfeea408e5301a6b052</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>3467</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>3467</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>977101ad5f833f5c0a574bfeea408e5301a6b052</introduced>
+            <removed>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>968</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>968</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</introduced>
+            <removed>795b859eee96c700e8f3c3fe68e6a9a39d95797c</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1042</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1042</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>795b859eee96c700e8f3c3fe68e6a9a39d95797c</introduced>
+            <removed>099d844292f60f9d58914da29e5773204dc55e7a</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1360</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1360</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>099d844292f60f9d58914da29e5773204dc55e7a</introduced>
+            <removed>4d540bfc95a4b0eefc1d1f388ec33534aaeb3a2f</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1383</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1383</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4d540bfc95a4b0eefc1d1f388ec33534aaeb3a2f</introduced>
+            <removed>f10a33538e9bab6deb61779b3d8aae168824ef48</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1387</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1387</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f10a33538e9bab6deb61779b3d8aae168824ef48</introduced>
+            <removed>15255b553e7c095fb7a26d4dc5819a11352ebba1</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1314</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1314</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>15255b553e7c095fb7a26d4dc5819a11352ebba1</introduced>
+            <removed>56c83990866ffbde228869e98fca7f26566c85bd</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1290</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1290</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>56c83990866ffbde228869e98fca7f26566c85bd</introduced>
+            <removed>4c0d43f0f861893dbc065adf03286880ecc754e5</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1298</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1298</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4c0d43f0f861893dbc065adf03286880ecc754e5</introduced>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>1305</line>
+            <column>6</column>
+          </start>
+          <end>
+            <line>1305</line>
+            <column>15</column>
           </end>
         </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
       <name>quiet</name>
-      <outputString />
-      <prefix />
-      <postfix />
+      <outputString>-q</outputString>
       <parent>root</parent>
-      <impliedOptions />
-      <excludedOptions />
       <optional>True</optional>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+            <introduced>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</introduced>
+            <removed>795b859eee96c700e8f3c3fe68e6a9a39d95797c</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>280</line>
+            <column>41</column>
+          </start>
+          <end>
+            <line>280</line>
+            <column>45</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>795b859eee96c700e8f3c3fe68e6a9a39d95797c</introduced>
+            <removed>099d844292f60f9d58914da29e5773204dc55e7a</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>291</line>
+            <column>56</column>
+          </start>
+          <end>
+            <line>291</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>099d844292f60f9d58914da29e5773204dc55e7a</introduced>
+            <removed>f10a33538e9bab6deb61779b3d8aae168824ef48</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>277</line>
+            <column>56</column>
+          </start>
+          <end>
+            <line>277</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f10a33538e9bab6deb61779b3d8aae168824ef48</introduced>
+            <removed>15255b553e7c095fb7a26d4dc5819a11352ebba1</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>185</line>
+            <column>56</column>
+          </start>
+          <end>
+            <line>185</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>15255b553e7c095fb7a26d4dc5819a11352ebba1</introduced>
+            <removed>4c0d43f0f861893dbc065adf03286880ecc754e5</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>161</line>
+            <column>56</column>
+          </start>
+          <end>
+            <line>161</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4c0d43f0f861893dbc065adf03286880ecc754e5</introduced>
           </revisionRange>
           <path>bzip2.c</path>
           <start>
@@ -90,17 +726,133 @@
     </configurationOption>
     <configurationOption>
       <name>smallMode</name>
-      <outputString />
-      <prefix />
-      <postfix />
+      <outputString>-s</outputString>
       <parent>root</parent>
-      <impliedOptions />
-      <excludedOptions />
       <optional>True</optional>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+            <introduced>33d134030248633ffa7d60c0a35a783c46da034b</introduced>
+            <removed>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>330</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>330</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</introduced>
+            <removed>977101ad5f833f5c0a574bfeea408e5301a6b052</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>336</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>336</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>977101ad5f833f5c0a574bfeea408e5301a6b052</introduced>
+            <removed>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>256</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>256</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</introduced>
+            <removed>795b859eee96c700e8f3c3fe68e6a9a39d95797c</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>279</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>279</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>795b859eee96c700e8f3c3fe68e6a9a39d95797c</introduced>
+            <removed>099d844292f60f9d58914da29e5773204dc55e7a</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>290</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>290</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>099d844292f60f9d58914da29e5773204dc55e7a</introduced>
+            <removed>f10a33538e9bab6deb61779b3d8aae168824ef48</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>276</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>276</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f10a33538e9bab6deb61779b3d8aae168824ef48</introduced>
+            <removed>15255b553e7c095fb7a26d4dc5819a11352ebba1</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>184</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>184</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>15255b553e7c095fb7a26d4dc5819a11352ebba1</introduced>
+            <removed>4c0d43f0f861893dbc065adf03286880ecc754e5</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>160</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>160</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4c0d43f0f861893dbc065adf03286880ecc754e5</introduced>
           </revisionRange>
           <path>bzip2.c</path>
           <start>
@@ -114,51 +866,135 @@
         </sourceRange>
       </locations>
     </configurationOption>
-  </binaryOptions>
-  <numericOptions>
     <configurationOption>
-      <name>opMode</name>
-      <outputString />
-      <prefix />
-      <postfix />
+      <name>stdout</name>
+      <outputString>-c</outputString>
       <parent>root</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>1</minValue>
-      <maxValue>3</maxValue>
-      <stepFunction>opMode + 1</stepFunction>
+      <optional>True</optional>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+            <introduced>33d134030248633ffa7d60c0a35a783c46da034b</introduced>
+            <removed>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</removed>
           </revisionRange>
           <path>bzip2.c</path>
           <start>
-            <line>182</line>
+            <line>346</line>
             <column>9</column>
           </start>
           <end>
-            <line>182</line>
-            <column>14</column>
+            <line>346</line>
+            <column>15</column>
           </end>
         </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>srcMode</name>
-      <outputString />
-      <prefix />
-      <postfix />
-      <parent>root</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>1</minValue>
-      <maxValue>3</maxValue>
-      <stepFunction>srcMode + 1</stepFunction>
-      <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+            <introduced>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</introduced>
+            <removed>977101ad5f833f5c0a574bfeea408e5301a6b052</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>352</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>352</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>977101ad5f833f5c0a574bfeea408e5301a6b052</introduced>
+            <removed>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>272</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>272</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</introduced>
+            <removed>795b859eee96c700e8f3c3fe68e6a9a39d95797c</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>295</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>295</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>795b859eee96c700e8f3c3fe68e6a9a39d95797c</introduced>
+            <removed>099d844292f60f9d58914da29e5773204dc55e7a</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>306</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>306</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>099d844292f60f9d58914da29e5773204dc55e7a</introduced>
+            <removed>f10a33538e9bab6deb61779b3d8aae168824ef48</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>292</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>292</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f10a33538e9bab6deb61779b3d8aae168824ef48</introduced>
+            <removed>15255b553e7c095fb7a26d4dc5819a11352ebba1</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>200</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>200</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>15255b553e7c095fb7a26d4dc5819a11352ebba1</introduced>
+            <removed>4c0d43f0f861893dbc065adf03286880ecc754e5</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>176</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>176</line>
+            <column>15</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4c0d43f0f861893dbc065adf03286880ecc754e5</introduced>
           </revisionRange>
           <path>bzip2.c</path>
           <start>
@@ -174,19 +1010,133 @@
     </configurationOption>
     <configurationOption>
       <name>verbosity</name>
-      <outputString />
-      <prefix />
-      <postfix />
+      <outputString>-v</outputString>
       <parent>root</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>0</minValue>
-      <maxValue>4</maxValue>
-      <stepFunction>verbosity + 1</stepFunction>
+      <optional>True</optional>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+            <introduced>33d134030248633ffa7d60c0a35a783c46da034b</introduced>
+            <removed>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>329</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>329</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</introduced>
+            <removed>977101ad5f833f5c0a574bfeea408e5301a6b052</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>335</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>335</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>977101ad5f833f5c0a574bfeea408e5301a6b052</introduced>
+            <removed>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>255</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>255</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</introduced>
+            <removed>795b859eee96c700e8f3c3fe68e6a9a39d95797c</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>278</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>278</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>795b859eee96c700e8f3c3fe68e6a9a39d95797c</introduced>
+            <removed>099d844292f60f9d58914da29e5773204dc55e7a</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>289</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>289</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>099d844292f60f9d58914da29e5773204dc55e7a</introduced>
+            <removed>f10a33538e9bab6deb61779b3d8aae168824ef48</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>275</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>275</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f10a33538e9bab6deb61779b3d8aae168824ef48</introduced>
+            <removed>15255b553e7c095fb7a26d4dc5819a11352ebba1</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>183</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>183</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>15255b553e7c095fb7a26d4dc5819a11352ebba1</introduced>
+            <removed>4c0d43f0f861893dbc065adf03286880ecc754e5</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>159</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>159</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4c0d43f0f861893dbc065adf03286880ecc754e5</introduced>
           </revisionRange>
           <path>bzip2.c</path>
           <start>
@@ -200,21 +1150,140 @@
         </sourceRange>
       </locations>
     </configurationOption>
+  </binaryOptions>
+  <numericOptions>
     <configurationOption>
-      <name>blockSize100k</name>
-      <outputString />
-      <prefix />
-      <postfix />
+      <name>level</name>
+      <outputString>-</outputString>
       <parent>root</parent>
-      <impliedOptions />
-      <excludedOptions />
+      <optional>False</optional>
       <minValue>1</minValue>
       <maxValue>9</maxValue>
-      <stepFunction>blockSize100k + 1</stepFunction>
+      <stepFunction>level + 1</stepFunction>
       <locations>
-        <sourceRange category="necessary">
+        <sourceRange>
           <revisionRange>
-            <introduced>1ea1ac188ad4b9cb662e3f8314673c63df95a589</introduced>
+            <introduced>33d134030248633ffa7d60c0a35a783c46da034b</introduced>
+            <removed>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>440</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>440</line>
+            <column>20</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>1eb67a9d8f7f05ae310bc9ef297d176f3a3f8a37</introduced>
+            <removed>977101ad5f833f5c0a574bfeea408e5301a6b052</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>446</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>446</line>
+            <column>20</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>977101ad5f833f5c0a574bfeea408e5301a6b052</introduced>
+            <removed>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>258</line>
+            <column>42</column>
+          </start>
+          <end>
+            <line>258</line>
+            <column>54</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f93cd82a9a7094ad90fd19bbc6ccf6f4627f8060</introduced>
+            <removed>795b859eee96c700e8f3c3fe68e6a9a39d95797c</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>281</line>
+            <column>42</column>
+          </start>
+          <end>
+            <line>281</line>
+            <column>54</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>795b859eee96c700e8f3c3fe68e6a9a39d95797c</introduced>
+            <removed>099d844292f60f9d58914da29e5773204dc55e7a</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>292</line>
+            <column>42</column>
+          </start>
+          <end>
+            <line>292</line>
+            <column>54</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>099d844292f60f9d58914da29e5773204dc55e7a</introduced>
+            <removed>f10a33538e9bab6deb61779b3d8aae168824ef48</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>278</line>
+            <column>42</column>
+          </start>
+          <end>
+            <line>278</line>
+            <column>54</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>f10a33538e9bab6deb61779b3d8aae168824ef48</introduced>
+            <removed>15255b553e7c095fb7a26d4dc5819a11352ebba1</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>186</line>
+            <column>42</column>
+          </start>
+          <end>
+            <line>186</line>
+            <column>54</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>15255b553e7c095fb7a26d4dc5819a11352ebba1</introduced>
+            <removed>4c0d43f0f861893dbc065adf03286880ecc754e5</removed>
+          </revisionRange>
+          <path>bzip2.c</path>
+          <start>
+            <line>162</line>
+            <column>42</column>
+          </start>
+          <end>
+            <line>162</line>
+            <column>54</column>
+          </end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>4c0d43f0f861893dbc065adf03286880ecc754e5</introduced>
           </revisionRange>
           <path>bzip2.c</path>
           <start>
@@ -229,7 +1298,5 @@
       </locations>
     </configurationOption>
   </numericOptions>
-  <booleanConstraints />
-  <nonBooleanConstraints />
-  <mixedConstraints />
+  <booleanConstraints/>
 </vm>
