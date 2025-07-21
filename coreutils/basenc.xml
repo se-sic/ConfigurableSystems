@@ -668,11 +668,14 @@ SYSTEM "vm.dtd">
         </sourceRange>
       </locations>
     </configurationOption>
+  </binaryOptions>
+  <numericOptions>
     <configurationOption>
       <name>wrap</name>
-      <outputString>-w</outputString>
+      <outputString>--wrap=</outputString>
       <parent>root</parent>
-      <optional>True</optional>
+      <optional>False</optional>
+      <values>0;25;76</values>
       <locations>
         <sourceRange>
           <revisionRange>
@@ -682,9 +685,7 @@ SYSTEM "vm.dtd">
           <start><line>1226</line><column>9</column></start>
           <end><line>1226</line><column>19</column></end>
         </sourceRange>
-
       </locations>
     </configurationOption>
-  </binaryOptions>
-  <numericOptions/>
+  </numericOptions>
 </vm>
