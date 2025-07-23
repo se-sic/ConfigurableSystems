@@ -399,7 +399,7 @@
       <name>level</name>
       <outputString>-</outputString>
       <parent>compress</parent>
-      <optional>False</optional>
+      <optional>True</optional>
       <minValue>0</minValue>
       <maxValue>9</maxValue>
       <stepFunction>level + 1</stepFunction>
@@ -510,6 +510,7 @@
     <constraint>stdout => (compress | decompress)</constraint>
     <constraint>stdout => keep</constraint>
     <constraint>nosparse => decompress</constraint>
+    <constraint>compress => level</constraint>
   </booleanConstraints>
 </vm>
 
