@@ -871,16 +871,16 @@
     <configurationOption>
       <name>pdbMaxSize</name>
       <outputString></outputString>
-      <children>
-	      <option>pdbMaxSize_100000</children>
-	      <option>pdbMaxSize_2000000</children>
-	      <option>pdbMaxSize_10000000</children>
-      </children>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>iPDB</parent>
+      <children>
+	      <options>pdbMaxSize_100000</options>
+	      <options>pdbMaxSize_2000000</options>
+	      <options>pdbMaxSize_10000000</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
@@ -904,8 +904,8 @@
       <parent>pdbMaxSize</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>pdbMaxSize_2000000</option>
-	      <option>pdbMaxSize_10000000</option>
+	      <options>pdbMaxSize_2000000</options>
+	      <options>pdbMaxSize_10000000</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -915,8 +915,8 @@
       <parent>pdbMaxSize</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>pdbMaxSize_100000</option>
-	      <option>pdbMaxSize_10000000</option>
+	      <options>pdbMaxSize_100000</options>
+	      <options>pdbMaxSize_10000000</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -926,24 +926,24 @@
       <parent>pdbMaxSize</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>pdbMaxSize_2000000</option>
-	      <option>pdbMaxSize_100000</option>
+	      <options>pdbMaxSize_2000000</options>
+	      <options>pdbMaxSize_100000</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
       <name>collectionMaxSize</name>
       <outputString></outputString>
-      <children>
-	      <option>collectionMaxSize_10000</option>
-	      <option>collectionMaxSize_200000</option>
-	      <option>collectionMaxSize_10000000</option>
-      </children>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>iPDB</parent>
+      <children>
+	      <options>collectionMaxSize_10000</options>
+	      <options>collectionMaxSize_200000</options>
+	      <options>collectionMaxSize_10000000</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
@@ -971,8 +971,8 @@
       <parent>collectionMaxSize</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>collectionMaxSize_200000</option>
-	      <option>collectionMaxSize_10000000</option>
+	      <options>collectionMaxSize_200000</options>
+	      <options>collectionMaxSize_10000000</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -986,8 +986,8 @@
       <parent>collectionMaxSize</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>collectionMaxSize_10000</option>
-	      <option>collectionMaxSize_10000000</option>
+	      <options>collectionMaxSize_10000</options>
+	      <options>collectionMaxSize_10000000</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -1001,24 +1001,24 @@
       <parent>collectionMaxSize</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>collectionMaxSize_200000</option>
-	      <option>collectionMaxSize_10000</option>
+	      <options>collectionMaxSize_200000</options>
+	      <options>collectionMaxSize_10000</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
       <name>numSamples</name>
       <outputString></outputString>
-      <children>
-	      <option>numSamples_100</option>
-	      <option>numSamples_1000</option>
-	      <option>numSamples_10000</option>
-      </children>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>iPDB</parent>
+      <children>
+	      <options>numSamples_100</options>
+	      <options>numSamples_1000</options>
+	      <options>numSamples_10000</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
@@ -1046,8 +1046,8 @@
       <parent>numSamples</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>numSamples_1000</option>
-	      <option>numSamples_10000</option>
+	      <options>numSamples_1000</options>
+	      <options>numSamples_10000</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -1061,8 +1061,8 @@
       <parent>numSamples</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>numSamples_100</option>
-	      <option>numSamples_10000</option>
+	      <options>numSamples_100</options>
+	      <options>numSamples_10000</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -1076,8 +1076,8 @@
       <parent>numSamples</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>numSamples_1000</option>
-	      <option>numSamples_100</option>
+	      <options>numSamples_1000</options>
+	      <options>numSamples_100</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -1089,14 +1089,14 @@
       <postfix>
       </postfix>
       <parent>iPDB</parent>
+      <children>
+	      <options>minImprovement_1</options>
+	      <options>minImprovement_10</options>
+	      <options>minImprovement_15</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
-      <children>
-	      <option>minImprovement_1</option>
-	      <option>minImprovement_10</option>
-	      <option>minImprovement_15</option>
-      </children>
       <locations>
         <sourceRange>
           <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
@@ -1121,8 +1121,8 @@
       <parent>minImprovement</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>minImprovement_10</option>
-	      <option>minImprovement_15</option>
+	      <options>minImprovement_10</options>
+	      <options>minImprovement_15</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -1136,8 +1136,8 @@
       <parent>minImprovement</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>minImprovement_1</option>
-	      <option>minImprovement_15</option>
+	      <options>minImprovement_1</options>
+	      <options>minImprovement_15</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -1151,27 +1151,27 @@
       <parent>minImprovement</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>minImprovement_10</option>
-	      <option>minImprovement_1</option>
+	      <options>minImprovement_10</options>
+	      <options>minImprovement_1</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
       <name>random</name>
       <outputString></outputString>
-      <optional>False</optional>
-      <children>
-	      <option>random_1</option>
-	      <option>random_42</option>
-	      <option>random_1337</option>
-      </children>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>root</parent>
+      <children>
+	      <options>random_1</options>
+	      <options>random_42</options>
+	      <options>random_1337</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
+      <optional>False</optional>
       <locations>
         <sourceRange>
           <path>src/search/utils/rng_options.cc</path>
@@ -1196,8 +1196,8 @@
       <parent>random</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>random_1337</option>
-	      <option>random_42</option>
+	      <options>random_1337</options>
+	      <options>random_42</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -1211,8 +1211,8 @@
       <parent>random</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>random_1</option>
-	      <option>random_1337</option>
+	      <options>random_1</options>
+	      <options>random_1337</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -1226,8 +1226,8 @@
       <parent>random</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>random_1</option>
-	      <option>random_42</option>
+	      <options>random_1</options>
+	      <options>random_42</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -1235,10 +1235,16 @@
   <numericOptions>
   </numericOptions>
   <booleanConstraints>
-	  <constraint> beforeShrinking | beforeMerging </constraint>
+	  <constraint> exactGeneralizedLR => (beforeShrinking | beforeMerging) </constraint>
 	  <constraint> onlyCausalLMs => ( exhaustiveLM | RHWLM) </constraint>
 	  <constraint> disjunctiveLMs => ( RHWLM ) </constraint>
 	  <constraint> conjunctiveLMs => ( hmLM ) </constraint>
+	  <constraint> random => ( !bisimulation ) </constraint> 
+	  <constraint> random => ( !blind ) </constraint> 
+	  <constraint> random => ( !max ) </constraint> 
+	  <constraint> random => ( !canonicalPDB ) </constraint> 
+	  <constraint> random => ( !landmarkCount ) </constraint> 
+	  <constraint> random => ( !landmarkCut ) </constraint> 
   </booleanConstraints>
   <nonBooleanConstraints />
 </vm>

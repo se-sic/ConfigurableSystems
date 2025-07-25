@@ -279,16 +279,16 @@
     </configurationOption>
     <configurationOption>
       <name>channels</name>
-      <children>
-	      <option>channels_1</option>
-	      <option>channels_2</option>
-      </children>
       <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>root</parent>
+      <children>
+	      <options>channels_1</options>
+	      <options>channels_2</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
@@ -303,7 +303,7 @@
       <parent>channels</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>channels_2</option>
+	      <options>channels_2</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -317,23 +317,23 @@
       <parent>channels</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>channels_1</option>
+	      <options>channels_1</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
 	    <name>samplingRate</name>
-	    <children>
-		    <option>samplingRate_8000</option>
-		    <option>samplingRate_16000</option>
-		    <option>samplingRate_24000</option>
-	    </children>
       <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>root</parent>
+	    <children>
+		    <options>samplingRate_8000</options>
+		    <options>samplingRate_16000</options>
+		    <options>samplingRate_24000</options>
+	    </children>
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
@@ -348,8 +348,8 @@
       <parent>samplingRate</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>samplingRate_16000</option>
-	      <option>samplingRate_24000</option>
+	      <options>samplingRate_16000</options>
+	      <options>samplingRate_24000</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -363,8 +363,8 @@
       <parent>samplingRate</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>samplingRate_8000</option>
-	      <option>samplingRate_24000</option>
+	      <options>samplingRate_8000</options>
+	      <options>samplingRate_24000</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -378,24 +378,24 @@
       <parent>samplingRate</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>samplingRate_8000</option>
-	      <option>samplingRate_16000</option>
+	      <options>samplingRate_8000</options>
+	      <options>samplingRate_16000</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
 	    <name>bitRate</name>
-	    <children>
-		    <option>bitRate_6</option>
-		    <option>bitRate_36</option>
-		    <option>bitRate_216</option>
-	    </children>
       <outputString>--bitrate </outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>root</parent>
+	    <children>
+		    <options>bitRate_6</options>
+		    <options>bitRate_36</options>
+		    <options>bitRate_216</options>
+	    </children>
       <impliedOptions />
       <excludedOptions />
       <optional>False</optional>
@@ -410,8 +410,8 @@
       <parent>bitRate</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>bitRate_36</option>
-	      <option>bitRate_216</option>
+	      <options>bitRate_36</options>
+	      <options>bitRate_216</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -425,8 +425,8 @@
       <parent>bitRate</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>bitRate_6</option>
-	      <option>bitRate_216</option>
+	      <options>bitRate_6</options>
+	      <options>bitRate_216</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -440,8 +440,8 @@
       <parent>bitRate</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>bitRate_36</option>
-	      <option>bitRate_6</option>
+	      <options>bitRate_36</options>
+	      <options>bitRate_6</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -466,8 +466,8 @@
       <parent>complexity</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>complexity_5</option>
-	      <option>complexity_10</option>
+	      <options>complexity_5</options>
+	      <options>complexity_10</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -481,8 +481,8 @@
       <parent>complexity</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>complexity_1</option>
-	      <option>complexity_10</option>
+	      <options>complexity_0</options>
+	      <options>complexity_10</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -496,8 +496,8 @@
       <parent>complexity</parent>
       <impliedOptions />
       <excludedOptions>
-	      <option>complexity_5</option>
-	      <option>complexity_0</option>
+	      <options>complexity_5</options>
+	      <options>complexity_0</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>

@@ -1152,6 +1152,8 @@
     </configurationOption>
     <configurationOption>
       <name>level</name>
+      <outputString></outputString>
+      <parent>root</parent>
       <children>
         <options>level_1</options>
         <options>level_2</options>
@@ -1163,8 +1165,6 @@
         <options>level_8</options>
         <options>level_9</options>
       </children>
-      <outputString></outputString>
-      <parent>root</parent>
       <optional>False</optional>
       <locations>
         <sourceRange>
