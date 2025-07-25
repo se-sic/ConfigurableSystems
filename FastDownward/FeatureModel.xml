@@ -322,70 +322,6 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>mergeStrat</name>
-      <outputString></outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>mergeAndShrink</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>merge_precompute</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>mergeStrat</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>merge_tree</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>merge_precompute</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <path>src/search/merge_and_shrink/merge_strategy_precomputed.h</path>
-          <start>
-            <line>9</line>
-            <column>7</column>
-          </start>
-          <end>
-            <line>9</line>
-            <column>15</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>linear</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>merge_tree</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
       <name>landmarkCut</name>
       <outputString>lmCut</outputString>
       <prefix>
@@ -660,76 +596,6 @@
           <end>
             <line>76</line>
             <column>24</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>maxTime</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>iPDB</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
-          <start>
-            <line>41</line>
-            <column>18</column>
-          </start>
-          <end>
-            <line>41</line>
-            <column>25</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>maxTimeDomPruning</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>iPDB</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
-          </revisionRange>
-          <path>src/search/pdbs/canonical_pdbs_heuristic.cc</path>
-          <start>
-            <line>39</line>
-            <column>12</column>
-          </start>
-          <end>
-            <line>39</line>
-            <column>37</column>
-          </end>
-        </sourceRange>
-        <sourceRange>
-          <revisionRange>
-            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
-            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
-          </revisionRange>
-          <path>src/search/pdbs/canonical_pdbs_heuristic.cc</path>
-          <start>
-            <line>38</line>
-            <column>12</column>
-          </start>
-          <end>
-            <line>38</line>
-            <column>37</column>
           </end>
         </sourceRange>
       </locations>
@@ -1025,34 +891,6 @@
           <end>
             <line>35</line>
             <column>26</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>m</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>hmLM</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>2</minValue>
-      <maxValue>2</maxValue>
-      <stepFunction>m + 1</stepFunction>
-      <locations>
-        <sourceRange>
-          <path>src/search/landmarks/landmark_factory_h_m.h</path>
-          <start>
-            <line>92</line>
-            <column>15</column>
-          </start>
-          <end>
-            <line>92</line>
-            <column>16</column>
           </end>
         </sourceRange>
       </locations>
