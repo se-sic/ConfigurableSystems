@@ -41,6 +41,22 @@
           <start><line>90</line><column>5</column></start>
           <end><line>90</line><column>11</column></end>
         </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/dd.c</path>
+          <start><line>95</line><column>5</column></start>
+          <end><line>95</line><column>13</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/dd.c</path>
+          <start><line>105</line><column>5</column></start>
+          <end><line>105</line><column>13</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -69,6 +85,22 @@
           <path>src/dd.c</path>
           <start><line>92</line><column>5</column></start>
           <end><line>92</line><column>12</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/dd.c</path>
+          <start><line>94</line><column>5</column></start>
+          <end><line>94</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/dd.c</path>
+          <start><line>105</line><column>5</column></start>
+          <end><line>105</line><column>13</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -99,6 +131,22 @@
           <start><line>93</line><column>5</column></start>
           <end><line>93</line><column>9</column></end>
         </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/dd.c</path>
+          <start><line>94</line><column>5</column></start>
+          <end><line>94</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/dd.c</path>
+          <start><line>105</line><column>5</column></start>
+          <end><line>105</line><column>13</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -127,6 +175,14 @@
           <path>src/dd.c</path>
           <start><line>94</line><column>5</column></start>
           <end><line>94</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/dd.c</path>
+          <start><line>105</line><column>5</column></start>
+          <end><line>105</line><column>13</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -157,6 +213,14 @@
           <start><line>95</line><column>5</column></start>
           <end><line>95</line><column>13</column></end>
         </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/dd.c</path>
+          <start><line>105</line><column>5</column></start>
+          <end><line>105</line><column>13</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -186,6 +250,14 @@
           <start><line>96</line><column>5</column></start>
           <end><line>96</line><column>11</column></end>
         </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/dd.c</path>
+          <start><line>105</line><column>5</column></start>
+          <end><line>105</line><column>13</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
@@ -214,6 +286,14 @@
           <path>src/dd.c</path>
           <start><line>97</line><column>5</column></start>
           <end><line>97</line><column>11</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/dd.c</path>
+          <start><line>105</line><column>5</column></start>
+          <end><line>105</line><column>13</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
@@ -272,6 +352,14 @@
           <path>src/dd.c</path>
           <start><line>98</line><column>5</column></start>
           <end><line>98</line><column>10</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/dd.c</path>
+          <start><line>105</line><column>5</column></start>
+          <end><line>105</line><column>13</column></end>
         </sourceRange>
       </locations>
     </configurationOption>
