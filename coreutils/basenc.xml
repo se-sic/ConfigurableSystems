@@ -650,6 +650,22 @@ SYSTEM "vm.dtd">
           <start><line>1222</line><column>8</column></start>
           <end><line>1222</line><column>13</column></end>
         </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/basenc.c</path>
+          <start><line>1089</line><column>1</column></start>
+          <end><line>1089</line><column>9</column></end>
+        </sourceRange>
+        <sourceRange>
+          <revisionRange>
+            <introduced>24450e5eecf012bc1ea8cab8d677a45fa42c1778</introduced>
+          </revisionRange>
+          <path>src/basenc.c</path>
+          <start><line>1133</line><column>1</column></start>
+          <end><line>1133</line><column>9</column></end>
+        </sourceRange>
       </locations>
     </configurationOption>
     <configurationOption>
