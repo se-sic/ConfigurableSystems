@@ -118,7 +118,7 @@
     </configurationOption>
     <configurationOption>
       <name>Memory</name>
-      <outputString>journal_mode=Memory</outputString>
+      <outputString>journal_mode=MEMORY</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -177,74 +177,8 @@
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>JournalSizeLimit</name>
+      <name>SecureDelete</name>
       <outputString></outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Options
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-      </excludedOptions>
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>JournalSize_Unlimited</name>
-      <outputString>journal_size_limit=-1</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>JournalSizeLimit
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-	      <options>JournalSize_64MB</options>
-	      <options>JournalSize_4MB</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>JournalSize_4MB</name>
-      <outputString>journal_size_limit=4194304</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>JournalSizeLimit
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-	      <options>JournalSize_64MB</options>
-	      <options>JournalSize_Unlimited</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>JournalSize_64MB</name>
-      <outputString>journal_size_limit=67108864</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>JournalSizeLimit
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-	      <options>JournalSize_4MB</options>
-	      <options>JournalSize_Unlimited</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>SQLITE_SECURE_DELETE</name>
-      <outputString>SQLITE_SECURE_DELETE</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -256,7 +190,55 @@
       <optional>True</optional>
     </configurationOption>
     <configurationOption>
-      <name>ChooseSQLITE_TEMP_STORE</name>
+      <name>SecureDelete_On</name>
+      <outputString>secure_delete=true</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SecureDelete</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>SecureDelete_Off</options>
+	      <options>SecureDelete_Fast</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SecureDelete_Off</name>
+      <outputString>secure_delete=false</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SecureDelete</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>SecureDelete_On</options>
+	      <options>SecureDelete_Fast</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SecureDelete_Fast</name>
+      <outputString>secure_delete=fast</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SecureDelete</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>SecureDelete_On</options>
+	      <options>SecureDelete_Off</options>
+      </excludedOptions>
+      <optional>False</optional>
+      </configurationOption>
+    <configurationOption>
+      <name>TempStore</name>
       <outputString></outputString>
       <prefix>
       </prefix>
@@ -269,50 +251,50 @@
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>SQLITE_TEMP_STOREzero</name>
-      <outputString>SQLITE_TEMP_STORE 0</outputString>
+      <name>TempStore_Default</name>
+      <outputString>temp_store=DEFAULT</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>ChooseSQLITE_TEMP_STORE</parent>
+      <parent>TempStore</parent>
       <children />
       <impliedOptions />
       <excludedOptions>
-        <options>SQLITE_TEMP_STOREone</options>
-        <options>SQLITE_TEMP_STOREtwo</options>
+        <options>TempStore_File</options>
+        <options>TempStore_Memory</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>SQLITE_TEMP_STOREone</name>
-      <outputString>SQLITE_TEMP_STORE 1</outputString>
+      <name>TempStore_File</name>
+      <outputString>temp_store=FILE</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>ChooseSQLITE_TEMP_STORE</parent>
+      <parent>TempStore</parent>
       <children />
       <impliedOptions />
       <excludedOptions>
-        <options>SQLITE_TEMP_STOREzero</options>
-        <options>SQLITE_TEMP_STOREtwo</options>
+        <options>TempStore_Default</options>
+        <options>TempStore_Memory</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>SQLITE_TEMP_STOREtwo</name>
-      <outputString>SQLITE_TEMP_STORE 2</outputString>
+      <name>TempStore_Memory</name>
+      <outputString>temp_store=MEMORY</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>ChooseSQLITE_TEMP_STORE</parent>
+      <parent>TempStore</parent>
       <children />
       <impliedOptions />
       <excludedOptions>
-        <options>SQLITE_TEMP_STOREzero</options>
-        <options>SQLITE_TEMP_STOREone</options>
+        <options>TempStore_Default</options>
+        <options>TempStore_File</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
@@ -331,67 +313,6 @@
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>SetCacheSize</name>
-      <outputString></outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>Options</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>StandardCacheSize</name>
-      <outputString>SQLITE_DEFAULT_CACHE_SIZE 2000</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>SetCacheSize</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>LowerCacheSize</options>
-        <options>HigherCacheSize</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>LowerCacheSize</name>
-      <outputString>SQLITE_DEFAULT_CACHE_SIZE 1000</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>SetCacheSize</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>StandardCacheSize</options>
-        <options>HigherCacheSize</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>HigherCacheSize</name>
-      <outputString>SQLITE_DEFAULT_CACHE_SIZE 4000</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>SetCacheSize</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>StandardCacheSize</options>
-        <options>LowerCacheSize</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
       <name>LockingMode</name>
       <outputString></outputString>
       <prefix>
@@ -406,7 +327,7 @@
     </configurationOption>
     <configurationOption>
       <name>ExclusiveLock</name>
-      <outputString>SQLITE_DEFAULT_LOCKING_MODE 1</outputString>
+      <outputString>locking_mode=EXCLUSIVE</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -421,7 +342,7 @@
     </configurationOption>
     <configurationOption>
       <name>NormalLockingMode</name>
-      <outputString>SQLITE_DEFAULT_LOCKING_MODE 0</outputString>
+      <outputString>locking_mode=NORMAL</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -435,7 +356,46 @@
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>PageSize</name>
+      <name>ReadUncommitted</name>
+      <outputString>read_uncommitted</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Options</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>RecursiveTriggers</name>
+      <outputString>recursive_triggers</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Options</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ReverseUnorderedSelects</name>
+      <outputString>reverse_unordered_selects</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Options</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SynchronousMode</name>
       <outputString></outputString>
       <prefix>
       </prefix>
@@ -448,77 +408,56 @@
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>StandardPageSize</name>
-      <outputString>SQLITE_DEFAULT_PAGE_SIZE 1024</outputString>
+      <name>SynchronousMode_Off</name>
+      <outputString>synchronous=OFF</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>PageSize</parent>
+      <parent>SynchronousMode</parent>
       <children />
       <impliedOptions />
       <excludedOptions>
-        <options>HighestPageSize</options>
-        <options>LowerPageSize</options>
-        <options>HigherPageSize</options>
+	<options>SynchronousMode_Normal</options>
+	<options>SynchronousMode_Full</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>LowerPageSize</name>
-      <outputString>SQLITE_DEFAULT_PAGE_SIZE 512</outputString>
+      <name>SynchronousMode_Normal</name>
+      <outputString>synchronous=NORMAL</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>PageSize</parent>
+      <parent>SynchronousMode</parent>
       <children />
       <impliedOptions />
       <excludedOptions>
-        <options>HighestPageSize</options>
-        <options>HigherPageSize</options>
-        <options>StandardPageSize</options>
+	<options>SynchronousMode_Off</options>
+	<options>SynchronousMode_Full</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>HigherPageSize</name>
-      <outputString>SQLITE_DEFAULT_PAGE_SIZE 2048</outputString>
+      <name>SynchronousMode_Full</name>
+      <outputString>synchronous=FULL</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>PageSize</parent>
+      <parent>SynchronousMode</parent>
       <children />
       <impliedOptions />
       <excludedOptions>
-        <options>HighestPageSize</options>
-        <options>LowerPageSize</options>
-        <options>StandardPageSize</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>HighestPageSize</name>
-      <outputString>SQLITE_DEFAULT_PAGE_SIZE 8096</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>PageSize</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>StandardPageSize</options>
-        <options>LowerPageSize</options>
-        <options>HigherPageSize</options>
+	      <options>SynchronousMode_Normal</options>
+	<options>SynchronousMode_Off</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
   </binaryOptions>
   <numericOptions />
   <booleanConstraints>
-	  <constraint> JournalSizeLimit => ( Persist | ExclusiveLock ) </constraint>
   </booleanConstraints>
   <nonBooleanConstraints />
 </vm>
