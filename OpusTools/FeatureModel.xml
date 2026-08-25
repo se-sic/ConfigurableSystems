@@ -1,4 +1,4 @@
-<vm name="Opus">
+<vm name="OpusTools">
   <binaryOptions>
     <configurationOption>
       <name>root</name>
@@ -54,7 +54,7 @@
     </configurationOption>
     <configurationOption>
       <name>cbr</name>
-      <outputString>-cbr</outputString>
+      <outputString>--hard-cbr</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -66,7 +66,7 @@
     </configurationOption>
     <configurationOption>
       <name>cvbr</name>
-      <outputString>-cvbr</outputString>
+      <outputString>--cvbr</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -118,7 +118,7 @@
     </configurationOption>
     <configurationOption>
       <name>NB</name>
-      <outputString>-bandwidth NB</outputString>
+      <outputString>--set-ctl-int 4008=1101</outputString>
       <prefix></prefix>
       <postfix>
       </postfix>
@@ -134,7 +134,7 @@
     </configurationOption>
     <configurationOption>
       <name>WB</name>
-      <outputString>-bandwidth WB</outputString>
+      <outputString>--set-ctl-int 4008=1103</outputString>
       <prefix></prefix>
       <postfix>
       </postfix>
@@ -150,7 +150,7 @@
     </configurationOption>
     <configurationOption>
       <name>FB</name>
-      <outputString>-bandwidth FB</outputString>
+      <outputString>--set-ctl-int 4008=1105</outputString>
       <prefix></prefix>
       <postfix>
       </postfix>
@@ -192,7 +192,7 @@
     </configurationOption>
     <configurationOption>
       <name>lowest</name>
-      <outputString>-framesize 2.5</outputString>
+      <outputString>--framesize=2.5</outputString>
       <prefix></prefix>
       <postfix>
       </postfix>
@@ -206,8 +206,7 @@
     </configurationOption>
     <configurationOption>
       <name>default</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -222,7 +221,7 @@
     </configurationOption>
     <configurationOption>
       <name>highest</name>
-      <outputString>-framesize 120</outputString>
+      <outputString>--framesize=60</outputString>
       <prefix></prefix>
       <postfix>
       </postfix>
@@ -236,7 +235,7 @@
     </configurationOption>
     <configurationOption>
       <name>forcemono</name>
-      <outputString>-forcemono</outputString>
+      <outputString>--downmix-mono</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -248,7 +247,7 @@
     </configurationOption>
     <configurationOption>
       <name>MB</name>
-      <outputString>-bandwidth MB</outputString>
+      <outputString>--set-ctl-int 4008=1102</outputString>
       <prefix></prefix>
       <postfix>
       </postfix>
@@ -264,7 +263,7 @@
     </configurationOption>
     <configurationOption>
       <name>SWB</name>
-      <outputString>-bandwidth SWB</outputString>
+      <outputString>--set-ctl-int 4008=1104</outputString>
       <prefix></prefix>
       <postfix>
       </postfix>
@@ -278,91 +277,232 @@
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
-  </binaryOptions>
-  <numericOptions>
     <configurationOption>
       <name>channels</name>
-      <outputString> </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>root</parent>
+      <children>
+	      <options>channels_1</options>
+	      <options>channels_2</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
-      <minValue>1</minValue>
-      <maxValue>2</maxValue>
-      <stepFunction>channels + 1</stepFunction>
-      <locations>
-        <sourceRange>
-          <path>src/opus_demo.c</path>
-          <start>
-            <line>216</line>
-            <column>18</column>
-          </start>
-          <end>
-            <line>216</line>
-            <column>20</column>
-          </end>
-          <memberOffset>OpusEncoder::channels</memberOffset>
-        </sourceRange>
-      </locations>
+      <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>samplingRate</name>
-      <outputString>samplingRate </outputString>
+      <name>channels_1</name>
+      <outputString>--raw-chan 1</outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
-      <parent>root</parent>
+      <parent>channels</parent>
       <impliedOptions />
-      <excludedOptions />
-      <minValue>8000</minValue>
-      <maxValue>24000</maxValue>
-      <stepFunction>samplingRate + 8000</stepFunction>
+      <excludedOptions>
+	      <options>channels_2</options>
+      </excludedOptions>
+      <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>bitRate</name>
-      <outputString>bitRate </outputString>
+      <name>channels_2</name>
+      <outputString>--raw-chan 2</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>channels</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>channels_1</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+	    <name>samplingRate</name>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>root</parent>
+	    <children>
+		    <options>samplingRate_8000</options>
+		    <options>samplingRate_16000</options>
+		    <options>samplingRate_24000</options>
+	    </children>
       <impliedOptions />
       <excludedOptions />
-      <minValue>6000</minValue>
-      <maxValue>216000</maxValue>
-      <stepFunction>bitRate * 6</stepFunction>
-      <locations>
-        <sourceRange>
-          <path>src/opus_demo.c</path>
-          <start>
-            <line>216</line>
-            <column>18</column>
-          </start>
-          <end>
-            <line>216</line>
-            <column>20</column>
-          </end>
-          <memberOffset>OpusEncoder::bitrate_bps</memberOffset>
-        </sourceRange>
-      </locations>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>samplingRate_8000</name>
+      <outputString>--raw-rate 8000</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>samplingRate</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>samplingRate_16000</options>
+	      <options>samplingRate_24000</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>samplingRate_16000</name>
+      <outputString>--raw-rate 16000</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>samplingRate</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>samplingRate_8000</options>
+	      <options>samplingRate_24000</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>samplingRate_24000</name>
+      <outputString>--raw-rate 24000</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>samplingRate</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>samplingRate_8000</options>
+	      <options>samplingRate_16000</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+	    <name>bitRate</name>
+      <outputString>--bitrate </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+	    <children>
+		    <options>bitRate_6</options>
+		    <options>bitRate_36</options>
+		    <options>bitRate_216</options>
+	    </children>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>bitRate_6</name>
+      <outputString>--bitrate 6</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>bitRate</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>bitRate_36</options>
+	      <options>bitRate_216</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>bitRate_36</name>
+      <outputString>--bitrate 36</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>bitRate</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>bitRate_6</options>
+	      <options>bitRate_216</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>bitRate_216</name>
+      <outputString>--bitrate 216</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>bitRate</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>bitRate_36</options>
+	      <options>bitRate_6</options>
+      </excludedOptions>
+      <optional>False</optional>
     </configurationOption>
     <configurationOption>
       <name>complexity</name>
       <outputString></outputString>
-      <prefix>-complexity </prefix>
+      <prefix></prefix>
       <postfix>
       </postfix>
       <parent>root</parent>
       <impliedOptions />
       <excludedOptions />
-      <minValue>0</minValue>
-      <maxValue>10</maxValue>
-      <stepFunction>complexity + 5</stepFunction>
+      <optional>False</optional>
     </configurationOption>
+    <configurationOption>
+      <name>complexity_0</name>
+      <outputString>--comp 0</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>complexity</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>complexity_5</options>
+	      <options>complexity_10</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>complexity_5</name>
+      <outputString>--comp 5</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>complexity</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>complexity_0</options>
+	      <options>complexity_10</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>complexity_10</name>
+      <outputString>--comp 10</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>complexity</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>complexity_5</options>
+	      <options>complexity_0</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
   </numericOptions>
   <booleanConstraints />
   <nonBooleanConstraints />

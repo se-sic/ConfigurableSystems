@@ -1,22 +1,8 @@
 <vm name="lrzip">
   <binaryOptions>
     <configurationOption>
-      <name>encryption</name>
-      <outputString>encryption</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
       <name>compression</name>
-      <outputString>compression</outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -30,7 +16,7 @@
     </configurationOption>
     <configurationOption>
       <name>compressionBzip2</name>
-      <outputString>compressionBzip2</outputString>
+      <outputString>--bzip2</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -42,13 +28,12 @@
         <options>compressionGzip</options>
         <options>compressionLzo</options>
         <options>compressionZpaq</options>
-        <options>compressionLrzip</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
       <name>compressionGzip</name>
-      <outputString>compressionGzip</outputString>
+      <outputString>--gzip</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -60,13 +45,12 @@
         <options>compressionBzip2</options>
         <options>compressionLzo</options>
         <options>compressionZpaq</options>
-        <options>compressionLrzip</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
       <name>compressionLzo</name>
-      <outputString>compressionLzo</outputString>
+      <outputString>--lzo</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -78,13 +62,12 @@
         <options>compressionBzip2</options>
         <options>compressionGzip</options>
         <options>compressionZpaq</options>
-        <options>compressionLrzip</options>
       </excludedOptions>
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
       <name>compressionZpaq</name>
-      <outputString>compressionZpaq</outputString>
+      <outputString>--zpaq</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -96,139 +79,12 @@
         <options>compressionBzip2</options>
         <options>compressionGzip</options>
         <options>compressionLzo</options>
-        <options>compressionLrzip</options>
       </excludedOptions>
       <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>compressionLrzip</name>
-      <outputString>compressionLrzip</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>compression</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>compressionBzip2</options>
-        <options>compressionGzip</options>
-        <options>compressionLzo</options>
-        <options>compressionZpaq</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>preset</name>
-      <outputString>preset</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>lrunzip</name>
-      <outputString>lrunzip</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>preset</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>lrzcat</options>
-        <options>lrz</options>
-      </excludedOptions>
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>lrzcat</name>
-      <outputString>lrzcat</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>preset</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>lrunzip</options>
-        <options>lrz</options>
-      </excludedOptions>
-      <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>469074b4a59d26566d388680a1154c522d9395c7</introduced>
-          </revisionRange>
-          <path>main.c</path>
-          <start>
-            <line>310</line>
-            <column>10</column>
-          </start>
-          <end>
-            <line>310</line>
-            <column>15</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>lrz</name>
-      <outputString>lrz</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>preset</parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>lrunzip</options>
-        <options>lrzcat</options>
-      </excludedOptions>
-      <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>469074b4a59d26566d388680a1154c522d9395c7</introduced>
-          </revisionRange>
-          <path>main.c</path>
-          <start>
-            <line>310</line>
-            <column>26</column>
-          </start>
-          <end>
-            <line>310</line>
-            <column>31</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>unlimitedWindowSize</name>
-      <outputString>unlimitedWindowSize</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
     </configurationOption>
     <configurationOption>
       <name>disableCompressibilityTesting</name>
-      <outputString>disableCompressibilityTesting</outputString>
+      <outputString>--threshold</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -239,138 +95,12 @@
       <impliedOptions />
       <excludedOptions />
       <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>recursive</name>
-      <outputString>recursive</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>469074b4a59d26566d388680a1154c522d9395c7</introduced>
-          </revisionRange>
-          <path>main.c</path>
-          <start>
-            <line>310</line>
-            <column>42</column>
-          </start>
-          <end>
-            <line>310</line>
-            <column>48</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>suffix</name>
-      <outputString>suffix</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>outname</options>
-      </excludedOptions>
-      <optional>True</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>469074b4a59d26566d388680a1154c522d9395c7</introduced>
-          </revisionRange>
-          <path>lrzip_private.h</path>
-          <start>
-            <line>413</line>
-            <column>11</column>
-          </start>
-          <end>
-            <line>413</line>
-            <column>16</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>outname</name>
-      <outputString>outname</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>outdir</options>
-      </excludedOptions>
-      <optional>True</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>469074b4a59d26566d388680a1154c522d9395c7</introduced>
-          </revisionRange>
-          <path>lrzip_private.h</path>
-          <start>
-            <line>396</line>
-            <column>11</column>
-          </start>
-          <end>
-            <line>496</line>
-            <column>17</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>outdir</name>
-      <outputString>outdir</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions>
-        <options>outname</options>
-      </excludedOptions>
-      <optional>True</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>469074b4a59d26566d388680a1154c522d9395c7</introduced>
-          </revisionRange>
-          <path>lrzip_private.h</path>
-          <start>
-            <line>399</line>
-            <column>11</column>
-          </start>
-          <end>
-            <line>499</line>
-            <column>16</column>
-          </end>
-        </sourceRange>
-      </locations>
     </configurationOption>
   </binaryOptions>
   <numericOptions>
     <configurationOption>
       <name>compressionLevel</name>
-      <outputString>compressionLevel</outputString>
+      <outputString>--level </outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -401,40 +131,8 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>maxRAM</name>
-      <outputString>maxRAM</outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>
-      </parent>
-      <children />
-      <impliedOptions />
-      <excludedOptions />
-      <minValue>1</minValue>
-      <maxValue>87960930222</maxValue>
-      <stepFunction>maxRAM + 1 </stepFunction>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>469074b4a59d26566d388680a1154c522d9395c7</introduced>
-          </revisionRange>
-          <path>lrzip_private.h</path>
-          <start>
-            <line>421</line>
-            <column>9</column>
-          </start>
-          <end>
-            <line>421</line>
-            <column>15</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
       <name>threads</name>
-      <outputString>threads</outputString>
+      <outputString>--threads </outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -444,9 +142,7 @@
       <children />
       <impliedOptions />
       <excludedOptions />
-      <minValue>1</minValue>
-      <maxValue>32767</maxValue>
-      <stepFunction>threads + 1 </stepFunction>
+      <values>1;2;4;8</values>
       <locations>
         <sourceRange>
           <revisionRange>
@@ -466,7 +162,7 @@
     </configurationOption>
     <configurationOption>
       <name>windowSize</name>
-      <outputString>windowSize</outputString>
+      <outputString>--window </outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -476,9 +172,7 @@
       <children />
       <impliedOptions />
       <excludedOptions />
-      <minValue>0</minValue>
-      <maxValue>9223372036854775807</maxValue>
-      <stepFunction>windowSize + 1 </stepFunction>
+      <values>1;2;4;8</values>
       <locations>
         <sourceRange>
           <revisionRange>

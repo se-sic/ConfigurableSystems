@@ -29,8 +29,7 @@
     </configurationOption>
     <configurationOption>
       <name>mergeAndShrink</name>
-      <outputString>
-      </outputString>
+      <outputString>mergeAndShrink</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -62,8 +61,7 @@
     </configurationOption>
     <configurationOption>
       <name>blind</name>
-      <outputString>
-      </outputString>
+      <outputString>blind</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -95,8 +93,7 @@
     </configurationOption>
     <configurationOption>
       <name>max</name>
-      <outputString>
-      </outputString>
+      <outputString>hMax</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -128,8 +125,7 @@
     </configurationOption>
     <configurationOption>
       <name>iPDB</name>
-      <outputString>
-      </outputString>
+      <outputString>iPDB</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -160,22 +156,8 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>noiPDB</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>root</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>True</optional>
-    </configurationOption>
-    <configurationOption>
       <name>canonicalPDB</name>
-      <outputString>
-      </outputString>
+      <outputString>canonicalPDB</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -207,8 +189,7 @@
     </configurationOption>
     <configurationOption>
       <name>labelReduction</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -233,8 +214,7 @@
     </configurationOption>
     <configurationOption>
       <name>exactGeneralizedLR</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -246,8 +226,7 @@
     </configurationOption>
     <configurationOption>
       <name>shrinkStrat</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -272,8 +251,7 @@
     </configurationOption>
     <configurationOption>
       <name>bisimulation</name>
-      <outputString>
-      </outputString>
+      <outputString>bisimulation</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -318,8 +296,7 @@
     </configurationOption>
     <configurationOption>
       <name>fPreserving</name>
-      <outputString>
-      </outputString>
+      <outputString>fPreserving</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -345,74 +322,8 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>mergeStrat</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>mergeAndShrink</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>merge_precompute</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>mergeStrat</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
-      <name>merge_tree</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>merge_precompute</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <path>src/search/merge_and_shrink/merge_strategy_precomputed.h</path>
-          <start>
-            <line>9</line>
-            <column>7</column>
-          </start>
-          <end>
-            <line>9</line>
-            <column>15</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>linear</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>merge_tree</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-    </configurationOption>
-    <configurationOption>
       <name>landmarkCut</name>
-      <outputString>
-      </outputString>
+      <outputString>lmCut</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -444,8 +355,7 @@
     </configurationOption>
     <configurationOption>
       <name>landmarkCount</name>
-      <outputString>
-      </outputString>
+      <outputString>lmCount</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -503,8 +413,7 @@
     </configurationOption>
     <configurationOption>
       <name>exhaustiveLM</name>
-      <outputString>
-      </outputString>
+      <outputString>exhaustiveLM</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -520,8 +429,7 @@
     </configurationOption>
     <configurationOption>
       <name>hmLM</name>
-      <outputString>
-      </outputString>
+      <outputString>hmLM</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -537,8 +445,7 @@
     </configurationOption>
     <configurationOption>
       <name>RHWLM</name>
-      <outputString>
-      </outputString>
+      <outputString>RHWLM</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -554,8 +461,7 @@
     </configurationOption>
     <configurationOption>
       <name>zhuGivanLM</name>
-      <outputString>
-      </outputString>
+      <outputString>zhuGivanLM</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -570,9 +476,8 @@
       <optional>False</optional>
     </configurationOption>
     <configurationOption>
-      <name>resonableOrders</name>
-      <outputString>
-      </outputString>
+      <name>reasonableOrders</name>
+      <outputString>reasonableOrders</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -597,8 +502,7 @@
     </configurationOption>
     <configurationOption>
       <name>onlyCausalLMs</name>
-      <outputString>
-      </outputString>
+      <outputString>onlyCausalLMs</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -623,8 +527,7 @@
     </configurationOption>
     <configurationOption>
       <name>disjunctiveLMs</name>
-      <outputString>
-      </outputString>
+      <outputString>disjunctiveLMs</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -649,8 +552,7 @@
     </configurationOption>
     <configurationOption>
       <name>conjunctiveLMs</name>
-      <outputString>
-      </outputString>
+      <outputString>conjunctiveLMs</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -675,8 +577,7 @@
     </configurationOption>
     <configurationOption>
       <name>noOrders</name>
-      <outputString>
-      </outputString>
+      <outputString>noOrders</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -700,79 +601,8 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>maxTime</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>iPDB</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
-          <start>
-            <line>41</line>
-            <column>18</column>
-          </start>
-          <end>
-            <line>41</line>
-            <column>25</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
-      <name>maxTimeDomPruning</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>iPDB</parent>
-      <impliedOptions />
-      <excludedOptions />
-      <optional>False</optional>
-      <locations>
-        <sourceRange>
-          <revisionRange>
-            <introduced>3a27ea77f85f41486c57286f5e73a5cac96cc35c</introduced>
-          </revisionRange>
-          <path>src/search/pdbs/canonical_pdbs_heuristic.cc</path>
-          <start>
-            <line>39</line>
-            <column>12</column>
-          </start>
-          <end>
-            <line>39</line>
-            <column>37</column>
-          </end>
-        </sourceRange>
-        <sourceRange>
-          <revisionRange>
-            <introduced>fd21c6b0d070fcb8556db06fc65807e3f31389a6</introduced>
-            <removed>3a27ea77f85f41486c57286f5e73a5cac96cc35c</removed>
-          </revisionRange>
-          <path>src/search/pdbs/canonical_pdbs_heuristic.cc</path>
-          <start>
-            <line>38</line>
-            <column>12</column>
-          </start>
-          <end>
-            <line>38</line>
-            <column>37</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
-    <configurationOption>
       <name>beforeShrinking</name>
-      <outputString>
-      </outputString>
+      <outputString>beforeShrinking</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -815,8 +645,7 @@
     </configurationOption>
     <configurationOption>
       <name>beforeMerging</name>
-      <outputString>
-      </outputString>
+      <outputString>beforeMerging</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -903,8 +732,7 @@
     </configurationOption>
     <configurationOption>
       <name>allSystems</name>
-      <outputString>
-      </outputString>
+      <outputString>allSystems</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -950,8 +778,7 @@
     </configurationOption>
     <configurationOption>
       <name>twoSystems</name>
-      <outputString>
-      </outputString>
+      <outputString>twoSystems</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -997,8 +824,7 @@
     </configurationOption>
     <configurationOption>
       <name>allSystemsWithFixpoint</name>
-      <outputString>
-      </outputString>
+      <outputString>allSystemsFP</outputString>
       <prefix>
       </prefix>
       <postfix>
@@ -1042,20 +868,22 @@
         </sourceRange>
       </locations>
     </configurationOption>
-  </binaryOptions>
-  <numericOptions>
     <configurationOption>
       <name>pdbMaxSize</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>iPDB</parent>
+      <children>
+	      <options>pdbMaxSize_100000</options>
+	      <options>pdbMaxSize_2000000</options>
+	      <options>pdbMaxSize_10000000</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
-      <values>100000;2000000;10000000</values>
+      <optional>False</optional>
       <locations>
         <sourceRange>
           <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
@@ -1071,45 +899,54 @@
       </locations>
     </configurationOption>
     <configurationOption>
-      <name>m</name>
-      <outputString>
-      </outputString>
-      <prefix>
-      </prefix>
-      <postfix>
-      </postfix>
-      <parent>hmLM</parent>
+      <name>pdbMaxSize_100000</name>
+      <outputString>pdbMaxSize=100000</outputString>
+      <parent>pdbMaxSize</parent>
       <impliedOptions />
-      <excludedOptions />
-      <minValue>2</minValue>
-      <maxValue>2</maxValue>
-      <stepFunction>m + 1</stepFunction>
-      <locations>
-        <sourceRange>
-          <path>src/search/landmarks/landmark_factory_h_m.h</path>
-          <start>
-            <line>92</line>
-            <column>15</column>
-          </start>
-          <end>
-            <line>92</line>
-            <column>16</column>
-          </end>
-        </sourceRange>
-      </locations>
+      <excludedOptions>
+	      <options>pdbMaxSize_2000000</options>
+	      <options>pdbMaxSize_10000000</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>pdbMaxSize_2000000</name>
+      <outputString>pdbMaxSize=2000000</outputString>
+      <parent>pdbMaxSize</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>pdbMaxSize_100000</options>
+	      <options>pdbMaxSize_10000000</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>pdbMaxSize_10000000</name>
+      <outputString>pdbMaxSize=10000000</outputString>
+      <parent>pdbMaxSize</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>pdbMaxSize_2000000</options>
+	      <options>pdbMaxSize_100000</options>
+      </excludedOptions>
+      <optional>False</optional>
     </configurationOption>
     <configurationOption>
       <name>collectionMaxSize</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>iPDB</parent>
+      <children>
+	      <options>collectionMaxSize_10000</options>
+	      <options>collectionMaxSize_200000</options>
+	      <options>collectionMaxSize_10000000</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
-      <values>10000;200000;10000000</values>
+      <optional>False</optional>
       <locations>
         <sourceRange>
           <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
@@ -1125,17 +962,66 @@
       </locations>
     </configurationOption>
     <configurationOption>
+      <name>collectionMaxSize_10000</name>
+      <outputString>collectionMaxSize=10000</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>collectionMaxSize</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>collectionMaxSize_200000</options>
+	      <options>collectionMaxSize_10000000</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>collectionMaxSize_200000</name>
+      <outputString>collectionMaxSize=200000</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>collectionMaxSize</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>collectionMaxSize_10000</options>
+	      <options>collectionMaxSize_10000000</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>collectionMaxSize_10000000</name>
+      <outputString>collectionMaxSize=10000000</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>collectionMaxSize</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>collectionMaxSize_200000</options>
+	      <options>collectionMaxSize_10000</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
       <name>numSamples</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>iPDB</parent>
+      <children>
+	      <options>numSamples_100</options>
+	      <options>numSamples_1000</options>
+	      <options>numSamples_10000</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
-      <values>100;1000;10000</values>
+      <optional>False</optional>
       <locations>
         <sourceRange>
           <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
@@ -1151,17 +1037,66 @@
       </locations>
     </configurationOption>
     <configurationOption>
+      <name>numSamples_100</name>
+      <outputString>numSamples=100</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>numSamples</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>numSamples_1000</options>
+	      <options>numSamples_10000</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>numSamples_1000</name>
+      <outputString>numSamples=1000</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>numSamples</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>numSamples_100</options>
+	      <options>numSamples_10000</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>numSamples_10000</name>
+      <outputString>numSamples=10000</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>numSamples</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>numSamples_1000</options>
+	      <options>numSamples_100</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
       <name>minImprovement</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>iPDB</parent>
+      <children>
+	      <options>minImprovement_1</options>
+	      <options>minImprovement_10</options>
+	      <options>minImprovement_15</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
-      <values>1;10;15</values>
+      <optional>False</optional>
       <locations>
         <sourceRange>
           <path>src/search/pdbs/pattern_collection_generator_hillclimbing.h</path>
@@ -1177,17 +1112,66 @@
       </locations>
     </configurationOption>
     <configurationOption>
+      <name>minImprovement_1</name>
+      <outputString>minImprovement=1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>minImprovement</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>minImprovement_10</options>
+	      <options>minImprovement_15</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>minImprovement_10</name>
+      <outputString>minImprovement=10</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>minImprovement</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>minImprovement_1</options>
+	      <options>minImprovement_15</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>minImprovement_15</name>
+      <outputString>minImprovement=15</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>minImprovement</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>minImprovement_10</options>
+	      <options>minImprovement_1</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
       <name>random</name>
-      <outputString>
-      </outputString>
+      <outputString></outputString>
       <prefix>
       </prefix>
       <postfix>
       </postfix>
       <parent>root</parent>
+      <children>
+	      <options>random_1</options>
+	      <options>random_42</options>
+	      <options>random_1337</options>
+      </children>
       <impliedOptions />
       <excludedOptions />
-      <values>1;42;1337</values>
+      <optional>False</optional>
       <locations>
         <sourceRange>
           <path>src/search/utils/rng_options.cc</path>
@@ -1202,23 +1186,65 @@
         </sourceRange>
       </locations>
     </configurationOption>
+    <configurationOption>
+      <name>random_1</name>
+      <outputString>random=1</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>random</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>random_1337</options>
+	      <options>random_42</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>random_42</name>
+      <outputString>random=42</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>random</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>random_1</options>
+	      <options>random_1337</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>random_1337</name>
+      <outputString>random=1337</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>random</parent>
+      <impliedOptions />
+      <excludedOptions>
+	      <options>random_1</options>
+	      <options>random_42</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
   </numericOptions>
   <booleanConstraints>
-    <constraint>iPDB | noiPDB</constraint>
-    <constraint>!iPDB | !noiPDB</constraint>
-    <constraint>beforeShrinking | beforeMerging</constraint>
+	  <constraint> exactGeneralizedLR => (beforeShrinking | beforeMerging) </constraint>
+	  <constraint> onlyCausalLMs => ( exhaustiveLM | RHWLM) </constraint>
+	  <constraint> disjunctiveLMs => ( RHWLM ) </constraint>
+	  <constraint> conjunctiveLMs => ( hmLM ) </constraint>
+	  <constraint> random => ( !bisimulation ) </constraint> 
+	  <constraint> random => ( !blind ) </constraint> 
+	  <constraint> random => ( !max ) </constraint> 
+	  <constraint> random => ( !canonicalPDB ) </constraint> 
+	  <constraint> random => ( !landmarkCount ) </constraint> 
+	  <constraint> random => ( !landmarkCut ) </constraint> 
   </booleanConstraints>
   <nonBooleanConstraints />
-  <mixedConstraints>
-    <constraint req="all" exprKind="pos"> noiPDB * minImprovement = 1</constraint>
-    <constraint req="all" exprKind="pos"> noiPDB * numSamples = 100</constraint>
-    <constraint req="all" exprKind="pos"> noiPDB * collectionMaxSize = 10000</constraint>
-    <constraint req="all" exprKind="pos"> noiPDB * pdbMaxSize = 100000</constraint>
-    <constraint req="all" exprKind="pos"> bisimulation * random = 1</constraint>
-    <constraint req="all" exprKind="pos"> blind * random = 1</constraint>
-    <constraint req="all" exprKind="pos"> max * random = 1</constraint>
-    <constraint req="all" exprKind="pos"> canonicalPDB * random = 1</constraint>
-    <constraint req="all" exprKind="pos"> landmarkCount * random = 1</constraint>
-    <constraint req="all" exprKind="pos"> landmarkCut * random = 1</constraint>
-  </mixedConstraints>
 </vm>

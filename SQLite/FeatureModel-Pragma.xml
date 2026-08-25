@@ -1,0 +1,463 @@
+<vm name="SQLite">
+  <binaryOptions>
+    <configurationOption>
+      <name>OperatingSystemCharacteristics</name>
+      <outputString></outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>DeferForeignKeys</name>
+      <outputString>defer_foreign_keys</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>ForeignKeys
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ForeignKeys</name>
+      <outputString>foreign_keys</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Options
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>JournalMode</name>
+      <outputString></outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Options
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Delete</name>
+      <outputString>journal_mode=DELETE</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>JournalMode
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>Truncate</options>
+	      <options>Persist</options>
+	      <options>Memory</options>
+	      <options>WAL</options>
+	      <options>Off</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Truncate</name>
+      <outputString>journal_mode=TRUNCATE</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>JournalMode
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>Delete</options>
+	      <options>Persist</options>
+	      <options>Memory</options>
+	      <options>WAL</options>
+	      <options>Off</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Persist</name>
+      <outputString>journal_mode=PERSIST</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>JournalMode
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>Truncate</options>
+	      <options>Delete</options>
+	      <options>Memory</options>
+	      <options>WAL</options>
+	      <options>Off</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Memory</name>
+      <outputString>journal_mode=MEMORY</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>JournalMode
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>Truncate</options>
+	      <options>Delete</options>
+	      <options>Persist</options>
+	      <options>WAL</options>
+	      <options>Off</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>WAL</name>
+      <outputString>journal_mode=WAL</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>JournalMode
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>Truncate</options>
+	      <options>Delete</options>
+	      <options>Memory</options>
+	      <options>Persist</options>
+	      <options>Off</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Off</name>
+      <outputString>journal_mode=OFF</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>JournalMode
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>Truncate</options>
+	      <options>Delete</options>
+	      <options>Memory</options>
+	      <options>WAL</options>
+	      <options>Persist</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SecureDelete</name>
+      <outputString></outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>OperatingSystemCharacteristics</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SecureDelete_On</name>
+      <outputString>secure_delete=true</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SecureDelete</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>SecureDelete_Off</options>
+	      <options>SecureDelete_Fast</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SecureDelete_Off</name>
+      <outputString>secure_delete=false</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SecureDelete</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>SecureDelete_On</options>
+	      <options>SecureDelete_Fast</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SecureDelete_Fast</name>
+      <outputString>secure_delete=fast</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SecureDelete</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>SecureDelete_On</options>
+	      <options>SecureDelete_Off</options>
+      </excludedOptions>
+      <optional>False</optional>
+      </configurationOption>
+    <configurationOption>
+      <name>TempStore</name>
+      <outputString></outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>OperatingSystemCharacteristics</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>TempStore_Default</name>
+      <outputString>temp_store=DEFAULT</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>TempStore</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>TempStore_File</options>
+        <options>TempStore_Memory</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>TempStore_File</name>
+      <outputString>temp_store=FILE</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>TempStore</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>TempStore_Default</options>
+        <options>TempStore_Memory</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>TempStore_Memory</name>
+      <outputString>temp_store=MEMORY</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>TempStore</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>TempStore_Default</options>
+        <options>TempStore_File</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Options</name>
+      <outputString></outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>
+      </parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>LockingMode</name>
+      <outputString></outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Options</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ExclusiveLock</name>
+      <outputString>locking_mode=EXCLUSIVE</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>LockingMode</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>NormalLockingMode</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>NormalLockingMode</name>
+      <outputString>locking_mode=NORMAL</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>LockingMode</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+        <options>ExclusiveLock</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ReadUncommitted</name>
+      <outputString>read_uncommitted</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Options</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>RecursiveTriggers</name>
+      <outputString>recursive_triggers</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Options</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>ReverseUnorderedSelects</name>
+      <outputString>reverse_unordered_selects</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Options</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SynchronousMode</name>
+      <outputString></outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>Options</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SynchronousMode_Off</name>
+      <outputString>synchronous=OFF</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SynchronousMode</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	<options>SynchronousMode_Normal</options>
+	<options>SynchronousMode_Full</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SynchronousMode_Normal</name>
+      <outputString>synchronous=NORMAL</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SynchronousMode</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	<options>SynchronousMode_Off</options>
+	<options>SynchronousMode_Full</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>SynchronousMode_Full</name>
+      <outputString>synchronous=FULL</outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>SynchronousMode</parent>
+      <children />
+      <impliedOptions />
+      <excludedOptions>
+	      <options>SynchronousMode_Normal</options>
+	<options>SynchronousMode_Off</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions />
+  <booleanConstraints>
+  </booleanConstraints>
+  <nonBooleanConstraints />
+</vm>
