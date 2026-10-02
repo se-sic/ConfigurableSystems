@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vm
+SYSTEM "vm.dtd">
+<vm name="FeatureModel" root="">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <optional>False</optional>
+    </configurationOption>
+<!-- Output format (default: html) -->
+    <configurationOption>
+      <name>format</name>
+      <parent>root</parent>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>to_html</name>
+      <outputString>--to html</outputString>
+      <parent>format</parent>
+      <excludedOptions>
+        <options>to_xml</options>
+        <options>to_man</options>
+        <options>to_commonmark</options>
+        <options>to_latex</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>to_xml</name>
+      <outputString>--to xml</outputString>
+      <parent>format</parent>
+      <excludedOptions>
+        <options>to_html</options>
+        <options>to_man</options>
+        <options>to_commonmark</options>
+        <options>to_latex</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>to_man</name>
+      <outputString>--to man</outputString>
+      <parent>format</parent>
+      <excludedOptions>
+        <options>to_html</options>
+        <options>to_xml</options>
+        <options>to_commonmark</options>
+        <options>to_latex</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>to_commonmark</name>
+      <outputString>--to commonmark</outputString>
+      <parent>format</parent>
+      <excludedOptions>
+        <options>to_html</options>
+        <options>to_xml</options>
+        <options>to_man</options>
+        <options>to_latex</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>to_latex</name>
+      <outputString>--to latex</outputString>
+      <parent>format</parent>
+      <excludedOptions>
+        <options>to_html</options>
+        <options>to_xml</options>
+        <options>to_man</options>
+        <options>to_commonmark</options>
+      </excludedOptions>
+      <optional>False</optional>
+    </configurationOption>
+<!-- Line wrapping (only used by the man, commonmark, and latex renderers) -->
+    <configurationOption>
+      <name>wrap</name>
+      <parent>root</parent>
+      <excludedOptions>
+        <options>nobreaks</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+<!-- Soft line breaks -->
+    <configurationOption>
+      <name>hardbreaks</name>
+      <outputString>--hardbreaks</outputString>
+      <parent>root</parent>
+      <excludedOptions>
+        <options>nobreaks</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>nobreaks</name>
+      <outputString>--nobreaks</outputString>
+      <parent>root</parent>
+      <excludedOptions>
+        <options>hardbreaks</options>
+        <options>wrap</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+<!-- Raw HTML / dangerous URLs (safe is the default and a no-op) -->
+    <configurationOption>
+      <name>safe</name>
+      <outputString>--safe</outputString>
+      <parent>root</parent>
+      <excludedOptions>
+        <options>unsafe</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>unsafe</name>
+      <outputString>--unsafe</outputString>
+      <parent>root</parent>
+      <excludedOptions>
+        <options>safe</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+<!-- Parser options -->
+    <configurationOption>
+      <name>sourcepos</name>
+      <outputString>--sourcepos</outputString>
+      <parent>root</parent>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>smart</name>
+      <outputString>--smart</outputString>
+      <parent>root</parent>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>validate_utf8</name>
+      <outputString>--validate-utf8</outputString>
+      <parent>root</parent>
+      <optional>True</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>width</name>
+      <outputString>--width </outputString>
+      <parent>wrap</parent>
+      <optional>False</optional>
+      <values>40;80;120</values>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints>
+    <constraint>wrap =&gt; (to_man | to_commonmark | to_latex)</constraint>
+    <constraint>(to_commonmark &amp; wrap) =&gt; !hardbreaks</constraint>
+    <constraint>(hardbreaks | nobreaks) =&gt; !to_xml</constraint>
+    <constraint>unsafe =&gt; to_html</constraint>
+  </booleanConstraints>
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>
