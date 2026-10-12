@@ -7,7 +7,7 @@ SYSTEM "vm.dtd">
       <name>root</name>
       <optional>False</optional>
     </configurationOption>
-<!-- Output format (default: html) -->
+    <!-- Output format (default: html) -->
     <configurationOption>
       <name>format</name>
       <parent>root</parent>
@@ -24,6 +24,64 @@ SYSTEM "vm.dtd">
         <options>to_latex</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>24</line>
+            <column>3</column>
+          </start>
+          <end>
+            <line>24</line>
+            <column>13</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>85</line>
+            <column>26</column>
+          </start>
+          <end>
+            <line>85</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>53</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>53</line>
+            <column>18</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>144</line>
+            <column>20</column>
+          </start>
+          <end>
+            <line>144</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>to_xml</name>
@@ -36,6 +94,50 @@ SYSTEM "vm.dtd">
         <options>to_latex</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>146</line>
+            <column>20</column>
+          </start>
+          <end>
+            <line>146</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>56</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>56</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>25</line>
+            <column>3</column>
+          </start>
+          <end>
+            <line>25</line>
+            <column>12</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>to_man</name>
@@ -48,6 +150,50 @@ SYSTEM "vm.dtd">
         <options>to_latex</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>26</line>
+            <column>3</column>
+          </start>
+          <end>
+            <line>26</line>
+            <column>12</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>142</line>
+            <column>20</column>
+          </start>
+          <end>
+            <line>142</line>
+            <column>29</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>59</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>59</line>
+            <column>17</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>to_commonmark</name>
@@ -60,6 +206,50 @@ SYSTEM "vm.dtd">
         <options>to_latex</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>62</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>62</line>
+            <column>24</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>148</line>
+            <column>20</column>
+          </start>
+          <end>
+            <line>148</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>27</line>
+            <column>3</column>
+          </start>
+          <end>
+            <line>27</line>
+            <column>19</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>to_latex</name>
@@ -72,8 +262,52 @@ SYSTEM "vm.dtd">
         <options>to_commonmark</options>
       </excludedOptions>
       <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>28</line>
+            <column>3</column>
+          </start>
+          <end>
+            <line>28</line>
+            <column>14</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>150</line>
+            <column>20</column>
+          </start>
+          <end>
+            <line>150</line>
+            <column>31</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>65</line>
+            <column>8</column>
+          </start>
+          <end>
+            <line>65</line>
+            <column>19</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
-<!-- Line wrapping (only used by the man, commonmark, and latex renderers) -->
+    <!-- Line wrapping (only used by the man, commonmark, and latex renderers) -->
     <configurationOption>
       <name>wrap</name>
       <parent>root</parent>
@@ -82,7 +316,7 @@ SYSTEM "vm.dtd">
       </excludedOptions>
       <optional>True</optional>
     </configurationOption>
-<!-- Soft line breaks -->
+    <!-- Soft line breaks -->
     <configurationOption>
       <name>hardbreaks</name>
       <outputString>--hardbreaks</outputString>
@@ -91,6 +325,254 @@ SYSTEM "vm.dtd">
         <options>nobreaks</options>
       </excludedOptions>
       <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+            <removed>57926f02417fcdd305111a79b85af217a69b4a7e</removed>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>463</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>463</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+            <removed>57926f02417fcdd305111a79b85af217a69b4a7e</removed>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>327</line>
+            <column>11</column>
+          </start>
+          <end>
+            <line>327</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+            <removed>57926f02417fcdd305111a79b85af217a69b4a7e</removed>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>334</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>334</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+            <removed>57926f02417fcdd305111a79b85af217a69b4a7e</removed>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>338</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>338</line>
+            <column>37</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>57926f02417fcdd305111a79b85af217a69b4a7e</introduced>
+            <removed>b6232e95c028eee78cdbc84a608815d6a945909c</removed>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>467</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>467</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>57926f02417fcdd305111a79b85af217a69b4a7e</introduced>
+            <removed>b6232e95c028eee78cdbc84a608815d6a945909c</removed>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>342</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>342</line>
+            <column>37</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>57926f02417fcdd305111a79b85af217a69b4a7e</introduced>
+            <removed>b6232e95c028eee78cdbc84a608815d6a945909c</removed>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>331</line>
+            <column>11</column>
+          </start>
+          <end>
+            <line>331</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>57926f02417fcdd305111a79b85af217a69b4a7e</introduced>
+            <removed>b6232e95c028eee78cdbc84a608815d6a945909c</removed>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>338</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>338</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/html.c</path>
+          <start>
+            <line>232</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>232</line>
+            <column>38</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/man.c</path>
+          <start>
+            <line>215</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>215</line>
+            <column>38</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>172</line>
+            <column>23</column>
+          </start>
+          <end>
+            <line>172</line>
+            <column>42</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/latex.c</path>
+          <start>
+            <line>359</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>359</line>
+            <column>38</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>110</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>110</line>
+            <column>37</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>b6232e95c028eee78cdbc84a608815d6a945909c</introduced>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>337</line>
+            <column>9</column>
+          </start>
+          <end>
+            <line>337</line>
+            <column>28</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>b6232e95c028eee78cdbc84a608815d6a945909c</introduced>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>330</line>
+            <column>11</column>
+          </start>
+          <end>
+            <line>330</line>
+            <column>30</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>b6232e95c028eee78cdbc84a608815d6a945909c</introduced>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>341</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>341</line>
+            <column>37</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>b6232e95c028eee78cdbc84a608815d6a945909c</introduced>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>466</line>
+            <column>17</column>
+          </start>
+          <end>
+            <line>466</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>nobreaks</name>
@@ -101,8 +583,152 @@ SYSTEM "vm.dtd">
         <options>wrap</options>
       </excludedOptions>
       <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+            <removed>57926f02417fcdd305111a79b85af217a69b4a7e</removed>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>339</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>339</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>57926f02417fcdd305111a79b85af217a69b4a7e</introduced>
+            <removed>b6232e95c028eee78cdbc84a608815d6a945909c</removed>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>343</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>343</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/html.c</path>
+          <start>
+            <line>234</line>
+            <column>26</column>
+          </start>
+          <end>
+            <line>234</line>
+            <column>43</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/man.c</path>
+          <start>
+            <line>218</line>
+            <column>42</column>
+          </start>
+          <end>
+            <line>218</line>
+            <column>59</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/latex.c</path>
+          <start>
+            <line>362</line>
+            <column>42</column>
+          </start>
+          <end>
+            <line>362</line>
+            <column>59</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>112</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>112</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/latex.c</path>
+          <start>
+            <line>227</line>
+            <column>46</column>
+          </start>
+          <end>
+            <line>227</line>
+            <column>63</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>171</line>
+            <column>46</column>
+          </start>
+          <end>
+            <line>171</line>
+            <column>63</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/man.c</path>
+          <start>
+            <line>78</line>
+            <column>46</column>
+          </start>
+          <end>
+            <line>78</line>
+            <column>63</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>b6232e95c028eee78cdbc84a608815d6a945909c</introduced>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>342</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>342</line>
+            <column>35</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
-<!-- Raw HTML / dangerous URLs (safe is the default and a no-op) -->
+    <!-- Raw HTML / dangerous URLs (safe is the default and a no-op) -->
     <configurationOption>
       <name>safe</name>
       <outputString>--safe</outputString>
@@ -111,6 +737,22 @@ SYSTEM "vm.dtd">
         <options>unsafe</options>
       </excludedOptions>
       <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>116</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>116</line>
+            <column>31</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>unsafe</name>
@@ -120,25 +762,361 @@ SYSTEM "vm.dtd">
         <options>safe</options>
       </excludedOptions>
       <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/html.c</path>
+          <start>
+            <line>177</line>
+            <column>21</column>
+          </start>
+          <end>
+            <line>177</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/html.c</path>
+          <start>
+            <line>302</line>
+            <column>44</column>
+          </start>
+          <end>
+            <line>302</line>
+            <column>59</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/html.c</path>
+          <start>
+            <line>248</line>
+            <column>21</column>
+          </start>
+          <end>
+            <line>248</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>118</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>118</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/html.c</path>
+          <start>
+            <line>283</line>
+            <column>44</column>
+          </start>
+          <end>
+            <line>283</line>
+            <column>59</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
-<!-- Parser options -->
+    <!-- Parser options -->
     <configurationOption>
       <name>sourcepos</name>
       <outputString>--sourcepos</outputString>
       <parent>root</parent>
       <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/xml.c</path>
+          <start>
+            <line>105</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>105</line>
+            <column>37</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/html.c</path>
+          <start>
+            <line>36</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>36</line>
+            <column>25</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>108</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>108</line>
+            <column>36</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/inlines.c</path>
+          <start>
+            <line>299</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>299</line>
+            <column>37</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>smart</name>
       <outputString>--smart</outputString>
       <parent>root</parent>
       <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+            <removed>cb3fe8c4dcfafb5c291096a1afc84723015e52dc</removed>
+          </revisionRange>
+          <path>src/inlines.c</path>
+          <start>
+            <line>1368</line>
+            <column>46</column>
+          </start>
+          <end>
+            <line>1368</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+            <removed>cb3fe8c4dcfafb5c291096a1afc84723015e52dc</removed>
+          </revisionRange>
+          <path>src/inlines.c</path>
+          <start>
+            <line>1362</line>
+            <column>48</column>
+          </start>
+          <end>
+            <line>1362</line>
+            <column>62</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+            <removed>cb3fe8c4dcfafb5c291096a1afc84723015e52dc</removed>
+          </revisionRange>
+          <path>src/inlines.c</path>
+          <start>
+            <line>1322</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>1322</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+            <removed>cb3fe8c4dcfafb5c291096a1afc84723015e52dc</removed>
+          </revisionRange>
+          <path>src/inlines.c</path>
+          <start>
+            <line>1365</line>
+            <column>46</column>
+          </start>
+          <end>
+            <line>1365</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>114</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>114</line>
+            <column>32</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/commonmark.c</path>
+          <start>
+            <line>41</line>
+            <column>12</column>
+          </start>
+          <end>
+            <line>41</line>
+            <column>26</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>cb3fe8c4dcfafb5c291096a1afc84723015e52dc</introduced>
+          </revisionRange>
+          <path>src/inlines.c</path>
+          <start>
+            <line>1367</line>
+            <column>46</column>
+          </start>
+          <end>
+            <line>1367</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>cb3fe8c4dcfafb5c291096a1afc84723015e52dc</introduced>
+          </revisionRange>
+          <path>src/inlines.c</path>
+          <start>
+            <line>1364</line>
+            <column>48</column>
+          </start>
+          <end>
+            <line>1364</line>
+            <column>62</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>cb3fe8c4dcfafb5c291096a1afc84723015e52dc</introduced>
+          </revisionRange>
+          <path>src/inlines.c</path>
+          <start>
+            <line>1370</line>
+            <column>46</column>
+          </start>
+          <end>
+            <line>1370</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>cb3fe8c4dcfafb5c291096a1afc84723015e52dc</introduced>
+          </revisionRange>
+          <path>src/inlines.c</path>
+          <start>
+            <line>1324</line>
+            <column>19</column>
+          </start>
+          <end>
+            <line>1324</line>
+            <column>33</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
     <configurationOption>
       <name>validate_utf8</name>
       <outputString>--validate-utf8</outputString>
       <parent>root</parent>
       <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+            <removed>b320f4082cb92ae14fa09e180019a4551a8956c0</removed>
+          </revisionRange>
+          <path>src/blocks.c</path>
+          <start>
+            <line>1279</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>1279</line>
+            <column>47</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>b320f4082cb92ae14fa09e180019a4551a8956c0</introduced>
+            <removed>6566d91bdb25898bd910f8bed2a3f18f4a05cf91</removed>
+          </revisionRange>
+          <path>src/blocks.c</path>
+          <start>
+            <line>1282</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>1282</line>
+            <column>47</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>120</line>
+            <column>18</column>
+          </start>
+          <end>
+            <line>120</line>
+            <column>40</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>6566d91bdb25898bd910f8bed2a3f18f4a05cf91</introduced>
+          </revisionRange>
+          <path>src/blocks.c</path>
+          <start>
+            <line>1279</line>
+            <column>25</column>
+          </start>
+          <end>
+            <line>1279</line>
+            <column>47</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
   </binaryOptions>
   <numericOptions>
@@ -148,6 +1126,36 @@ SYSTEM "vm.dtd">
       <parent>wrap</parent>
       <optional>False</optional>
       <values>40;80;120</values>
+      <locations>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>49</line>
+            <column>45</column>
+          </start>
+          <end>
+            <line>49</line>
+            <column>49</column>
+          </end>
+        </sourceRange>
+        <sourceRange category="necessary">
+          <revisionRange>
+            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
+          </revisionRange>
+          <path>src/main.c</path>
+          <start>
+            <line>83</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>83</line>
+            <column>11</column>
+          </end>
+        </sourceRange>
+      </locations>
     </configurationOption>
   </numericOptions>
   <booleanConstraints>
