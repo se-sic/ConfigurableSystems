@@ -744,39 +744,11 @@ SYSTEM "vm.dtd">
         </sourceRange>
       </locations>
     </configurationOption>
-    <!-- Raw HTML / dangerous URLs (safe is the default and a no-op) -->
-    <configurationOption>
-      <name>safe</name>
-      <outputString>--safe</outputString>
-      <parent>root</parent>
-      <excludedOptions>
-        <options>unsafe</options>
-      </excludedOptions>
-      <optional>True</optional>
-      <locations>
-        <sourceRange category="necessary">
-          <revisionRange>
-            <introduced>2734f2148612767d28c12c17abd2e95d55d3f396</introduced>
-          </revisionRange>
-          <path>src/main.c</path>
-          <start>
-            <line>116</line>
-            <column>18</column>
-          </start>
-          <end>
-            <line>116</line>
-            <column>31</column>
-          </end>
-        </sourceRange>
-      </locations>
-    </configurationOption>
+    <!-- Raw HTML / dangerous URLs -->
     <configurationOption>
       <name>unsafe</name>
       <outputString>--unsafe</outputString>
       <parent>root</parent>
-      <excludedOptions>
-        <options>safe</options>
-      </excludedOptions>
       <optional>True</optional>
       <locations>
         <sourceRange category="necessary">
